@@ -1,0 +1,2 @@
+# Ghost Node Setup
+
