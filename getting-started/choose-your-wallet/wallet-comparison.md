@@ -27,9 +27,9 @@
 
 | **Operating System** | UI Wallet | QT Wallet | Electrum | CLI |
 | :--- | :--- | :--- | :--- | :--- |
-| Windows x64 | ✔ | ✔ | ✔ | ✘ |
-| Windows x86 | ✔ | ✔ | ✘ | ✘ |
-| Mac OS X | ✔ | ✔ | ✔ | ✘ |
-| Linux x64 | ✔ | ✔ | ✔ | ✘ |
-| ARM/aarch64/i686 | ✘ | ✔ | ✘ | ✘ |
+| Windows x64 | ✔ | ✔ | ✔ | ✔ |
+| Windows x86 | ✔ | ✔ | ✘ | ✔ |
+| Mac OS X | ✔ | ✔ | ✔ | ✔ |
+| Linux x64 | ✔ | ✔ | ✔ | ✔ |
+| ARM/aarch64/i686 | ✘ | ✔ | ✘ | ✔ |
 
