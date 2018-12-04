@@ -1,15 +1,18 @@
 # Table of contents
 
 * [Welcome to the NIX Platform knowledge base!](README.md)
-* [Getting Started](beginners-guide-getting-started.md)
-* [Choose your wallet](choose-your-wallet.md)
-* [Acquire NIX](acquire-nix.md)
 
-## Technology
+## Getting Started
 
-* [Untitled](technology/untitled.md)
+* [Overview of NIX Wallets](getting-started/choose-your-wallet.md)
+* [Wallet Comparison](getting-started/wallet-comparison.md)
+* [Acquire NIX](getting-started/acquire-nix.md)
 
-## Ghost Nodes
+## Ghost Vault
+
+* [Untitled](ghost-vault/untitled.md)
+
+## Ghostnodes
 
 * [Overview](ghost-nodes/overview.md)
 * [General Information](ghost-nodes/general-information.md)
