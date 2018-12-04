@@ -17,7 +17,7 @@
 
 * [Overview](ghost-nodes/overview.md)
 * [Hosting Services](ghost-nodes/hosting-services.md)
-* [Ghostnode Setup](ghost-nodes/ghost-node-setup.md)
+* [One-Click Installer](ghost-nodes/ghost-node-setup.md)
 
 ## Staking
 
@@ -26,17 +26,14 @@
 * [Delegated Staking \(DPoS\)](staking/delegated-staking-dpos.md)
 * [Coldstaking on a VPS](staking/coldstaking-on-a-vps.md)
 
-## Community
-
-* [Untitled](community/untitled.md)
-
 ## Other
 
 * [Frequently Asked Questions](other/frequently-asked-questions.md)
 * [Console Commands](other/console-commands.md)
 
-## GitHub & Feedback
+## Community & Feedback
 
-* [Report a bug](github-and-feedback/how-to-log-an-issue.md)
 * [Contribute to this guide](github-and-feedback/untitled.md)
+* [Report a bug](github-and-feedback/how-to-log-an-issue.md)
+* [Collaborate with NIX](github-and-feedback/collaborate-with-nix.md)
 

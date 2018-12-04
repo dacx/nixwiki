@@ -2,15 +2,9 @@
 
 ### Overview
 
+Support the network and get rewarded for doing so by staking any amount of NIX collateral. 
 
 
-### Desktop Wallet Staking
-
-### 
 
 ### 
-
-### 
-
-### Secure VPS Staking
 

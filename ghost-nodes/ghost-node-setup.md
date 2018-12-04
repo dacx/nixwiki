@@ -1,2 +1,2 @@
-# Ghostnode Setup
+# One-Click Installer
 
