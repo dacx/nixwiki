@@ -20,14 +20,18 @@
 | Delegated VPS | ✔ | ✔ | ✘ | ✔ |
 | Managed DPoS | ✔ | ✔ | ✘ | ✔ |
 
-| **Ghost Vault** | UI Wallet | QT Wallet | Electrum | CLI |
+| **Vault** | UI Wallet | QT Wallet | Electrum | CLI |
 | :--- | :--- | :--- | :--- | :--- |
 | Ghosting | ✔ | ✔ | ✘ | ✘ |
 | 2-Way-Ghosting | ✔ | ✔ | ✘ | ✘ |
 
-{% hint style="info" %}
-
-{% endhint %}
+| **Operating System** | UI Wallet | QT Wallet | Electrum | CLI |
+| :--- | :--- | :--- | :--- | :--- |
+| Windows x64 | ✔ | ✔ | ✔ | ✘ |
+| Windows x86 | ✔ | ✔ | ✘ | ✘ |
+| Mac OS X | ✔ | ✔ | ✔ | ✘ |
+| Linux x64 | ✔ | ✔ | ✔ | ✘ |
+| ARM/aarch64/i686 | ✘ | ✔ | ✘ | ✘ |
 
 ## QT Wallet
 
@@ -43,11 +47,17 @@ The QT wallet is the one most crypto currency user have seen before. Clean inter
 
 True eye-candy. With a focus on user experience, the GUI wallet is perfect for users that prefer a visually pleasing interface and do not use more in-depth functionalities.
 
+![NIX UI Wallet](.gitbook/assets/image%20%281%29.png)
+
 **Recommended for:** new users, UX enthusiasts
 
 **Download:** [https://github.com/NixPlatform/Nix-GUI/releases](https://github.com/NixPlatform/Nix-GUI/releases)
 
 ## Electrum Wallet
+
+![](.gitbook/assets/image%20%282%29.png)
+
+**Recommended for:** users requiring only standard wallet functions, seed recovery, 2FA
 
 **Download:** [https://github.com/NixPlatform/electrum-nix/releases](https://github.com/NixPlatform/electrum-nix/releases)
 

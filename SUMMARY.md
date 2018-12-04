@@ -1,7 +1,7 @@
 # Table of contents
 
-* [Welcome to the NIX Platform Wiki page!](README.md)
-* [Beginner's Guide, Getting Started](beginners-guide-getting-started.md)
+* [Welcome to the NIX Platform knowledge base!](README.md)
+* [Getting Started](beginners-guide-getting-started.md)
 * [Choose your wallet](choose-your-wallet.md)
 * [Acquire NIX](acquire-nix.md)
 
