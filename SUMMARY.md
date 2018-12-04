@@ -10,7 +10,8 @@
 
 ## Ghost Vault
 
-* [Untitled](ghost-vault/untitled.md)
+* [Ghosting](ghost-vault/untitled.md)
+* [2-Way-Ghosting](ghost-vault/2-way-ghosting.md)
 
 ## Ghostnodes
 
@@ -21,9 +22,20 @@
 
 ## Staking
 
-* [Untitled](staking/untitled.md)
+* [Setup Guide](staking/untitled.md)
+* [Desktop Wallet Staking](staking/desktop-wallet-staking.md)
 
 ## Community
 
 * [Untitled](community/untitled.md)
+
+## Other
+
+* [Frequently Asked Questions](other/frequently-asked-questions.md)
+* [Console Commands](other/console-commands.md)
+
+## GitHub & Feedback
+
+* [How to log an issue](github-and-feedback/how-to-log-an-issue.md)
+* [Untitled](github-and-feedback/untitled.md)
 
