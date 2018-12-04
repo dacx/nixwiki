@@ -10,24 +10,19 @@
   * [Sending and Receiving](getting-started/choose-your-wallet/sending-and-receiving.md)
 * [Acquiring NIX](getting-started/acquire-nix.md)
 
-## Ghost Vault
+## Wallet Functionality
 
-* [Ghosting](ghost-vault/untitled.md)
-* [2-Way-Ghosting](ghost-vault/2-way-ghosting.md)
-
-## Ghostnodes
-
-* [Overview](ghost-nodes/overview.md)
-* [Hosting Services](ghost-nodes/hosting-services.md)
-* [One-Click Installer](ghost-nodes/ghost-node-setup.md)
-* [Other Install Methods](ghost-nodes/other-install-methods.md)
-
-## Staking
-
-* [Overview](staking/untitled.md)
-* [Wallet Staking](staking/desktop-wallet-staking.md)
-* [Delegated Staking \(DPoS\)](staking/delegated-staking-dpos.md)
-* [Coldstaking on a VPS](staking/coldstaking-on-a-vps.md)
+* [Staking](wallet-functionality/staking/README.md)
+  * [Wallet Staking](wallet-functionality/staking/desktop-wallet-staking.md)
+  * [Delegated Staking \(DPoS\)](wallet-functionality/staking/delegated-staking-dpos.md)
+  * [Coldstaking on a VPS](wallet-functionality/staking/coldstaking-on-a-vps.md)
+* [Ghost Vault](wallet-functionality/ghost-vault/README.md)
+  * [Ghosting](wallet-functionality/ghost-vault/untitled.md)
+  * [2-Way-Ghosting](wallet-functionality/ghost-vault/2-way-ghosting.md)
+* [Ghostnodes](wallet-functionality/ghostnodes/README.md)
+  * [Hosting Services](wallet-functionality/ghostnodes/hosting-services.md)
+  * [One-Click Installer](wallet-functionality/ghostnodes/ghost-node-setup.md)
+  * [Other Install Methods](wallet-functionality/ghostnodes/other-install-methods.md)
 
 ## Other Resources
 
