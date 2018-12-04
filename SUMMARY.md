@@ -6,7 +6,8 @@
 
 * [Overview of NIX Wallets](getting-started/choose-your-wallet.md)
 * [Wallet Comparison](getting-started/wallet-comparison.md)
-* [Acquire NIX](getting-started/acquire-nix.md)
+* [Securing Your Wallet](getting-started/securing-your-wallet.md)
+* [Acquiring NIX](getting-started/acquire-nix.md)
 
 ## Ghost Vault
 
@@ -18,6 +19,7 @@
 * [Overview](ghost-nodes/overview.md)
 * [Hosting Services](ghost-nodes/hosting-services.md)
 * [One-Click Installer](ghost-nodes/ghost-node-setup.md)
+* [Other Install Methods](ghost-nodes/other-install-methods.md)
 
 ## Staking
 
@@ -35,5 +37,9 @@
 
 * [Contribute to this guide](github-and-feedback/untitled.md)
 * [Report a bug](github-and-feedback/how-to-log-an-issue.md)
-* [Collaborate with NIX](github-and-feedback/collaborate-with-nix.md)
+
+## Developers
+
+* [Developer Tools](developers/developer-tools.md)
+* [Collaborate on NIX](developers/collaborate-with-nix.md)
 
