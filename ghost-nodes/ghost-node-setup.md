@@ -1,2 +1,2 @@
-# Ghost Node Setup
+# Ghostnode Setup
 

@@ -16,14 +16,15 @@
 ## Ghostnodes
 
 * [Overview](ghost-nodes/overview.md)
-* [General Information](ghost-nodes/general-information.md)
 * [Hosting Services](ghost-nodes/hosting-services.md)
-* [Ghost Node Setup](ghost-nodes/ghost-node-setup.md)
+* [Ghostnode Setup](ghost-nodes/ghost-node-setup.md)
 
 ## Staking
 
 * [Overview](staking/untitled.md)
-* [Desktop Wallet Staking](staking/desktop-wallet-staking.md)
+* [Wallet Staking](staking/desktop-wallet-staking.md)
+* [Delegated Staking \(DPoS\)](staking/delegated-staking-dpos.md)
+* [Coldstaking on a VPS](staking/coldstaking-on-a-vps.md)
 
 ## Community
 
@@ -36,6 +37,6 @@
 
 ## GitHub & Feedback
 
-* [How to log an issue](github-and-feedback/how-to-log-an-issue.md)
-* [Untitled](github-and-feedback/untitled.md)
+* [Report a bug](github-and-feedback/how-to-log-an-issue.md)
+* [Contribute to this guide](github-and-feedback/untitled.md)
 

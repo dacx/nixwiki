@@ -1,2 +1,2 @@
-# Desktop Wallet Staking
+# Wallet Staking
 

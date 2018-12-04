@@ -1,2 +1,2 @@
-# How to log an issue
+# Report a bug
 
