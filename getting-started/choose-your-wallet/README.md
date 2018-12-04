@@ -1,10 +1,10 @@
 # Overview of NIX Wallets
 
-## Summary
+## Available Wallets
 
-Quick summary of NIX wallets
+The following wallets are currently available for download. For a comparison see:
 
-Anchor links to below
+{% page-ref page="wallet-comparison.md" %}
 
 ## QT Wallet
 
@@ -28,9 +28,11 @@ True eye-candy. With a focus on user experience, the GUI wallet is perfect for u
 
 ## Electrum Wallet
 
-![](../../.gitbook/assets/image%20%282%29.png)
+A light weight wallet that supports only the basic functionalities and also runs on mobile devices. It features seed recovery and 2FA.
 
-**Recommended for:** users requiring only standard wallet functions, seed recovery, 2FA
+![NIX Electrum Wallet](../../.gitbook/assets/image%20%282%29.png)
+
+**Recommended for:** everyone
 
 **Download:** [https://github.com/NixPlatform/electrum-nix/releases](https://github.com/NixPlatform/electrum-nix/releases)
 
