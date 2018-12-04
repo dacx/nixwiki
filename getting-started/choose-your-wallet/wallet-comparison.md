@@ -1,7 +1,5 @@
 # Wallet Comparison
 
-
-
 ## Overview of functionality 
 
 | **Security** | UI Wallet | QT Wallet | Electrum | CLI |
