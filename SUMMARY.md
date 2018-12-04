@@ -22,7 +22,7 @@
 
 ## Staking
 
-* [Setup Guide](staking/untitled.md)
+* [Overview](staking/untitled.md)
 * [Desktop Wallet Staking](staking/desktop-wallet-staking.md)
 
 ## Community
