@@ -1,2 +1,2 @@
-# Report a bug
+# Report a Wallet Issue
 

@@ -4,9 +4,10 @@
 
 ## Getting Started
 
-* [Overview of NIX Wallets](getting-started/choose-your-wallet.md)
-* [Wallet Comparison](getting-started/wallet-comparison.md)
-* [Securing Your Wallet](getting-started/securing-your-wallet.md)
+* [Overview of NIX Wallets](getting-started/choose-your-wallet/README.md)
+  * [Wallet Comparison](getting-started/choose-your-wallet/wallet-comparison.md)
+  * [Securing Your Wallet](getting-started/choose-your-wallet/securing-your-wallet.md)
+  * [Sending and Receiving](getting-started/choose-your-wallet/sending-and-receiving.md)
 * [Acquiring NIX](getting-started/acquire-nix.md)
 
 ## Ghost Vault
@@ -28,15 +29,18 @@
 * [Delegated Staking \(DPoS\)](staking/delegated-staking-dpos.md)
 * [Coldstaking on a VPS](staking/coldstaking-on-a-vps.md)
 
-## Other
+## Other Resources
 
 * [Frequently Asked Questions](other/frequently-asked-questions.md)
 * [Console Commands](other/console-commands.md)
+* [Whitepaper](https://nixplatform.io/docs/NIX-Platform-Whitepaper.pdf)
+* [GitHub](https://github.com/nixplatform/nixcore/releases/)
 
 ## Community & Feedback
 
+* [Join the Community](github-and-feedback/join-the-community.md)
 * [Contribute to this guide](github-and-feedback/untitled.md)
-* [Report a bug](github-and-feedback/how-to-log-an-issue.md)
+* [Report a Wallet Issue](github-and-feedback/how-to-log-an-issue.md)
 
 ## Developers
 

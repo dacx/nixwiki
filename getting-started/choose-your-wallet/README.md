@@ -10,7 +10,7 @@ Anchor links to below
 
 The QT wallet is the one most crypto currency user have seen before. Clean interface with a focus on functionality rather than design.
 
-![NIX Core QT wallet](../.gitbook/assets/nix-core-wallet-_005.png)
+![NIX Core QT wallet](../../.gitbook/assets/nix-core-wallet-_005.png)
 
 **Recommended for:** everyone
 
@@ -20,7 +20,7 @@ The QT wallet is the one most crypto currency user have seen before. Clean inter
 
 True eye-candy. With a focus on user experience, the GUI wallet is perfect for users that prefer a visually pleasing interface and do not use more in-depth functionalities.
 
-![NIX UI Wallet](../.gitbook/assets/image%20%281%29.png)
+![NIX UI Wallet](../../.gitbook/assets/image%20%281%29.png)
 
 **Recommended for:** new users, UX enthusiasts
 
@@ -28,7 +28,7 @@ True eye-candy. With a focus on user experience, the GUI wallet is perfect for u
 
 ## Electrum Wallet
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](../../.gitbook/assets/image%20%282%29.png)
 
 **Recommended for:** users requiring only standard wallet functions, seed recovery, 2FA
 
