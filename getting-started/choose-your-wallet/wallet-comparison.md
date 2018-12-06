@@ -22,8 +22,8 @@
 
 | **Vault** | UI Wallet | QT Wallet | Electrum | CLI |
 | :--- | :--- | :--- | :--- | :--- |
-| Ghosting | ✔ | ✔ | ✘ | ✘ |
-| 2-Way-Ghosting | ✔ | ✔ | ✘ | ✘ |
+| Ghosting | ✔ | ✔ | ✘ | ✔ |
+| 2-Way-Ghosting | ✔ | ✔ | ✘ | ✔ |
 
 | **Operating System** | UI Wallet | QT Wallet | Electrum | CLI |
 | :--- | :--- | :--- | :--- | :--- |
