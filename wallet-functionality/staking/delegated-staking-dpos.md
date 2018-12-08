@@ -1,2 +1,2 @@
-# Delegated Staking \(DPoS\)
+# Leased Staking \(LPoS\)
 
