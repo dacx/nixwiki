@@ -17,8 +17,8 @@
 | **Staking** | UI Wallet | QT Wallet | Electrum | CLI |
 | :--- | :--- | :--- | :--- | :--- |
 | Wallet Staking | ✔ | ✔ | ✘ | ✔ |
-| Delegated VPS | ✔ | ✔ | ✘ | ✔ |
-| Managed DPoS | ✔ | ✔ | ✘ | ✔ |
+| VPS Staking | ✔ | ✔ | ✘ | ✔ |
+| Leased PoS | ✔ | ✔ | ✘ | ✔ |
 
 | **Vault** | UI Wallet | QT Wallet | Electrum | CLI |
 | :--- | :--- | :--- | :--- | :--- |
