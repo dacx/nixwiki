@@ -1,5 +1,7 @@
 # Leased Staking \(LPoS\)
 
+
+
 ![](../../../.gitbook/assets/lpos-create.PNG)
 
 ### Create Contract
@@ -18,5 +20,5 @@
 
 ### Active Contracts
 
-
+{% page-ref page="merchant-info.md" %}
 
