@@ -1,2 +1,2 @@
-# Securing Your Wallet
+# Securing Wallet
 

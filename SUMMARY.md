@@ -6,7 +6,8 @@
 
 * [Overview of NIX Wallets](getting-started/choose-your-wallet/README.md)
   * [Wallet Comparison](getting-started/choose-your-wallet/wallet-comparison.md)
-  * [Securing Your Wallet](getting-started/choose-your-wallet/securing-your-wallet.md)
+  * [Securing Wallet](getting-started/choose-your-wallet/securing-your-wallet.md)
+  * [Updating Wallet](getting-started/choose-your-wallet/updating-wallet.md)
   * [Sending and Receiving](getting-started/choose-your-wallet/sending-and-receiving.md)
 * [Acquiring NIX](getting-started/acquire-nix.md)
 
