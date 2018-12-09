@@ -2,17 +2,21 @@
 
 ![](../../../.gitbook/assets/lpos-create.PNG)
 
-\*\*\*\*
+### Create Contract
 
-**Lease to** defines the _external_ address allowed to stake the coins.
+**Lease to:** Defines the _external_ address allowed to stake the coins.
 
-**Amount** operates as the same option in 'Send' and follows coin control.
+**Amount:** Operates as the same option in 'Send' and follows coin control.
 
 {% hint style="info" %}
-Check _'Enable fee payout'_ if the merchant requests a fee
+**Leased staking -** if the merchant requests a fee, click **'Enable fee payout'**  to enable the Fee Percent & Reward Address options.
 {% endhint %}
 
-**Fee Percent** is the proportion of the reward allocated to the leasing merchant. Leave disabled when delegating the staking to a VPS.
+**Fee Percent:** Amount of reward share allocated to the leasing merchant. 
 
-**Reward address** is the merchants cold address. the reward goes directly to the UTXO if the fund owner and the merchant can keep staking that.
+**Reward Address:** The merchants cold storage address. 
+
+### Active Contracts
+
+
 
