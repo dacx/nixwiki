@@ -15,8 +15,8 @@
 
 * [Staking](wallet-functionality/staking/README.md)
   * [Wallet Staking](wallet-functionality/staking/desktop-wallet-staking.md)
-  * [Leased Staking \(LPoS\)](wallet-functionality/staking/delegated-staking-dpos/README.md)
-    * [Merchant Info](wallet-functionality/staking/delegated-staking-dpos/merchant-info.md)
+  * [Leased Staking \(LPoS\)](wallet-functionality/staking/leaded-staking-lpos/README.md)
+    * [Merchant Info](wallet-functionality/staking/leaded-staking-lpos/merchant-info.md)
   * [Coldstaking on a VPS](wallet-functionality/staking/coldstaking-on-a-vps.md)
 * [Ghost Vault](wallet-functionality/ghost-vault/README.md)
   * [Ghosting](wallet-functionality/ghost-vault/untitled.md)
