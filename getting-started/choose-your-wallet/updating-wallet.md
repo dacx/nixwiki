@@ -1,8 +1,8 @@
 # Updating Wallet
 
-## **UI Wallet -** Automatic Update
+## **UI Wallet**
 
-Auto-update
+The UI wallet will display the uses cli Auto-update
 
 ## QT Wallet - Manual Update
 
