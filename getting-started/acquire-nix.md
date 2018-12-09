@@ -6,15 +6,11 @@ There are several ways of acquiring NIX. Those are:
 
 NIX is currently listed on the following exchanges:
 
-[IDAX](https://www.idax.pro/#/exchange?pairname=NIX_BTC)
-
-[Mercatox](https://mercatox.com/exchange/NIX/BTC)
-
-[Cryptopia](https://www.cryptopia.co.nz/Exchange?market=NIX_BTC)
-
-[Nanex](https://nanex.co/exchange/NIXNANO)
-
-[Coinroom](https://coinroom.com/stock)
+* [IDAX](https://www.idax.pro/#/exchange?pairname=NIX_BTC)
+* [Mercatox](https://mercatox.com/exchange/NIX/BTC)
+* [Cryptopia](https://www.cryptopia.co.nz/Exchange?market=NIX_BTC)
+* [Nanex](https://nanex.co/exchange/NIXNANO)
+* [Coinroom](https://coinroom.com/stock)
 
 ## Obtaining Ghost Node Rewards
 
@@ -28,9 +24,9 @@ NIX is **Proof of Stake** and thus allows for holders to stake their coins in or
 
 ## Offering LPoS Services
 
-With NIX' **Leased Proof of Stake** it is possible for users to lease coins to other individuals to stake for them. These services may take a fee.
+With NIX's [**Leased Proof of Stake**](../wallet-functionality/staking/delegated-staking-dpos/) ****it is possible for users to lease coins to third-party merchants to stake for them. These staking providers may take a fee for their services.
 
 ## Becoming a NIX Merchant
 
-Every merchant is more than welcome to accept NIX as payment currency. To make this more accessible, NIX is featured on [**SwirlPay**](https://swirlpay.io/assets/) ****and also released an [**Add-On for WooCommerce**](https://github.com/NixPlatform/cryptowoo-nix-addon).
+Every eCommerce merchant is now able to accept NIX as payment currency. To make this more accessible, NIX is featured on [**SwirlPay**](https://swirlpay.io/assets/) ****and also released an [**Add-On for WooCommerce**](https://github.com/NixPlatform/cryptowoo-nix-addon).
 

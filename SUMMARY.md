@@ -25,13 +25,6 @@
   * [One-Click Installer](wallet-functionality/ghostnodes/ghost-node-setup.md)
   * [Other Install Methods](wallet-functionality/ghostnodes/other-install-methods.md)
 
-## Other Resources
-
-* [Frequently Asked Questions](other/frequently-asked-questions.md)
-* [Console Commands](other/console-commands.md)
-* [Whitepaper](https://nixplatform.io/docs/NIX-Platform-Whitepaper.pdf)
-* [GitHub](https://github.com/nixplatform/nixcore/releases/)
-
 ## Community & Feedback
 
 * [Join the Community](github-and-feedback/join-the-community.md)
@@ -42,4 +35,11 @@
 
 * [Developer Tools](developers/developer-tools.md)
 * [Collaborate on NIX](developers/collaborate-with-nix.md)
+
+## Other Resources
+
+* [Frequently Asked Questions](other/frequently-asked-questions.md)
+* [Console Commands](other/console-commands.md)
+* [Whitepaper](https://nixplatform.io/docs/NIX-Platform-Whitepaper.pdf)
+* [GitHub](https://github.com/nixplatform/nixcore/releases/)
 
