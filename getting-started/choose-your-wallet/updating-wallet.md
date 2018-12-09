@@ -2,11 +2,11 @@
 
 ## **UI Wallet**
 
-The UI wallet will display the uses cli Auto-update
+The UI wallet will display a notification in the Updates screen if you're not on the latest version. Click through to Github to download and proceed to install.
 
 ## QT Wallet - Manual Update
 
-Manual update
+
 
 ## VPS Stakers and Ghostnodes
 
