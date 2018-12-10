@@ -1,4 +1,21 @@
 # Hosting Services
 
-[www.ovh.co.uk](www.ovh.co.uk/‎)
+It's a good idea to ask around in our social channels or look for reviews on the web when selecting a VPS hosting service. 
+
+**Evolution Host** allow their customers to pay with NIX \(and other cryptocurrencies\).
+
+{% embed url="https://evolution-host.com" %}
+
+Other popular hosting companies include \(but are not limited to\): 
+
+* Digital Ocean
+* Vultr
+* OVH
+* Other 1
+* Other 2
+* Other 3
+
+{% hint style="warning" %}
+It's recommended to stay away from cloud hosting services such as AWS/Google Cloud Platform unless you are competent with advanced configuration such as IP routing. 
+{% endhint %}
 
