@@ -1,6 +1,8 @@
 # Participate in NIX Ecosystem
 
-There are several ways of acquiring NIX. Those are:
+There are several avenues of acquiring NIX by participating in the NIX ecosystem. 
+
+Those include purchasing on exchanges, rewards and fees from a Ghostnode, rewards from staking your coins, becoming an LPoS Merchant and accepting NIX as payment for eCommerce transactions.
 
 ## Buying on Exchanges
 

@@ -8,7 +8,6 @@
   * [Wallet Comparison](getting-started/choose-your-wallet/wallet-comparison.md)
   * [Securing Wallet](getting-started/choose-your-wallet/securing-your-wallet.md)
   * [Updating Wallet](getting-started/choose-your-wallet/updating-wallet.md)
-  * [Sending and Receiving](getting-started/choose-your-wallet/sending-and-receiving.md)
 * [Participate in NIX Ecosystem](getting-started/acquire-nix.md)
 
 ## Wallet Functionality
