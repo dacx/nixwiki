@@ -12,6 +12,7 @@
 | **Ghostnodes** | UI Wallet | QT Wallet | Electrum | CLI |
 | :--- | :--- | :--- | :--- | :--- |
 | One-Click Install | ✔ | ✘ | ✘ | ✘ |
+| Script Install | ✔ | ✔ | ✘ | ✔ |
 | Manual Install | ✔ | ✔ | ✘ | ✔ |
 
 | **Staking** | UI Wallet | QT Wallet | Electrum | CLI |
