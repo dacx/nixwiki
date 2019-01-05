@@ -2,7 +2,7 @@
 
 You can utilise the LPoS 'Create Contract' screen to create both Cold Staking and Leased Proof-of-Stake smart contracts that operate in a trustless manner until you decide to cancel the contract. 
 
-This means any coin owner can delegate their staking power to any third-party staking merchant \(who may charge a fee for their services\) to receive regular staking rewards - without needing to worry about the technicalities of keeping a wallet open, updated and unlocked for staking.
+This means any coin owner can lease their staking power to any third-party staking merchant \(who may charge a fee for their services\) to receive regular staking rewards - without needing to worry about the technicalities of keeping a wallet open, updated and unlocked for staking. Such LPoS service can be found in the [NIX marketplace](https://nixplatform.io/marketplace).
 
 ## Create Contract 
 
