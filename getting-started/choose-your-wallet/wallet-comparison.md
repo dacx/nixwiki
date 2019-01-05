@@ -8,7 +8,7 @@
 | Seed Recovery | ✘ | ✘ | ✔ | ✘ | ✘ |
 | Private Keys | ✔ | ✔ | ✔ | ✔ | ✔ |
 | 2FA | ✘ | ✘ | ✔ | ✘ | ✘ |
-| TouchID | ✘ | ✘ | ✘ | ✔ | ✘ |
+| Touch Login | ✘ | ✘ | ✘ | ✔ | ✘ |
 
 | **Ghostnodes** | UI Wallet | QT Wallet | Electrum | Mobile | CLI |
 | :--- | :--- | :--- | :--- | :--- | :--- |
