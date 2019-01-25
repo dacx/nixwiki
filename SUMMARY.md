@@ -6,12 +6,14 @@
 
 * [Overview of NIX Wallets](getting-started/choose-your-wallet/README.md)
   * [Wallet Comparison](getting-started/choose-your-wallet/wallet-comparison.md)
-  * [Securing Wallet](getting-started/choose-your-wallet/securing-your-wallet.md)
   * [Updating Wallet](getting-started/choose-your-wallet/updating-wallet.md)
 * [Participate in NIX Ecosystem](getting-started/acquire-nix.md)
 
 ## Wallet Functionality
 
+* [Backup and Security](wallet-functionality/backup-and-security/README.md)
+  * [QT/UI Wallet Encryption](wallet-functionality/backup-and-security/qt-ui-wallet-encryption.md)
+  * [Wallet Backup](wallet-functionality/backup-and-security/wallet-backup.md)
 * [Staking](wallet-functionality/staking/README.md)
   * [Wallet Staking](wallet-functionality/staking/desktop-wallet-staking.md)
   * [Lease Staking \(LPoS\)](wallet-functionality/staking/leaded-staking-lpos/README.md)

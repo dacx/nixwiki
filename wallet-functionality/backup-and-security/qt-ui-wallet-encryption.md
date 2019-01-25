@@ -1,0 +1,2 @@
+# QT/UI Wallet Encryption
+
