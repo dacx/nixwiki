@@ -11,9 +11,6 @@
 
 ## Wallet Functionality
 
-* [Backup and Security](wallet-functionality/backup-and-security/README.md)
-  * [QT/UI Wallet Encryption](wallet-functionality/backup-and-security/qt-ui-wallet-encryption.md)
-  * [Wallet Backup](wallet-functionality/backup-and-security/wallet-backup.md)
 * [Backup and Security](wallet-functionality/backup-and-security-1/README.md)
   * [QT/UI Wallet Encryption](wallet-functionality/backup-and-security-1/qt-ui-wallet-encryption.md)
   * [Wallet Backup](wallet-functionality/backup-and-security-1/wallet-backup.md)
