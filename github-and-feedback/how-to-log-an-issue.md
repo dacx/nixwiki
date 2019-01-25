@@ -2,7 +2,7 @@
 
 Before reporting any potential issues, first make sure you are using the current version of the specific software in which you are experiencing the issue. You may also want to join the [NIX Discord chat](https://discord.gg/agAsvQY) and describe your specific issue in the appropriate support channel in order to help identify if the problem is user/configuration/other error or an actual bug. Doing so may also alert you to any known workarounds you might be able to use in the meantime.
 
-If you are sure that your issue is indeed a bug, your next step should be the corresponding [github.com NixPlatform repository](https://github.com/NixPlatform), ie: [NixCore](https://github.com/NixPlatform/NixCore), [Nix-GUI](https://github.com/NixPlatform/Nix-GUI), [nixwallet-spv-android](https://github.com/NixPlatform/nixwallet-spv-android), etc. Once there, click on the issues tab near the top of the page and check to see if there is an open issue already describing your problem.
+If you are sure that your issue is indeed a bug, your next step should be the corresponding [NIXPlatform GitHub repository](https://github.com/NixPlatform), ie: [NixCore](https://github.com/NixPlatform/NixCore), [Nix-GUI](https://github.com/NixPlatform/Nix-GUI), [nixwallet-spv-android](https://github.com/NixPlatform/nixwallet-spv-android), etc. Once there, click on the issues tab near the top of the page and check to see if there is an open issue already describing your problem.
 
 ![](../.gitbook/assets/githubissuetab.png)
 
