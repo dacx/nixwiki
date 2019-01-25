@@ -32,6 +32,7 @@
 * [Join the Community](github-and-feedback/join-the-community.md)
 * [Contribute to this guide](github-and-feedback/untitled.md)
 * [Report a Wallet Issue](github-and-feedback/how-to-log-an-issue.md)
+* [Feature Requests](github-and-feedback/feature-requests.md)
 
 ## Developers
 
