@@ -14,7 +14,7 @@ From the Settings menu, select "Encrypt Wallet..." to begin the process of encry
 
 ![Confirm that you wish to encrypt your wallet](../../.gitbook/assets/qt-confirmencryption.png)
 
-Please note: After confirming you wish to encrypt your wallet, it will take a few moments to apply the encryption.
+Please note: After confirming you wish to encrypt your wallet, it may take a few moments to apply the encryption.
 
 ![](../../.gitbook/assets/qt-encrypteddialog.png)
 
