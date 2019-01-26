@@ -20,3 +20,29 @@ Please note: After confirming you wish to encrypt your wallet, it will take a fe
 
 Clicking OK on the final dialog box will close the wallet. The next time you open it, you will be required to use your passphrase in order to send or stake your NIX, so do not lose your passphrase!
 
+### Changing the QT Wallet passphrase
+
+Once your wallet is encrypted, you can later change the passphrase if you wish. From the Settings menu, select "Change Passphrase..." 
+
+![Select &quot;Change Passphrase...&quot; from the Settings menu](../../.gitbook/assets/qt-changepwmenu.png)
+
+![Fill in your current passphrase and choose a new one](../../.gitbook/assets/qt-changepw.png)
+
+## UI Wallet
+
+The NIX UI Wallet is, by design, made to be both secure and user-friendly. It will prompt the user to set a password the first time it starts up.
+
+![](../../.gitbook/assets/ui-encryption.png)
+
+Choose a strong password, check the box and click on "Encrypt Wallet". The wallet will then restart and allow you to use its normal interface.
+
+### Changing the UI Wallet password
+
+If you'd like to change your password, you may do so by first clicking on Settings from the menu on the left, and then on the Security. There you will find a "Change Password" button.
+
+![](../../.gitbook/assets/ui-settingssecurity.png)
+
+![](../../.gitbook/assets/ui-changepw.png)
+
+
+
