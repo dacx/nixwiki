@@ -2,7 +2,7 @@
 
 Encrypting your wallet.dat file will require that you enter a password in order to send any NIX. It is also a requirement if you wish to stake your NIX directly from your own wallet. 
 
-Although you can perform this action at any time, it is best to do it immediately upon starting a new nix-qt wallet and before generating/using any receive addresses. More information on why can be found in the [Wallet Backup](wallet-backup.md) article.
+Although you can perform this action at any time, it is recommended that you do it immediately upon starting a new nix-qt wallet and before generating/using any receive addresses.
 
 From the Settings menu, select "Encrypt Wallet..." to begin the process of encrypting your wallet.dat file.
 
