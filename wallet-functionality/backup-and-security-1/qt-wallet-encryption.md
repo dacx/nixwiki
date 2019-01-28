@@ -20,7 +20,7 @@ After confirming you wish to encrypt your wallet, it may take a few moments to a
 
 Clicking OK on the final dialog box will close the wallet. The next time you open it, you will be required to use your passphrase in order to send or stake your NIX, so do not lose your passphrase!
 
-### Changing the QT Wallet passphrase
+## Changing the QT Wallet passphrase
 
 Once your wallet is encrypted, you can later change the passphrase if you wish. From the Settings menu, select "Change Passphrase..." 
 
