@@ -6,12 +6,12 @@ It is best to store your backed up wallet.dat somewhere other than the computer 
 
 ## Backup Frequency
 
-Since all NIX wallets utilize HD key generation, you do not need to backup your wallet after generating 100 or 1000 receive addresses. All receive addresses you generate are based off of a single master private key which will grant you access to all future generated addresses.
+Because all NIX wallets utilize HD key generation, you do not need to backup your wallet after generating 100 or 1000 receive addresses. All receive addresses you generate are based off of a single master private key which will grant you access to all future generated addresses.
 
 When encrypting your wallet.dat file, a new master key is generated and used from then on. This prevents anybody who may gain access to your previously unencrypted wallet.dat file from gaining control of addresses you've generated after encryption. Because of this, encrypting your wallet will require you to create a new backup of your wallet.dat. You should also delete any previously created backups that are not encrypted.
 
 {% hint style="warning" %}
-Changing your password will not require a new backup, but any old backups will still use their respective password. Therefore, it is strongly recommended that you replace any previous backup file.
+**NOTICE:** Changing your password will not require a new backup, but any old backups will still use their respective password. Therefore, it is strongly recommended that you replace any previous wallet.dat backups.
 {% endhint %}
 
 {% hint style="success" %}
@@ -20,7 +20,7 @@ Changing your password will not require a new backup, but any old backups will s
 
 ## Manual Backup
 
-You can manually copy your wallet.dat file to a new location by navigating to the NIX data directory and simply make a copy of the file. Default locations for this file are:
+You can manually copy your wallet.dat file to a new location by navigating to the NIX data directory and making a copy of the wallet.dat. Default locations for this file are:
 
 #### Windows
 
