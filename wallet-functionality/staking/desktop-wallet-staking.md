@@ -2,7 +2,7 @@
 
 ## QT Wallet
 
-In order to stake your coins from the QT Wallet, you must first [encrypt your wallet](../backup-and-security-1/qt-wallet-encryption.md). You cannot stake from a wallet that is not encrypted.
+In order to stake your coins from the QT Wallet you must first [encrypt your wallet](../backup-and-security-1/qt-wallet-encryption.md). You cannot stake from a wallet that is not encrypted.
 
 Simply select "Unlock For Staking..." from the Settings menu and enter in your wallet passphrase.
 
