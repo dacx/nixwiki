@@ -2,7 +2,7 @@
 
 For both the QT and UI wallets, the file wallet.dat contains your private keys which grants access to your coins on the blockchain. If this file becomes corrupted or lost you will no longer be able to access your coins without restoring a valid backup.
 
-Once backed up, it is best to store your wallet.dat somewhere other than the computer you normally use to run your wallet. SD cards and thumb drives are ideal candidates.
+It is best to store your backed up wallet.dat somewhere other than the computer you normally use to run your wallet. SD cards and thumb drives are ideal candidates.
 
 ## Backup Frequency
 
@@ -10,12 +10,12 @@ Since all NIX wallets utilize HD key generation, you do not need to backup your 
 
 When encrypting your wallet.dat file, a new master key is generated and used from then on. This prevents anybody who may gain access to your previously unencrypted wallet.dat file from gaining control of addresses you've generated after encryption. Because of this, encrypting your wallet will require you to create a new backup of your wallet.dat. You should also delete any previously created backups that are not encrypted.
 
-{% hint style="info" %}
-Changing your password will not require a new backup, but any old backups will still use their respective password.
+{% hint style="warning" %}
+Changing your password will not require a new backup, but any old backups will still use their respective password. Therefore, it is strongly recommended that you replace any previous backup file.
 {% endhint %}
 
 {% hint style="success" %}
-A sure way to protect any coins still on an old receive address that you've generated before encrypting your wallet is to send them to yourself using a newly generated receive address after encryption.
+**TIP:** A sure way to protect any coins still on an old receive address that you've generated before encrypting your wallet is to send them to yourself using a newly generated receive address after encryption.
 {% endhint %}
 
 ## Manual Backup
@@ -30,8 +30,8 @@ or
 
 C:\Users\\(your username\)\AppData\roaming\nix\wallets\wallet.dat
 
-{% hint style="info" %}
-Windows hides the AppData folder by default when using the graphical file explorer. In order to get inside the AppData folder, you can either type "%AppData%" into the search bar or check the box for "Hidden items" under the View menu to show hidden files in the file explorer window.
+{% hint style="success" %}
+**TIP:** Windows hides the AppData folder by default when using the graphical file explorer. In order to get inside the AppData folder, you can either type "%AppData%" into the search bar or check the box for "Hidden items" under the View menu to show hidden files in the file explorer window.
 {% endhint %}
 
 #### MacOS

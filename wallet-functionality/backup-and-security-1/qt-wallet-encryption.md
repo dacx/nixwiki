@@ -13,12 +13,12 @@ From the Settings menu, select "Encrypt Wallet..." to begin the process of encry
 ![Confirm that you wish to encrypt your wallet](../../.gitbook/assets/qt-confirmencryption.png)
 
 {% hint style="info" %}
-After confirming you wish to encrypt your wallet, it may take a few moments to apply the encryption.
+**NOTE:** After confirming you wish to encrypt your wallet, it may take a few moments to apply the encryption.
 {% endhint %}
 
 ![](../../.gitbook/assets/qt-encrypteddialog.png)
 
-Clicking OK on the final dialog box will close the wallet. The next time you open it, you will be required to use your passphrase in order to send or stake your NIX, so do not lose your passphrase!
+Clicking OK on the final dialog box will close the wallet. The next time you open it you will be required to use your passphrase in order to send or stake your NIX, so do not lose it!
 
 ## Changing the QT Wallet passphrase
 
