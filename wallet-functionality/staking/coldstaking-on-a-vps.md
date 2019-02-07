@@ -1,28 +1,12 @@
 ---
-description: How to set up your own Leasing Server
+description: How to set up your own LPoS server.
 ---
 
 # Coldstaking on a VPS
 
 Log into your VPS using a Secure Shell \(ssh\) client according to your providers instructions. [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) is a popular ssh client that is open source and available for Windows and Unix/Linux for free.
 
-If logging in as the root user, the first thing you will want to do is create a new user and start using that login instead. Running things as the root user when it is not necessary is generally considered a bad practice.
-
-```bash
-useradd -m <username>
-```
-
-Set a password for your new username
-
-```bash
-passwd <username>
-```
-
-From here it will be assumed that you are running commands as your normal user and not as root unless otherwise specified. You can either reconnect with your ssh client using your normal user account or substitute user with:
-
-```bash
-su - <username>
-```
+From here it will be assumed that you are running commands as root. You can of course also use a regular user with elevated permissions.
 
 Download the latest NIX Platform Core software release. At the time of this writing, that would be:
 
@@ -36,30 +20,10 @@ Unpack the file.
 tar -zxvf nix-2.2.0-x86_64-linux-gnu.tar.gz
 ```
 
-Make the binary files executable if they are not already.
-
-```bash
-chmod +x nix-2.2.0/bin/*
-```
-
-You'll need root permissions to install the binary files.
-
-```bash
-su
-```
-
-> Enter your root password
-
 Install the NIX binary files.
 
 ```bash
 cp nix-2.2.0/bin/* /usr/bin/
-```
-
-You no longer need root permissions, so return to your normal user with:
-
-```bash
-exit
 ```
 
 Start the NIX daemon and put it into the background.
@@ -90,13 +54,14 @@ Exit and save the file by using 'Ctrl + x', pressing 'y' and hitting &lt;Enter&g
 **TIP:** If you'd like to use this to privately cold stake your own coins, simply omit the 'minimumleasepercentage=' and 'leaserewardaddresses=' lines and create your LPoS contract with no fee.
 {% endhint %}
 
-Next, encrypt your wallet.
+Next, stop the daemon and encrypt your wallet.
 
 ```bash
+nix-cli stop
 nix-cli encryptwallet <passphrase>
 ```
 
-Once the wallet is encrypted and a new HD master key is generated, the wallet will shut itself down. Restart the wallet.
+Restart the daemon.
 
 ```bash
 nixd
@@ -113,7 +78,7 @@ nix-cli getnewaddress > LeaseToAddress.txt
 ```
 
 {% hint style="success" %}
-**TIP:** Now would be a good time to download your wallet.dat, nix.conf and LeaseToAddress.txt files using PuTTY's pscp \(putty secure copy\) program.
+**TIP:** Now would be a good time to download your wallet.dat, nix.conf and LeaseToAddress.txt files using PuTTY's pscp \(putty secure copy\) program to have a backup.
 {% endhint %}
 
 Check to see that your wallet is syncd with:
@@ -164,6 +129,8 @@ nix-cli stop
 
 
 
+Alternatively, you can also use the following method and utulize CryptoSharks' script:
+
 These instructions will help guide you to setting up your own cold stake on a VPS. Log into the server using ssh \(Putty for windows or terminal for Mac users\) and run the following commands:
 
 ```text
@@ -180,7 +147,7 @@ Amount: The amount to place in the contract \(subtract fee button can be used to
 
 You can now hit 'send nix' to confirm the contract and you are all set! Once the contract gets 200 confirms, your VPS will start staking!
 
-Video :[https://youtu.be/GwH5ysdfTrY](https://youtu.be/GwH5ysdfTrY)
+Video: [https://youtu.be/GwH5ysdfTrY](https://youtu.be/GwH5ysdfTrY)
 
 
 
