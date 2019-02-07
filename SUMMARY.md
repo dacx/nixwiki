@@ -38,6 +38,7 @@
 
 * [Developer Tools](developers/developer-tools.md)
 * [Collaborate on NIX](developers/collaborate-with-nix.md)
+* [NIX API](developers/nix-api.md)
 
 ## Other Resources
 

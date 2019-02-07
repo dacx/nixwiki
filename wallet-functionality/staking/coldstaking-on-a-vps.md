@@ -1,6 +1,8 @@
-# Coldstaking on a VPS
+---
+description: How to set up your own Leasing Server
+---
 
-#### This article will assume that you have a 64 bit Linux Virtual Private Server.
+# Coldstaking on a VPS
 
 Log into your VPS using a Secure Shell \(ssh\) client according to your providers instructions. [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) is a popular ssh client that is open source and available for Windows and Unix/Linux for free.
 
@@ -159,6 +161,26 @@ To stop nixd, use:
 ```bash
 nix-cli stop
 ```
+
+
+
+These instructions will help guide you to setting up your own cold stake on a VPS. Log into the server using ssh \(Putty for windows or terminal for Mac users\) and run the following commands:
+
+```text
+wget -q https://raw.githubusercontent.com/cryptosharks131/Ghostnode/master/nix_cold_stake.sh
+bash nix_cold_stake.sh
+nix-cli encryptwallet "create_password_here"
+nix-cli getnewaddress
+nix-cli walletpassphrase "put_your_password_here" 0 true
+```
+
+Now you may go to your local wallet and create a LPoS contract with the following details.  
+Lease To: This is the address you got from the VPS after running 'nix-cli getnewaddress'  
+Amount: The amount to place in the contract \(subtract fee button can be used to take the contract writing fee from this amount\)
+
+You can now hit 'send nix' to confirm the contract and you are all set! Once the contract gets 200 confirms, your VPS will start staking!
+
+Video :[https://youtu.be/GwH5ysdfTrY](https://youtu.be/GwH5ysdfTrY)
 
 
 
