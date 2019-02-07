@@ -20,7 +20,7 @@ Ghost Nodes receive rewards for securing the network. Read more in the [whitepap
 
 ## Obtaining Staking Rewards
 
-NIX is **Proof of Stake** and thus allows for holders to stake their coins in order to receive rewards. Refer to the Staking category:
+NIX is **Proof of Stake** and thus allows for holders of any amount to stake their coins in order to receive rewards. Refer to the Staking category:
 
 {% page-ref page="../wallet-functionality/staking/" %}
 
