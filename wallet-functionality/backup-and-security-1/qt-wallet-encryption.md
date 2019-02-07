@@ -24,6 +24,8 @@ Clicking OK on the final dialog box will close the wallet. The next time you ope
 
 Once your wallet is encrypted, you can later change the passphrase if you wish. From the Settings menu, select "Change Passphrase..." 
 
+Make sure to replace your old wallet backups with the new one.
+
 ![Select &quot;Change Passphrase...&quot; from the Settings menu](../../.gitbook/assets/qt-changepwmenu.png)
 
 ![Fill in your current passphrase and choose a new one](../../.gitbook/assets/qt-changepw.png)
