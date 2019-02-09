@@ -34,23 +34,5 @@ Staking with the UI Wallet is quite easy as well. Simply select "Staking" from t
 
 ## Advanced Configuration
 
-You can enact finer control over staking by using the following options in your nix.conf configuration file:
-
-`stakesplitthreshold=<n>` Maximum amount of coins to stake before splitting into two outputs. \(default: 20000\)
-
-`stakecombinethreshold=<n>` Minimum amount of NIX to combine into one stake if wallet has multiple outputs to stake. \(default: 5000\)
-
-`maxstakecombine=<n>` Maximim of outputs to combine when achieving stakecombinethreshold. \(default: 3\)
-
-#### Additional options include:
-
-`minstakeinterval=<n>` Minimum time in seconds between successful stakes \(default: 0\)
-
-`minersleep=<n>` Milliseconds between stake attempts. Lowering this param will not result in more stakes. \(default: 500\)
-
-`reservebalance=<amount>` Ensure available balance remains above reservebalance. \(default: 0\)
-
-`donationpercent=<n>` Percentage of block reward donated to the donation address. e.g. 1190 \(11.90%\) \(default: 0\)
-
-`donationaddress=<n>` Destination to send donated staking rewards. \(default: N/A\)
+You can enact finer control over staking by using [Wallet staking options](../../other/command-line-options.md#wallet-staking-options) in your nix.conf configuration file.
 

@@ -26,7 +26,7 @@ NIX is **Proof of Stake** and thus allows for holders of any amount to stake the
 
 ## Offering LPoS Services
 
-With NIX's [**Leased Proof of Stake**](../wallet-functionality/staking/leaded-staking-lpos/) ****it is possible for users to lease coins to third-party merchants to stake for them. These staking providers may take a fee for their services.
+With NIX's [**Leased Proof of Stake**](../wallet-functionality/staking/lpos-client.md) ****it is possible for users to lease coins to third-party merchants to stake for them. These staking providers may take a fee for their services.
 
 ## Becoming a NIX Merchant
 

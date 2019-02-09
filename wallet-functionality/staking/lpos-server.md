@@ -2,11 +2,35 @@
 description: How to set up your own LPoS server.
 ---
 
-# Coldstaking on a VPS
+# LPoS Server
+
+## Manual Installation
+
+#### This article will assume you are using a 64 bit Linux Virtual Private Server.
 
 Log into your VPS using a Secure Shell \(ssh\) client according to your providers instructions. [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) is a popular ssh client that is open source and available for Windows and Unix/Linux for free.
 
-From here it will be assumed that you are running commands as root. You can of course also use a regular user with elevated permissions.
+If you are logging in as root, the first thing you will want to do is create a normal user. Running services as the root user is generally considered a bad practice. You can create a new user with:
+
+```bash
+useradd -m <username>
+```
+
+Next, set a password for your new user.
+
+```bash
+passwd <username>
+```
+
+Now substitute user into your new user and its home directory using:
+
+```bash
+su - <username>
+```
+
+{% hint style="success" %}
+For future ssh connections, login as your normal user.
+{% endhint %}
 
 Download the latest NIX Platform Core software release. At the time of this writing, that would be:
 
@@ -20,19 +44,37 @@ Unpack the file.
 tar -zxvf nix-2.2.0-x86_64-linux-gnu.tar.gz
 ```
 
-Install the NIX binary files.
+Next, make the binary files executable.
+
+```bash
+chmod +x nix-2.2.0/bin/*
+```
+
+You will now need to be the root user to install the binary files. Use the substitute user command:
+
+```bash
+su
+```
+
+After entering in your root password, install the NIX binary files.
 
 ```bash
 cp nix-2.2.0/bin/* /usr/bin/
 ```
 
-Start the NIX daemon and put it into the background.
+You no longer need root permissions, so drop back down to your normal user with:
+
+```bash
+exit
+```
+
+Now that you are back into your normal user, start the NIX daemon and put it into the background.
 
 ```bash
 nixd&
 ```
 
-Now create your nix.conf file.
+Now create your nix.conf file. This needs to be in the data directory, which by default is created as a hidden directory named .nix in the users home. Use the command:
 
 ```bash
 nano .nix/nix.conf
@@ -40,28 +82,31 @@ nano .nix/nix.conf
 
 For a minimal configuration, add the following lines to nix.conf:
 
+{% code-tabs %}
+{% code-tabs-item title="nix.conf" %}
 ```text
 daemon=1
 minimumleasepercentage=1191
 leaserewardaddresses=<your_address_for_collecting_reward_fees>
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
-Using the above configuration, this wallet will only stake contracts with a fee no less than 11.91% and a reward address of &lt;your\_address\_for\_collecting\_reward\_fees&gt;.
+Using the above configuration, this wallet will only stake contracts with a fee no less than 11.91% and a reward address of &lt;your\_address\_for\_collecting\_reward\_fees&gt;. For more advanced configurations, see [Command-line options](../../other/command-line-options.md).
 
 Exit and save the file by using 'Ctrl + x', pressing 'y' and hitting &lt;Enter&gt;
 
 {% hint style="success" %}
-**TIP:** If you'd like to use this to privately cold stake your own coins, simply omit the 'minimumleasepercentage=' and 'leaserewardaddresses=' lines and create your LPoS contract with no fee.
+**TIP:** If you'd like to use this to privately cold stake your own coins, simply omit the 'minimumleasepercentage=' and 'leaserewardaddresses=' lines and create your [LPoS client](lpos-client.md) contract with no fee.
 {% endhint %}
 
-Next, stop the daemon and encrypt your wallet.
+Next, encrypt your wallet.
 
 ```bash
-nix-cli stop
 nix-cli encryptwallet <passphrase>
 ```
 
-Restart the daemon.
+After encryption nixd will automatically shut itself down. Restart the daemon.
 
 ```bash
 nixd
@@ -71,10 +116,16 @@ nixd
 **NOTE:** Now that you have 'daemon=1' in your nix.conf file, you will no longer need to append & to nixd in order to put the process into the background.
 {% endhint %}
 
-Now you can generate a new address. This will be used for the "Lease To: " address field when creating a LPoS contract. The following command will generate and store a new address to a text file named LeaseToAddress.txt:
+Now you can generate a new address. This will be used for the "Lease To: " address field when creating a [LPoS client](lpos-client.md) contract. The following command will generate and store a new address to a text file named LeaseToAddress.txt:
 
 ```text
 nix-cli getnewaddress > LeaseToAddress.txt
+```
+
+If you want to quickly view the contents of LeaseToAddress.txt, use:
+
+```bash
+cat LeaseToAddress.txt
 ```
 
 {% hint style="success" %}
@@ -127,9 +178,15 @@ To stop nixd, use:
 nix-cli stop
 ```
 
+To abandon a failed stake, get the transaction id from the debug.log file and run:
 
+```text
+nix-cli abandontransaction "transaction_id_here"
+```
 
-Alternatively, you can also use the following method and utulize CryptoSharks' script:
+## Automatic/Scripted Installation
+
+Alternatively, you can also use the following method and utilize CryptoSharks' script:
 
 These instructions will help guide you to setting up your own cold stake on a VPS. Log into the server using ssh \(Putty for windows or terminal for Mac users\) and run the following commands:
 

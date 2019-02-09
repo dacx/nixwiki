@@ -16,9 +16,8 @@
   * [Wallet Backup](wallet-functionality/backup-and-security-1/wallet-backup.md)
 * [Staking](wallet-functionality/staking/README.md)
   * [Wallet Staking](wallet-functionality/staking/desktop-wallet-staking.md)
-  * [Lease Staking \(LPoS\)](wallet-functionality/staking/leaded-staking-lpos/README.md)
-    * [Merchant Info](wallet-functionality/staking/leaded-staking-lpos/merchant-info.md)
-  * [Coldstaking on a VPS](wallet-functionality/staking/coldstaking-on-a-vps.md)
+  * [LPoS Client](wallet-functionality/staking/lpos-client.md)
+  * [LPoS Server](wallet-functionality/staking/lpos-server.md)
 * [Ghost Vault](wallet-functionality/ghost-vault/README.md)
   * [Ghosting](wallet-functionality/ghost-vault/untitled.md)
   * [2-Way-Ghosting](wallet-functionality/ghost-vault/2-way-ghosting.md)
@@ -44,6 +43,7 @@
 
 * [Frequently Asked Questions](other/frequently-asked-questions.md)
 * [Console Commands](other/console-commands.md)
+* [Command-line Options](other/command-line-options.md)
 * [Whitepaper](https://nixplatform.io/docs/NIX-Platform-Whitepaper.pdf)
 * [GitHub](https://github.com/nixplatform/nixcore/releases/)
 

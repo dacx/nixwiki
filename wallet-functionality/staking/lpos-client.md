@@ -1,4 +1,4 @@
-# Lease Staking \(LPoS\)
+# LPoS Client
 
 You can utilise the LPoS 'Create Contract' screen to create both Cold Staking and Leased Proof-of-Stake smart contracts that operate in a trustless manner until you decide to cancel the contract. 
 
@@ -10,11 +10,7 @@ This means any coin owner can lease their staking power to any third-party staki
 
 **Lease Proof-of-Stake -** if a merchant doesn't charge a fee for their staking services then the process is exactly the same as Cold-Staking. If they do charge a fee then you need to click the 'Enable fee payout' option to configure the other LPoS parameters in line with the merchant's terms of service.
 
-{% hint style="success" %}
-**Staking Merchants** - see [Merchant Info](merchant-info.md) for contract assurance start-up flags.  
-{% endhint %}
-
-![NIX LPoS &apos;Create Contract&apos; Screen](../../../.gitbook/assets/lpos-create.PNG)
+![NIX LPoS &apos;Create Contract&apos; Screen](../../.gitbook/assets/lpos-create.PNG)
 
 **`Lease to:`** Defines the external address allowed to stake the coins.
 
@@ -33,8 +29,6 @@ This means any coin owner can lease their staking power to any third-party staki
 
 
 
-
-{% page-ref page="merchant-info.md" %}
 
 
 
