@@ -30,9 +30,5 @@ Deselect the "Un-Ghost to Myself" checkbox, enter the recipients Ghost Key in th
 
 Your 2-Way Ghost transaction will then be added to the blockchain with both send and receive addresses privatized.
 
-![](../../.gitbook/assets/2wayghosttx.png)
-
-{% hint style="info" %}
-**NOTE:** 2-Way ghosting does not incur a network fee.
-{% endhint %}
+![Both send and receive addresses are privatized on the blockchain](../../.gitbook/assets/2wayghosttx.png)
 
