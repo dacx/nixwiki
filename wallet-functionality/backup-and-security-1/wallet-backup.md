@@ -20,35 +20,41 @@ When encrypting your wallet.dat file, a new master key is generated and used fro
 
 ## Manual Backup
 
-You can manually copy your wallet.dat file to a new location by navigating to the NIX data directory and making a copy of the wallet.dat. Default locations for this file are:
+You can manually copy your wallet.dat file to a new location by navigating to the NIX data directory and making a copy of the wallet.dat. The default location for this file is inside the wallets directory if it exists, otherwise, the root data directory \(nix\).
 
 #### Windows
-
-C:\Users\\(your username\)\AppData\roaming\nix\wallet.dat
-
-or
-
-C:\Users\\(your username\)\AppData\roaming\nix\wallets\wallet.dat
 
 {% hint style="success" %}
 **TIP:** Windows hides the AppData folder by default when using the graphical file explorer. In order to get inside the AppData folder, you can either type "%AppData%" into the search bar or check the box for "Hidden items" under the View menu to show hidden files in the file explorer window.
 {% endhint %}
 
-#### MacOS
-
-~/Library/Application Support/nix/wallet.dat
+C:\Users\\(your username\)\AppData\roaming\nix\wallets\wallet.dat
 
 or
+
+C:\Users\\(your username\)\AppData\roaming\nix\wallet.dat
+
+#### MacOS
+
+{% hint style="success" %}
+**TIP:** MacOS hides the Application Support folder by default.  
+1. On the top bar, left side of your screen click on "Go", then click on "Go to Folder".  
+2. Type or copy-paste: ~/Library/Application Support/nix/
+{% endhint %}
 
 ~/Library/Application Support/nix/wallets/wallet.dat
 
+or
+
+~/Library/Application Support/nix/wallet.dat
+
 #### Linux
 
-~/.nix/wallet.dat
+~/.nix/wallets/wallet.dat
 
 or
 
-~/.nix/wallets/wallet.dat
+~/.nix/wallet.dat
 
 ## QT Wallet
 
