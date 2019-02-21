@@ -10,7 +10,7 @@ Staking allows users to earn passive income based on their holdings by adding ne
 
 Staking can be done by the owner directly or they may lease their coins to a [merchant](https://nixplatform.io/marketplace) to stake on their behalf using what is called a ["Leased Proof of Stake" or LPoS contract](lpos-client.md). Users may also utilize LPoS contracts to cold stake their own coins in a much safer environment. It is important to note that when utilizing an LPoS contract, the owner of the coins remains in full control of their holdings and can cancel the contract at any time. The merchant has no ability to move, spend, or otherwise do anything with contracted coins other than actions that are directly related to staking such as creating new blocks and [setting split/combine thresholds](../../other/command-line-options.md#wallet-staking-options).
 
-In order to stake, the wallet must be encrypted, unlocked for staking and synced with the network. As of block \#115,29, all unspent transaction outputs \(UTXOs\) require 200 confirmations to becomes available for staking. This also applies to coins which have earned a reward for successfully staking and creating a new block on the chain.
+In order to stake, the wallet must be encrypted, unlocked for staking and synced with the network. As of block \#115,921, all unspent transaction outputs \(UTXOs\) require 200 confirmations to becomes available for staking. This also applies to coins which have earned a reward for successfully staking and creating a new block on the chain.
 
 Currently only publicly held NIX can be staked, however, staking [ghosted NIX](../ghost-vault/) is planned.
 
