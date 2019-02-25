@@ -179,13 +179,13 @@ nixd \[command-line options\]
 
 `-donationaddress=<n>` Destination to send donated staking rewards. \(default: N/A\)
 
-`-stakesplitthreshold=<n>` Maximum amount of coins to stake before splitting into two outputs. \(default: 20000\)
+`-stakesplitthreshold=<n>` Maximum amount of coins to stake before splitting into two outputs. \(default: 10000\)
 
 `-stakecombinethreshold=<n>` Minimum amount of NIX to combine into one stake if wallet has multiple outputs to stake. \(default: 5000\)
 
 `-maxstakecombine=<n>` Maximim of outputs to combine when achieving stakecombinethreshold. \(default: 3\)
 
-`-coldstakeaddress=<n>` Coldstaking address used for smart contract staking. To be used for local wallet setup. \(default: \(None\)
+`-coldstakeaddress=<n>` Coldstaking address used for smart contract staking. To be used for local wallet setup. \(default: \(None\)\)
 
 `-minimumleasepercentage=<n>` Minimum lease percentage required for a contract to stake if you are leasing stakes. Value can be between 0 and 10000 e.g. 1191 \(11.91%\) \(default: 0\)
 
