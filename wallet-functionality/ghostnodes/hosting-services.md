@@ -2,7 +2,7 @@
 
 It's a good idea to ask around in our social channels or look for reviews on the web when selecting a VPS hosting service. 
 
-**Evolution Host** allow their customers to pay with NIX \(and other cryptocurrencies\).
+**Evolution Host** allows their customers to pay with NIX \(and other cryptocurrencies\).
 
 {% embed url="https://evolution-host.com" %}
 

@@ -4,7 +4,7 @@ description: NIX Platform Staking Overview
 
 # Staking
 
-The NIX network originally began as a Proof of Work blockchain. At block 53,000 the consensus method changed to Proof of Stake. To enable this consensus change, a hard fork was necessary. This change to the protocol does not create a new coin, but upgrades the network.
+The NIX network originally began as a Proof of Work blockchain. At block 53,000 the consensus method changed to Proof of Stake. To enable this consensus change, a hard fork was necessary. This change to the protocol does not create a new coin, but upgrades the network. As the network matures, staking rewards will increase according to the [Inflation Schedule](https://medium.com/@nixplatform/proof-of-stake-inflation-schedule-d9c6b5a1e119).
 
 Staking allows users to earn passive income based on their holdings by adding new blocks to the chain without the need of expensive, specialized hardware such as ASIC miners or GPUs which themselves often require access to low electricity costs in order to be profitable. Instead, the chances of creating a new block are correlated to the amount of coins they own and are actively staking.
 
@@ -13,4 +13,6 @@ Staking can be done by the owner directly or they may lease their coins to a [me
 In order to stake, the wallet must be encrypted, unlocked for staking and synced with the network. As of block \#115,921, all unspent transaction outputs \(UTXOs\) require 200 confirmations to becomes available for staking. This also applies to coins which have earned a reward for successfully staking and creating a new block on the chain.
 
 Currently only publicly held NIX can be staked, however, staking [ghosted NIX](../ghost-vault/) is planned.
+
+
 
