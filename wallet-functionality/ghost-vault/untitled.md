@@ -21,7 +21,7 @@ By default, NIX will be ghosted to your local wallet. If you wish to ghost them 
 ![Enter the amount to be ghosted and click &quot;Ghost NIX&quot;](../../.gitbook/assets/qt-ghostingtomyself.png)
 
 {% hint style="info" %}
-**NOTE:** Decimal points are not allowed when ghosting NIX. Only whole number amounts are valid.
+**NOTE:** Decimal points are currently not allowed when ghosting NIX. Only whole number amounts are valid. Fractional amounts will be available in the future.
 {% endhint %}
 
 ![If your wallet is encrypted, enter your passphrase](../../.gitbook/assets/qt-unlock.png)

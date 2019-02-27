@@ -21,7 +21,7 @@ Deselect the "Un-Ghost to Myself" checkbox, enter the recipients Ghost Key in th
 ![Creating a 2-Way Ghost transaction](../../.gitbook/assets/qt-2wayghosting.png)
 
 {% hint style="info" %}
-**NOTE:** Decimal points are not allowed when un-ghosting/2-way ghosting NIX. Only whole number amounts are valid.
+**NOTE:** Decimal points are currently not allowed when un-ghosting/2-way ghosting NIX. Only whole number amounts are valid. Fractional amounts will be available in the future.
 {% endhint %}
 
 ![If your wallet is encrypted, unlock it](../../.gitbook/assets/qt-unlock.png)
