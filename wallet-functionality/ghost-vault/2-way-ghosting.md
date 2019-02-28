@@ -6,11 +6,9 @@ description: 2-Way Ghosting allows for both send and receive addresses to be pri
 
 This never-done-before technology enables the ability to launch powerful private smart contracts on chain while allowing ZK-proof transaction edged privacy.
 
-Although the technical procedure for achieving sender/receiver privacy in one transaction is complex in the backstage, it can be summarized as sending coins from one Ghost Vault to another.
+Although the technical procedure for achieving sender/receiver privacy in one transaction is complex in the backstage, it can be summarized as sending coins from one Ghost Vault to another. A brief technical overview can be seen in the [Commitment Key Pack Technical Paper](https://nixplatform.io/wp-content/uploads/2018/10/Commitment_Key_Packs_v1-0-1.pdf).
 
 2-Way Ghosting is currently only available in the QT Wallet. Support in other wallets will be available.
-
-A brief technical overview can be seen in the [Commitment Key Pack Technical Paper](https://nixplatform.io/wp-content/uploads/2018/10/Commitment_Key_Packs_v1-0-1.pdf).
 
 ## QT Wallet
 
