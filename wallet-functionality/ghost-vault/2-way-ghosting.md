@@ -10,6 +10,8 @@ Although the technical procedure for achieving sender/receiver privacy in one tr
 
 2-Way Ghosting is currently only available in the QT Wallet. Support in other wallets will be available.
 
+A brief technical overview can be seen in the [Commitment Key Pack Technical Paper](https://nixplatform.io/wp-content/uploads/2018/10/Commitment_Key_Packs_v1-0-1.pdf).
+
 ## QT Wallet
 
 You must first have [ghosted NIX in your Ghost Vault](untitled.md). You can begin your 2-way ghost transaction by clicking the "Ghost Vault" button followed by the "Un-Ghost NIX from Vault" tab.
