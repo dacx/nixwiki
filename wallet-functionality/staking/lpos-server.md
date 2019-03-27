@@ -35,19 +35,19 @@ For future ssh connections, login as your normal user.
 Download the latest NIX Platform Core software release. At the time of this writing, that would be:
 
 ```bash
-wget https://github.com/NixPlatform/NixCore/releases/download/v2.2.0.1/nix-2.2.0-x86_64-linux-gnu.tar.gz
+wget https://github.com/NixPlatform/NixCore/releases/download/v2.3.0/nix-2.3.0-x86_64-linux-gnu.tar.gz
 ```
 
 Unpack the file.
 
 ```bash
-tar -zxvf nix-2.2.0-x86_64-linux-gnu.tar.gz
+tar -zxvf nix-2.3.0-x86_64-linux-gnu.tar.gz
 ```
 
 Next, make the binary files executable.
 
 ```bash
-chmod +x nix-2.2.0/bin/*
+chmod +x nix-2.3.0/bin/*
 ```
 
 You will now need to be the root user to install the binary files. Use the substitute user command:
@@ -59,7 +59,7 @@ su
 After entering in your root password, install the NIX binary files.
 
 ```bash
-cp nix-2.2.0/bin/* /usr/bin/
+cp nix-2.3.0/bin/* /usr/bin/
 ```
 
 You no longer need root permissions, so drop back down to your normal user with:
@@ -87,7 +87,7 @@ For a minimal configuration, add the following lines to nix.conf:
 ```text
 daemon=1
 minimumleasepercentage=1191
-leaserewardaddresses=<your_address_for_collecting_reward_fees>
+leaserewardaddresses=RewardAddress1,RewardAddress2,etc
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -176,12 +176,6 @@ To stop nixd, use:
 
 ```bash
 nix-cli stop
-```
-
-To abandon a failed stake, get the transaction id from the debug.log file and run:
-
-```text
-nix-cli abandontransaction "transaction_id_here"
 ```
 
 ## Automatic/Scripted Installation

@@ -10,11 +10,15 @@ This is a list of all available commands in the NIX Core version 2.2.0.1, usable
 
 `eraseunusedzerocoindata` Erase zerocoin metadata from spent zerocoins
 
+`getzerocoinacc`
+
 `getpubcoinpack <amount> (default=10)` Results a Commitment Key Pack
 
 `ghostamount <amount> (whole numbers only)` Requires wallet passphrase to be set with walletpassphrase call
 
 `ghostfeepayouttotal` Get the ghostfee payout total in the upcoming cycle
+
+`ghostprivacysets` Get the total ghosted denomination amounts in the network.
 
 `listallserials <height> (default=current_height)` Lists all zerocoin serials spent from height
 
@@ -25,9 +29,21 @@ This is a list of all available commands in the NIX Core version 2.2.0.1, usable
   
 Results are an array of Objects, each of which has: {id, IsUsed, denomination, value, serialNumber, nHeight, randomness}
 
+`listpubcoin <all>(1/5/10/50/100/500/1000/5000)`  
+  
+**Arguments:**  
+1. &lt;all&gt; \(int, optional\) 1,5,10,50,100,500,1000,5000 \(default\) to return all pubcoin with denomination. empty to return all pubcoin.  
+  
+Results are an array of Objects, each of which has:  
+{id, IsUsed, denomination, value, serialNumber, nHeight, randomness}
+
 `listunloadedpubcoins <amount> (default=all)` Results are an array of public ghost keys
 
-`listunspentmintghostednix [minconf=1] [maxconf=9999999]` Returns array of unspent transaction outputs with between minconf and maxconf \(inclusive\) confirmations. Results are an array of Objects, each of which has: {txid, vout, scriptPubKey, amount, confirmations}
+`listunspentghostednix [minconf=1] [maxconf=9999999]` Returns array of unspent transaction outputs with between minconf and maxconf \(inclusive\) confirmations.  
+Results are an array of Objects, each of which has:  
+{txid, vout, scriptPubKey, amount, confirmations}
+
+`mintghostdata <amount>(1,5,10,50,100,500,1000,5000)`
 
 `payunloadedpubcoins`   
   
@@ -45,7 +61,7 @@ Results are an array of Objects, each of which has: {id, IsUsed, denomination, v
 
 `setghostednixstatus "coinserial" <isusued> (true/false)` Set mintzerocoin IsUsed status to True or False. Results are an array of one or no Objects, each of which has: {id, IsUsed, denomination, value, serialNumber, nHeight, randomness}
 
-`totalghosted` Returns total amount of ghosted NIX on the network
+`spendghostdata <amount>(1,5,10,50,100,500,1000,5000), <seckey>, <randomness>, <serial>, <pubValue>, <spendtoaddress>`
 
 `unghostamount <amount> (whole numbers only) <addresstosend>` Requires wallet passphrase to be set with walletpassphrase call
 
@@ -73,6 +89,18 @@ Results are an array of Objects, each of which has: {id, IsUsed, denomination, v
 * `list-conf` Print ghostnode.conf in JSON format
 * `winner` Print info on the next ghostnode winner to vote for
 * `winners` print list of ghostnode winners
+
+`ghostnodebroadcast "command"...` Set of commands to create and relay ghostnode broadcast messages  
+  
+**Arguments:**  
+1. "command" \(string or set of strings, required\) The command to execute  
+  
+**Available commands:**
+
+* `create-alias` - Create single remote ghostnode broadcast message by assigned alias configured in ghostnode.conf
+* `create-all` - Create remote ghostnode broadcast messages for all ghostnodes configured in ghostnode.conf
+* `decode` - Decode ghostnode broadcast message
+* `relay` - Relay ghostnode broadcast message to the network
 
 `ghostnodelist ("mode" "filter")` Get a list of ghostnodes in different modes  
   

@@ -193,6 +193,8 @@ nixd \[command-line options\]
 
 `-leaserewardtome=<n>` Stake only LPoS contracts with reward fee addresses that this local wallet owns &lt;true/false&gt; \(default: false\)
 
+`-dxmode` Set wallet change and default addressing to legacy for third-party dx support \(default: false\)
+
 ## ZeroMQ notification options
 
 `-zmqpubhashblock=<address>` Enable publish hash block in &lt;address&gt;
