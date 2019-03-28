@@ -9,29 +9,32 @@
 | Private Keys | ✔ | ✔ | ✔ | ✔ | ✔ |
 | 2FA | ✘ | ✘ | ✔ | ✘ | ✘ |
 | Touch Login | ✘ | ✘ | ✘ | ✔ | ✘ |
+| Hardware Storage | ✘ | ✘ | ✔ | ✘ | ✘ |
 
 | **Ghostnodes** | UI Wallet | QT Wallet | Electrum | Mobile | CLI |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| One-Click Install | ✔ | ✘ | ✘ |  | ✘ |
-| Script Install | ✔ | ✔ | ✘ |  | ✔ |
-| Manual Install | ✔ | ✔ | ✘ |  | ✔ |
+| One-Click Install | ✔ | ✘ | ✘ | ✘ | ✘ |
+| Script Install | ✔ | ✔ | ✘ | ✘ | ✔ |
+| Manual Install | ✔ | ✔ | ✘ | ✘ | ✔ |
 
 | **Staking** | UI Wallet | QT Wallet | Electrum | Mobile | CLI |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Wallet Staking | ✔ | ✔ | ✘ |  | ✔ |
-| VPS Staking | ✔ | ✔ | ✘ |  | ✔ |
-| Leased PoS | ✔ | ✔ | ✘ |  | ✔ |
+| Wallet Staking | ✔ | ✔ | ✘ | ✘ | ✔ |
+| Cold Staking | ⏳ | ✔ | ✘ | ⏳ | ✔ |
+| Leased Staking | ⏳ | ✔ | ✘ | ⏳ | ✔ |
 
 | **Vault** | UI Wallet | QT Wallet | Electrum | Mobile | CLI |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Ghosting | ✔ | ✔ | ✘ |  | ✔ |
-| 2-Way-Ghosting | ✔ | ✔ | ✘ |  | ✔ |
+| Ghosting | ✔ | ✔ | ✘ | ⏳ | ✔ |
+| 2-Way-Ghosting | ✔ | ✔ | ✘ | ⏳ | ✔ |
 
 | **Operating System** | UI Wallet | QT Wallet | Electrum | Mobile | CLI |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Windows x64 | ✔ | ✔ | ✔ |  | ✔ |
-| Windows x86 | ✔ | ✔ | ✘ |  | ✔ |
-| Mac OS X | ✔ | ✔ | ✔ |  | ✔ |
-| Linux x64 | ✔ | ✔ | ✔ |  | ✔ |
-| ARM/aarch64/i686 | ✘ | ✔ | ✘ |  | ✔ |
+| Windows x64 | ✔ | ✔ | ✔ | ✘ | ✔ |
+| Windows x86 | ✔ | ✔ | ✘ | ✘ | ✔ |
+| macOS | ✔ | ✔ | ✔ | ✘ | ✔ |
+| Linux x64 | ✔ | ✔ | ✔ | ✘ | ✔ |
+| ARM/aarch64/i686 | ✘ | ✔ | ✘ | ✘ | ✔ |
+| iOS | ✘ | ✘ | ✘ | ✔ | ✘ |
+| Android | ✘ | ✘ | ✘ | ✔ | ✘ |
 
