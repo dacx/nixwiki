@@ -21,7 +21,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Wallet Staking | ✔ | ✔ | ✘ | ✘ | ✔ |
 | Cold Staking | ⏳ | ✔ | ✘ | ⏳ | ✔ |
-| Leased Staking | ⏳ | ✔ | ✘ | ⏳ | ✔ |
+| Leased Staking | ⌛ | ✔ | ✘ | ⏳ | ✔ |
 
 | **Vault** | UI Wallet | QT Wallet | Electrum | Mobile | CLI |
 | :--- | :--- | :--- | :--- | :--- | :--- |
