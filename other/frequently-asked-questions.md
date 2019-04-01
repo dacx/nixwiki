@@ -31,19 +31,13 @@ To enable staking encrypt wallet and hit unlock for staking under Settings. You 
 
 ### Windows:
 
-1. Start off by closing your wallet 
-
-2. Open a file explorer and into the file path box
-
-3. Type or copy-paste: %appdata%\nix\wallets 
-
-4. Extract/Take out the current wallet.dat in the NIX folder \(Place it somewhere safe if you want to save, if not you can delete it. Only delete if no coins are tied to this wallet.dat\). 
-
-5. Import/Insert the wallet.dat file into the NIX folder. 
-
-6. Open/restart your wallet.
-
-7. DO NOT SHARE YOUR wallet.dat with ANYONE. IT CONTAINS YOUR PRIVATE KEYS.
+1. Start off by closing your wallet   
+2. Open a file explorer and into the file path box  
+3. Type or copy-paste: %appdata%\nix\wallets   
+4. Extract/Take out the current wallet.dat in the NIX folder \(Place it somewhere safe if you want to save, if not you can delete it. Only delete if no coins are tied to this wallet.dat\).   
+5. Import/Insert the wallet.dat file into the NIX folder.   
+6. Open/restart your wallet.  
+7. DO NOT SHARE YOUR wallet.dat WITH ANYONE. IT CONTAINS YOUR PRIVATE KEYS.
 
 
 
@@ -61,31 +55,22 @@ To enable staking encrypt wallet and hit unlock for staking under Settings. You 
 
 ### Linux:
 
-1. Start off by closing your wallet
-
-2. Open a file explorer and into the file path box
-
-3. Type or copy-paste: $HOME/.nix/wallets 
-
-4. Extract/Take out the current wallet.dat in the NIX folder \(Place it somewhere safe if you want to save, if not you can delete it. Only delete if no coins are tied to this wallet.dat\)
-
-5. Import/Insert the wallet.dat file into the NIX folder
-
-6. Open/restart your wallet.
-
-7. DO NOT SHARE YOUR wallet.dat with ANYONE. IT CONTAINS YOUR PRIVATE KEYS.
+1. Start off by closing your wallet.  
+2. Open a file explorer and into the file path box.  
+3. Type or copy-paste: $HOME/.nix/wallets.  
+4. Extract/Take out the current wallet.dat in the NIX folder \(Place it somewhere safe if you want to save, if not you can delete it. Only delete if no coins are tied to this wallet.dat\).  
+5. Import/Insert the wallet.dat file into the NIX folder.  
+6. Open/restart your wallet.  
+7. DO NOT SHARE YOUR wallet.dat WITH ANYONE. IT CONTAINS YOUR PRIVATE KEYS.
 
 ## How to Get your Private Keys
 
 If your NIX wallet is encrypted, to get your private key for a certain NIX address please follow the steps: \(if your wallet is not encrypted ignore step \#3\) \(Don't enter the "" in any of the steps, they are used to show the input\).
 
-1. Go to: Help&gt;"Debug Window"
-
-2. Click on: "Console"
-
-3. In the "search bar" enter: walletpassphrase "Passphrase for your NIX wallet" "60" - "Passphrase for your NIX wallet" = Passphrase that you entered to encrypt your wallet. - "60" = the seconds you want to unlock.
-
- 4. In the same "search bar" enter: dumpprivkey "NIX address" - "NIX address" = address that you want to access the private key to.
+1. Go to: Help&gt;"Debug Window"  
+2. Click on: "Console"  
+3. In the "search bar" enter: walletpassphrase "Passphrase for your NIX wallet" "60" - "Passphrase for your NIX wallet" = Passphrase that you entered to encrypt your wallet. - "60" = the seconds you want to unlock.  
+4. In the same "search bar" enter: dumpprivkey "NIX address" - "NIX address" = address that you want to access the private key to.
 
  DO NOT SHARE YOUR PRIVATE KEYS WITH ANYONE
 
@@ -103,9 +88,9 @@ In the transactions tab, just click on the transaction and it will show the amou
 
 ## How to Check and Update Ghostnode and Troubleshooting
 
-1.Log into the vps via putty \(windows\) or terminal \(mac\) and run these commands:
+Log into the vps via putty \(windows\) or terminal \(unix\) and run these commands:
 
- nix-cli getnetworkinfo - check vps version near the top \(should match Nix Core:2.0.2\) If it doesn't match and you used cryptosharks auto-installer \(most likely\) you need to use his auto-updater here: [https://github.com/cryptosharks131/Ghostnode\#updating](https://github.com/cryptosharks131/Ghostnode#updating) - paste the 3 lines in and press enter 
+nix-cli getnetworkinfo - check vps version near the top \(should match Nix Core:2.0.2\) If it doesn't match and you used cryptosharks auto-installer \(most likely\) you need to use his auto-updater here: [https://github.com/cryptosharks131/Ghostnode\#updating](https://github.com/cryptosharks131/Ghostnode#updating) - paste the 3 lines in and press enter 
 
 nix-cli getblockchaininfo - check vps block height near the top \(should match [https://blockchain.nixplatform.io/](https://blockchain.nixplatform.io/)\) If it doesn't match then you need to follow dacx's bootstrap pinned to \#wallets in discord. First stop the NIX service by pasting into the vps: systemctl stop NIX To get the bootstrap files onto your VPS you can use something like FileZilla from your local machine. Install but untick the bloatware on install, you don't need these. Log into your vps via FileZilla using same credentials as putty/terminal in the quick connect section and use Port 22. Navigate to the nix folder and remove the items in dacx's bootstrap guide. Unzip the files you downloaded on the guide link, and drag into the Nix folder on the filezilla session. Now go back to putty/terminal and start the service again with systemctl start NIX. Check height in putty/terminal again against block explorer height with nix-cli getblockchaininfo If that checks out and matches you're good to go. Close and re-open your local wallet, go to ghostnodes &gt; start all. They should move to PRE-ENABLED and move to ENABLED in 20mins or so. 
 
