@@ -9,10 +9,9 @@ Those include purchasing on exchanges, rewards and fees from a Ghostnode, reward
 NIX is currently listed on the following exchanges:
 
 * [IDAX](https://www.idax.pro/#/exchange?pairname=NIX_BTC)
+* [BlockDX](https://blocknet.co/block-dx/)
 * [Mercatox](https://mercatox.com/exchange/NIX/BTC)
 * [Cryptopia](https://www.cryptopia.co.nz/Exchange?market=NIX_BTC)
-* [Nanex](https://nanex.co/exchange/NIXNANO)
-* [Coinroom](https://coinroom.com/stock)
 
 ## Obtaining Ghost Node Rewards
 
