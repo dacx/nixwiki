@@ -40,6 +40,7 @@
 
 ## Other Resources
 
+* [Troubleshooting Syncing Issues](other/troubleshooting-syncing-issues.md)
 * [Frequently Asked Questions](other/frequently-asked-questions.md)
 * [Console Commands](other/console-commands.md)
 * [Command-line Options](other/command-line-options.md)
