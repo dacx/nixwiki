@@ -1,5 +1,9 @@
 # Troubleshooting Syncing Issues
 
+{% hint style="warning" %}
+Should for whatever reason the following doesn't fix your issue, join the [Discord server](https://discord.gg/HGuvDTW) and ask in the **public channels only** for help. **Do not respond to any DMs** as scammers might try to trick you into giving them your funds!
+{% endhint %}
+
 If you happen to be on the wrong change due to not updating your wallet in time, this will get you back on track.
 
 1. Verify that you are indeed on the wrong chain by comparing your block height to the [explorer](https://blockchain.nixplatform.io/).
