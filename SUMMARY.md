@@ -24,7 +24,7 @@
 * [Ghostnodes](wallet-functionality/ghostnodes/README.md)
   * [Hosting Services](wallet-functionality/ghostnodes/hosting-services.md)
   * [One-Click Installer](wallet-functionality/ghostnodes/ghost-node-setup.md)
-  * [Other Install Methods](wallet-functionality/ghostnodes/other-install-methods.md)
+  * [Manual Install Methods](wallet-functionality/ghostnodes/other-install-methods.md)
 
 ## Community & Feedback
 

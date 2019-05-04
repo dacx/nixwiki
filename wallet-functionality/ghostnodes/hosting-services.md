@@ -1,19 +1,10 @@
 # Hosting Services
 
-It's a good idea to ask around in our social channels or look for reviews on the web when selecting a VPS hosting service. 
+There are many services out there that offer you to host your Ghostnode for you. The list is expanding constantly. Below are a few services listed \(please note that none of them is endorsed by the NIX team\):
 
-**Evolution Host** allows their customers to pay with NIX \(and other cryptocurrencies\).
-
-{% embed url="https://evolution-host.com" %}
-
-Other popular hosting companies include \(but are not limited to\): 
-
-* [Vultr](https://www.vultr.com/?ref=7277506)
-* Digital Ocean
-* OVH
-* Hetzner
-
-{% hint style="warning" %}
-It's recommended to stay away from cloud hosting services such as AWS/Google Cloud Platform unless you are competent with advanced configuration such as IP routing. 
-{% endhint %}
+1. [https://nodehub.io/](https://nodehub.io/)
+2. [https://ginplatform.io/](https://ginplatform.io/)
+3. [https://altnode.io/](https://altnode.io/)
+4. [https://www.apollon.network/](https://www.apollon.network/)
+5. [https://zednode.com/masternode-hosting](https://zednode.com/masternode-hosting)
 
