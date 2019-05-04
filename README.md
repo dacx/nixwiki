@@ -1,6 +1,8 @@
-# Welcome to the NIX Platform knowledge base!
+# Welcome to the NIX Wiki!
 
-Please find your section of interest in the sidebar on the left.
+Welcome to the [NIX](https://nixplatform.io/) Wiki - navigate this knowledge base by selecting your area of interest in the sidebar on the left.
+
+
 
 Also consider joining the community on [Discord](https://discord.gg/HGuvDTW) and [Reddit ](https://www.reddit.com/r/NixPlatform/)as well as follow [NIX Platform on Twitter](https://twitter.com/NIXplatform) to stay up-to-date with everything.
 

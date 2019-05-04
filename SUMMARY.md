@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to the NIX Platform knowledge base!](README.md)
+* [Welcome to the NIX Wiki!](README.md)
 
 ## Getting Started
 
