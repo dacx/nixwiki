@@ -14,7 +14,7 @@ Here's the full list of ways to connect - we'd love your support on all of our s
  Reddit: [https://reddit.com/r/nixplatform](https://reddit.com/r/nixplatform)  
  LinkedIn: [https://www.linkedin.com/company/nixplatform](https://www.linkedin.com/company/nixplatform)  
  Facebook: [https://facebook.com/NIXPlatform](https://facebook.com/NIXPlatform)  
- YouTube: [https://www.youtube.com/channel/UC2fYXKICkGu1DSAd2mDDwYw/videos  
+ YouTube: [https://www.youtube.com/nixplatform](https://www.youtube.com/nixplatform)[  
 ](https://www.youtube.com/channel/UC2fYXKICkGu1DSAd2mDDwYw/videos)  
   
 

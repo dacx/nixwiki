@@ -9,7 +9,7 @@
 | Private Keys | ✔ | ✔ | ✔ | ✔ | ✔ |
 | 2FA | ✘ | ✘ | ✔ | ✘ | ✘ |
 | Touch Login | ✘ | ✘ | ✘ | ✔ | ✘ |
-| Hardware Storage | ✘ | ✘ | ✔ | ✘ | ✘ |
+| Ledger/Trezor | ✘ | ✘ | ✔ | ✘ | ✘ |
 
 | **Ghostnodes** | UI Wallet | QT Wallet | Electrum | Mobile | CLI |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -20,13 +20,13 @@
 | **Staking** | UI Wallet | QT Wallet | Electrum | Mobile | CLI |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Wallet Staking | ✔ | ✔ | ✘ | ✘ | ✔ |
-| Cold Staking | ⏳ | ✔ | ✘ | ⏳ | ✔ |
-| Leased Staking | ⏳ | ✔ | ✘ | ⏳ | ✔ |
+| Cold Staking | ✔ | ✔ | ✘ | ⏳ | ✔ |
+| Leased Staking | ✔ | ✔ | ✘ | ⏳ | ✔ |
 
 | **Vault** | UI Wallet | QT Wallet | Electrum | Mobile | CLI |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Ghosting | ✔ | ✔ | ✘ | ⏳ | ✔ |
-| 2-Way-Ghosting | ⏳ | ✔ | ✘ | ⏳ | ✔ |
+| 2-Way-Ghosting | ✔ | ✔ | ✘ | ⏳ | ✔ |
 
 | **Operating System** | UI Wallet | QT Wallet | Electrum | Mobile | CLI |
 | :--- | :--- | :--- | :--- | :--- | :--- |
