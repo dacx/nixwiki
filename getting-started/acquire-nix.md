@@ -4,14 +4,17 @@ There are several avenues of acquiring NIX by participating in the NIX ecosystem
 
 Those include purchasing on exchanges, rewards and fees from a Ghostnode, rewards from staking your coins, becoming an LPoS Merchant and accepting NIX as payment for eCommerce transactions.
 
+Bounties and giveaways are in the pipeline so please monitor our announcements for future initiatives. 
+
 ## Buying on Exchanges
 
 NIX is currently listed on the following exchanges:
 
+* [KuCoin](https://www.kucoin.com/trade/NIX-BTC)
 * [IDAX](https://www.idax.pro/#/exchange?pairname=NIX_BTC)
 * [BlockDX](https://blocknet.co/block-dx/)
 * [Mercatox](https://mercatox.com/exchange/NIX/BTC)
-* [Cryptopia](https://www.cryptopia.co.nz/Exchange?market=NIX_BTC)
+* Beaxy
 
 ## Obtaining Ghost Node Rewards
 
