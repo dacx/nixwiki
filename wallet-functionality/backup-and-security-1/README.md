@@ -9,5 +9,6 @@ Some general tips:
 * Both GUI and QT wallets use the same data directory and wallet file.
 
 Details on how to encrypt a core wallet can be found in [QT Wallet Encryption](qt-wallet-encryption.md).  
-Details on how to backup a core wallet \(including the GUI wallet\) can be found in [Wallet Backup](wallet-backup.md).
+Details on how to backup a core wallet \(including the UI wallet\) can be found in [Wallet Backup](wallet-backup.md).  
+Details on how to restore a core wallet \(including the UI wallet\) can be found in [Restore](restore.md).
 
