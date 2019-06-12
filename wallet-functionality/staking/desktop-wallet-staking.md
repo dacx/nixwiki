@@ -34,5 +34,5 @@ Staking with the UI Wallet is quite easy as well. Simply select "Staking" from t
 
 ## Advanced Configuration
 
-You can enact finer control over staking by using [Wallet staking options](../../other/command-line-options.md#wallet-staking-options) in your nix.conf configuration file.
+You can enact finer control over staking by using [Wallet staking options](../../support/command-line-options.md#wallet-staking-options) in your nix.conf configuration file.
 

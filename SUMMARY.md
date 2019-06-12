@@ -8,6 +8,7 @@
   * [Wallet Comparison](getting-started/choose-your-wallet/wallet-comparison.md)
   * [Updating Wallet](getting-started/choose-your-wallet/updating-wallet.md)
 * [Participate in NIX Ecosystem](getting-started/acquire-nix.md)
+* [Join the Community](getting-started/join-the-community.md)
 
 ## Wallet Functionality
 
@@ -31,24 +32,19 @@
 
 * [Syncing Issues](support/syncing-issues.md)
 * [Ghostnode Syncing Issues](support/ghostnode-syncing-issues.md)
+* [Frequently Asked Questions](support/frequently-asked-questions.md)
+* [Command-line Options](support/command-line-options.md)
+* [Console Commands](support/console-commands.md)
 
 ## Community & Feedback
 
-* [Join the Community](github-and-feedback/join-the-community.md)
+* [Collaborate on NIX](github-and-feedback/collaborate-with-nix.md)
 * [Report a Wallet Issue](github-and-feedback/how-to-log-an-issue.md)
 * [Feature Requests](github-and-feedback/feature-requests.md)
 
-## Developers
-
-* [Developer Tools](developers/developer-tools.md)
-* [Collaborate on NIX](developers/collaborate-with-nix.md)
-* [NIX API](developers/nix-api.md)
-
 ## Other Resources
 
-* [Frequently Asked Questions](other/frequently-asked-questions.md)
-* [Console Commands](other/console-commands.md)
-* [Command-line Options](other/command-line-options.md)
+* [Developer Tools](other/developer-tools.md)
 * [Whitepaper](https://nixplatform.io/docs/NIX-Platform-Whitepaper.pdf)
 * [GitHub](https://github.com/nixplatform/nixcore/releases/)
 
