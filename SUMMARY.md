@@ -27,6 +27,11 @@
   * [One-Click Installer](wallet-functionality/ghostnodes/ghost-node-setup.md)
   * [Manual Install Methods](wallet-functionality/ghostnodes/other-install-methods.md)
 
+## Support
+
+* [Syncing Issues](support/syncing-issues.md)
+* [Ghostnode Syncing Issues](support/ghostnode-syncing-issues.md)
+
 ## Community & Feedback
 
 * [Join the Community](github-and-feedback/join-the-community.md)
@@ -41,7 +46,6 @@
 
 ## Other Resources
 
-* [Troubleshooting Syncing Issues](other/troubleshooting-syncing-issues.md)
 * [Frequently Asked Questions](other/frequently-asked-questions.md)
 * [Console Commands](other/console-commands.md)
 * [Command-line Options](other/command-line-options.md)
