@@ -23,7 +23,8 @@ If you happen to be on the wrong change due to not updating your wallet in time,
 
 1. Hit Windows Key + R.
 2. Type `%appdata%` and hit Enter.
-3. Click on the `nix` directory.
+3. Click on the `roaming` directory.
+4. Click on the `nix` directory.
 
 #### Linux
 
