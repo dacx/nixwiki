@@ -4,7 +4,7 @@
 Should for whatever reason the following doesn't fix your issue, join the [Discord server](https://discord.gg/HGuvDTW) and ask in the **public channels only** for help. **Do not respond to any DMs** as scammers might try to trick you into giving them your funds!
 {% endhint %}
 
-If you happen to be on the wrong change due to not updating your wallet in time, this will get you back on track.
+If you happen to be on the wrong chain due to not updating your wallet in time, this will get you back on track.
 
 1. Verify that you are indeed on the wrong chain by comparing your block height to the [explorer](https://blockchain.nixplatform.io/).
 2. Update your wallet to the latest by downloading it from [GitHub](https://github.com/NixPlatform/NixCore/releases) \(don't start the wallet yet\).
