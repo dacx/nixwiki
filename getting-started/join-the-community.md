@@ -7,7 +7,7 @@ Here's the full list of ways to connect - we'd love your support on all of our s
  Website: [https://nixplatform.io/](https://nixplatform.io/)  
  Github: [https://github.com/NixPlatform](https://github.com/NixPlatform)  
  Twitter: [https://twitter.com/nixplatform](https://twitter.com/nixplatform)  
- Discord: [https://discord.gg/agAsvQY](https://discord.gg/agAsvQY)  
+ Discord: [https://discordapp.com/invite/HGuvDTW](https://discordapp.com/invite/HGuvDTW)  
  Telegram: [https://t.me/nixplatform](https://t.me/nixplatform)  
  Medium: [https://medium.com/@nixplatform](https://medium.com/@nixplatform)  
  Bitcointalk: [https://bitcointalk.org/index.php?topic=5099680.0](https://bitcointalk.org/index.php?topic=5099680.0)  

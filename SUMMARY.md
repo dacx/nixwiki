@@ -36,13 +36,13 @@
 * [Command-line Options](support/command-line-options.md)
 * [Console Commands](support/console-commands.md)
 
-## Community & Feedback
+## Community & Feedback <a id="github-and-feedback"></a>
 
 * [Collaborate on NIX](github-and-feedback/collaborate-with-nix.md)
 * [Report a Wallet Issue](github-and-feedback/how-to-log-an-issue.md)
 * [Feature Requests](github-and-feedback/feature-requests.md)
 
-## Other Resources
+## Other Resources <a id="other"></a>
 
 * [Developer Tools](other/developer-tools.md)
 * [Whitepaper](https://nixplatform.io/docs/NIX-Platform-Whitepaper.pdf)
