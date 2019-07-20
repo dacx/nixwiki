@@ -1,6 +1,6 @@
 # Join the Community
 
-If you want to get involved with the community, you should consider [joining the NIX Discord server](https://discord.gg/HGuvDTW). Most of the development discussion takes place in there so it's our strongest and busiest social presence.
+If you want to get involved with the community, you should consider [joining the NIX Discord server](https://discordapp.com/invite/HGuvDTW). Most of the development discussion takes place in there so it's our strongest and busiest social presence.
 
 Here's the full list of ways to connect - we'd love your support on all of our social platforms!
 
