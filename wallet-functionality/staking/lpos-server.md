@@ -92,7 +92,7 @@ leaserewardaddresses=RewardAddress1,RewardAddress2,etc
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-Using the above configuration, this wallet will only stake contracts with a fee no less than 11.91% and a reward address of &lt;your\_address\_for\_collecting\_reward\_fees&gt;. For more advanced configurations, see [Command-line options](../../support/command-line-options.md).
+Using the above configuration, this wallet will only stake contracts with a fee no less than 11.91% and a reward address of &lt;your\_address\_for\_collecting\_reward\_fees&gt;. For more advanced configurations, see [Command-line options](../command-line-options.md).
 
 Exit and save the file by using 'Ctrl + x', pressing 'y' and hitting &lt;Enter&gt;
 

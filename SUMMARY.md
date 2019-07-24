@@ -27,14 +27,14 @@
   * [Hosting Services](wallet-functionality/ghostnodes/hosting-services.md)
   * [One-Click Installer](wallet-functionality/ghostnodes/ghost-node-setup.md)
   * [Manual Install Methods](wallet-functionality/ghostnodes/other-install-methods.md)
+* [Command-line Options](wallet-functionality/command-line-options.md)
+* [Console Commands](wallet-functionality/console-commands.md)
 
 ## Support
 
 * [Syncing Issues](support/syncing-issues.md)
 * [Ghostnode Syncing Issues](support/ghostnode-syncing-issues.md)
 * [Frequently Asked Questions](support/frequently-asked-questions.md)
-* [Command-line Options](support/command-line-options.md)
-* [Console Commands](support/console-commands.md)
 
 ## Community & Feedback <a id="github-and-feedback"></a>
 

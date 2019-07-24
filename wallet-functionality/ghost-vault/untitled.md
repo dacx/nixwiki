@@ -2,7 +2,7 @@
 
 The procedure of sending coins to the Ghost Vault is called “ghosting”, which provides the receiver with full privacy, as the destination is a hidden place and the sending address is public. Coins kept in the vault remain private. On the other hand, sending coins from the Ghost Vault to an address, is called “unghosting”; here the sending address, being represented by the vault, is private, giving sender privacy, yet the receiving address is a public and identifiable location.
 
-Although this feature is NIX’s first privacy implementation, it does not offer sender and receiver privacy at once.
+Although this feature is NIX’s first privacy implementation, it does not offer sender and receiver privacy at once. If your transaction requires both sender and receiver privacy, see [2-Way Ghosting](2-way-ghosting.md).
 
 The Ghost Vault is currently available in the QT and UI wallets, with mobile wallet support coming soon.
 

@@ -4,7 +4,7 @@ Your NIX are stored on the blockchain and your ability to access them depends on
   
 Some general tips:
 
-* Write down your word phrase for mobile and wallets and keep the list safe.
+* Write down your word phrase for mobile and electrum wallets and keep the list safe.
 * The GUI desktop wallet will force you to create a password which encrypts your wallet.dat file.
 * Both GUI and QT wallets use the same data directory and wallet file.
 

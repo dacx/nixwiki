@@ -64,5 +64,5 @@ or
 
 ## UI/Mobile/Electrum Wallets
 
-These wallets use a seed phrase. Simply write down the list of words and store them in a safe place. Without these words \(and in the proper order\), recovery is not possible.
+These wallets use a seed phrase that will be displayed once you first open/create your wallet. Simply write down the list of words and store them in a safe place. Without these words \(and in the proper order\), recovery is not possible.
 
