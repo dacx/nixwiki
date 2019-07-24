@@ -1,69 +1,6 @@
 # Console Commands
 
-This is a list of all available commands in the NIX Core version 2.2.0.1, usable in the nix-qt wallet debug console and the nix-cli command line interface.
-
-## NIX Ghost Protocol
-
-`decryptallzerocoins` Decrypt all encrypted zerocoin data
-
-`encryptallzerocoins` Encrypt all zerocoin data
-
-`eraseunusedzerocoindata` Erase zerocoin metadata from spent zerocoins
-
-`getzerocoinacc`
-
-`getpubcoinpack <amount> (default=10)` Results a Commitment Key Pack
-
-`ghostamount <amount> (whole numbers only)` Requires wallet passphrase to be set with walletpassphrase call
-
-`ghostfeepayouttotal` Get the ghostfee payout total in the upcoming cycle
-
-`ghostprivacysets` Get the total ghosted denomination amounts in the network.
-
-`listallserials <height> (default=current_height)` Lists all zerocoin serials spent from height
-
-`listghostednix <all> (true/false)`  
-  
-**Arguments:**  
-1. &lt;all&gt; \(boolean, optional\) false \(default\) to return own mintzerocoins. true to return every mintzerocoins. Results are an array of Objects, each of which has: {id, IsUsed, denomination, value, serialNumber, nHeight, randomness}  
-  
-Results are an array of Objects, each of which has: {id, IsUsed, denomination, value, serialNumber, nHeight, randomness}
-
-`listpubcoin <all>(1/5/10/50/100/500/1000/5000)`  
-  
-**Arguments:**  
-1. &lt;all&gt; \(int, optional\) 1,5,10,50,100,500,1000,5000 \(default\) to return all pubcoin with denomination. empty to return all pubcoin.  
-  
-Results are an array of Objects, each of which has:  
-{id, IsUsed, denomination, value, serialNumber, nHeight, randomness}
-
-`listunloadedpubcoins <amount> (default=all)` Results are an array of public ghost keys
-
-`listunspentghostednix [minconf=1] [maxconf=9999999]` Returns array of unspent transaction outputs with between minconf and maxconf \(inclusive\) confirmations.  
-Results are an array of Objects, each of which has:  
-{txid, vout, scriptPubKey, amount, confirmations}
-
-`mintghostdata <amount>(1,5,10,50,100,500,1000,5000)`
-
-`payunloadedpubcoins`   
-  
-**Arguments:**  
-1. Amount to pay  
-2. Ghost key string
-
-`refillghostkeys <amount> (default=100)` Requires wallet passphrase to be set with walletpassphrase call
-
-`resetghostednix` Requires wallet passphrase to be set with walletpassphrase call
-
-`resetzerocoinamounts` Erases unconfirmed zerocoins
-
-`resetzerocoinunconfirmed` Erases unconfirmed zerocoins
-
-`setghostednixstatus "coinserial" <isusued> (true/false)` Set mintzerocoin IsUsed status to True or False. Results are an array of one or no Objects, each of which has: {id, IsUsed, denomination, value, serialNumber, nHeight, randomness}
-
-`spendghostdata <amount>(1,5,10,50,100,500,1000,5000), <seckey>, <randomness>, <serial>, <pubValue>, <spendtoaddress>`
-
-`unghostamount <amount> (whole numbers only) <addresstosend>` Requires wallet passphrase to be set with walletpassphrase call
+This is a list of all available commands in the NIX Core, usable in the nix-qt wallet debug console and the nix-cli command line interface.
 
 ## NIX Ghostnode
 
@@ -102,6 +39,13 @@ Results are an array of Objects, each of which has:
 * `decode` - Decode ghostnode broadcast message
 * `relay` - Relay ghostnode broadcast message to the network
 
+`ghostnodebroadcast "command"...` Set of commands to create and relay ghostnode broadcast messages.  
+  
+**Arguments:**  
+1. "command" \(string or set of strings, required\) The command to execute
+
+**Available commands:**
+
 `ghostnodelist ("mode" "filter")` Get a list of ghostnodes in different modes  
   
 **Arguments:**  
@@ -121,14 +65,6 @@ Results are an array of Objects, each of which has:
 * `rank` Print rank of a ghostnode based on current block
 * `quialify` Print qualify status of a ghostnode based on current block
 * `status` Print ghostnode status: PRE\_ENABLED / ENABLED /EXPIRED /WATCHDOG\_EXPIRED / NEW\_START\_REQUIRED / UPDATE\_REQUIRED / POSE\_BAN / OUTPOINT\_SPENT \(can be additionally filtered, partial match
-
-`ghostnodebroadcast "command"...` Set of commands to create and relay ghostnode broadcast messages.  
-  
-**Arguments:**  
-1. "command" \(string or set of strings, required\) The command to execute
-
-**Available commands:**
-
 * `create-alias` Create single remote ghostnode broadcast message by assigned alias configured in ghostnode.conf
 * `create-all` Create remote ghostnode broadcast messages for all ghostnodes configured in ghostnode.conf
 * `decode` Decode ghostnode broadcast message
@@ -136,11 +72,162 @@ Results are an array of Objects, each of which has:
 
 `ghostsync [status|next|reset]` Returns the sync status, updates to the next step or resets it entirely
 
-## NIX TOR
+## NIX Governance
 
-`enabletor <enable> (false/true)` To enable obfuscation, set enabletor to "true". Please restart the NIX daemon to update your changes.
+`eraseallgoventires` Erase all wallet database voting entries for the current local wallet.  
+Requires wallet passphrase to be set with walletpassphrase call.
 
-`torstatus` Returns the status of tor obfuscation on your NIX daemon.
+`getaddressvoteweight` Returns vote weight for an address \(requires addressindex to be enabled\).  
+  
+**Arguments:**  
+{  
+  "addresses"  
+    \[  
+      "address" \(string\) The base58check encoded address  
+    ,...  
+    \]  
+  "start" \(number\) The start time of the vote weight period  
+  "end" \(number\) The end time of the vote weight period  
+}  
+  
+**Result:**  
+\[  
+  {  
+    "voteweight" \(number\) The vote weight of the address  
+  }  
+\]  
+  
+**Examples:**  
+&gt; nix-cli getaddressvoteweight '{"addresses": \["NwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg"\], "start": 10, "end": 20}'  
+&gt; curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "getaddressvoteweight", "params": \['{"addresses": \["NwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg"\]}'\] }' -H 'content-type: text/plain;' http://127.0.0.1:8332/
+
+`getoffchainproposals`
+
+`getproposaltimeframeinfo` Returns total weight a proposal in a given timeframe can possibly have.  
+  
+**Arguments:**  
+{  
+  "start" \(number\) The start time of the vote weight period  
+  "end" \(number\) The end time of the vote weight period  
+}  
+  
+**Result:**  
+\[  
+  {  
+    "total\_possible\_votes" \(number\) The total possible weight of the timeframe  
+  }  
+\]  
+  
+**Examples:**  
+&gt; nix-cli getproposaltimeframeinfo '{"start": 1559229685, "end": 1569229685}'
+
+`getvoteweight start_time end_time` Requires wallet passphrase to be set with walletpassphrase call.  
+  
+**Arguments:**  
+1. "start\_time" \(int, required\) The starting time \(unix\) for the weight calculation.  
+2. "end\_time" \(int, required\) The ending time \(unix\) for the weight calculation.
+
+`getoffchainproposals vote_id decision(0/1)` 
+
+## NIX Privacy
+
+`decryptallzerocoins` Decrypt all encrypted zerocoin data
+
+`enabletor <enable>(false/true)` To enable obfuscation, set enabletor to "true".  
+Please restart the NIX daemon to update your changes
+
+`encryptallzerocoins` Encrypts all zerocoin data
+
+`eraseunusedzerocoindata` Erases zerocoin metadata from spent zerocoins
+
+`getzerocoinacc` 
+
+`getpubcoinpack amount(default=10)` Results a Commitment Key Pack
+
+`getpubcoinpackv2 amount(default=10)` Results a Commitment Key Pack
+
+`getsigmaseed` Dump the deterministic sigma seed for all sigma coins.  
+Requires wallet passphrase to be set with walletpassphrase call.  
+  
+**Result**  
+"seed" : s, \(string\) The deterministic zPIV seed.  
+  
+**Examples**  
+&gt; nix-cli getsigmaseed  
+&gt; curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "getsigmaseed", "params": \[\] }' -H 'content-type: text/plain;' http://127.0.0.1:8332/
+
+`getzerocoinacc`
+
+`ghostamount <amount>(whole numbers only) <commitment key pack>` Requires wallet passphrase to be set with walletpassphrase call.
+
+`ghostamountv2 <amount>(whole numbers only) <commitment_key_pack>(optional)` Requires wallet passphrase to be set with walletpassphrase call.
+
+`ghostfeepayouttotal` Get the ghostfee payout total in the upcoming cycle.
+
+`ghostprivacysets` Get the total ghosted denomination amounts in the network.
+
+`ghostprivacysetsv2` Get the total ghosted denomination amounts in the network.
+
+`listallserials height(default=current_height)` Lists all zerocoin serials spent from height
+
+`listpubcoin <all>(1/5/10/50/100/500/1000/5000)`   
+  
+**Arguments:**  
+1. &lt;all&gt; \(int, optional\) 1,5,10,50,100,500,1000,5000 \(default\) to return all pubcoin with denomination. empty to return all pubcoin.
+
+**Results are an array of Objects, each of which has:**  
+{id, IsUsed, denomination, value, serialNumber, nHeight, randomness}
+
+`listsigmaentries <true/false>(default = false)` List sigma entries in wallet.  
+Requires wallet passphrase to be set with walletpassphrase call.  
+  
+**Arguments:**  
+1. &lt;true/false&gt; \(string, required\) Whether to list all entries including spent.
+
+`listunloadedpubcoins amount(default=all)` Results are an array of public ghost keys
+
+`listunspentghostednix [minconf=1] [maxconf=9999999]`   
+Returns array of unspent transaction outputs with between minconf and maxconf \(inclusive\) confirmations.  
+  
+**Results are an array of Objects, each of which has:**  
+{txid, vout, scriptPubKey, amount, confirmations}
+
+`mintghostdata <amount>(1,5,10,50,100,500,1000,5000)`
+
+`payunloadedpubcoins`   
+  
+**Arguments:**  
+Amount to pay  
+Ghost key string:
+
+`refillghostkeys <amount>(default=100)` Requires wallet passphrase to be set with walletpassphrase call.
+
+`resetmintzerocoin` Requires wallet passphrase to be set with walletpassphrase call.
+
+`resetzerocoinamounts` Erases unconfirmed zerocoins
+
+`resetzerocoinunconfirmed` Erases unconfirmed zerocoins
+
+`setsigmaseed "seed"` Set the wallet's deterministic sigma seed to a specific value.  
+Requires wallet passphrase to be set with walletpassphrase call.  
+  
+**Arguments:**  
+1. "seed" \(string, required\) The deterministic sigma seed.  
+  
+**Result**  
+"success" : b, \(boolean\) Whether the seed was successfully set.  
+  
+**Examples**  
+&gt; nix-cli setsigmaseed 6b54736b13ce6990753b7345a9b41ca2ce5c5847125b49bf3ffa15f47f5001cd  
+&gt; curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "setsigmaseed", "params": \[6b54736b13ce6990753b7345a9b41ca2ce5c5847125b49bf3ffa15f47f5001cd\] }' -H 'content-type: text/plain;' http://127.0.0.1:8332/
+
+`spendghostdata <amount>(1,5,10,50,100,500,1000,5000), <seckey>, <randomness>, <serial>, <pubValue>, <spendtoaddress>` 
+
+`torstatus` Returns the status of tor obfuscation on your NIX daemon
+
+`unghostamount <amount>(whole numbers only) <addresstosend>(either address or commitment key pack)` Requires wallet passphrase to be set with walletpassphrase call.
+
+`unghostamountv2 <amount>(whole numbers only) <addresstosend>(either address or commitment key pack)` Requires wallet passphrase to be set with walletpassphrase call.
 
 ## Address Index
 
@@ -729,7 +816,7 @@ As a json rpc call
 &gt; nix-cli gettxoutsetinfo  
 &gt; curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "gettxoutsetinfo", "params": \[\] }' -H 'content-type: text/plain;' http://127.0.0.1:8332/
 
-**preciousblock "blockhash"** Treats a block as if it were received before others with the same work. A later preciousblock call can override the effect of an earlier one. The effects of preciousblock are not retained across restarts.  
+`preciousblock "blockhash"`  Treats a block as if it were received before others with the same work. A later preciousblock call can override the effect of an earlier one. The effects of preciousblock are not retained across restarts.  
   
 **Arguments:**  
 1. "blockhash" \(string, required\) the hash of the block to mark as precious  
@@ -1768,7 +1855,7 @@ Bump the fee, get the new transaction's txid
 &gt; nix-cli importprivkey "mykey"  
 &gt; curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "dumpprivkey", "params": \["myaddress"\] }' -H 'content-type: text/plain;' http://127.0.0.1:8332/
 
-`dumpwallet "filename"` Dumps all wallet keys in a human-readable format to a server-side file. This does not allow overwriting existing files.  
+`dumpwalletprivatekeys "filename"` Dumps all wallet keys in a human-readable format to a server-side file. This does not allow overwriting existing files.  
 Imported scripts are included in the dumpfile, but corresponding BIP173 addresses, etc. may not be added automatically by importwallet.  
 Note that if your wallet contains keys which are not derived from your HD seed \(e.g. imported keys\), these are not covered by only backing up the seed itself, and must be backed up too \(e.g. ensure you back up the whole dumpfile\).  
   
@@ -1876,6 +1963,8 @@ As a json rpc call
   
 **Examples:**  
 &gt; nix-cli getfeeforamount "400" "ZM72Sfpbz1BPpXFHz9m3CdqATR44Jvaydd"
+
+`getleasestakinglist` Get list of current LPoS contracts in wallet. Requires wallet passphrase to be set with walletpassphrase call.
 
 `getnewaddress ("account" "address_type")` Returns a new NIX address for receiving payments. If 'account' is specified \(DEPRECATED\), it is added to the address book so payments received with the address will be credited to 'account'.  
   

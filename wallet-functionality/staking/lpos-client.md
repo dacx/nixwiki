@@ -12,15 +12,15 @@ This means any coin owner can lease their staking power to any third-party staki
 
 ![NIX LPoS &apos;Create Contract&apos; Screen](../../.gitbook/assets/lpos-create.PNG)
 
-**`Lease to:`** Defines the external address allowed to stake the coins.
+**`Lease to:`** Defines the external address allowed to stake the coins. This address is supplied by the merchant.
 
 **`Contract Label:`** A display tag for easier identification in 'Active Contracts'
 
 **`Amount:`** Operates as the same option in 'Send' and follows coin control.
 
-**`Fee Percent:`** Amount of reward share allocated to the leasing merchant. 
+**`Fee Percent:`** Amount of reward share allocated to the leasing merchant. This info is provided by the merchant. If the fee is greater than zero, check the "Enable fee payout" box to enter the proper percentage.
 
-**`Reward Address:`** The merchants cold storage address for their share of staking reward. 
+**`Reward Address:`** The merchants cold storage address for their share of staking reward. This address is supplied by the merchant.
 
 ## Active Contracts
 

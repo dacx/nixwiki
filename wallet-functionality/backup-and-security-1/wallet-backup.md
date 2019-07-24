@@ -18,6 +18,12 @@ When encrypting your wallet.dat file, a new master key is generated and used fro
 **TIP:** A sure way to protect any coins still on an old receive address that you've generated before encrypting your wallet is to send them to yourself using a newly generated receive address after encryption.
 {% endhint %}
 
+## QT Wallet
+
+You can backup your wallet.dat file from within the running nix-qt application by selecting "Backup Wallet..." from the File menu. You will then be presented with a standard "Save file as" window where you can select a location and name for your backup file.
+
+![Select &quot;Backup Wallet...&quot; from the File menu](../../.gitbook/assets/qt-backupmenu.png)
+
 ## Manual Backup
 
 You can manually copy your wallet.dat file to a new location by navigating to the NIX data directory and making a copy of the wallet.dat. The default location for this file is inside the wallets directory if it exists, otherwise, the root data directory \(nix\).
@@ -56,13 +62,7 @@ or
 
 ~/.nix/wallet.dat
 
-## QT Wallet
+## UI/Mobile/Electrum Wallets
 
-You can backup your wallet.dat file from within the running nix-qt application by selecting "Backup Wallet..." from the File menu.
-
-![Select &quot;Backup Wallet...&quot; from the File menu](../../.gitbook/assets/qt-backupmenu.png)
-
-You will then be presented with a standard "Save file as" window where you can select a location and name for your backup file.
-
-
+These wallets use a seed phrase. Simply write down the list of words and store them in a safe place. Without these words \(and in the proper order\), recovery is not possible.
 
