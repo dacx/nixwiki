@@ -32,6 +32,7 @@
 
 ## Support
 
+* [Staking Issues](support/staking-issues.md)
 * [Syncing Issues](support/syncing-issues.md)
 * [Ghostnode Syncing Issues](support/ghostnode-syncing-issues.md)
 * [Frequently Asked Questions](support/frequently-asked-questions.md)

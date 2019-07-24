@@ -2,13 +2,13 @@
 
 ## How to Fix Staking Issues in QT Wallet
 
-To enable staking encrypt wallet and hit unlock for staking under Settings. You should see Staking: and enabled in green. To verify you are in fact staking hit help &gt; debug window &gt; open debug log file &gt; scroll to bottom and you should see CreateNewBlock or you can also navigate to the console and type: getstakinginfo and hit enter where you should see a "1" next to staking.
+To enable staking, [encrypt your wallet](../wallet-functionality/backup-and-security-1/qt-wallet-encryption.md) and hit unlock for staking under Settings. You should see Staking: with "enabled" in green. To further verify you are in fact staking navigate to the console and type: getstakinginfo and hit enter. You should see a "1" next to staking.
 
- If you see coins in your available balance but not next to "staked" in the overview tab you may have hit a stake or you may have recently sent a transaction. If staking is enabled you can check your transactions tab and click on the most recent transactions and see how many confirmations they have. Your coins will show up again after 200 confirmations. On the off chance you hit an orphan block or someone finds the same stake just before you, you will likely see a "?" next to the transaction in the transactions tab. If you have any transactions with a "?" next to them, just right click and abandon them and they should show back up.
+ If you see coins in your available balance but not next to "staked" in the overview tab you may have hit a stake or you may have recently sent a transaction. If staking is enabled you can check your transactions tab and click on the most recent transactions and see how many confirmations they have. Your coins will show up again after 200 confirmations. On the off chance you hit an orphan block or someone finds the same stake just before you, you will likely see a "?" next to the transaction in the transactions tab. The wallet will automatically abandon these transactions for you and return those coins to your staked amount.
 
- Also remember only N address can stake. So if you are running a ghostnode, you will need to manually send those coins from the "G" address to a "N" address and wait the 200 confirmations. You can move your coins around or check which addresses your coins are in via coin control. To enable coin control. Settings &gt; Options &gt; Wallet tab &gt; check Enable Coin Control.
+ Also remember that only N and nix1 addresses can stake. So if you are running a ghostnode, you will need to manually send those coins from the "G" address to a "N" address and wait the 200 confirmations. You can move your coins around or check which addresses your coins are in via coin control. To enable coin control. Settings &gt; Options &gt; Wallet tab &gt; check Enable Coin Control.
 
- You can always check the \#info-bot channel in discord by typing !staking 1000 or whatever amount. Just remember this is only an estimate and times can fluctuate wildly as the bot does not take into account coin age and confirmations. 
+ You can always check the \#info-bot channel in discord by typing !staking 1000 or whatever amount. Just remember this is only an estimate and times can fluctuate wildly as the bot does not take into account coin age or confirmations. 
 
 ## How to Fix Wallet Syncing Issues
 
