@@ -20,7 +20,7 @@ This means any coin owner can lease their staking power to any third-party staki
 
 **`Fee Percent:`** Amount of reward share allocated to the leasing merchant. This info is provided by the merchant. If the fee is greater than zero, check the "Enable fee payout" box to enter the proper percentage.
 
-**`Reward Address:`** The merchants cold storage address for their share of staking reward. This address is supplied by the merchant.
+**`Reward Address:`** The merchants cold storage address for their share of the stake reward. This address is supplied by the merchant.
 
 ## Active Contracts
 

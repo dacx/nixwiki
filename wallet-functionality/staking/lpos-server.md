@@ -35,19 +35,19 @@ For future ssh connections, login as your normal user.
 Download the latest NIX Platform Core software release. At the time of this writing, that would be:
 
 ```bash
-wget https://github.com/NixPlatform/NixCore/releases/download/v2.3.0/nix-2.3.0-x86_64-linux-gnu.tar.gz
+wget https://github.com/NixPlatform/NixCore/releases/download/v3.0.4/nix-3.0.4-x86_64-linux-gnu.tar.gz
 ```
 
 Unpack the file.
 
 ```bash
-tar -zxvf nix-2.3.0-x86_64-linux-gnu.tar.gz
+tar -zxvf nix-3.0.4-x86_64-linux-gnu.tar.gz
 ```
 
 Next, make the binary files executable.
 
 ```bash
-chmod +x nix-2.3.0/bin/*
+chmod +x nix-3.0.4/bin/*
 ```
 
 You will now need to be the root user to install the binary files. Use the substitute user command:
@@ -59,7 +59,7 @@ su
 After entering in your root password, install the NIX binary files.
 
 ```bash
-cp nix-2.3.0/bin/* /usr/bin/
+cp nix-3.0.4/bin/* /usr/bin/
 ```
 
 You no longer need root permissions, so drop back down to your normal user with:
