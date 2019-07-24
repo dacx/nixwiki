@@ -185,7 +185,7 @@ nixd \[command-line options\]
 
 `-maxstakecombine=<n>` Maximim of outputs to combine when achieving stakecombinethreshold. \(default: 3\)
 
-`-coldstakeaddress=<n>` Coldstaking address used for smart contract staking. To be used for local wallet setup. \(default: \(None\)\)
+`-generatenewstakingaddress` Create new bech32 addresses on successful stakes. \(default: false\)
 
 `-minimumleasepercentage=<n>` Minimum lease percentage required for a contract to stake if you are leasing stakes. Value can be between 0 and 10000 e.g. 1191 \(11.91%\) \(default: 0\)
 
