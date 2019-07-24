@@ -4,5 +4,5 @@ The NIX Ghost Vault feature is a technology that provides privacy to either the 
 
 The Ghost Vault became available for use on the network at block 53,000.
 
-As of block 232,000 the zerocoin protocol was actively replaced with sigma which gives greater security and a smaller  on-chain transaction sizes.
+As of block 232,000 the zerocoin protocol was actively replaced with sigma which gives greater security and smaller transaction sizes.
 
