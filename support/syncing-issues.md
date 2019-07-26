@@ -1,7 +1,7 @@
 # Syncing Issues
 
 {% hint style="warning" %}
-Should for whatever reason the following doesn't fix your issue, join the [Discord server](https://discordapp.com/invite/HGuvDTW) and ask in the **public channels only** for help. **Do not respond to any DMs** as scammers might try to trick you into giving them your funds!
+If for whatever reason the following doesn't fix your issue, join the [Discord server](https://discordapp.com/invite/HGuvDTW) and ask in the **public channels only** for help. **Do not respond to any DMs** as scammers might try to trick you into giving them your funds!
 {% endhint %}
 
 If you happen to be on the wrong chain due to not updating your wallet in time, this will get you back on track.
