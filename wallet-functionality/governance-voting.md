@@ -21,9 +21,12 @@ Your vote weight is determined by your received "nix1" staking and/or Ghostnode 
 
 After navigating to the Governance section and populating/refreshing the proposal list, you may then select a specific proposal and review it by clicking on the "Expand Details" button. Once you've decided whether or not to support the proposal, make sure that proposal is selected then click either the "Vote Against" or "Vote For" button. You will then be prompted to enter your wallet password, after which your vote weight will be added to your selection.
 
+## Creating A Proposal
+
+Vist the [Governance Proposals page](../github-and-feedback/governance-proposals.md).
+
 ## More Information
 
-For information on creating a new proposal, vist the [Governance Proposals page](../github-and-feedback/governance-proposals.md).  
 A list of active, accepted and rejected proposals can be [found here](https://governance.nixplatform.io/#/proposals).  
 Also, you can find a detailed [Governance pdf here](https://nixplatform.io/wp-content/uploads/2019/02/NixGovernance.pdf).
 
