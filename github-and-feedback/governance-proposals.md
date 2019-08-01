@@ -36,7 +36,7 @@ By making a submission you are presenting a proposal of improvement to the proje
 
 Consider joining the \#governance [Discord server chat](https://discordapp.com/invite/HGuvDTW) and discussing your idea with the community first. This can help give you an initial reaction and level of interest, along with helping to formulate and refine your idea so that it has the best possible chance to succeed.
 
-Support your proposal by getting the word out via social media channels. While the official NIX channels such as twitter may alert people that there are active proposals up for a vote, it's up to you to push for your specific proposition.
+Support your proposal by getting the word out via social media channels and make yourself available to answer questions.
 
 ## Casting Your Vote
 
