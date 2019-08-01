@@ -14,7 +14,7 @@ Whether you are an individual community member suggesting a change in operations
 The current fee for creating a proposal is 50 NIX, which is to be sent to the NIX development fund address nix1qr7y5gtwrpuadsluk7v2wdn9pwx3s4asf25hcq2
 
 {% hint style="warning" %}
-**NOTICE:** Be sure that the entire 50 NIX is sent to the development fund address by **not** subtracting the network fee from the transaction amount!
+**NOTICE:** Be sure that exactly 50 NIX is sent to the development fund address by **not** subtracting the network fee from the transaction amount!
 {% endhint %}
 
 After sending the fee, point your web browser to the [proposal submission page](https://governance.nixplatform.io/#/submit) and fill in the submission form. This includes:
