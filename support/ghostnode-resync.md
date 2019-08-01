@@ -1,4 +1,4 @@
-# Ghostnode Syncing Issues
+# Ghostnode Resync
 
 **Script Installs, e.g. CryptoSharks method:**
 
@@ -19,6 +19,6 @@ nixd &
 
 
 {% hint style="warning" %}
-Should for whatever reason the following doesn't fix your issue, join the [Discord server](https://discordapp.com/invite/HGuvDTW) and ask in the **public channels only** for help. **Do not respond to any DMs** as scammers might try to trick you into giving them your funds!
+If for whatever reason these steps don't fix your issue, join the [Discord server](https://discordapp.com/invite/HGuvDTW) and ask in the **public channels only** for help. **Do not respond to any DMs** as scammers might try to trick you into giving them your funds!
 {% endhint %}
 
