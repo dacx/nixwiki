@@ -32,10 +32,11 @@ Proposals should be submitted after at least 3 confirmations of your fee payment
 
 ### Tips to get your proposal to pass
 
-By making a submission you are presenting a proposal of improvement to the project stakeholders and/or tendering for development funds. As such, successful proposals are likely to have been well thought out and presented in a clear manner. In the event that your proposal description is too long for the submission form, simply provide an external link for more details.  
+By making a submission you are presenting a proposal of improvement to the project stakeholders and/or tendering for development funds. As such, successful proposals are likely to have been well thought out and presented in a clear manner. In the event that your proposal description is too long for the submission form, simply provide an external link for more details.
 
+Consider joining the \#governance [Discord server chat](https://discordapp.com/invite/HGuvDTW) and discussing your idea with the community first. This can help give you an initial reaction and level of interest, along with helping to formulate and refine your idea so that it has the best possible chance to succeed.
 
-Consider joining the Discord chat and discussing your idea with the community first. This can help give you an initial reaction and level of interest, along with helping to formulate and refine your idea so that it has the best possible chance to pass.
+Get the word out on your proposal via social media channels.
 
 ## Casting Your Vote
 

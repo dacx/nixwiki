@@ -2,6 +2,8 @@
 
 NIX incorporated its decentralized off-chain governance system on May 25th, 2019. Creating an off-chain governance model allows for a light-weight method of governance by ensuring that users who secure the network have a say in the direction NIX takes. This system prevents unnecessary blockchain data storage while at the same time maintaining transparency.
 
+Discussions concerning governance proposals can often be found in the \#governance [Discord server chat](https://discordapp.com/invite/HGuvDTW).
+
 ## Casting Your Vote
 
 In order for a proposal to pass, 2 requirements from the voting community must be met. These are:
