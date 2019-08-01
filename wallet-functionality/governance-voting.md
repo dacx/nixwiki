@@ -23,6 +23,7 @@ After navigating to the Governance section and populating/refreshing the proposa
 
 ## More Information
 
+For information on creating a new proposal, vist the [Governance Proposals page](../github-and-feedback/governance-proposals.md).  
 A list of active, accepted and rejected proposals can be [found here](https://governance.nixplatform.io/#/proposals).  
 Also, you can find a detailed [Governance pdf here](https://nixplatform.io/wp-content/uploads/2019/02/NixGovernance.pdf).
 
