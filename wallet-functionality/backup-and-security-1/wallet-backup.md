@@ -24,7 +24,7 @@ You can backup your wallet.dat file from within the running nix-qt application b
 
 ![Select &quot;Backup Wallet...&quot; from the File menu](../../.gitbook/assets/qt-backupmenu.png)
 
-## Manual Backup
+## Manual and GUI Wallet Backup
 
 You can manually copy your wallet.dat file to a new location by navigating to the NIX data directory and making a copy of the wallet.dat. The default location for this file is inside the wallets directory if it exists, otherwise, the root data directory \(nix\).
 
@@ -62,7 +62,7 @@ or
 
 ~/.nix/wallet.dat
 
-## UI/Mobile/Electrum Wallets
+## Mobile/Electrum Wallets
 
 These wallets use a seed phrase that will be displayed once you first open/create your wallet. Simply write down the list of words and store them in a safe place. Without these words \(and in the proper order\), recovery is not possible.
 
