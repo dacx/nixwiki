@@ -32,7 +32,7 @@ Your wallet must remain open and running to find new blocks. If you'd rather not
 
 #### 
 
-#### Staking from an address that begins with G
+#### Attempting to stake from an address that begins with G
 
 Only addresses beginning with N or nix1 are eligible for staking. Further, only nix1 addresses are eligible for Governance Voting.
 
