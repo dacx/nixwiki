@@ -1,7 +1,7 @@
 # Staking Issues
 
 {% hint style="success" %}
-If the Discord info-bot gave you a time between stakes, please remember that this is only an estimate based on info available at that exact moment and can fluctuate wildly depending on changing network difficulty. It also does not take into account coin age or the 200 block confirmation requirement.
+If the Discord info-bot gave you a time between stakes, please remember that this is only an estimate based on info available at that exact moment and can fluctuate wildly depending on changing network difficulty and a certain degree of luck, both good and bad.
 {% endhint %}
 
 ## Common reasons your wallet is not staking are..
