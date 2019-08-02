@@ -8,7 +8,7 @@ NIX was[ first announced](https://medium.com/@nixplatform/nix-blocknet-a-partner
 
 Having never been an ICO token, the NIX mainnet debuted as a lyra2rev2 Proof of Work UTXO blockchain which went live on June 27th, 2018 with the genesis block coinbase phrase of "SEC declares Bitcoin a non security 06/07/2018".
 
-NIX began with an initial circulating supply of 38,000,000. This initial supply was distributed to the community via a claimed faucet to those who held Zoin \(now known as [Noir](https://noirofficial.org/)\) at Zoin block \#297800 at a ratio of 2:1 NIX to Zoin, in addition to establishing the initial development fund.
+NIX began with an initial circulating supply of 38,000,000. This initial supply was distributed to the community via a claimed faucet to those who held Zoin \(now known as [Noir](https://noirofficial.org/)\) at Zoin block \#297800 at a ratio of 2:1 NIX to Zoin, in addition to securing the initial development fund.
 
 Since then, the NIX team has established a trend of rapid and successful development of technology and improvements, often delivering roadmap milestones earlier than anticipated while at the same time adding a couple of extra releases along the way.
 
