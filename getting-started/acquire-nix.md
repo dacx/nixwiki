@@ -4,7 +4,7 @@ There are several avenues of acquiring NIX by participating in the NIX ecosystem
 
 Those include purchasing on exchanges, rewards and fees from a Ghostnode, rewards from staking your coins, becoming an LPoS Merchant and accepting NIX as payment for eCommerce transactions.
 
-Bounties and giveaways are in the pipeline so please monitor our announcements for future initiatives. 
+Bounties and giveaways may also be available at various times, so please monitor our announcements for future initiatives. 
 
 ## Buying on Exchanges
 
@@ -28,7 +28,7 @@ NIX is **Proof of Stake** and thus allows for holders of any amount to stake the
 
 ## Offering LPoS Services
 
-With NIX's [**Leased Proof of Stake**](../wallet-functionality/staking/lpos-client.md) ****it is possible for users to lease coins to third-party merchants to stake for them. These staking providers may take a fee for their services.
+With NIX's [**Leased Proof of Stake**](../wallet-functionality/staking/lpos-client.md)**,** it is possible for users to lease coins to third-party merchants to stake for them. These staking providers may take a fee for their services.
 
 ## Becoming a NIX Merchant
 

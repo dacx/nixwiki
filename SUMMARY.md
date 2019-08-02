@@ -4,6 +4,7 @@
 
 ## Getting Started
 
+* [Network and Coin Specs](getting-started/network-and-coin-specs.md)
 * [Overview of NIX Wallets](getting-started/choose-your-wallet/README.md)
   * [Wallet Comparison](getting-started/choose-your-wallet/wallet-comparison.md)
   * [Updating Wallet](getting-started/choose-your-wallet/updating-wallet.md)
