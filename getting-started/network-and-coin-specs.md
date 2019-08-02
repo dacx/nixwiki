@@ -13,7 +13,12 @@
 | :--- | :--- |
 | Current Supply | 44,096,000 \(1AUG2019\) |
 | Maximum Supply | 102,210,160 \(After 40 years\) |
-| Staking Reward | ~2.5 NIX per block |
+| Staking Reward | ~2.5 per block |
+| Ghostnode Reward | ~8.4 per block |
+| Ghostnode Ghost Vault Fee \* | .25% |
+| Ghostnode Vault to Vault TX Fee \* | .1 |
+
+ \* Vault fees are pooled and split among all active Ghostnodes on a daily basis.
 
 | Privacy |  |
 | :--- | :--- |
