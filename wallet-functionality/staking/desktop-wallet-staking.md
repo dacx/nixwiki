@@ -13,7 +13,7 @@ Simply select "Unlock For Staking..." from the Settings menu and enter in your w
 ![Staking will show as &quot;Enabled&quot;](../../.gitbook/assets/qt-stakingenabled.png)
 
 {% hint style="warning" %}
-**IMPORTANT:** You must leave your wallet open and "unlocked for staking" in order to actively stake your coins!
+**IMPORTANT:** You must leave your wallet open and "unlocked for staking" in order to actively stake your coins! If you'd rather not leave your wallet open 24/7, consider using an [LPoS merchant](https://nixplatform.io/marketplace).
 {% endhint %}
 
 ## UI Wallet
@@ -29,7 +29,7 @@ Staking with the UI Wallet is quite easy as well. Simply select "Staking" from t
 ![Staking is enabled](../../.gitbook/assets/ui-stakingon.png)
 
 {% hint style="warning" %}
-**IMPORTANT:** You must leave your wallet open and "unlocked for staking" in order to actively stake your coins!
+**IMPORTANT:** You must leave your wallet open and "unlocked for staking" in order to actively stake your coins!  If you'd rather not leave your wallet open 24/7, consider using an [LPoS merchant](https://nixplatform.io/marketplace).
 {% endhint %}
 
 ## Advanced Configuration
