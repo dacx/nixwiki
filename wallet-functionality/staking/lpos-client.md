@@ -26,9 +26,3 @@ This means any coin owner can lease their staking power to any third-party staki
 
 ![NIX LPoS &apos;Active Contract&apos; Screen](https://lh6.googleusercontent.com/PJmItHhSOiRKmdO9rOvCMImoZKV8dFvUJyRfDoY_Zhi533k6LJPxdM9ImYZ6U-igIsmF0a62xM-8mGlgK-zcckkBITnWKTlBkrCo_qrEh0WSgeqI__HqcjWu0_QvrR0muC6a2P1-)
 
-
-
-
-
-
-
