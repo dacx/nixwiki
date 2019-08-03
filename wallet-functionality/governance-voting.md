@@ -17,13 +17,13 @@ Your vote weight is determined by your received "nix1" staking and/or Ghostnode 
 
 ![Click on the Governance Button](../.gitbook/assets/qt-governance.png)
 
-![Click on the &quot;Refrest List&quot; to populate/refresh the proposal list](../.gitbook/assets/qt-gov-refresh.png)
+![Click on the &quot;Refrest List&quot; button to populate/refresh the proposal list](../.gitbook/assets/qt-gov-refresh.png)
 
 After navigating to the Governance section and populating/refreshing the proposal list, you may then select a specific proposal and review it by clicking on the "Expand Details" button. Once you've decided whether or not to support the proposal, make sure that proposal is selected then click either the "Vote Against" or "Vote For" button. You will then be prompted to enter your wallet password, after which your vote weight will be added to your selection.
 
 ## Creating A Proposal
 
-Vist the [Governance Proposals page](../github-and-feedback/governance-proposals.md).
+Visit the [Governance Proposals page](../github-and-feedback/governance-proposals.md).
 
 ## More Information
 
