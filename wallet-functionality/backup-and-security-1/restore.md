@@ -1,6 +1,6 @@
 # Restore
 
-The method of restoring a Core \(and UI\) wallet.dat file is essentially the reverse of [manually backing it up](wallet-backup.md#manual-backup). Default locations for each Operating System can be found below.
+The method of restoring a Core \(and GUI\) wallet.dat file is essentially the reverse of [manually backing it up](wallet-backup.md#manual-backup). Default locations for each Operating System can be found below.
 
 ## Windows
 

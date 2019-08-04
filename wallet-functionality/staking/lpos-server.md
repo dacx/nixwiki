@@ -6,7 +6,7 @@ description: How to set up your own LPoS server.
 
 ## Manual Installation
 
-#### This article will assume you are using a 64 bit Linux Virtual Private Server.
+**This article will assume you are using a 64 bit Linux Virtual Private Server.**
 
 Log into your VPS using a Secure Shell \(ssh\) client according to your providers instructions. [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) is a popular ssh client that is open source and available for Windows and Unix/Linux for free.
 

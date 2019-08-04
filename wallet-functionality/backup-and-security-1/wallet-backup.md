@@ -1,6 +1,6 @@
 # Wallet Backup
 
-For both the QT and UI wallets, the file wallet.dat contains your private keys which grants access to your coins on the blockchain. If this file becomes corrupted or lost you will no longer be able to access your coins without restoring a valid backup.
+For both the QT and GUI wallets, the file wallet.dat contains your private keys which grants access to your coins on the blockchain. If this file becomes corrupted or lost you will no longer be able to access your coins without restoring a valid backup.
 
 It is best to store your backed up wallet.dat somewhere other than the computer you normally use to run your wallet. SD cards and thumb drives are ideal candidates.
 
