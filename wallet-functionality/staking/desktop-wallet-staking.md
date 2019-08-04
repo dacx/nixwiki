@@ -2,9 +2,9 @@
 
 ## QT Wallet
 
-In order to stake your coins from the QT Wallet you must first [encrypt your wallet](../backup-and-security-1/qt-wallet-encryption.md). You cannot stake from a wallet that is not encrypted.
+In order to stake your coins from the QT Wallet you must first [encrypt your wallet](../backup-and-security-1/qt-wallet-encryption.md). You cannot stake from a wallet that is not encrypted. Further, you can only stake coins from an address that beings with either "N" or "nix1". Choosing which type of address to stake from depends on whether or not you wish to participate in [Governance Voting](../governance-voting.md).
 
-Simply select "Unlock For Staking..." from the Settings menu and enter in your wallet passphrase.
+To get started, first make sure your coins are in an "N" or "nix1" address and simply select "Unlock For Staking..." from the Settings menu. You will then be prompted to enter your wallet passphrase.
 
 ![Select &quot;Unlock For Staking...&quot; from the Settings menu](../../.gitbook/assets/qt-unlockforstakingmenu.png)
 
@@ -16,9 +16,9 @@ Simply select "Unlock For Staking..." from the Settings menu and enter in your w
 **IMPORTANT:** You must leave your wallet open and "unlocked for staking" in order to actively stake your coins! If you'd rather not leave your wallet open 24/7, consider using an [LPoS Merchant](https://nixplatform.io/marketplace).
 {% endhint %}
 
-## UI Wallet
+## GUI Wallet
 
-Staking with the UI Wallet is quite easy as well. Simply select "Staking" from the left-hand menu of the wallet and toggle the staking slider. You will then be prompted to enter in your passphrase. 
+Staking with the GUI Wallet is quite easy as well. Simply select "Staking" from the left-hand menu of the wallet and toggle the staking slider. You will then be prompted to enter in your wallet passphrase. 
 
 ![Select &quot;Staking&quot; from the left-hand menu](../../.gitbook/assets/ui-stakingmenu.png)
 
