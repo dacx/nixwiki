@@ -22,7 +22,7 @@
   * [LPoS Client](wallet-functionality/staking/lpos-client.md)
   * [LPoS Server](wallet-functionality/staking/lpos-server.md)
 * [Ghost Vault](wallet-functionality/ghost-vault/README.md)
-  * [Ghosting](wallet-functionality/ghost-vault/untitled.md)
+  * [1-Way Ghosting](wallet-functionality/ghost-vault/1-way-ghosting.md)
   * [2-Way Ghosting](wallet-functionality/ghost-vault/2-way-ghosting.md)
 * [Ghostnodes](wallet-functionality/ghostnodes/README.md)
   * [Hosting Services](wallet-functionality/ghostnodes/hosting-services.md)

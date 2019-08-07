@@ -1,16 +1,18 @@
-# Ghosting
+# 1-Way Ghosting
 
-The procedure of sending coins to the Ghost Vault is called “ghosting”, which provides the receiver with full privacy, as the destination is a hidden place and the sending address is public. Coins kept in the vault remain private. On the other hand, sending coins from the Ghost Vault to an address, is called “unghosting”; here the sending address, being represented by the vault, is private, giving sender privacy, yet the receiving address is a public and identifiable location.
+The procedure of sending coins to a Ghost Vault \(either your own or somebody else's\) is called “ghosting”, which essentially burns the coins and allows a user to re-issue them later as public coins with no attached history. Coins kept in the Ghost Vault remain private. The fee for ghosting your public NIX is 0.25%.
 
-Although this feature is NIX’s first privacy implementation, it does not offer sender and receiver privacy at once. If your transaction requires both sender and receiver privacy, see [2-Way Ghosting](2-way-ghosting.md).
+This feature was NIX’s first privacy transaction implementation and does not offer both sender and receiver privacy at the same time. If your transaction requires both, use [2-Way Ghosting](2-way-ghosting.md).
 
-The Ghost Vault is currently available in the QT and UI wallets, with mobile wallet support coming soon.
+The Ghost Vault is currently only available in the QT and GUI wallets, with mobile wallet support planned for later release.
 
 {% hint style="success" %}
 **TIP:** The longer your NIX are ghosted in your vault and the more ghosted NIX there are in total on the network, the stronger your privacy will be.
 {% endhint %}
 
 ## QT Wallet Ghost Vault
+
+### Adding Ghosted NIX to your wallet
 
 To begin, open your qt-nix wallet and click on the "Ghost Vault" button and be sure you are looking at the "Ghost NIX to Vault" tab.
 
@@ -21,7 +23,7 @@ By default, NIX will be ghosted to your local wallet. If you wish to ghost them 
 ![Enter the amount to be ghosted and click &quot;Ghost NIX&quot;](../../.gitbook/assets/qt-ghostingtomyself.png)
 
 {% hint style="info" %}
-**NOTE:** Decimal points are currently not allowed when ghosting NIX. Only whole number amounts are valid. Fractional amounts will be available in the future.
+**NOTE:** Fractional amounts are currently only available in .1 increments.
 {% endhint %}
 
 ![If your wallet is encrypted, enter your passphrase](../../.gitbook/assets/qt-unlock.png)
@@ -36,7 +38,7 @@ The above example of 1-Way Ghosting will privatize the receiving address as show
 
 ![](../../.gitbook/assets/1wayghosttx.png)
 
-## UI Wallet Ghost Vault
+## GUI Wallet Ghost Vault
 
 There are 2 ways to deposit funds into your Ghost Vault with the UI wallet.
 
