@@ -22,7 +22,7 @@ Read the technical paper for Commitment Key Packs [here](https://nixplatform.io/
 
 ## Tor Anonymity Network
 
-Tor is a software that enables the ability to conceal a users location and usage from outside monitoring entities. When enabled, a user’s network traffic is routed through an encrypted series of constantly changing relays in order to protect against anyone conducting network surveillance or traffic analysis.
+Tor is a software that enables the ability to conceal a user's location and usage from outside monitoring entities. When enabled, a user’s network traffic is routed through an encrypted series of constantly changing relays in order to protect against anyone conducting network surveillance or traffic analysis.
 
 ## Dandelion ++ Broadcast Anonymity
 
