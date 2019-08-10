@@ -1,13 +1,12 @@
 # Ghostnodes
 
-To set up your own Ghostnode, you need to meet the following requirements:
+NIX Ghostnodes are a fundamental part of the NIX protocol layer and are responsible for processing and validating privacy transactions as well as approving and fulfilling cross-chain protocols. All smart contract elements requiring autonomous privacy processing rely on NIX Ghostnodes to fulfill those requests.
 
-1. 40,000 NIX
-2. A VPS with at least 1GB of RAM 
+Running a Ghostnode requires a collateral of 40,000 NIX and are rewarded in the following ways:
 
-Create a new G address in your wallet by typing **getnewaddress GN1 ghostnode** into your [wallet console](../console-commands.md). Proceed to send exactly **40000 NIX** there \(_do not tick subtract fee from amount in the sending screen_\).
+1. Block rewards -- A percentage of new block rewards are paid to Ghostnodes by a serialized method which cycles through the list of active nodes.
+2. Ghosting NIX -- When a users initially ghosts their coins \(either to themselves or to another user\), there is a 0.25% fee applied.
+3. Vault to vault private transactions -- Users moving ghosted NIX from vault to vault \(full sender and receiver private transactions\) incur a .1 flat rate fee.
 
-Afterwards, enter **ghostnode outputs** into your wallet to get the output needed for all other steps.
-
-You can now proceed with either the [automated one-click installers](ghost-node-setup.md) or look through the [other install methods](other-install-methods.md).
+Privacy transaction fees are pooled and then split every 720 bocks \(~24 hours\) among all active Ghostnodes.
 
