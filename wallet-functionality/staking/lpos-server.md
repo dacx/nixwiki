@@ -44,12 +44,6 @@ Unpack the file.
 tar -zxvf nix-3.0.4-x86_64-linux-gnu.tar.gz
 ```
 
-Next, make the binary files executable.
-
-```bash
-chmod +x nix-3.0.4/bin/*
-```
-
 You will now need to be the root user to install the binary files. Use the substitute user command:
 
 ```bash

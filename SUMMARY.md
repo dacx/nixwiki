@@ -7,7 +7,7 @@
 * [Network and Coin Specs](getting-started/network-and-coin-specs.md)
 * [Overview of NIX Wallets](getting-started/choose-your-wallet/README.md)
   * [Wallet Comparison](getting-started/choose-your-wallet/wallet-comparison.md)
-  * [Updating Wallet](getting-started/choose-your-wallet/updating-wallet.md)
+  * [Wallet Updates](getting-started/choose-your-wallet/wallet-updates.md)
 * [Participate in NIX Ecosystem](getting-started/acquire-nix.md)
 * [Join the Community](getting-started/join-the-community.md)
 
