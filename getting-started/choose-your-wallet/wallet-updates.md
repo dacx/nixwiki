@@ -15,7 +15,7 @@ Download the latest update for your specific Operating System via the [NIX websi
 It's important to keep on top of wallet updates when operating nixd on a VPS. Wallet updates are often mandatory, but are usually released with a grace period of several days before the operator is required to update.
 
 {% hint style="info" %}
-**Important -** if a wallet is not updated by the specified block the node can become detached from the longest chain. In this scenario any resulting rewards/fees received on the forked chain are worthless. 
+**Important -** if a wallet is not updated by the specified block, the node can become detached from the longest chain and a re-sync will be required. In this scenario, any resulting rewards/fees received on the forked chain are worthless. 
 {% endhint %}
 
 ### Manual updating
