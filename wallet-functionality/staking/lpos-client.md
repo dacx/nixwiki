@@ -28,5 +28,13 @@ As mentioned, there are 2 ways to use this smart contract:
 
 ### Active Contracts
 
-![NIX LPoS &apos;Active Contract&apos; Screen](https://lh6.googleusercontent.com/PJmItHhSOiRKmdO9rOvCMImoZKV8dFvUJyRfDoY_Zhi533k6LJPxdM9ImYZ6U-igIsmF0a62xM-8mGlgK-zcckkBITnWKTlBkrCo_qrEh0WSgeqI__HqcjWu0_QvrR0muC6a2P1-)
+![LPoS Active Contracts tab](../../.gitbook/assets/qt-lpos-active-contracts.png)
+
+{% hint style="info" %}
+**NOTE:** Active Contracts that have recently hit a stake will not show until those coins have matured \(200 confirmations\).
+{% endhint %}
+
+To cancel an active contract, first select it and then right click.
+
+![](../../.gitbook/assets/qt-lpos-cancel-contract.png)
 
