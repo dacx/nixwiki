@@ -22,7 +22,7 @@ Read the technical paper for Commitment Key Packs [here](https://nixplatform.io/
 
 ## Tor Anonymity Network
 
-Tor is a software that enables the ability to conceal user location and usage from outside monitoring entities. When using Tor, a user’s networking is routed through thousands of different network relays to scramble initial internet traffic resulting in a secure system for networking. Tor will be a default networking tool enabled in the NIX Platform.
+Tor is a software that enables the ability to conceal a users location and usage from outside monitoring entities. When using Tor, a user’s network traffic is routed through a series of encrypted network relays in order to protect against anyone conducting network surveillance or traffic analysis.
 
 ## Dandelion ++ Broadcast Anonymity
 
