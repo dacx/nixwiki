@@ -40,7 +40,7 @@ The above examples of 1-Way Ghosting will privatize the transaction as shown:
 
 ### Un-Ghosting to another users wallet
 
-In cases where you only want to privatize your sending address, you can Un-Ghost funds from your Ghost Vault into a receivers public address.
+In cases where you only want to privatize your sending address, you can Un-Ghost funds from your Ghost Vault into a receivers public address. This method is done from the "Un-Ghost NIX from Vault" tab.
 
 ![Un-Ghosting to another users wallet](../../.gitbook/assets/qt-unghost-to-other.png)
 
