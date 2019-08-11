@@ -27,7 +27,7 @@ If some/all of your funds aren't showing up \(typically after importing/recoveri
 
 Here, it will ask you for an IP address. An easy way to get one is from a block explorer such as [https://chainz.cryptoid.info/nix/\#!network](https://chainz.cryptoid.info/nix/#!network). Find a latest version node and click on the "node list" button. You may need to attempt a re-sync once again.
 
-Once sync'd and you've completed any sends you want to do, you will probably want to get back to the NIX Nodes section and switch back to Automatic Mode \(There is no guarantee the node you manually added will remain online forever\).
+Once sync'd and you've completed any sends you want to do, you will probably want to get back to the NIX Nodes section and switch back to Automatic Mode, as there is no guarantee the node you manually added will remain online forever.
 
 ## I Can't Move Funds From My Wallet!
 
