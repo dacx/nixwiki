@@ -4,7 +4,6 @@ There are many services out there that offer you to host your Ghostnode for you.
 
 * [https://nodehub.io/](https://nodehub.io/) \(pay with NIX\)
 * [https://www.allnodes.com/](https://www.allnodes.com/) \(pay with NIX\)
-* [https://ginplatform.io/](https://ginplatform.io/)
 * [https://altnode.io/](https://altnode.io/)
 * [https://www.nodestop.com/](https://www.nodestop.com/)
 * [https://pecuniaplatform.io/](https://pecuniaplatform.io/)
