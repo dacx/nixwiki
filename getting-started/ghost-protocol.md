@@ -16,7 +16,7 @@ The Sigma Protocol uses a 3-move structure \(commitment, challenge and response\
 
 ## Commitment Key Packs
 
-While the Sigma Protocol provides privacy for the sender, the NIX fully custom Commitment Key Pack scheme for Pedersen Anonymous Deposits provides complete sender and receiver privacy in one transaction. This scheme enables full Zero-Knowledge proof transaction privacy between both sender and receiver, known as the 2-Way Ghosting mechanism via Ghost Keys and Ghost Key QR codes.
+While the Sigma Protocol provides privacy for the sender or receiver, the NIX fully custom Commitment Key Pack scheme for Pedersen Anonymous Deposits provides complete sender and receiver privacy in one transaction. This scheme enables full Zero-Knowledge proof transaction privacy between both sender and receiver, known as the 2-Way Ghosting mechanism via Ghost Keys and Ghost Key QR codes.
 
 Read the technical paper for Commitment Key Packs [here](https://nixplatform.io/wp-content/uploads/2018/10/Commitment_Key_Packs_v1-0-1.pdf).
 
