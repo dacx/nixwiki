@@ -37,6 +37,7 @@
 
 * [Staking Issues](support/staking-issues.md)
 * [Syncing Issues](support/syncing-issues.md)
+* [Mobile Wallet Issues](support/mobile-wallet-issues.md)
 * [Ghostnode Resync](support/ghostnode-resync.md)
 * [Frequently Asked Questions](support/frequently-asked-questions.md)
 
