@@ -12,7 +12,7 @@ The Ghost Vault is currently only available in the QT and GUI wallets, with mobi
 
 ## QT Wallet Ghost Vault
 
-To begin, open your qt-nix wallet and click on the "Ghost Vault" button and be sure you are looking at the "Ghost NIX to Vault" tab.
+To begin, open your nix-qt wallet and click on the "Ghost Vault" button and be sure you are looking at the "Ghost NIX to Vault" tab.
 
 ![Click on the &quot;Ghost Vault&quot; button at the top followed by the &quot;Ghost NIX to Vault&quot; tab](../../.gitbook/assets/qt-ghost-vault.png)
 
