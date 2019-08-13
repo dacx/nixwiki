@@ -5,7 +5,6 @@
 ## Getting Started
 
 * [Network and Coin Specs](getting-started/network-and-coin-specs.md)
-* [Ghost Protocol](getting-started/ghost-protocol.md)
 * [Overview of NIX Wallets](getting-started/choose-your-wallet/README.md)
   * [Wallet Comparison](getting-started/choose-your-wallet/wallet-comparison.md)
   * [Wallet Updates](getting-started/choose-your-wallet/wallet-updates.md)
