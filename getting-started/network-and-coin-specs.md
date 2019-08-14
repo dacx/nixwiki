@@ -20,13 +20,6 @@
 
  \* Vault fees are pooled and split among all active Ghostnodes on a daily basis.
 
-| Privacy |  |
-| :--- | :--- |
-| Sender or Receiver \(1-Way Ghosting\) | [Sigma](https://eprint.iacr.org/2014/764.pdf) |
-| Sender and Receiver \(2-Way Ghosting\) | Sigma & [Commitment Key Packs](https://nixplatform.io/wp-content/uploads/2018/10/Commitment_Key_Packs_v1-0-1.pdf) |
-| Network | [TOR](https://www.torproject.org/) |
-| TX Broadcast | [Dandelion++](https://arxiv.org/pdf/1805.11060.pdf) |
-
 ## Inflation Schedule
 
 | Year | Staking Inflation | Ghostnode Inflation | Development Fund Inflation | Total Circulating Supply |
