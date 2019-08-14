@@ -1,6 +1,6 @@
 # Ghost Protocol
 
-The NIX Ghost Protocol is a collection of 4 different privacy elements which allows users and developers both the options they need to ensure not only fungible coin transactions but also network and broadcast privacy.
+The NIX Ghost Protocol is a collection of 4 different privacy elements which allows both users and developers the options they need to ensure not only fungible coin transactions but also network and broadcast privacy.
 
 ## Sigma Protocol
 
