@@ -4,7 +4,7 @@ The NIX Ghost Protocol is a collection of 4 different privacy elements which all
 
 ## Sigma Protocol
 
-Developed by the [ZCoin](https://zcoin.io/) team, Sigma is a zero-knowledge proof protocol which essentially allows users to burn and later re-issue \(or mint\) public coins with no attached history. Sigma improves over the previously used Zerocoin Protocol by not requiring a trusted "setup ceremony" of any kind and significantly decreasing transaction size allowing for greater scaling.
+Developed by the [ZCoin](https://zcoin.io/) team, Sigma is a zero-knowledge proof protocol which essentially allows users to burn and later re-issue \(or mint\) public coins with no attached history. Sigma improves over the previously used Zerocoin Protocol by not requiring a trusted "setup ceremony" of any kind and significantly decreases transaction size allowing for greater scaling.
 
 The detailed underlying concept for Sigma can be found [here](https://eprint.iacr.org/2014/764.pdf).
 
