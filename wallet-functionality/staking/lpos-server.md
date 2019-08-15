@@ -86,6 +86,10 @@ leaserewardaddresses=RewardAddress1,RewardAddress2,etc
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
+{% hint style="success" %}
+**TIP:** Your reward address can be generated from the VPS wallet, but for best security practices it should be on a different wallet entirely. This way, there are never spendable coins on your LPoS Server.
+{% endhint %}
+
 Using the above configuration, this wallet will only stake contracts with a fee no less than 11.91% and a reward address of &lt;your\_address\_for\_collecting\_reward\_fees&gt;. For more advanced configurations, see [Command-line options](../command-line-options.md).
 
 Exit and save the file by using 'Ctrl + x', pressing 'y' and hitting &lt;Enter&gt;
@@ -113,7 +117,13 @@ nixd
 Now you can generate a new address. This will be used for the "Lease To: " address field when creating a [LPoS client](lpos-client.md) contract. The following command will generate and store a new address to a text file named LeaseToAddress.txt:
 
 ```text
-nix-cli getnewaddress > LeaseToAddress.txt
+nix-cli getnewaddress >> LeaseToAddress.txt
+```
+
+To create a Bech32 address and add it to LeaseToAddress.txt, type:
+
+```text
+nix-cli getnewaddress LPoS-Bech32 bech32 >> LeaseToAddress.txt
 ```
 
 If you want to quickly view the contents of LeaseToAddress.txt, use:
@@ -141,7 +151,7 @@ nix-cli addnode sf.nixplatform.io add
 Once you've confirmed your wallet is syncd, unlock it for staking with:
 
 ```text
-nix-cli walletpassphrase <your_passphrase> 0 true
+nix-cli walletpassphrase YOUR_PASSPHRASE 0 true
 ```
 
 Your VPS wallet is now ready to accept contracts and begin staking.
@@ -153,7 +163,7 @@ history -c;history -w
 ```
 
 {% hint style="danger" %}
-**You should execute this command before logging out any time you enter your password through the bash prompt in plain text.**
+**If your VPS wallet contains spendable coins you should always execute this command before logging out any time you enter your password through the bash prompt in plain text.**
 {% endhint %}
 
 You can now close your ssh connection.
