@@ -114,13 +114,13 @@ nixd
 **NOTE:** Now that you have 'daemon=1' in your nix.conf file, you will no longer need to append & to nixd in order to put the process into the background.
 {% endhint %}
 
-Now you can generate a new address. This will be used for the "Lease To: " address field when creating a [LPoS client](lpos-client.md) contract. The following command will generate and store a new address to a text file named LeaseToAddress.txt:
+Now you can generate a new address. This will be used for the "Lease To: " address field when creating a [LPoS client](lpos-client.md) contract. The following command will generate and store a new standard address \(beginning with "N"\) to a text file named LeaseToAddress.txt:
 
 ```text
 nix-cli getnewaddress >> LeaseToAddress.txt
 ```
 
-To create a Bech32 address and add it to LeaseToAddress.txt, type:
+To create a "nix1" Bech32 address and add it to LeaseToAddress.txt, type:
 
 ```text
 nix-cli getnewaddress LPoS-Bech32 bech32 >> LeaseToAddress.txt
