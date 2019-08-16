@@ -29,7 +29,7 @@ Here, it will ask you for an IP address. An easy way to get one is from a block 
 
 Once sync'd and you've completed any sends you want to do, you will probably want to get back to the NIX Nodes section and switch back to Automatic Mode, as there is no guarantee the node you manually added will remain online forever.
 
-## How Import Your Mobile Seed Phrase into Electrum-NIX
+## How to Import Your Mobile Seed Phrase into Electrum-NIX
 
 If for whatever reason you are unable to get your mobile wallet to work properly, or perhaps your device is destroyed/lost/stolen and you want to use the funds but don't yet have another device to restore to, you can easily import your seed phrase into an electrum-nix desktop wallet.
 
