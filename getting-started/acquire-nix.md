@@ -14,7 +14,7 @@ NIX is currently listed on the following exchanges:
 * [IDAX](https://www.idax.pro/#/exchange?pairname=NIX_BTC)
 * [BlockDX](https://blocknet.co/block-dx/)
 * [Mercatox](https://mercatox.com/exchange/NIX/BTC)
-* Beaxy
+* [CryptoBridge](https://crypto-bridge.org/)
 
 ## Obtaining Ghost Node Rewards
 
