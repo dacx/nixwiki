@@ -8,24 +8,28 @@ description: How to set up your own LPoS server.
 
 **This article will assume you are using a 64 bit Linux Virtual Private Server.**
 
+{% hint style="info" %}
+**NOTICE:** If you are using a Windows based server, the .zip releases contain nixd.exe and nix-cli.exe. Configuration steps will remain essentially the same, you'll just be using Windows commands and editors instead of the Linux ones used here.
+{% endhint %}
+
 Log into your VPS using a Secure Shell \(ssh\) client according to your providers instructions. [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) is a popular ssh client that is open source and available for Windows and Unix/Linux for free.
 
 If you are logging in as root, the first thing you will want to do is create a normal user. Running services as the root user is generally considered a bad practice. You can create a new user with:
 
 ```bash
-useradd -m <username>
+useradd -m NEW_USERNAME_HERE
 ```
 
-Next, set a password for your new user.
+The following command will allow you to choose a password for your new username:
 
 ```bash
-passwd <username>
+passwd NEW_USERNAME_HERE
 ```
 
-Now substitute user into your new user and its home directory using:
+Next, "substitute user" into your new user and its home directory using:
 
 ```bash
-su - <username>
+su - NEW_USERNAME_HERE
 ```
 
 {% hint style="success" %}
@@ -98,10 +102,10 @@ Exit and save the file by using 'Ctrl + x', pressing 'y' and hitting &lt;Enter&g
 **TIP:** If you'd like to use this to privately cold stake your own coins, simply omit the 'minimumleasepercentage=' and 'leaserewardaddresses=' lines and create your [LPoS client](lpos-client.md) contract with no fee.
 {% endhint %}
 
-Next, encrypt your wallet.
+Next, encrypt your wallet and choose a passphrase.
 
 ```bash
-nix-cli encryptwallet <passphrase>
+nix-cli encryptwallet YOUR_PASSPHRASE
 ```
 
 After encryption nixd will automatically shut itself down. Restart the daemon.
