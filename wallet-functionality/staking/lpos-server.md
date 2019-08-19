@@ -36,7 +36,7 @@ su - NEW_USERNAME_HERE
 For future ssh connections, login as your normal user.
 {% endhint %}
 
-Download the latest NIX Platform Core software release. At the time of this writing, that would be:
+Download the latest NIX Platform Core software release using wget:
 
 ```bash
 wget https://github.com/NixPlatform/NixCore/releases/download/v3.0.4/nix-3.0.4-x86_64-linux-gnu.tar.gz
