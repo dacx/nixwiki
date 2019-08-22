@@ -14,7 +14,7 @@ Users can have both the QT and GUI wallets installed on the same machine giving 
 
 The QT wallet is the one most cryptocurrency users have seen before. It offers a clean interface with a focus on functionality rather than design.
 
-![NIX Core QT wallet](../../.gitbook/assets/nix-core-wallet-_005.png)
+![Nix Core Wallet](../../.gitbook/assets/qt-wallet.png)
 
 **Recommended for:** Everyone
 
