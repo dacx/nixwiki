@@ -4,6 +4,10 @@ NIX incorporated its decentralized off-chain governance system on May 25th, 2019
 
 Discussions concerning governance proposals can often be found in the \#governance [Discord server chat](https://discordapp.com/invite/HGuvDTW).
 
+{% hint style="danger" %}
+**Caution:** Please remember that anybody willing to spend 50 NIX can create a proposal. It is up to you to decide if the individual who created the proposal is trustworthy and will follow through with their stated intentions. **Please vote wisely!**
+{% endhint %}
+
 ## Casting Your Vote
 
 In order for a proposal to pass, 2 requirements from the voting community must be met. These are:
