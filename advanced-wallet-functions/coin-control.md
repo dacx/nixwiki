@@ -60,7 +60,7 @@ After selecting your desired inputs you can right click and copy the total amoun
 
 The second use of the coin control feature is specifying a custom change address. This feature is not commonly used, however, there may be times where you'd like to utilize this ability.
 
-Lets say your wallet has a UTXO which contains 20 coins and you wish to send 19.5 to somebody. Because UTXO's must be entirely spent, the wallet will automatically select this UTXO to complete your 19.5 + fee transaction which would leave you with just under .5 NIX as change. Normally this change would be sent to a newly created address in your wallet as part of the transaction. By specifying a custom change address, your change will be sent to any address you choose. 
+Let's say your wallet has a UTXO which contains 20 coins and you wish to send 19.5 to somebody. Because UTXO's must be entirely spent, the wallet will automatically select this UTXO to complete your 19.5 + fee transaction which would leave you with just under .5 NIX as change. Normally this change would be sent to a newly created address in your wallet as part of the transaction. By specifying a custom change address, your change will be sent to any address you choose. 
 
 {% hint style="success" %}
 **TIP:** Automatically created change addresses **will not** show up under your Receive window's "Requested payments history". The only way to view all of your change addresses is by using coin control inputs.
