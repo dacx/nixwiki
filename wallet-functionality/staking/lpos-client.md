@@ -1,5 +1,5 @@
 ---
-description: How to Setup an LPoS Contract
+description: How to Setup and Cancel an LPoS Contract
 ---
 
 # LPoS Client
@@ -39,7 +39,7 @@ First, navigate to the "Active Contracts" tab from the LPoS screen.
 ![LPoS Active Contracts tab](../../.gitbook/assets/qt-lpos-active-contracts.png)
 
 {% hint style="info" %}
-**NOTE:** Active Contracts that have recently hit a stake will not show until those coins have matured \(200 confirmations\).
+**NOTE:** Active contracts that have recently hit a stake will not show until those coins have matured \(201 confirmations\).
 {% endhint %}
 
 To cancel an active contract, simply select it and then right click.
@@ -73,6 +73,6 @@ At the bottom of the Leased Staking window, you'll find the active contracts lis
 ![](../../.gitbook/assets/ui-lpos-contracts.png)
 
 {% hint style="info" %}
-**NOTE:** Active Contracts that have recently hit a stake will not show until those coins have matured \(200 confirmations\).
+**NOTE:** Active contracts that have recently hit a stake will not show until those coins have matured \(201 confirmations\).
 {% endhint %}
 
