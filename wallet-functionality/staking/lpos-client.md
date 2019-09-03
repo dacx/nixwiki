@@ -1,3 +1,7 @@
+---
+description: How to Setup an LPoS Contract
+---
+
 # LPoS Client
 
 You can utilize the LPoS 'Create Contract' screen to create both Cold Staking and Leased Proof-of-Stake smart contracts that operate in a trustless manner until you decide to cancel the contract. 
@@ -12,7 +16,9 @@ As mentioned, there are 2 ways to use this smart contract:
 
 ## QT Wallet
 
-### Create Contract
+### Create a Contract
+
+Click on the LPoS tab at the top of the QT wallet to find the "Create Contract" screen. Here, you can fill in the required information in order to lease your coins to another wallet or provider.
 
 ![LPoS &apos;Create Contract&apos; Screen](../../.gitbook/assets/qt-create-lpos-contract.png)
 
@@ -24,9 +30,11 @@ As mentioned, there are 2 ways to use this smart contract:
 
 **`Fee Percent:`** Amount of reward share allocated to the leasing merchant. This info is provided by the merchant. If the fee is greater than zero, check the "Enable fee payout" box to enter the proper percentage.
 
-**`Reward Address:`** The merchants address for their share of the stake reward when your contract successfully stakes. This address is supplied by the merchant.
+**`Reward Address:`** The merchant's address for their share of the stake reward when your contract successfully stakes. This address is supplied by the merchant.
 
-### Active Contracts
+### Cancel a Contract
+
+First, navigate to the "Active Contracts" tab from the LPoS screen.
 
 ![LPoS Active Contracts tab](../../.gitbook/assets/qt-lpos-active-contracts.png)
 
@@ -34,7 +42,37 @@ As mentioned, there are 2 ways to use this smart contract:
 **NOTE:** Active Contracts that have recently hit a stake will not show until those coins have matured \(200 confirmations\).
 {% endhint %}
 
-To cancel an active contract, first select it and then right click.
+To cancel an active contract, simply select it and then right click.
 
 ![](../../.gitbook/assets/qt-lpos-cancel-contract.png)
+
+## GUI Wallet
+
+### Create a Contract
+
+First, click on "Staking" in the left-hand menu, then "Leased staking" followed by "NEW LEASING CONTRACT"
+
+![](../../.gitbook/assets/ui-lpos-composite.png)
+
+![New leasing contract screen](../../.gitbook/assets/ui-lpos-setup.png)
+
+**`LPoS provider details:`** Can be set to anything you like.
+
+**`Address that coins will be leased to for staking:`** Defines the external address allowed to stake the coins. This address is supplied by the merchant.
+
+**`Contract description:`** Can be set to anything you like.
+
+**`LPoS provider's fee:`** Amount of reward share allocated to the leasing merchant. This info is provided by the merchant.
+
+**`Address for LPoS provider's fee:`** The merchant's address for their share of the stake reward when your contract successfully stakes. This address is supplied by the merchant.
+
+### Cancel a Contract
+
+At the bottom of the Leased Staking window, you'll find the active contracts list. Here, you can view details and cancel any of your LPoS contracts.
+
+![](../../.gitbook/assets/ui-lpos-contracts.png)
+
+{% hint style="info" %}
+**NOTE:** Active Contracts that have recently hit a stake will not show until those coins have matured \(200 confirmations\).
+{% endhint %}
 
