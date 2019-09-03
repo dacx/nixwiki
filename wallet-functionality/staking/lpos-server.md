@@ -94,7 +94,7 @@ leaserewardaddresses=RewardAddress1,RewardAddress2,etc
 **TIP:** Your reward address can be generated from the VPS wallet, but for best security practices it should be on a different wallet entirely. This way, there are never spendable coins on your LPoS Server.
 {% endhint %}
 
-Using the above configuration, this wallet will only stake contracts with a fee no less than 11.91% and your specified reward address\(es\). For more advanced configurations, see [Command-line options](../command-line-options.md).
+Using the above configuration, this wallet will only stake contracts with a fee no less than 11.91% and your specified reward address\(es\). For more advanced configurations, see [Command-line options](../../advanced-wallet-functions/command-line-options.md).
 
 Exit and save the file by using 'Ctrl + x', pressing 'y' and hitting &lt;Enter&gt;
 

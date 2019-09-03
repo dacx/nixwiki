@@ -30,8 +30,12 @@
   * [One-Click Installer](wallet-functionality/ghostnodes/ghost-node-setup.md)
   * [Manual Install Methods](wallet-functionality/ghostnodes/other-install-methods.md)
 * [Governance Voting](wallet-functionality/governance-voting.md)
-* [Command-line Options](wallet-functionality/command-line-options.md)
-* [Console Commands](wallet-functionality/console-commands.md)
+
+## Advanced Wallet Functions
+
+* [Coin Control](advanced-wallet-functions/coin-control.md)
+* [Console Commands](advanced-wallet-functions/console-commands.md)
+* [Command-line Options](advanced-wallet-functions/command-line-options.md)
 
 ## Support
 

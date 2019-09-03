@@ -1,8 +1,10 @@
 # Restore
 
+## QT and GUI Wallets
+
 The method of restoring a Core \(and GUI\) wallet.dat file is essentially the reverse of [manually backing it up](wallet-backup.md#manual-backup). Default locations for each Operating System can be found below.
 
-## Windows
+### Windows
 
 By default, the NIX data directory will be created as C:\Users\\(your username\)\AppData\roaming\nix\
 
@@ -22,7 +24,7 @@ or
 
 C:\Users\\(your username\)\AppData\roaming\nix\wallet.dat
 
-## MacOS
+### MacOS
 
 Be default, the NIX data directory will be created as ~/Library/Application Support/nix/
 
@@ -44,7 +46,7 @@ or
 
 ~/Library/Application Support/nix/wallet.dat
 
-## Linux
+### Linux
 
 By default, the NIX data directory will be created as ~/.nix/
 
@@ -59,4 +61,8 @@ To restore a backed up wallet.dat file, simply copy it into the following locati
 or
 
 ~/.nix/wallet.dat
+
+## Mobile and Electrum Wallets
+
+Simply use your saved word list to restore your mobile and Electrum wallets.
 
