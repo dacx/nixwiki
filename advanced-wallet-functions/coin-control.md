@@ -66,5 +66,5 @@ Let's say your wallet has a UTXO which contains 20 coins and you wish to send 19
 **TIP:** Automatically created change addresses **will not** show up under your Receive window's "Requested payments history". The only way to view all of your change addresses is by using coin control inputs.
 {% endhint %}
 
-To enable this feature, simply check the box and enter a change address. **Please note that if this feature is selected and the change address is empty or invalid, a newly created change address will be used instead.**
+To enable this feature, simply check the box and enter an address. **Please note that if this feature is selected and the address is empty or invalid, a newly created change address will be used instead.**
 
