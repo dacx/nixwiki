@@ -9,7 +9,7 @@ The method of restoring a Core \(and GUI\) wallet.dat file is essentially the re
 By default, the NIX data directory will be created as C:\Users\\(your username\)\AppData\roaming\nix\
 
 {% hint style="success" %}
-**TIP:** Windows hides the AppData folder by default when using the graphical file explorer. In order to get inside the AppData folder, you can either type "%AppData%" into the search bar or check the box for "Hidden items" under the View menu to show hidden files in the file explorer window.
+**TIP:** Windows hides the AppData folder by default when using the graphical file explorer. In order to get inside the AppData folder, you can either type "%AppData%" into the search bar or check the box for "Hidden items" under the View menu to show hidden files in the file explorer window and navigate your way there.
 {% endhint %}
 
 To restore a backed up wallet.dat file, simply copy it into the following location:

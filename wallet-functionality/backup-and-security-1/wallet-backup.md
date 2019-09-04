@@ -31,7 +31,7 @@ You can manually copy your wallet.dat file to a new location by navigating to th
 #### Windows
 
 {% hint style="success" %}
-**TIP:** Windows hides the AppData folder by default when using the graphical file explorer. In order to get inside the AppData folder, you can either type "%AppData%" into the search bar or check the box for "Hidden items" under the View menu to show hidden files in the file explorer window.
+**TIP:** Windows hides the AppData folder by default when using the graphical file explorer. In order to get inside the AppData folder, you can either type "%AppData%" into the search bar or check the box for "Hidden items" under the View menu to show hidden files in the file explorer window and navigate your way there.
 {% endhint %}
 
 C:\Users\\(your username\)\AppData\roaming\nix\wallets\wallet.dat
