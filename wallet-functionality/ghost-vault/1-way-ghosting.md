@@ -52,7 +52,7 @@ The GUI wallet currently only supports adding funds to your own Ghost Vault, and
 
 ### From the Overview screen
 
-Within the Ghost Vault overview, click on the "Deposit" button.
+From the Overview screen, find the "Ghost Vault" box and click on the "Deposit" button.
 
 ![](../../.gitbook/assets/ui-overviewghoststart.png)
 
