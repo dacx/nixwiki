@@ -4,6 +4,7 @@
 | :--- | :--- |
 | Codebase | BTC 0.17 |
 | Mainnet Port | 6214 |
+| Testnet Port | 16214 |
 | Consensus | Proof of Stake/Custom LPoS |
 | Block Time Target | 2 minutes |
 | Difficulty Adjustment | Every block, 2 block moving average |
@@ -11,12 +12,12 @@
 
 | Coin |  |
 | :--- | :--- |
-| Current Supply | 44,096,000 \(1AUG2019\) |
+| Current Supply | ~44,327,000 \(SEP2019\) |
 | Maximum Supply | 102,210,160 \(After 40 years\) |
 | Staking Reward | ~2.5 per block |
 | Ghostnode Reward | ~8.4 per block |
-| Ghostnode Ghost Vault Fee \* | .25% |
-| Ghostnode Vault to Vault TX Fee \* | .1 |
+| Ghostnode Ghost Vault Fee \* \(1-way Ghosting\) | .25% |
+| Ghostnode Vault to Vault TX Fee \* \(2-way Ghosting\) | .1 Ghosted NIX |
 
  \* Vault fees are pooled and split among all active Ghostnodes on a daily basis.
 
