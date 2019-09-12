@@ -101,7 +101,7 @@ Requires wallet passphrase to be set with walletpassphrase call.
 &gt; nix-cli getaddressvoteweight '{"addresses": \["NwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg"\], "start": 10, "end": 20}'  
 &gt; curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "getaddressvoteweight", "params": \['{"addresses": \["NwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg"\]}'\] }' -H 'content-type: text/plain;' http://127.0.0.1:8332/
 
-`getoffchainproposals`
+`getoffchainproposals` Returns a list of all proposals.
 
 `getproposaltimeframeinfo` Returns total weight a proposal in a given timeframe can possibly have.  
   
@@ -126,8 +126,6 @@ Requires wallet passphrase to be set with walletpassphrase call.
 **Arguments:**  
 1. "start\_time" \(int, required\) The starting time \(unix\) for the weight calculation.  
 2. "end\_time" \(int, required\) The ending time \(unix\) for the weight calculation.
-
-`getoffchainproposals vote_id decision(0/1)` 
 
 ## NIX Privacy
 
