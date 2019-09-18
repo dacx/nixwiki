@@ -28,6 +28,10 @@
 | Ghosting | ✔ | ✔ | ✘ | ⏳  ✘ | ✔ |
 | 2-Way-Ghosting | ✔ | ✔ | ✘ | ⏳ ✘ | ✔ |
 
+| Governance | UI Wallet | QT Wallet | Electrum | Mobile | CLI |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Voting                  | ✘ | ✔ | ✘ | ✘ | ✔ |
+
 | **Operating System** | UI Wallet | QT Wallet | Electrum | Mobile | CLI |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Windows x64 | ✔ | ✔ | ✔ | ✘ | ✔ |
