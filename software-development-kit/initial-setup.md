@@ -22,7 +22,7 @@ npm install nix-core --save
 
 ## Node Configuration
 
-To establish a connection between the nixd instance and the SDK, an appropriate nix.conf configuration file is required. This is a working example:
+To establish a connection between the nixd instance and the SDK, an appropriate nix.conf configuration file is required.
 
 {% code-tabs %}
 {% code-tabs-item title="nixd.conf" %}
