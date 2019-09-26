@@ -5,7 +5,7 @@
 | **Security** | UI Wallet | QT Wallet | Electrum | Mobile | CLI |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Encryption | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Seed Recovery | ✘ | ✘ | ✔ | ✘ | ✘ |
+| Seed Phrase | ✘ | ✘ | ✔ | ✔ | ✘ |
 | Private Keys | ✔ | ✔ | ✔ | ✔ | ✔ |
 | 2FA | ✘ | ✘ | ✔ | ✘ | ✘ |
 | Touch Login | ✘ | ✘ | ✘ | ✔ | ✘ |
@@ -13,24 +13,23 @@
 
 | **Ghostnodes** | UI Wallet | QT Wallet | Electrum | Mobile | CLI |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| One-Click Install | ✔ | ✘ | ✘ | ✘ | ✘ |
-| Script Install | ✔ | ✔ | ✘ | ✘ | ✔ |
-| Manual Install | ✔ | ✔ | ✘ | ✘ | ✔ |
+| [One-Click Install](../../wallet-functionality/ghostnodes/ghost-node-setup.md) | ✔ | ✘ | ✘ | ✘ | ✘ |
+| [Script Install](../../wallet-functionality/ghostnodes/ghost-node-setup.md#bash-script-from-cryptosharks) | ✔ | ✔ | ✘ | ✘ | ✔ |
+| [Manual Install](../../wallet-functionality/ghostnodes/other-install-methods.md) | ✔ | ✔ | ✘ | ✘ | ✔ |
 
 | **Staking** | UI Wallet | QT Wallet | Electrum | Mobile | CLI |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Wallet Staking | ✔ | ✔ | ✘ | ✘ | ✔ |
-| Cold Staking | ✔ | ✔ | ✘ | ⏳✘ | ✔ |
-| Leased Staking | ✔ | ✔ | ✘ | ⏳✘ | ✔ |
+| [Wallet Staking](../../wallet-functionality/staking/desktop-wallet-staking.md) | ✔ | ✔ | ✘ | ✘ | ✔ |
+| [Leased/Cold Staking](../../wallet-functionality/staking/lpos-client.md) | ✔ | ✔ | ✘ | ⏳✘ | ✔ |
 
-| **Vault** | UI Wallet | QT Wallet | Electrum | Mobile | CLI |
+| **Ghost Vault** | UI Wallet | QT Wallet | Electrum | Mobile | CLI |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Ghosting | ✔ | ✔ | ✘ | ⏳  ✘ | ✔ |
-| 2-Way-Ghosting | ✔ | ✔ | ✘ | ⏳ ✘ | ✔ |
+| [1-Way Ghosting](../../wallet-functionality/ghost-vault/1-way-ghosting.md) | ✔ | ✔ | ✘ | ⏳  ✘ | ✔ |
+| [2-Way Ghosting](../../wallet-functionality/ghost-vault/2-way-ghosting.md) | ✘ | ✔ | ✘ | ⏳ ✘ | ✔ |
 
 | Governance | UI Wallet | QT Wallet | Electrum | Mobile | CLI |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Voting                  | ✘ | ✔ | ✘ | ✘ | ✔ |
+| [Voting](../../wallet-functionality/governance-voting.md)                  | ✘ | ✔ | ✘ | ✘ | ✔ |
 
 | **Operating System** | UI Wallet | QT Wallet | Electrum | Mobile | CLI |
 | :--- | :--- | :--- | :--- | :--- | :--- |

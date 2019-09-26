@@ -10,7 +10,7 @@ The detailed underlying concept for Sigma can be found [here](https://eprint.iac
 
 ## Commitment Key Packs
 
-Used alone, CKPs \(known as "Ghost Keys"\) allow users to send funds directly to another wallets Ghost Vault. When used in combination with previously Ghosted NIX, full address-less transactions are achieved.
+Used alone, CKPs \(known as "Ghost Keys"\) allow users to destroy public NIX and send them to a Ghost Vault, whether it belongs to themselves or another user. When used in combination with previously Ghosted NIX, full address-less transactions are achieved.
 
 The Pedersen Anonymous Deposits: Commitment Key Packs paper can be found [here](https://nixplatform.io/wp-content/uploads/2018/10/Commitment_Key_Packs_v1-0-1.pdf).
 
