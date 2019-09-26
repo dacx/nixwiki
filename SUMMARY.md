@@ -52,9 +52,14 @@
 * [Report a Wallet Issue](github-and-feedback/how-to-log-an-issue.md)
 * [Feature Requests](github-and-feedback/feature-requests.md)
 
+## Software Development Kit
+
+* [Overview](software-development-kit/overview.md)
+* [Initial Setup](software-development-kit/initial-setup.md)
+* [Usage Guide](software-development-kit/usage-guide.md)
+
 ## Other Resources <a id="other"></a>
 
-* [Developer Tools](other/developer-tools.md)
 * [Whitepaper](https://nixplatform.io/docs/NIX-Platform-Whitepaper.pdf)
 * [GitHub](https://github.com/nixplatform/nixcore/releases/)
 
