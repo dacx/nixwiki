@@ -27,4 +27,5 @@ Since then, the NIX team has established a trend of rapid and successful develop
 * May 25th, 2019 - [Decentralized Off-Chain Governance](https://medium.com/@nixplatform/nix-platform-off-chain-governance-bf4bfe474f6)
 * May 25th, 2019 - [Sigma Protocol Integration](https://medium.com/@nixplatform/nix-privacy-reinforced-sigma-activated-successfully-7ecaecca14a0)
 * June 10th, 2019 - [Flare Wallet \(DEX Manager\) Beta Launch](https://medium.com/@flarewallet.io/flare-desktop-wallets-now-available-1f9612ce6ead)
+* July 25th, 2019 - [Privacy Swap Proof of Concept](https://medium.com/@nixplatform/nix-platform-privacy-swap-proof-of-concept-210089edeea1)
 

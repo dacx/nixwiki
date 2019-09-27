@@ -4,20 +4,46 @@
 If for whatever reason the following doesn't fix your issue, join the [Discord server](https://discordapp.com/invite/HGuvDTW) and ask in the **public channels only** for help. **Do not respond to any DMs** as scammers might try to trick you into giving them your funds!
 {% endhint %}
 
-If you happen to be on the wrong chain due to not updating your wallet in time, this will get you back on track.
+If you happen to be on the wrong chain \(typically due to not updating your wallet in time before a mandatory update\), your wallet may show an incorrect balance and any transactions you try to send will not be properly received.
 
-1. Verify that you are indeed on the wrong chain by comparing your block height to the [explorer](https://blockchain.nixplatform.io/).
-2. Update your wallet to the latest by downloading it from [GitHub](https://github.com/NixPlatform/NixCore/releases) \(don't start the wallet yet\).
-3. Navigate to the NIX data directory \(see the OS dependent steps below\). 
-4. Create a backup of your wallet.dat \(either located on the root of the data dir or in /wallets\) to be on the safe side.
-5. Delete the following from the data dir:
-   1. blocks \(entire directory\)
-   2. chainstate \(entire directory\)
-   3. banlist.dat
-   4. peers.dat
-6. Start the new wallet. Wait for the wallet to finish syncing and you're good to go!
+## How to Resync
 
-### Finding the NIX data directory
+First, verify that you are indeed on the wrong chain by comparing your block height to the [explorer](https://blockchain.nixplatform.io/). If they do not match, take the following steps:
+
+1. Be sure you have the latest version of the wallet. If not, download it from [https://nixplatform.io/wallet](https://nixplatform.io/wallet) or [GitHub](https://github.com/NixPlatform/NixCore/releases).
+2. Make sure your wallet is not running and navigate to the NIX data directory \(see [Finding the NIX data directory](syncing-issues.md#finding-the-nix-data-directory) below\). 
+3. If you don't have a backup of your wallet.dat file, now would be a good time to make a copy just in case you accidentally delete it while doing the next step. Check the [Wallet Backup](../wallet-functionality/backup-and-security-1/wallet-backup.md) page for more details.
+4. Delete the following from the data directory: - blocks \(entire directory\) - chainstate \(entire directory\) - banlist.dat - peers.dat
+5. Start the wallet and let it sync. Using a broadband internet connection, it should take about 15 mins to complete.
+
+### Optional Steps
+
+#### Download and install a bootstrap after completing step 4
+
+1. Download the latest [NIX Blockchain Bootstrap](https://drive.google.com/open?id=1RRuEL_xDf7lbHQxAEdOOnF2nlNOVjWyN) file \(updated once a month\).
+2. Unzip contents to the NIX data directory.
+
+#### Manually adding peers
+
+Once you've restarted your wallet to sync, you can use the debug console to quickly add an official peer that is geographically closest to you by typing:
+
+```text
+addnode ny.nixplatform.io add
+```
+
+![Successfully adding the ny.nixplatform.io node](../.gitbook/assets/console-addnode.png)
+
+**List of official nodes:**
+
+* ny.nixplatform.io \(East coast, US\)
+* sf.nixplatform.io \(West coast, US\)
+* ldn.nixplatform.io \(London, England\)
+* fra.nixplatform.io \(Frankfurt, Germany\)
+* tor.nixplatform.io \(Toronto, Canada\)
+* sgp.nixplatform.io \(Singapore\)
+* blr.nixplatform.io \(Bengaluru, India\)
+
+## Finding the NIX data directory
 
 #### Windows
 
@@ -27,7 +53,7 @@ If you happen to be on the wrong chain due to not updating your wallet in time, 
 
 #### Linux
 
-1. The data dir is located in `~./nix` .
+1. The data directory is located in `~./nix` .
 
 #### Mac OS
 
