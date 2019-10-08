@@ -1,6 +1,6 @@
 # Wallet Comparison
 
-## Overview of functionality 
+## Overview of Functionality 
 
 | **Security** | UI Wallet | QT Wallet | Electrum | Mobile | CLI |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -39,5 +39,16 @@
 | Linux x64 | ✔ | ✔ | ✔ | ✘ | ✔ |
 | ARM/aarch64/i686 | ✘ | ✔ | ✘ | ✘ | ✔ |
 | iOS | ✘ | ✘ | ✘ | ✔ | ✘ |
-| Android | ✘ | ✘ | ✘ | ✔ | ✘ |
+| Android | ✘ | ✘ | ✔ | ✔ | ✘ |
+
+## Quick Download Links
+
+**Desktop**  
+QT and CLI: [https://github.com/NixPlatform/NixCore/releases](https://github.com/NixPlatform/NixCore/releases) \(Windows CLI is packaged in .zip releases\)  
+UI: [https://github.com/NixPlatform/Nix-GUI/releases](https://github.com/NixPlatform/Nix-GUI/releases)  
+Electrum-NIX \(includes hardware wallet support\): [https://github.com/NixPlatform/electrum-nix/releases](https://github.com/NixPlatform/electrum-nix/releases)
+
+**Android** \(Google Play Store\)  
+NIX Mobile: [https://play.google.com/store/apps/details?id=com.nixwallet&hl=en\_US](https://play.google.com/store/apps/details?id=com.nixwallet&hl=en_US)  
+Electrum-NIX: [https://play.google.com/store/apps/details?id=io.nixplatform.electrum.electrumnix&hl=en\_US](https://play.google.com/store/apps/details?id=io.nixplatform.electrum.electrumnix&hl=en_US)
 

@@ -2,7 +2,7 @@
 
 ## Available Wallets
 
-The following wallets are currently available for download; QT, GUI, Electrum, SPV Mobile and CLI. 
+The following wallets are currently available for download; [QT](./#qt-wallet), [UI](./#ui-wallet), [Electrum-NIX](./#electrum-wallet), [SPV Mobile](./#spv-mobile-wallets) and [CLI](./#cli-wallet-command-line-interface). 
 
 The QT and GUI wallets are both based on NIX Core meaning they share the same daemon and wallet.dat \(if the default installation directory is preserved\) whereas the Electrum and SPV wallets are separate entities.
 
@@ -20,9 +20,9 @@ The QT wallet is the one most cryptocurrency users have seen before. It offers a
 
 **Download:** [https://github.com/NixPlatform/NixCore/releases](https://github.com/NixPlatform/NixCore/releases)
 
-## GUI Wallet
+## UI Wallet
 
-True eye-candy. With a focus on user experience, the GUI wallet is perfect for users that prefer a visually pleasing interface and do not use more in-depth functionalities.
+True eye-candy. With a focus on user experience, the UI wallet is perfect for users that prefer a visually pleasing interface and do not use more in-depth functionalities.
 
 ![NIX UI Wallet](../../.gitbook/assets/image%20%282%29.png)
 
