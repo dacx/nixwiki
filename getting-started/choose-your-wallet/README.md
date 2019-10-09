@@ -4,7 +4,7 @@
 
 The following wallets are currently available for download; [QT](./#qt-wallet), [UI](./#ui-wallet), [Electrum-NIX](./#electrum-wallet), [SPV Mobile](./#spv-mobile-wallets) and [CLI](./#cli-wallet-command-line-interface). 
 
-The QT and GUI wallets are both based on NIX Core meaning they share the same daemon and wallet.dat \(if the default installation directory is preserved\) whereas the Electrum and SPV wallets are separate entities.
+The QT and UI wallets are both based on NIX Core meaning they share the same daemon and wallet.dat \(if the default installation directory is preserved\) whereas the Electrum and SPV wallets are separate entities.
 
 Users can have both the QT and GUI wallets installed on the same machine giving the them the ability to use the slick GUI interface for every day sending and receiving and then switch to the fully featured QT wallet for more advanced features when/if needed. For a comparison see:
 
