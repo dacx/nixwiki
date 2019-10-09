@@ -24,7 +24,7 @@ First, you'll need to install python-pip, gdown, and unzip if they are not alrea
 
 ```text
 sudo apt install python-pip
-sudo -H install gdown
+sudo -H pip install gdown
 sudo apt install unzip
 ```
 
