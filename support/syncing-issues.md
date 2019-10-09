@@ -35,13 +35,13 @@ addnode ny.nixplatform.io add
 
 **List of official nodes:**
 
-* ny.nixplatform.io \(East coast, US\)
-* sf.nixplatform.io \(West coast, US\)
-* ldn.nixplatform.io \(London, England\)
-* fra.nixplatform.io \(Frankfurt, Germany\)
-* tor.nixplatform.io \(Toronto, Canada\)
+* ny.nixplatform.io \(United States\)
+* sf.nixplatform.io \(United States\)
+* ldn.nixplatform.io \(England\)
+* fra.nixplatform.io \(Germany\)
+* tor.nixplatform.io \(Canada\)
 * sgp.nixplatform.io \(Singapore\)
-* blr.nixplatform.io \(Bengaluru, India\)
+* blr.nixplatform.io \(India\)
 
 ## Finding the NIX data directory
 
