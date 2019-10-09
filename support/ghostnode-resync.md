@@ -23,6 +23,7 @@ The following instructions assume a VPS running Ubuntu 18.04. Perform this actio
 First, you'll need to install python-pip, gdown, and unzip if they are not already.
 
 ```text
+sudo apt update
 sudo apt install python-pip
 sudo -H pip install gdown
 sudo apt install unzip
