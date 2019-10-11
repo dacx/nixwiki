@@ -19,6 +19,7 @@ NIX is currently listed on the following exchanges:
 * [BlockDX](https://blocknet.co/block-dx/)
 * [Mercatox](https://mercatox.com/exchange/NIX/BTC)
 * [CryptoBridge](https://crypto-bridge.org/)
+* [Tradesatoshi](https://tradesatoshi.com/)
 * Beaxy \(confirmed and pending\)
 
 ## Ghost Node Rewards
