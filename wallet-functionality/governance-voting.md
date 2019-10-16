@@ -17,7 +17,9 @@ In order for a proposal to pass, 2 requirements from the voting community must b
 
 Voting is currently only available using the QT wallet. To be eligible for voting on a proposal you must be staking from a bech32 address which begins with "nix1" and/or running a Ghostnode prior to the date the proposal you'd like to vote on was submitted. Staking from a p2sh address beginning with "N" does not qualify for voting so as to keep those stakers who do not wish to participate in voting from affecting the 50% cast votes requirement.
 
-Your vote weight is determined by your received "nix1" staking and/or Ghostnode rewards. The more rewards you earn, the higher your vote weight will be.
+### Vote Weight
+
+Your vote weight is determined by your  "nix1" \(Bech32 address\) staking/LPoS contract and/or Ghostnode rewards. The more rewards you earn, the higher your vote weight will be. In order to be eligible to vote, you must have received a reward within 30 days prior to the creation of a Governance Proposal. Your weight is then calculated by the total amount of rewards received by each qualified address for a total of 46 days prior \(30 days during eligibility period, plus 15 days for voting, and an additional 1 as a cushion\). 
 
 ![Click on the Governance Button](../.gitbook/assets/qt-governance.png)
 
