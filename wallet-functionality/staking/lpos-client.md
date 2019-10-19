@@ -32,7 +32,7 @@ Click on the LPoS tab at the top of the QT wallet to find the "Create Contract" 
 
 **`Reward Address:`** The merchant's address for their share of the stake reward when your contract successfully stakes. This address is supplied by the merchant.
 
-**`Owner Address:`** \(optional\) Allows you to specify a local address where your leased coins will be held. Creating multiple contracts with the same owner address allows merchants/cold staking services to combine contracts using the stakecombinethreshold=&lt;n&gt; configuration option \(default is 5000 coins\).
+**`Owner Address:`** \(optional\) Allows you to specify a local address where your leased coins will be held. Creating multiple contracts with the same owner address allows merchants/cold staking services to combine contracts until a minimum number of coins are reached using the stakecombinethreshold=&lt;n&gt; configuration option \(default is 5000 coins\).
 
 ### Cancel a Contract
 
