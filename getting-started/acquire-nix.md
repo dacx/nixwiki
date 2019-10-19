@@ -1,4 +1,4 @@
-# Participate in NIX Ecosystem
+# Participate in the NIX Ecosystem
 
 There are several avenues of acquiring NIX by participating in the NIX ecosystem. 
 
