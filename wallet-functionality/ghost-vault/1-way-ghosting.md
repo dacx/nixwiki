@@ -14,7 +14,7 @@ The Ghost Vault is currently only available in the QT and GUI wallets, with mobi
 
 To begin, open your nix-qt wallet and click on the "Ghost Vault" button and be sure you are looking at the "Ghost NIX to Vault" tab.
 
-![Click on the &quot;Ghost Vault&quot; button at the top followed by the &quot;Ghost NIX to Vault&quot; tab](../../.gitbook/assets/qt-ghost-vault.png)
+![Click on the &quot;Ghost Vault&quot; button at the top of the QT wallet](../../.gitbook/assets/qt-ghost-vault.png)
 
 ### Sending to your own Ghost Vault
 
@@ -22,7 +22,7 @@ By default, your NIX will be ghosted to your own Ghost Vault. Outside observers 
 
 ![Sending NIX to your own Ghost Vault](../../.gitbook/assets/qt-ghost-to-self.png)
 
-### Ghosting to another users Ghost Vault
+### Ghosting to another user's Ghost Vault
 
 If you'd rather send your public NIX to a different wallet, uncheck the "Ghost to Myself" box and paste in the recipients Ghost Key.
 
@@ -38,7 +38,7 @@ The above examples of 1-Way Ghosting will privatize the transaction as shown:
 
 ![Receiving address is privatized](../../.gitbook/assets/explorer-1-way-ghosting.png)
 
-### Un-Ghosting to another users wallet
+### Un-Ghosting to another user's wallet
 
 In cases where you only want to privatize your sending address, you can Un-Ghost funds from your Ghost Vault into a receivers public address. This method is done from the "Un-Ghost NIX from Vault" tab, and there is no fee for this type of transaction.
 
