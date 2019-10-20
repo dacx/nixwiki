@@ -16,7 +16,7 @@ You must first have [ghosted NIX in your Ghost Vault](1-way-ghosting.md). You ca
 
 Deselect the "Un-Ghost to Myself" checkbox, enter the recipients Ghost Key in the "Un-Ghost To: " input field and enter an amount of ghosted NIX to send.
 
-![Creating a 2-Way Ghost transaction](../../.gitbook/assets/qt-2-way-ghosting.png)
+![Creating a 2-Way Ghost Transaction](../../.gitbook/assets/qt-2-way-ghosting.png)
 
 {% hint style="info" %}
 **NOTE:** Fractional amounts are currently only available in .1 increments.
