@@ -20,7 +20,7 @@ As mentioned, there are 2 ways to use this smart contract:
 
 Click on the LPoS tab at the top of the QT wallet to find the "Create Contract" screen. Here, you can fill in the required information in order to lease your coins to another wallet or provider.
 
-![LPoS Create Contract](../../.gitbook/assets/qt-create-lpos-contract.png)
+![LPoS Create Contract Screen](../../.gitbook/assets/qt-create-lpos-contract.png)
 
 **`Lease to:`** Defines the external address allowed to stake the coins. This address is supplied by the merchant.
 
