@@ -10,7 +10,7 @@ Discussions concerning governance proposals can often be found in the \#governan
 
 ## Casting Your Vote
 
-In order for a proposal to pass, 2 requirements from the voting community must be met. These are:
+In order for a proposal to pass, 2 requirements from the voting community must be met within 15 days. These are:
 
 1. At least 50% of eligible votes are cast.
 2. At least 75% of cast votes are in favor.

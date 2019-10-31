@@ -6,6 +6,8 @@ Whether you are an individual community member suggesting a change in operations
 
 **Once properly submitted, there are 2 requirements that must be met in order for a proposal to pass:**
 
+Within 15 days:
+
 1. At least 50% of all eligible votes are cast.
 2. At least 75% of cast votes are in favor.
 
