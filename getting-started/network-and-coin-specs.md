@@ -9,10 +9,11 @@
 | Block Time Target | 2 minutes |
 | Difficulty Adjustment | Every block, 2 block moving average |
 | Max. Block Size | 1MB |
+| Est. TPS | 80 |
 
 | Coin |  |
 | :--- | :--- |
-| Current Supply | ~44,500,000 \(OCT2019\) |
+| Current Supply | ~44,800,000 \(NOV2019\) |
 | Maximum Supply | 102,210,160 \(After 40 years\) |
 | Staking Reward | ~2.5 per block |
 | Ghostnode Reward | ~8.4 per block |
