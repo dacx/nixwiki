@@ -24,8 +24,8 @@ npm install nix-core --save
 
 To establish a connection between the nixd instance and the SDK, an appropriate nix.conf configuration file is required.
 
-{% code-tabs %}
-{% code-tabs-item title="nixd.conf" %}
+{% tabs %}
+{% tab title="nixd.conf" %}
 ```text
 daemon=1
 server=1
@@ -41,8 +41,8 @@ rpcworkqueue=1000
 staking=0
 enableaccounts=1
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ### Connecting to the daemon in JavaScript
 

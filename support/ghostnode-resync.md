@@ -32,8 +32,8 @@ sudo apt install unzip
 Download and unzip the bootstrap file:
 
 ```text
-gdown https://drive.google.com/uc?id=1IM0kaLJDWYSKM_8NLONqDUhE7xjvjQlO
-unzip NIX-2019-09-25.zip -d ~/.nix
+gdown https://drive.google.com/uc?id=17mLOyXLSPxVtiTdT2veILJDoT6g7IJdE
+unzip NIXBlockchain-3NOV2019.zip -d ~/.nix
 ```
 
 {% hint style="warning" %}

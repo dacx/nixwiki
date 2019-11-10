@@ -80,15 +80,15 @@ nano .nix/nix.conf
 
 For a minimal configuration, add the following lines to nix.conf:
 
-{% code-tabs %}
-{% code-tabs-item title="nix.conf" %}
+{% tabs %}
+{% tab title="nix.conf" %}
 ```text
 daemon=1
 minimumleasepercentage=1191
 leaserewardaddresses=RewardAddress1,RewardAddress2,etc
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 {% hint style="success" %}
 **TIP:** Your reward address can be generated from the VPS wallet, but for best security practices it should be on a different wallet entirely. This way, there are never spendable coins on your LPoS Server.
