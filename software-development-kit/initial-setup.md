@@ -24,8 +24,7 @@ npm install nix-core --save
 
 To establish a connection between the nixd instance and the SDK, an appropriate nix.conf configuration file is required.
 
-{% tabs %}
-{% tab title="nixd.conf" %}
+{% code title="nixd.conf" %}
 ```text
 daemon=1
 server=1
@@ -41,8 +40,7 @@ rpcworkqueue=1000
 staking=0
 enableaccounts=1
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 ### Connecting to the daemon in JavaScript
 
@@ -58,4 +56,20 @@ After nixd has been started with the above configuration, an instance can be cre
 ```
 
 More options can be found in the nix-core package documentation. With the `client` object, any command can now be executed. A list of selected commands can be found [here](usage-guide.md).
+
+## Official NIX SDK Node
+
+Alternatively, you can connect to ny.nixplatform.io using the following parameters:
+
+```text
+var RPC_USER = 'yourusername'
+var RPC_PASSWORD = 'yourpassword'
+var RPC_PORT = 8822
+const client = new Client({ network: 'mainnet',
+                            port: RPC_PORT,
+                            host: 'ny.nixplatform.io',
+                            username: RPC_USER,
+                            password: RPC_PASSWORD
+                          });
+```
 
