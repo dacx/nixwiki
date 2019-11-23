@@ -1,3 +1,7 @@
+---
+description: Español TBA
+---
+
 # Welcome to the NIX Wiki!
 
 NIX was[ first announced](https://medium.com/@nixplatform/nix-blocknet-a-partnership-for-the-cross-chain-era-61e50adc2918) on April 29, 2018 alongside a partnership with[ Blocknet](https://blocknet.co/).
