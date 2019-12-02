@@ -15,10 +15,8 @@ Join the [NIX Discord chat server](https://discordapp.com/invite/HGuvDTW) and ca
 NIX is currently listed on the following exchanges:
 
 * [KuCoin](https://www.kucoin.com/trade/NIX-BTC)
-* [IDAX](https://www.idax.pro/#/exchange?pairname=NIX_BTC)
 * [BlockDX](https://blocknet.co/block-dx/)
 * [Mercatox](https://mercatox.com/exchange/NIX/BTC)
-* [CryptoBridge](https://crypto-bridge.org/)
 * [Tradesatoshi](https://tradesatoshi.com/)
 * Beaxy \(confirmed and pending\)
 
