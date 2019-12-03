@@ -16,14 +16,16 @@ First, verify that you are indeed on the wrong chain by comparing your block hei
 4. Delete the following from the data directory: - blocks \(entire directory\) - chainstate \(entire directory\) - banlist.dat - peers.dat
 5. Start the wallet and let it sync. Using a broadband internet connection, it should take about 15 mins to complete.
 
-### Optional Steps
+## Optional Steps
+
+### Bootstrap file
 
 #### Download and install a bootstrap after completing step 4
 
 1. Download the latest [NIX Blockchain Bootstrap](https://drive.google.com/open?id=1GbLWYGMBe0BIMJDTmN5iOqVTN6ekaXiK) file \(Block Height: 352122\).
 2. Unzip contents to the NIX data directory.
 
-#### Manually adding peers
+### Manually adding peers
 
 Once you've restarted your wallet to sync, you can use the debug console to quickly add an official peer that is geographically closest to you by typing:
 
