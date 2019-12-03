@@ -13,7 +13,7 @@
 
 | Coin |  |
 | :--- | :--- |
-| Current Supply | ~43,250,000 \(DEC2019\) |
+| Current Supply | ~45,000,000 \(DEC2019\) |
 | Maximum Supply | 102,210,160 \(After 40 years\) |
 | Staking Reward | ~2.5 per block |
 | Ghostnode Reward | ~8.4 per block |
