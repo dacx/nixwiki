@@ -6,7 +6,7 @@ Coin control is an advanced QT Wallet feature primarily used for selecting indiv
 
 In order to enable coin control features, you must first navigate to the Options window under the Settings menu.
 
-![Select &quot;Options...&quot; from the Settings menu](../.gitbook/assets/qt-settings-options.png)
+![Select &quot;Options...&quot; from the Settings menu](../.gitbook/assets/qt-settings-options-puzzle.png)
 
 From the Options window, select the "Wallet" tab and check the box for "Enable coin control features".
 
