@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to the NIX Wiki!](README.md)
+* [Bienvenido al NIX Wiki!](README.md)
 
 ## Getting Started
 
