@@ -1,30 +1,29 @@
-# Network and Coin Specs
+# Red y Especificaciones de la Moneda
 
-| Network |  |
+| Red |  |
 | :--- | :--- |
 | Codebase | BTC 0.17 |
-| Mainnet Port | 6214 |
-| Testnet Port | 16214 |
-| Consensus | Proof of Stake/Custom LPoS |
-| Block Time Target | 2 minutes |
-| Difficulty Adjustment | Every block, 2 block moving average |
-| Max. Block Size | 1MB |
-| Est. TPS | 80 |
+| Puerto Mainnet | 6214 |
+| Puerto Testnet | 16214 |
+| Consenso | Proof of Staking / LPoS personalizado |
+| Tiempo Objetivo del Bloque | 2 minutos |
+| Ajuste de dificultad | Cada bloque, media móvil de 2 bloques |
+| Tamaño máximo del bloque | 1MB |
 
-| Coin |  |
+| Moneda |  |
 | :--- | :--- |
-| Current Supply | ~44,800,000 \(NOV2019\) |
-| Maximum Supply | 102,210,160 \(After 40 years\) |
-| Staking Reward | ~2.5 per block |
-| Ghostnode Reward | ~8.4 per block |
+| Suministro Actual | ~45,000,000 \(Diciembre del 2019\) |
+| Suministro Máximo | 102,210,160 \(después de 40 años\) |
+| Recompensa de replanteo | ~2.5 por bloque |
+| Recompensa Ghostnode | ~8.4 por bloque |
 | Ghostnode Ghost Vault Fee \* \(1-way Ghosting\) | .25% |
 | Ghostnode Vault to Vault TX Fee \* \(2-way Ghosting\) | .1 Ghosted NIX |
 
- \* Vault fees are pooled and split among all active Ghostnodes on a daily basis.
+ \* Las tarifas de Vault se agrupan y se dividen entre todos los Ghostnodes vactivos a diario.
 
-## Inflation Schedule
+## **Calendario de Inflación**
 
-| Year | Staking Inflation | Ghostnode Inflation | Development Fund Inflation | Total Circulating Supply |
+| Año | Inflación de Staking | Inflación de GhostNode | Inflación del Fondo de Desarrollo | Suministro circulante total |
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | 600,000 | 2,201,134 | 336,384 | 43,156,158 |
 | 2 | 647,347 | 2,201,134 | 336,384 | 46,360,384 |
@@ -39,11 +38,11 @@
 | 35 | 1,400,319 | 8,672 | 1,314 | 94,856,073 |
 | 40 | 1,508,946 | 2,168 | 328 | 102,210,160 |
 
-**Overall inflation: ~3 million per year**
+**Inflación general: ~ 3 millones por año**
 
-[The full Inflation Schedule article on Medium.com](https://medium.com/@nixplatform/proof-of-stake-inflation-schedule-d9c6b5a1e119).
+[El artículo completo sobre el horario de inflación en Medium.com](https://medium.com/@joseit0/prueba-de-participaci%C3%B3n-calendario-de-inflaci%C3%B3n-8923a231aeb).
 
-## Live Network Stats
+## **Estadísticas de Red en Vivo**
 
-Live data and network stats can be [found here](https://data.nixplatform.io/) on the NIX website.
+Los datos en vivo y las estadísticas de la red se pueden encontrar [aquí](https://data.nixplatform.io/) en el sitio web de NIX.
 
