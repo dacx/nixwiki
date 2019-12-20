@@ -6,7 +6,7 @@
 
 * [Red y Especificaciones de la Moneda](getting-started/network-and-coin-specs.md)
 * [Protocolo Fantasma](getting-started/ghost-protocol.md)
-* [Overview of NIX Wallets](getting-started/choose-your-wallet/README.md)
+* [Visión General de las Billeteras de NIX](getting-started/choose-your-wallet/README.md)
   * [Wallet Comparison](getting-started/choose-your-wallet/wallet-comparison.md)
   * [Wallet Updates](getting-started/choose-your-wallet/wallet-updates.md)
 * [Participate in the NIX Ecosystem](getting-started/acquire-nix.md)

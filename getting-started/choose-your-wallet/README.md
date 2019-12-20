@@ -1,66 +1,66 @@
-# Overview of NIX Wallets
+# Visión General de las Billeteras de NIX
 
-## Available Wallets
+## **Carteras disponibles**
 
-The following wallets are currently available for download; [QT](./#qt-wallet), [UI](./#ui-wallet), [Electrum-NIX](./#electrum-wallet), [SPV Mobile](./#spv-mobile-wallets) and [CLI](./#cli-wallet-command-line-interface). 
+Las siguientes billeteras están actualmente disponibles para descargar**:** [QT](./#qt-wallet), [UI](./#ui-wallet), [Electrum-NIX](./#electrum-wallet), [SPV Mobile](./#spv-mobile-wallets) y [CLI](./#cli-wallet-command-line-interface). 
 
-The QT and UI wallets are both based on NIX Core meaning they share the same daemon and wallet.dat \(if the default installation directory is preserved\) whereas the Electrum and SPV wallets are separate entities.
+Las billeteras QT y GUI están basadas en NIX Core, lo que significa que comparten el mismo demonio y wallet.dat \(si se conserva el directorio de instalación predeterminado\), mientras que las billeteras Electrum y SPV son entidades separadas.
 
-Users can have both the QT and GUI wallets installed on the same machine giving the them the ability to use the slick GUI interface for every day sending and receiving and then switch to the fully featured QT wallet for more advanced features when/if needed. For a comparison see:
+Los usuarios pueden tener las billeteras QT y GUI instaladas en la misma máquina, dándoles la posibilidad de usar la elegante interfaz GUI para enviar y recibir todos los días y luego cambiar a la billetera QT con todas las funciones para funciones más avanzadas cuando sea necesario. Para una comparación ver:
 
 {% page-ref page="wallet-comparison.md" %}
 
-## QT Wallet
+## Billetera QT
 
-The QT wallet is the one most cryptocurrency users have seen before. It offers a clean interface with a focus on functionality rather than design.
+La billetera QT es la que la mayoría de los usuarios de criptomonedas han visto antes. Ofrece una interfaz limpia con un enfoque en la funcionalidad más que en el diseño.
 
-![Nix Core Wallet](../../.gitbook/assets/qt-wallet.png)
+![Billetera NIX Core](../../.gitbook/assets/qt-wallet.png)
 
-**Recommended for:** Everyone
+**Recomendado para:** Todos
 
-**Download:** [https://github.com/NixPlatform/NixCore/releases](https://github.com/NixPlatform/NixCore/releases)
+**Descárgala aquí:** [https://github.com/NixPlatform/NixCore/releases](https://github.com/NixPlatform/NixCore/releases)
 
-## UI Wallet
+## Billetera UI
 
-True eye-candy. With a focus on user experience, the UI wallet is perfect for users that prefer a visually pleasing interface and do not use more in-depth functionalities.
+Verdadero caramelo. Con un enfoque en la experiencia del usuario, la billetera GUI es perfecta para usuarios que prefieren una interfaz visualmente agradable y no utilizan funcionalidades más profundas.
 
-![NIX UI Wallet](../../.gitbook/assets/image%20%282%29.png)
+![Billetera NIX UI](../../.gitbook/assets/image%20%282%29.png)
 
-**Recommended for:** New Users and UX Enthusiasts
+**Recomendada para:** Nuevos Usuarios y Entusiastas de UX
 
-**Download:** [https://github.com/NixPlatform/Nix-GUI/releases](https://github.com/NixPlatform/Nix-GUI/releases)
+**Descárgala aquí:** [https://github.com/NixPlatform/Nix-GUI/releases](https://github.com/NixPlatform/Nix-GUI/releases)
 
-## Electrum Wallet
+## Billetera Electrum
 
 A light weight wallet that supports only the basic functionalities and also runs on mobile devices. It features seed recovery and 2FA.
 
-![NIX Electrum Wallet](../../.gitbook/assets/image%20%286%29.png)
+![Billetera NIX Electrum](../../.gitbook/assets/image%20%286%29.png)
 
-**Recommended for:** Everyone
+**Recomendado para:** Todos
 
-**Download:** [https://github.com/NixPlatform/electrum-nix/releases](https://github.com/NixPlatform/electrum-nix/releases)
+**Descárgala aquí:** [https://github.com/NixPlatform/electrum-nix/releases](https://github.com/NixPlatform/electrum-nix/releases)
 
-## SPV Mobile Wallets
+## **Billeteras Móviles SPV**
 
-Available for both Android and iOS, our mobile wallets have just been released. This is the most secure way to have access to your NIX on the go. 
+Disponible para Android e iOS, nuestras billeteras móviles se acaban de lanzar. Esta es la forma más segura de tener acceso a su NIX sobre la marcha.
 
 ![](../../.gitbook/assets/image%20%283%29.png)
 
-​**Recommended for:** Mobile Users
+​**Recomendado para:** Usuarios Móviles
 
-**Download:** Available on the Google Play Store and TestFight by invitation. Alternatively you can build the wallets directly from here:  
+**Descargas:** Disponible en Google Play Store y TestFight por invitación. Alternativamente, puede descargar las billeteras directamente desde aquí:  
 [https://github.com/NixPlatform/nixwallet-spv-android](https://github.com/NixPlatform/nixwallet-spv-android)  
 [https://github.com/NixPlatform/nixwallet-spv-ios](https://github.com/NixPlatform/nixwallet-spv-ios)
 
-## CLI Wallet \(command line interface\)
+## **Billeteras CLI \(interfaz de línea de comando\)**
 
-The command line tool for those who need it. After installing, you can view all available commands by typing the following at your user prompt while having **nixd** running:
+La herramienta de línea de comandos para quienes la necesitan. Después de la instalación, puede ver todos los comandos disponibles escribiendo lo siguiente en el indicador de usuario mientras ejecuta:
 
 ```text
 nix-cli help
 ```
 
-**Recommended for:** Experts and Developers
+**Recomendada para:** Expertos y Desarrolladores
 
-**Download:** [https://github.com/NixPlatform/NixCore/releases](https://github.com/NixPlatform/NixCore/releases)
+**Descárgala aquí:** [https://github.com/NixPlatform/NixCore/releases](https://github.com/NixPlatform/NixCore/releases)
 
