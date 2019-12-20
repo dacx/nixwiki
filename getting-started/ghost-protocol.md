@@ -1,28 +1,28 @@
-# Ghost Protocol
+# Protocolo Fantasma
 
-The NIX Ghost Protocol is a set of carefully selected privacy elements brought together to give both users and developers the options they need to ensure not only fungible coin transactions but also network and broadcast privacy.
+El protocolo NIX Ghost es un conjunto de elementos de privacidad cuidadosamente seleccionados, reunidos para brindar a los usuarios y desarrolladores las opciones que necesitan para garantizar no solo transacciones de monedas fungibles, sino también la privacidad de la red y la transmisión.
 
-## Sigma Protocol
+## Protocolo Sigma
 
-Developed by the [ZCoin](https://zcoin.io/) team, Sigma is a zero-knowledge proof protocol which essentially allows users to burn and later re-issue \(or mint\) public coins with no attached history. Sigma improves over the previously used Zerocoin Protocol by not requiring a trusted "setup ceremony" of any kind and significantly decreases transaction size allowing for greater scaling.
+Desarrollado por el equipo de [ZCoin](https://zcoin.io/), Sigma es un protocolo a prueba de conocimiento cero que esencialmente permite a los usuarios quemar y luego volver a emitir \(o acuñar\) monedas públicas sin historial adjunto. Sigma mejora sobre el Protocolo Zerocoin utilizado anteriormente al no requerir una "ceremonia de instalación" confiable de ningún tipo y disminuye significativamente el tamaño de la transacción permitiendo una mayor escala.
 
-The detailed underlying concept for Sigma can be found [here](https://eprint.iacr.org/2014/764.pdf).
+ El concepto subyacente detallado para Sigma se puede encontrar [aquí](https://eprint.iacr.org/2014/764.pdf).
 
-## Commitment Key Packs
+## **Paquetes Clave de Compromiso**
 
-Used alone, CKPs \(known as "Ghost Keys"\) allow users to destroy public NIX and send them to a Ghost Vault, whether it belongs to themselves or another user. When used in combination with previously Ghosted NIX, full address-less transactions are achieved.
+Usados ​​solos, los CKP \(conocidos como "Ghost Keys"\) permiten a los usuarios destruir NIX públicos y enviarlos a una Bóveda de fantasmas, ya sea que pertenezcan a ellos mismos o a otro usuario. Cuando se usa en combinación con NIX previamente fantasma, se logran transacciones completas sin dirección.
 
-The Pedersen Anonymous Deposits: Commitment Key Packs paper can be found [here](https://nixplatform.io/wp-content/uploads/2018/10/Commitment_Key_Packs_v1-0-1.pdf).
+ Depósitos anónimos de Pedersen: puede encontrar el documento sobre los paquetes de claves de compromiso [aquí](https://nixplatform.io/wp-content/uploads/2018/10/Commitment_Key_Packs_v1-0-1.pdf).
 
-## TOR Anonymity Network
+## **Red de Anonimato TOR**
 
-TOR, aka The Onion Router, provides a series of encrypted and randomly changing network relays which makes traffic analysis all but impossible. To outside observers, a person using TOR protects not only their originating IP address, but their destination as well.
+TOR, también conocido como The Onion Router, proporciona una serie de relés de red cifrados y que cambian aleatoriamente, lo que hace que el análisis de tráfico sea casi imposible. Para los observadores externos, una persona que usa TOR protege no solo su dirección IP de origen, sino también su destino.
 
-Find out more at [https://www.torproject.org](https://www.torproject.org/)
+ Más información en [https://www.torproject.org](https://www.torproject.org/)
 
-## Dandelion++ Transaction Broadcasting
+## **Transmisión de Transporte de Dandelion++**
 
-Using Dandelion++, a transaction first broadcasts to one randomly selected peer using an encrypted connection. This peer then does the same and is repeated until a random number of similar hops has been achieved. This forms what is known as the "stem" phase. The "fluff" phase then activates whereby the transaction is sent to all connected peers in the usual manner, propagating quickly across the entire network.
+Con Dandelion ++, una transacción se transmite primero a un par seleccionado al azar mediante una conexión cifrada. Este par luego hace lo mismo y se repite hasta que se haya logrado un número aleatorio de saltos similares. Esto forma lo que se conoce como la fase "madre". La fase "fluff" se activa mediante la cual la transacción se envía a todos los pares conectados de la manera habitual, propagándose rápidamente por toda la red.
 
-Detailed information can be found [here](https://arxiv.org/pdf/1805.11060.pdf).
+ La información detallada se puede encontrar [aquí](https://arxiv.org/pdf/1805.11060.pdf).
 
