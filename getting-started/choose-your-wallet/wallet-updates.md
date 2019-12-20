@@ -1,32 +1,32 @@
-# Wallet Updates
+# Actualizaciones de Billeteras
 
-## **GUI Wallet**
+## Billetera **GUI**
 
-When NIX Core has an available update the GUI wallet will automatically download and install the daemon, making the latest version available for use the next time you run your wallet. 
+Cuando NIX Core tiene una actualización disponible, la billetera GUI descargará e instalará automáticamente, haciendo que la última versión esté disponible para usar la próxima vez que ejecute su billetera.
 
-When the GUI itself has an available update, a notification will appear in the "Updates" screen. These updates require the user to download and install the latest version from the [NIX website](https://nixplatform.io/wallet#download) or direct from [GitHub](https://github.com/NixPlatform/Nix-GUI/releases).
+ Cuando la GUI tiene una actualización disponible, aparecerá una notificación en la pantalla "Actualizaciones". Estas actualizaciones requieren que el usuario descargue e instale la última versión del [sitio web de NIX](https://wiki.nixplatform.io/home/getting-started/choose-your-wallet/wallet-updates) o directamente desde [GitHub](https://github.com/NixPlatform/Nix-GUI/releases).
 
-## QT Wallet
+## Billetera QT
 
-Download the latest update for your specific Operating System via the [NIX website](https://nixplatform.io/wallet#download) or direct from [GitHub](https://github.com/NixPlatform/NixCore/releases). For MacOS and Windows, simply click on the file to begin installation. For all others, unpack the .tar.gz file and copy the binaries from the bin/ directory to the appropriate location to install for all users, or simply execute them from where ever you unpacked them if no other users need access.
+Descargue la última actualización para su sistema operativo específico a través del [sitio web de NIX](https://nixplatform.io/wallet#download) o directamente desde [GitHub](https://github.com/NixPlatform/NixCore/releases). Para MacOS y Windows, simplemente haga clic en el archivo para comenzar la instalación. Para todos los demás, desempaquete el archivo .tar.gz y copie los archivos binarios del directorio bin/ en la ubicación adecuada para instalarlos para todos los usuarios, o simplemente ejecútelos desde donde los haya desempaquetado si ningún otro usuario necesita acceso.
 
-## VPS Staking and Ghostnodes
+## VPS Staking y Ghostnodes
 
-It's important to keep on top of wallet updates when operating nixd on a VPS. Wallet updates are often mandatory, but are usually released with a grace period of several days before the operator is required to update.
+Es importante estar al tanto de las actualizaciones de la billetera cuando se opera nixd en un VPS. Las actualizaciones de billetera a menudo son obligatorias, pero generalmente se lanzan con un período de gracia de varios días antes de que el operador deba actualizar.
 
 {% hint style="info" %}
-**Important -** if a wallet is not updated by the specified block, the node can become detached from the longest chain and a re-sync will be required. In this scenario, any resulting rewards/fees received on the forked chain are worthless. 
+**Importante -** si el bloque especificado no actualiza una billetera, el nodo puede separarse de la cadena más larga y se requerirá una resincronización. En este escenario, cualquier recompensa / tarifa resultante recibida en la cadena bifurcada no tiene valor. 
 {% endhint %}
 
-### Manual updating
+### **Actualización** Manual
 
-Log into your VPS and use wget to download the latest version:
+Inicie sesión en su VPS y use wget para descargar la última versión:
 
 ```bash
 wget https://github.com/NixPlatform/NixCore/releases/download/v3.0.5/nix-3.0.5-x86_64-linux-gnu.tar.gz
 ```
 
-Unpack the file with:
+Descomprima el Archivo con:
 
 ```bash
 tar -zxvf nix-3.0.5-x86_64-linux-gnu.tar.gz
@@ -40,22 +40,22 @@ cp nix-3.0.5/bin/* /usr/bin/
 
 ### Cryptosharks Easy-Updater
 
-If you used the auto-installer script from CryptoSharks, you'll need to use his auto-updater to bring your VPS up to date with the latest version. The update script itself needs to get updated so wait until it's ready. 
+Si utilizó el script de instalación automática de CryptoSharks, necesitará usar su actualizador automático para actualizar su VPS con la última versión. El script de actualización en sí necesita actualizarse, así que espere hasta que esté listo.
 
-Update the script with: 
+ Actualice el script con:
 
 ```bash
 rm nix_update.sh* wget -q https://raw.githubusercontent.com/cryptosharks131/Ghostnode/master/nix_update.sh 
 ./nix_update.sh
 ```
 
-If used for staking, unlock with:
+Si se usa para staking, desbloquee con:
 
 ```text
 nix-cli walletpassphrase YOURWALLETPASSPHRASE 0 true
 ```
 
-Finally, delete your bash history to remove your passphrase from both the history file and system memory.
+Finalmente, elimine su historial de bash para eliminar su frase de contraseña tanto del archivo de historial como de la memoria del sistema.
 
 ```bash
 history -c;history -w

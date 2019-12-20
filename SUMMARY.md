@@ -8,7 +8,7 @@
 * [Protocolo Fantasma](getting-started/ghost-protocol.md)
 * [Visión General de las Billeteras de NIX](getting-started/choose-your-wallet/README.md)
   * [Comparación entre Billeteras](getting-started/choose-your-wallet/wallet-comparison.md)
-  * [Wallet Updates](getting-started/choose-your-wallet/wallet-updates.md)
+  * [Actualizaciones de Billeteras](getting-started/choose-your-wallet/wallet-updates.md)
 * [Participate in the NIX Ecosystem](getting-started/acquire-nix.md)
 * [Join the Community](getting-started/join-the-community.md)
 
