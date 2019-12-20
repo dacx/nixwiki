@@ -2,7 +2,7 @@
 
 ## **Carteras disponibles**
 
-Las siguientes billeteras están actualmente disponibles para descargar**:** [QT](./#qt-wallet), [UI](./#ui-wallet), [Electrum-NIX](./#electrum-wallet), [SPV Mobile](./#spv-mobile-wallets) y [CLI](./#cli-wallet-command-line-interface). 
+Las siguientes billeteras están actualmente disponibles para descargar**:** [QT](./#qt-wallet), [UI](./#ui-wallet), [Electrum-NIX](./#electrum-wallet),[ Móviles SPV](https://app.gitbook.com/@nixwiki/s/home/~/drafts/-Lw_DDOsYjUBf0FPQaGh/v/espanol/getting-started/choose-your-wallet#spv-mobile-wallets) ****y [CLI](./#cli-wallet-command-line-interface). 
 
 Las billeteras QT y GUI están basadas en NIX Core, lo que significa que comparten el mismo demonio y wallet.dat \(si se conserva el directorio de instalación predeterminado\), mientras que las billeteras Electrum y SPV son entidades separadas.
 

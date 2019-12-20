@@ -1,37 +1,37 @@
-# Wallet Comparison
+# Comparación entre Billeteras
 
-## Overview of Functionality 
+## Descripción General de la Funcionalidad
 
-| **Security** | UI Wallet | QT Wallet | Electrum | Mobile | CLI |
+| Seguridad | Billeteras UI | Billeteras QT | Electrum | Móvil | CLI |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Encryption | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Seed Phrase | ✘ | ✘ | ✔ | ✔ | ✘ |
-| Private Keys | ✔ | ✔ | ✔ | ✔ | ✔ |
+| Cifrado | ✔ | ✔ | ✔ | ✔ | ✔ |
+| Frase de semillas | ✘ | ✘ | ✔ | ✔ | ✘ |
+| Llaves privadas | ✔ | ✔ | ✔ | ✔ | ✔ |
 | 2FA | ✘ | ✘ | ✔ | ✘ | ✘ |
-| Touch Login | ✘ | ✘ | ✘ | ✔ | ✘ |
+| Toque Iniciar sesión | ✘ | ✘ | ✘ | ✔ | ✘ |
 | Ledger/Trezor | ✘ | ✘ | ✔ | ✘ | ✘ |
 
-| **Ghostnodes** | UI Wallet | QT Wallet | Electrum | Mobile | CLI |
+| **Ghostnodes** | Billeteras UI | Billeteras QT | Electrum | Móvil | CLI |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [One-Click Install](../../wallet-functionality/ghostnodes/ghost-node-setup.md) | ✔ | ✘ | ✘ | ✘ | ✘ |
-| [Script Install](../../wallet-functionality/ghostnodes/ghost-node-setup.md#bash-script-from-cryptosharks) | ✔ | ✔ | ✘ | ✘ | ✔ |
-| [Manual Install](../../wallet-functionality/ghostnodes/other-install-methods.md) | ✔ | ✔ | ✘ | ✘ | ✔ |
+| [One-Click Install](https://wiki.nixplatform.io/home/v/espanol/wallet-functionality/ghostnodes/ghost-node-setup) | ✔ | ✘ | ✘ | ✘ | ✘ |
+| [Instalación de scripts ](https://wiki.nixplatform.io/home/v/espanol/wallet-functionality/ghostnodes/ghost-node-setup#bash-script-from-cryptosharks) | ✔ | ✔ | ✘ | ✘ | ✔ |
+| [Manual de Instalación](https://wiki.nixplatform.io/home/v/espanol/wallet-functionality/ghostnodes/other-install-methods) | ✔ | ✔ | ✘ | ✘ | ✔ |
 
-| **Staking** | UI Wallet | QT Wallet | Electrum | Mobile | CLI |
+| Replanteo | Billeteras UI | Billeteras QT | Electrum | Móvil | CLI |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [Wallet Staking](../../wallet-functionality/staking/desktop-wallet-staking.md) | ✔ | ✔ | ✘ | ✘ | ✔ |
-| [Leased/Cold Staking](../../wallet-functionality/staking/lpos-client.md) | ✔ | ✔ | ✘ | ⏳✘ | ✔ |
+| [Replanteo de la billeteras](../../wallet-functionality/staking/desktop-wallet-staking.md) | ✔ | ✔ | ✘ | ✘ | ✔ |
+| [Arrendado/Calor Replanteo](../../wallet-functionality/staking/lpos-client.md) | ✔ | ✔ | ✘ | ✘ | ✔ |
 
-| **Ghost Vault** | UI Wallet | QT Wallet | Electrum | Mobile | CLI |
+| Bóveda Fantasma | Billeteras UI | Billeteras QT | Electrum | Móvil | CLI |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [1-Way Ghosting](../../wallet-functionality/ghost-vault/1-way-ghosting.md) | ✔ | ✔ | ✘ | ⏳  ✘ | ✔ |
-| [2-Way Ghosting](../../wallet-functionality/ghost-vault/2-way-ghosting.md) | ✘ | ✔ | ✘ | ⏳ ✘ | ✔ |
+| [1-Way Imagen Fantasma](../../wallet-functionality/ghost-vault/1-way-ghosting.md) | ✔ | ✔ | ✘ | ✘ | ✔ |
+| [2-Way Imagen Fantasma](../../wallet-functionality/ghost-vault/2-way-ghosting.md) | ✘ | ✔ | ✘ | ✘ | ✔ |
 
-| Governance | UI Wallet | QT Wallet | Electrum | Mobile | CLI |
+| Gobernancia | Billeteras UI | Billeteras QT | Electrum | Móvil | CLI |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [Voting](../../wallet-functionality/governance-voting.md)                  | ✘ | ✔ | ✘ | ✘ | ✔ |
+| [Votación](https://wiki.nixplatform.io/home/v/espanol/wallet-functionality/governance-voting)                         | ✘ | ✔ | ✘ | ✘ | ✔ |
 
-| **Operating System** | UI Wallet | QT Wallet | Electrum | Mobile | CLI |
+| Sistema Operativo | Billeteras UI | Billeteras QT | Electrum | Móvil | CLI |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Windows x64 | ✔ | ✔ | ✔ | ✘ | ✔ |
 | Windows x86 | ✔ | ✔ | ✘ | ✘ | ✔ |
