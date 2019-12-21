@@ -1,14 +1,16 @@
-# Backup and Security
+# Respaldo y Seguridad
 
-Your NIX are stored on the blockchain and your ability to access them depends on whether or not you have the private keys. If you lose your private keys, you lose control of your addresses.  
-  
-Some general tips:
+Tus NIX se almacenan en la cadena de bloques y tu capacidad para acceder a ellos depende de si tienes o no las claves privadas. Si pierdes tus claves privadas, pierdes el control de tus direcciones.
 
-* Write down your word phrase for mobile and electrum wallets and keep the list safe.
-* The GUI desktop wallet will force you to create a password which encrypts your wallet.dat file.
-* Both GUI and QT wallets use the same data directory and wallet file.
+Algunos consejos generales:
 
-Details on how to encrypt a core wallet can be found in [QT Wallet Encryption](qt-wallet-encryption.md).  
-Details on how to backup a core wallet \(including the GUI wallet\) can be found in [Wallet Backup](wallet-backup.md).  
-Details on how to restore a core wallet \(including the GUI wallet\) can be found in [Restore](restore.md).
+*  Escriba su frase de palabras para billeteras móviles y electrum y mantenga la lista segura.
+*  La billetera de escritorio GUI lo obligará a crear una contraseña que encripte su archivo wallet.dat.
+*  Tanto las billeteras GUI como QT usan el mismo directorio de datos y archivo de billetera.
+
+Los detalles sobre cómo cifrar una billetera central se pueden encontrar en [QT Wallet Encryption](https://wiki.nixplatform.io/home/wallet-functionality/backup-and-security-1/qt-wallet-encryption).
+
+Los detalles sobre cómo hacer una copia de seguridad de una billetera central \(incluida la billetera GUI\) en Copia de seguridad de billetera.re se pueden encontrar en [Wallet Backup](https://wiki.nixplatform.io/home/wallet-functionality/backup-and-security-1/wallet-backup).
+
+Los detalles sobre cómo restaurar una billetera central \(incluida la billetera GUI\) se pueden encontrar en [Restaurar](https://wiki.nixplatform.io/home/wallet-functionality/backup-and-security-1/restore).
 

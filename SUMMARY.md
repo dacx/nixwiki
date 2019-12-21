@@ -12,9 +12,9 @@
 * [Participa en el Ecosistema NIX](getting-started/acquire-nix.md)
 * [Únete a la Comunidad](getting-started/join-the-community.md)
 
-## Wallet Functionality
+## Funcionalidad de Billeteras <a id="wallet-functionality"></a>
 
-* [Backup and Security](wallet-functionality/backup-and-security-1/README.md)
+* [Respaldo y Seguridad](wallet-functionality/backup-and-security-1/README.md)
   * [QT Wallet Encryption](wallet-functionality/backup-and-security-1/qt-wallet-encryption.md)
   * [Wallet Backup](wallet-functionality/backup-and-security-1/wallet-backup.md)
   * [Restore](wallet-functionality/backup-and-security-1/restore.md)
