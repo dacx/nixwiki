@@ -1,6 +1,6 @@
 # Restauración
 
-## **Billeteras QT y GUI**
+## **Billeteras QT y UI**
 
  El método de restaurar un archivo wallet.dat Core \(y GUI\) es esencialmente el reverso de la [copia de seguridad manual](https://wiki.nixplatform.io/home/wallet-functionality/backup-and-security-1/wallet-backup#manual-backup). Las ubicaciones predeterminadas para cada sistema operativo se pueden encontrar a continuación.
 
