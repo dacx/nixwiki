@@ -2,7 +2,7 @@
 
 * [Bienvenido al NIX Wiki!](README.md)
 
-## Getting Started
+## Empezando <a id="getting-started"></a>
 
 * [Red y Especificaciones de la Moneda](getting-started/network-and-coin-specs.md)
 * [Protocolo Fantasma](getting-started/ghost-protocol.md)
@@ -10,7 +10,7 @@
   * [Comparación entre Billeteras](getting-started/choose-your-wallet/wallet-comparison.md)
   * [Actualizaciones de Billeteras](getting-started/choose-your-wallet/wallet-updates.md)
 * [Participa en el Ecosistema NIX](getting-started/acquire-nix.md)
-* [Join the Community](getting-started/join-the-community.md)
+* [Únete a la Comunidad](getting-started/join-the-community.md)
 
 ## Wallet Functionality
 
