@@ -1,38 +1,38 @@
-# Wallet Staking
+# Staking en Billetera
 
-## QT Wallet
+## Billetera QT
 
-In order to stake your coins from the QT Wallet you must first [encrypt your wallet](../backup-and-security-1/qt-wallet-encryption.md). You cannot stake from a wallet that is not encrypted. Further, you can only stake coins from an address that beings with either "N" or "nix1". Choosing which type of address to stake from depends on whether or not you wish to participate in [Governance Voting](../governance-voting.md). Addresses beginning with "nix1" are eligible to vote, while "N" addresses are not.
+Para apostar sus monedas de la billetera QT, primero debe [cifrar su billetera](https://wiki.nixplatform.io/home/v/espanol/wallet-functionality/backup-and-security-1/qt-wallet-encryption). \(Replace this link for the spanish version of Wiki\) No puede apostar desde una billetera que no está encriptada. Además, solo puedes apostar monedas desde una dirección que tenga "N" o "nix1". Elegir desde qué tipo de dirección apostar depende de si desea o no participar en la [Votación de Gobernanza](https://wiki.nixplatform.io/home/v/espanol/wallet-functionality/governance-voting). \(Replace this link for the spanish version of Wiki\) Las direcciones que comienzan con "nix1" son elegibles para votar, mientras que las direcciones "N" no lo son.
 
-To get started, first make sure your coins are in an "N" or "nix1" address and simply select "Unlock For Staking..." from the Settings menu. You will then be prompted to enter your wallet passphrase.
+Para comenzar, primero asegúrese de que sus monedas estén en una dirección "N" o "nix1" y simplemente seleccione "Unlock For Staking..." en el menú Configuración. Luego se le pedirá que ingrese la frase de contraseña de su billetera.
 
-![Select &quot;Unlock For Staking...&quot; from the Settings Menu](../../.gitbook/assets/qt-unlockforstakingmenu.png)
+![Seleccione &quot;Unlock For Staking...&quot; en el men&#xFA; de configuraci&#xF3;n.](../../.gitbook/assets/qt-unlockforstakingmenu.png)
 
-![Enter in your passphrase](../../.gitbook/assets/qt-stakepass.png)
+![Ingrese su frase de contrase&#xF1;a.](../../.gitbook/assets/qt-stakepass.png)
 
-![Staking is Enabled](../../.gitbook/assets/qt-stakingenabled.png)
-
-{% hint style="warning" %}
-**IMPORTANT:** You must leave your wallet open and "unlocked for staking" in order to actively stake your coins! If you'd rather not leave your wallet open 24/7, consider using an [LPoS Merchant](https://nixplatform.io/marketplace).
-{% endhint %}
-
-## GUI Wallet
-
-Staking with the GUI Wallet is quite easy as well. Simply select "Staking" from the left-hand menu of the wallet and toggle the staking slider. You will then be prompted to enter in your wallet passphrase. 
-
-![Select &quot;Staking&quot; from the left-hand menu](../../.gitbook/assets/ui-stakingmenu.png)
-
-![Toggle the &quot;Staking&quot; slider](../../.gitbook/assets/ui-staking.png)
-
-![Enter in your passphrase](../../.gitbook/assets/ui-stakepass.png)
-
-![Staking is enabled](../../.gitbook/assets/ui-stakingon.png)
+![El staking est&#xE1; habilitado.](../../.gitbook/assets/qt-stakingenabled.png)
 
 {% hint style="warning" %}
-**IMPORTANT:** You must leave your wallet open and "unlocked for staking" in order to actively stake your coins!  If you'd rather not leave your wallet open 24/7, consider using an [LPoS Merchant](https://nixplatform.io/marketplace).
+**IMPORTANTE:** ¡Debe dejar su billetera abierta y "Staking: Enabled" para apostar activamente sus monedas! Si prefiere no dejar su billetera abierta 24/7, considere usar un [comerciante LPoS.](https://nixplatform.io/marketplace)
 {% endhint %}
 
-## Advanced Configuration
+## Billetera UI
 
-You can enact finer control over staking by using [Wallet staking options](../../advanced-wallet-functions/command-line-options.md#wallet-staking-options) in your nix.conf configuration file.
+El Staking con la billetera GUI también es bastante fácil. Simplemente seleccione "Staking" en el menú de la izquierda de la billetera y alterne el control deslizante de replanteo. Luego se le pedirá que ingrese la frase de contraseña de su billetera. 
+
+![Seleccione &quot;Staking&quot; en el men&#xFA; de la izquierda.](../../.gitbook/assets/ui-stakingmenu.png)
+
+![Alternar el control deslizante &quot;Staking&quot;.](../../.gitbook/assets/ui-staking.png)
+
+![Ingrese su frase de contrase&#xF1;a.](../../.gitbook/assets/ui-stakepass.png)
+
+![El Staking est&#xE1; habilitado.](../../.gitbook/assets/ui-stakingon.png)
+
+{% hint style="warning" %}
+**IMPORTANTE:** ¡Debe dejar su billetera abierta y "Unlock For Staking" para apostar activamente sus monedas! Si prefiere no dejar su billetera abierta 24/7, considere usar un [comerciante LPoS](https://nixplatform.io/marketplace).
+{% endhint %}
+
+## **Configuración Avanzada**
+
+ Puede establecer un control más preciso sobre el Staking, [utilizando las opciones de Staking de Wallet](https://wiki.nixplatform.io/home/v/espanol/advanced-wallet-functions/command-line-options#wallet-staking-options) \(Replace this link for the spanish version of Wiki\) en su archivo de configuración nix.conf.
 
