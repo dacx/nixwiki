@@ -15,7 +15,7 @@
 ## Funcionalidad de Billeteras <a id="wallet-functionality"></a>
 
 * [Respaldo y Seguridad](wallet-functionality/backup-and-security-1/README.md)
-  * [QT Wallet Encryption](wallet-functionality/backup-and-security-1/qt-wallet-encryption.md)
+  * [QT Cifrado de Billetera](wallet-functionality/backup-and-security-1/qt-wallet-encryption.md)
   * [Wallet Backup](wallet-functionality/backup-and-security-1/wallet-backup.md)
   * [Restore](wallet-functionality/backup-and-security-1/restore.md)
 * [Staking](wallet-functionality/staking/README.md)

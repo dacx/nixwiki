@@ -1,34 +1,34 @@
-# QT Wallet Encryption
+# QT Cifrado de Billetera
 
-Encrypting your wallet.dat file will require that you enter a password in order to send any NIX. It is also a requirement if you wish to stake your NIX directly from your own wallet. 
+Cifrar su archivo wallet.dat requerirá que ingrese una contraseña para enviar cualquier NIX. También es un requisito si desea hacer staking de sus NIX directamente desde su propia billetera.
 
-Although you can perform this action at any time, it is recommended that you do it immediately upon starting a new nix-qt wallet and before generating/using any receive addresses.
+Aunque puede realizar esta acción en cualquier momento, se recomienda que lo haga inmediatamente al iniciar una nueva billetera nix-qt y antes de generar/usar cualquier dirección de recepción.
 
-From the Settings menu, select "Encrypt Wallet..." to begin the process of encrypting your wallet.dat file.
+En el menú Configuración, seleccione "Encrypt Wallet" para comenzar el proceso de cifrar su archivo wallet.dat.
 
-![Select &quot;Encrypt Wallet...&quot; from the Settings menu](../../.gitbook/assets/qt-encryptmenu.png)
+![Seleccione &quot;Encrypt Wallet&quot; en el men&#xFA; &#x201C;Settings&#x201D;.](../../.gitbook/assets/qt-encryptmenu.png)
 
-![Choose a very strong passphrase](../../.gitbook/assets/qt-encryptwindow.png)
+![Elige una frase compleja.](../../.gitbook/assets/qt-encryptwindow.png)
 
-![Confirm that you wish to encrypt your wallet](../../.gitbook/assets/qt-confirmencryption.png)
+![Confirme que desea cifrar su billetera.](../../.gitbook/assets/qt-confirmencryption.png)
 
 {% hint style="info" %}
-**NOTE:** After confirming you wish to encrypt your wallet, it may take a few moments to apply the encryption.
+**NOTA:** Después de confirmar que desea encriptar su billetera, puede tomar algunos minutos aplicar la encriptación.
 {% endhint %}
 
 ![](../../.gitbook/assets/qt-encrypteddialog.png)
 
-Clicking OK on the final dialog box will close the wallet. The next time you open it you will be required to use your passphrase in order to send or stake your NIX, so do not lose it!
+Al hacer click en Aceptar en el cuadro de diálogo final, se cerrará la billetera. La próxima vez que la abra, deberá usar su frase de contraseña para enviar o hacer staking de su NIX, ¡así que no lo pierda!
 
-## Changing the QT Wallet passphrase
+## **Cambiar la frase de contraseña de QT Wallet**
 
-Once your wallet is encrypted, you can later change the passphrase if you wish. From the Settings menu, select "Change Passphrase..." 
+Una vez que su billetera está encriptada, puede cambiar la contraseña si lo desea. En el menú Configuración, seleccione "Change Passphrase..."
 
-Make sure to replace your old wallet backups with the new one.
+Asegúrese de reemplazar las copias de seguridad de su billetera antigua por la nueva.
 
-![Select &quot;Change Passphrase...&quot; from the Settings menu](../../.gitbook/assets/qt-changepwmenu.png)
+![Seleccione &quot;Change Passphrase...&quot; en el men&#xFA; &#x201C;Settings&#x201D;.](../../.gitbook/assets/qt-changepwmenu.png)
 
-![Fill in your current passphrase and choose a new one](../../.gitbook/assets/qt-changepw.png)
+![zca su frase de contrase&#xF1;a actual y elija una nueva.](../../.gitbook/assets/qt-changepw.png)
 
 
 
