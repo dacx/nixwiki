@@ -1,68 +1,68 @@
-# Restore
+# Restauración
 
-## QT and GUI Wallets
+## **Billeteras QT y GUI**
 
-The method of restoring a Core \(and GUI\) wallet.dat file is essentially the reverse of [manually backing it up](wallet-backup.md#manual-backup). Default locations for each Operating System can be found below.
+ El método de restaurar un archivo wallet.dat Core \(y GUI\) es esencialmente el reverso de la [copia de seguridad manual](https://wiki.nixplatform.io/home/wallet-functionality/backup-and-security-1/wallet-backup#manual-backup). Las ubicaciones predeterminadas para cada sistema operativo se pueden encontrar a continuación.
 
 ### Windows
 
-By default, the NIX data directory will be created as C:\Users\\(your username\)\AppData\roaming\nix\
+Por defecto, el directorio de datos NIX se creará como C:\Users\\(su nombre de usuario\)\ AppData\roaming \nix\
 
 {% hint style="success" %}
-**TIP:** Windows hides the AppData folder by default when using the graphical file explorer. In order to get inside the AppData folder, you can either type "%AppData%" into the search bar or check the box for "Hidden items" under the View menu to show hidden files in the file explorer window and navigate your way there.
+**SUGERENCIA:** Windows oculta la carpeta AppData de manera predeterminada cuando se usa el explorador de archivos gráficos. Para ingresar a la carpeta AppData, puede escribir "%AppData%" en la barra de búsqueda o marcar la casilla "Elementos ocultos" en el menú Ver para mostrar archivos ocultos en la ventana del explorador de archivos y navegar hasta allí.
 {% endhint %}
 
-To restore a backed up wallet.dat file, simply copy it into the following location:
+Para restaurar una copia de seguridad del archivo wallet.dat, simplemente cópielo en la siguiente ubicación:
 
 {% hint style="info" %}
-**NOTE:** If a "wallets" directory exists, the software will use it as the default wallet directory. If it does not exist, then the root directory will be used.
+**NOTA:** Si existe un directorio de "billeteras", el software lo usará como el directorio de billetera predeterminado. Si no existe, se utilizará el directorio raíz.
 {% endhint %}
 
 C:\Users\\(your username\)\AppData\roaming\nix\wallets\wallet.dat
 
-or
+o
 
 C:\Users\\(your username\)\AppData\roaming\nix\wallet.dat
 
 ### MacOS
 
-Be default, the NIX data directory will be created as ~/Library/Application Support/nix/
+Por defecto, el directorio de datos NIX se creará como ~ /Library/Application Support /nix/
 
 {% hint style="success" %}
-**TIP:** MacOS hides the Application Support folder by default.  
-1. On the top bar, left side of your screen click on "Go", then click on "Go to Folder".  
-2. Type or copy-paste: ~/Library/Application Support/nix/
+**SUGERENCIA:** MacOS oculta la carpeta Soporte de aplicaciones de forma predeterminada.  
+1. En la barra superior, en el lado izquierdo de la pantalla, haga clic en "Ir", luego haga clic en "Ir a la carpeta".  
+2. Escriba o copie y pegue: ~/Library/Application Support/nix/
 {% endhint %}
 
-To restore a backed up wallet.dat file, simply copy it into the following location:
+Para restaurar una copia de seguridad del archivo wallet.dat, simplemente cópielo en la siguiente ubicación:
 
 {% hint style="info" %}
-**NOTE:** If a "wallets" directory exists, the software will use it as the default wallet directory. If it does not exist, then the root directory will be used.
+**NOTA:** Si existe un directorio de "billeteras", el software lo usará como el directorio de billetera predeterminado. Si no existe, se utilizará el directorio raíz.
 {% endhint %}
 
 ~/Library/Application Support/nix/wallets/wallet.dat
 
-or
+o
 
 ~/Library/Application Support/nix/wallet.dat
 
 ### Linux
 
-By default, the NIX data directory will be created as ~/.nix/
+Por defecto, el directorio de datos NIX se creará como ~/.nix/
 
-To restore a backed up wallet.dat file, simply copy it into the following location:
+Para restaurar una copia de seguridad del archivo wallet.dat, simplemente cópielo en la siguiente ubicación:
 
 {% hint style="info" %}
-**NOTE:** If a "wallets" directory exists, the software will use it as the default wallet directory. If it does not exist, then the root directory will be used.
+**NOTA:** Si existe un directorio de "billeteras", el software lo usará como el directorio de billetera predeterminado. Si no existe, se utilizará el directorio raíz.
 {% endhint %}
 
 ~/.nix/wallets/wallet.dat
 
-or
+o
 
 ~/.nix/wallet.dat
 
-## Mobile and Electrum Wallets
+## **Carteras moviles y eléctronicas**
 
-Simply use your saved word list to restore your mobile and Electrum wallets.
+ Simplemente use su lista de palabras guardadas para restaurar sus billeteras móviles y Electrum.
 

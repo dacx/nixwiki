@@ -17,7 +17,7 @@
 * [Respaldo y Seguridad](wallet-functionality/backup-and-security-1/README.md)
   * [QT Cifrado de Billetera](wallet-functionality/backup-and-security-1/qt-wallet-encryption.md)
   * [Copia de Seguridad de las Billeteras](wallet-functionality/backup-and-security-1/wallet-backup.md)
-  * [Restore](wallet-functionality/backup-and-security-1/restore.md)
+  * [Restauración](wallet-functionality/backup-and-security-1/restore.md)
 * [Staking](wallet-functionality/staking/README.md)
   * [Wallet Staking](wallet-functionality/staking/desktop-wallet-staking.md)
   * [LPoS Client](wallet-functionality/staking/lpos-client.md)
