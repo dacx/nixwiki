@@ -26,14 +26,14 @@
   * [1-Way Ghosting](wallet-functionality/ghost-vault/1-way-ghosting.md)
   * [2-Way Ghosting](wallet-functionality/ghost-vault/2-way-ghosting.md)
 * [Ghostnodes](wallet-functionality/ghostnodes/README.md)
-  * [Hosting Services](wallet-functionality/ghostnodes/hosting-services.md)
-  * [One-Click Installer](wallet-functionality/ghostnodes/ghost-node-setup.md)
-  * [Manual Install Methods](wallet-functionality/ghostnodes/other-install-methods.md)
-* [Governance Voting](wallet-functionality/governance-voting.md)
+  * [Servicios de Hospedaje](wallet-functionality/ghostnodes/hosting-services.md)
+  * [Instalador de un Click](wallet-functionality/ghostnodes/ghost-node-setup.md)
+  * [Métodos de instalación manual](wallet-functionality/ghostnodes/other-install-methods.md)
+* [Votación de Gobernanza](wallet-functionality/governance-voting.md)
 
-## Advanced Wallet Functions
+## FUNCIONES AVANZADAS DE BILLETERA <a id="advanced-wallet-functions"></a>
 
-* [Coin Control](advanced-wallet-functions/coin-control.md)
+* [Control de monedas](advanced-wallet-functions/coin-control.md)
 * [Console Commands](advanced-wallet-functions/console-commands.md)
 * [Command-line Options](advanced-wallet-functions/command-line-options.md)
 

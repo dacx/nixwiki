@@ -1,12 +1,12 @@
 # Ghostnodes
 
-NIX Ghostnodes are a fundamental part of the NIX protocol layer and are responsible for processing and validating privacy transactions as well as approving and fulfilling cross-chain protocols. All smart contract elements requiring autonomous privacy processing rely on NIX Ghostnodes to fulfill those requests.
+NIX Ghostnodes son una parte fundamental de la capa de protocolo NIX y son responsables de procesar y validar las transacciones de privacidad, así como de aprobar y cumplir los protocolos de cadena cruzada. Todos los elementos de contratos inteligentes que requieren un procesamiento de privacidad autónomo dependen de NIX Ghostnodes para cumplir con esas solicitudes.
 
-Running a Ghostnode requires a collateral of 40,000 NIX and are rewarded in the following ways:
+Ejecutar un Ghostnode requiere una garantía de 40,000 NIX y se recompensa de las siguientes maneras:
 
-1. Block rewards -- A percentage of new block rewards are paid to Ghostnodes by a serialized method which cycles through the list of active nodes.
-2. Ghosting NIX -- When a user ghosts their coins either to their own or to another user's Ghost Vault, a 0.25% fee is collected.
-3. Vault to vault private transactions -- Users moving ghosted NIX from vault to vault \(full sender and receiver privacy transactions\) incur a .1 flat rate fee.
+1.  Recompensas de bloque: un porcentaje de nuevas recompensas de bloque se paga a Ghostnodes mediante un método serializado que recorre la lista de nodos activos.
+2.  Ghosting NIX: cuando un usuario fantasma sus monedas, ya sea para las suyas o para la Bóveda fantasma de otro usuario, se cobra una tarifa de 0.25%.
+3.  Transacciones privadas de bóveda a bóveda: los usuarios que mueven NIX fantasma de bóveda a bóveda \(transacciones de privacidad completas del remitente y del receptor\) incurren en una tarifa de tarifa plana de .1.
 
-Privacy transaction fees are pooled and then split every 720 bocks \(~24 hours\) among all active Ghostnodes.
+Las tarifas de transacción de privacidad se agrupan y luego se dividen cada 720 bocks \(~ 24 horas\) entre todos los Ghostnodes activos.
 
