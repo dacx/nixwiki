@@ -1,72 +1,72 @@
 # 1-Way Ghosting
 
-El procedimiento de enviar monedas a un Ghost Vault \(ya sea la suya o la de otra persona\) se llama "efecto fantasma", que esencialmente quema las monedas y permite al usuario volver a emitirlas más tarde como monedas públicas sin historial adjunto. Las monedas guardadas en la Bóveda Fantasma permanecen privadas. La tarifa por la creación de imágenes fantasma de su NIX es del 0.25%, pagada con NIX que cotiza en bolsa \(no se resta de su NIX fantasma\).
+The procedure of sending coins to a Ghost Vault \(either your own or somebody else's\) is called “ghosting”, which essentially burns the coins and allows a user to re-issue them later as public coins with no attached history. Coins kept in the Ghost Vault remain private. The fee for ghosting your NIX is 0.25%, paid with publicly held NIX \(it does not get subtracted from your ghosted NIX\).
 
-Esta característica fue la primera implementación de transacción de privacidad de NIX y no ofrece privacidad del remitente y del receptor al mismo tiempo. Si su transacción requiere ambos, use el efecto [2-Way Ghosting](https://wiki.nixplatform.io/home/v/espanol/wallet-functionality/ghost-vault/2-way-ghosting).
+This feature was NIX’s first privacy transaction implementation and does not offer both sender and receiver privacy at the same time. If your transaction requires both, use [2-Way Ghosting](2-way-ghosting.md).
 
-Actualmente, Ghost Vault solo está disponible en las billeteras QT y GUI, con soporte de billetera móvil, planificado para su lanzamiento posterior.
+The Ghost Vault is currently only available in the QT and GUI wallets, with mobile wallet support planned for later release.
 
 {% hint style="success" %}
-**SUGERENCIA:** cuanto más tiempo tenga su NIX fantasma en su Vault y cuanto más NIX fantasma haya en total en la red, más fuerte será su privacidad.
+**TIP:** The longer your NIX are ghosted in your vault and the more ghosted NIX there are in total on the network, the stronger your privacy will be.
 {% endhint %}
 
 ## QT Wallet Ghost Vault
 
-Para comenzar, abra su billetera nix-qt y haga clic en el botón "Ghost Vault" y asegúrese de estar mirando la pestaña "Ghost NIX to Vault".
+To begin, open your nix-qt wallet and click on the "Ghost Vault" button and be sure you are looking at the "Ghost NIX to Vault" tab.
 
-![Haga Click en el bot&#xF3;n &quot;Ghost Vault&quot; en la parte superior, seguido de la pesta&#xF1;a &quot;Ghost NIX to Vault&quot;.](../../.gitbook/assets/qt-ghost-vault.png)
+![Click on the &quot;Ghost Vault&quot; button at the top of the QT wallet](../../.gitbook/assets/qt-ghost-vault.png)
 
-### **Enviando a tu propio Ghost Vault**
+### Sending to your own Ghost Vault
 
-De forma predeterminada, su NIX estará en su propia Ghost Vault. Los observadores externos no podrán decir que aún mantiene la posesión.
+By default, your NIX will be ghosted to your own Ghost Vault. Outside observers will be unable to tell that you still maintain possession of them.
 
 ![Sending NIX to your own Ghost Vault](../../.gitbook/assets/qt-ghost-to-self.png)
 
-### **Ghosting para otros usuarios de Ghost Vault**
+### Ghosting to another user's Ghost Vault
 
-Si prefiere enviar su NIX público a una billetera diferente, desmarque la casilla "Ghost to Myself" y pegue la clave fantasma de los destinatarios.
+If you'd rather send your public NIX to a different wallet, uncheck the "Ghost to Myself" box and paste in the recipients Ghost Key.
 
 ![Sending NIX to somebody else&apos;s Ghost Vault](../../.gitbook/assets/qt-ghost-to-other.png)
 
 {% hint style="info" %}
-**NOTA:** Las cantidades fraccionarias actualmente solo están disponibles en incrementos de .1.
+**NOTE:** Fractional amounts are currently only available in .1 increments.
 {% endhint %}
 
-Su NIX fantasma se mostrará como: no confirmado, mientras todavía está en el grupo de memoria esperando ser agregado a la cadena de bloques. Una vez que se agregan a la cadena de bloques, se mostrarán como Ghosted.
+Your ghosted NIX will show as unconfirmed while still in the memory pool waiting to be added to the blockchain. Once they are added to the blockchain they will show as Ghosted.
 
-Los ejemplos anteriores de cómo 1-Way Ghosting privatizará la transacción:
+The above examples of 1-Way Ghosting will privatize the transaction as shown:
 
 ![Receiving address is privatized](../../.gitbook/assets/explorer-1-way-ghosting.png)
 
-### **Un-Ghosting a la billetera de otro usuario**
+### Un-Ghosting to another user's wallet
 
-En los casos en que solo desee privatizar su dirección de envío, puede retirar fondos de su Bóveda fantasma a una dirección pública del receptor. Este método se realiza desde la pestaña "Un-Ghost NIX from Vault", y no hay ningún cargo por este tipo de transacción.
+In cases where you only want to privatize your sending address, you can Un-Ghost funds from your Ghost Vault into a receivers public address. This method is done from the "Un-Ghost NIX from Vault" tab, and there is no fee for this type of transaction.
 
 ![Un-Ghosting to another users wallet](../../.gitbook/assets/qt-unghost-to-other.png)
 
 ![Sending address is privatized](../../.gitbook/assets/explorer-unghost.png)
 
-## **UI Wallet Ghost Vault**
+## GUI Wallet Ghost Vault
 
-La billetera GUI actualmente solo admite agregar fondos a su propia Ghost Vault, y se puede hacer de 2 maneras.
+The GUI wallet currently only supports adding funds to your own Ghost Vault, and can be done in 2 ways..
 
-### **Desde la pantalla de resumen**
+### From the Overview screen
 
-En la pantalla Descripción general, busque el cuadro "Ghost Vault" y haga click en el botón "Depositar".
+From the Overview screen, find the "Ghost Vault" box and click on the "Deposit" button.
 
 ![](../../.gitbook/assets/ui-overviewghoststart.png)
 
-![Ingrese el monto junto con su contrase&#xF1;a y haga click en &quot;Depositar en el Vault&#x201D;.](../../.gitbook/assets/ui-overviewghostdeposit.png)
+![Enter the Amount along with your password and click &quot;Deposit to Vault&quot;](../../.gitbook/assets/ui-overviewghostdeposit.png)
 
 ![](../../.gitbook/assets/ui-overviewghostingsuccess.png)
 
-### **Desde el menú de Ghost Vault**
+### From the Ghost Vault Menu
 
-Seleccione "Ghost Vault" en el menú en el lado izquierdo de la billetera UI y haga clic en "Deposit from walet".
+Select "Ghost Vault" from the menu on the left hand side of the UI wallet and click on "Deposit From Wallet"
 
-![Haz click en &quot;Deposit from wallet&quot; dentro de Ghost Vault.](../../.gitbook/assets/ui-ghostvaultdeposit.png)
+![Click &quot;Deposit from Wallet&quot; inside the Ghost Vault](../../.gitbook/assets/ui-ghostvaultdeposit.png)
 
-![Ingrese el monto junto con su contrase&#xF1;a y haga clic en &quot;Depositar en el Vault&quot;.](../../.gitbook/assets/ui-ghostvaultghosting.png)
+![Enter the Amount along with your password and click &quot;Deposit to Vault&quot;](../../.gitbook/assets/ui-ghostvaultghosting.png)
 
 ![](../../.gitbook/assets/ui-ghostvaultghostingsuccess.png)
 

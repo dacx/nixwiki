@@ -1,70 +1,70 @@
-# Control de monedas
+# Coin Control
 
-El control de monedas es una función avanzada de billetera la QT que se usa principalmente para seleccionar UTXO individuales \(salidas de transacciones no gastadas\) para usar al enviar sus monedas. Además, también puede usar el control de monedas para especificar una dirección de cambio personalizada.
+Coin control is an advanced QT Wallet feature primarily used for selecting individual UTXO's \(unspent transaction outputs\) to be used when sending your coins. Additionally, you can also use coin control to specify a custom change address.
 
-## **Habilitar el control de monedas**
+## Enabling Coin Control
 
-Para habilitar las funciones de control de monedas, primero debe navegar a la ventana Opciones en el menú Configuración.
+In order to enable coin control features, you must first navigate to the Options window under the Settings menu.
 
-![Seleccione &quot;Options...&quot; en el men&#xFA; Configuraci&#xF3;n.](../.gitbook/assets/qt-settings-options.png)
+![Select &quot;Options...&quot; from the Settings menu](../.gitbook/assets/qt-settings-options.png)
 
-En la ventana Opciones, seleccione la pestaña "Monedero" y marque la casilla "Habilitar funciones de control de monedas".
+From the Options window, select the "Wallet" tab and check the box for "Enable coin control features".
 
-![Marque la casilla &quot;Enable coin control features&quot;.](../.gitbook/assets/qt-enable-coin-control.png)
+![Check the box for &quot;Enable coin control features&quot;](../.gitbook/assets/qt-enable-coin-control.png)
 
-Ahora, cuando use la ventana "Send", notará una nueva fila etiquetada como "Funciones de control de monedas" en la parte superior.
+Now when you use the "Send" window, you'll notice a new row labeled "Coin Control Features" at the top..
 
-![Funciones de control de monedas de billetera QT.](../.gitbook/assets/qt-coin-control-features.png)
+![QT Wallet Coin Control Features](../.gitbook/assets/qt-coin-control-features.png)
 
-## **Ventana de selección de monedas**
+## Coin Selection Window
 
-Por defecto, las entradas se seleccionan automáticamente cada vez que desea enviar monedas. Esta selección automática utilizará la menor cantidad de entradas disponibles para completar su transacción. Puede cambiar este comportamiento haciendo clic en el botón "Entradas...", que lo llevará a la ventana Selección de monedas.
+By default, inputs are automatically selected whenever you want to send coins. This automatic selection will use the fewest number of available inputs to complete your transaction. You can change this behavior by clicking on the "Inputs..." button, which will take you to the Coin Selection window. 
 
-Puede ver sus entradas utilizando el modo Árbol o Lista.
+You can view your inputs using either a Tree or List mode. 
 
-###  **Modo árbol**
+### Tree Mode
 
-El modo de árbol combinará todos los UTXO que usan la misma dirección para ahorrar espacio. Puede expandir el árbol haciendo clic en&gt; antes de cada casilla de verificación.
+Tree mode will combine all UTXO's that use the same address in order to save some space. You can expand the tree by clicking on the &gt; before each checkbox.
 
-![Vista de &#xE1;rbol de selecci&#xF3;n de monedas.](../.gitbook/assets/qt-coin-selection-tree.png)
+![Coin Selection Tree View](../.gitbook/assets/qt-coin-selection-tree.png)
 
-### **Modo Lista**
+### List Mode
 
-El modo de lista mostrará cada UTXO individual por separado.
+List mode will show each individual UTXO separately. 
 
-![Vista de lista de selecci&#xF3;n de monedas.](../.gitbook/assets/qt-coin-selection-list.png)
+![Coin Selection List View](../.gitbook/assets/qt-coin-selection-list.png)
 
-## **Usando control de monedas**
+## Using Coin Control
 
-En el siguiente ejemplo, vamos a usar el modo Árbol para seleccionar todo excepto una dirección heredada que comienza con "G".
+In following example we are going to use Tree mode to select everything except a legacy address which begins with "G".
 
-![Seleccione los UTXO que desea usar.](../.gitbook/assets/qt-coin-selection.png)
+![Select the UTXO&apos;s you want to use](../.gitbook/assets/qt-coin-selection.png)
 
-Después de hacer clic en el botón Aceptar, volverá a la ventana Enviar.
+After clicking the OK button, you'll be brought back to the Send window.
 
-Ahora, complete su dirección de envío y haga clic en el botón "Usar saldo disponible" para usar todas las monedas que ha seleccionado. También puede usar una cantidad menor si lo desea.
+Now, fill in your send address and click the "Use available balance" button to use all the coins you've selected. You can also use a lesser amount if you'd like.
 
-![Haga click en el bot&#xF3;n &quot;Usar saldo disponible&quot; para usar la cantidad total de UTXO seleccionados.](../.gitbook/assets/qt-coin-control-use-avail-bal.png)
+![Click the &quot;Use available balance&quot; Button to use the entire amount of selected UTXO&apos;s](../.gitbook/assets/qt-coin-control-use-avail-bal.png)
 
-Ahora que ha ingresado una dirección y cantidad para enviar, simplemente haga clic en el botón enviar.
+Now that you've entered in an address and amount to send, just click the send button.
 
-![Haga click en el bot&#xF3;n &quot;Enviar&quot; para enviar las monedas seleccionadas.](../.gitbook/assets/qt-coin-control-send.png)
+![Click the &quot;Send&quot; button to send your selected coins](../.gitbook/assets/qt-coin-control-send.png)
 
-### **Copiando cantidades de monedas para usar en otro lugar.**
+### Copying coin amounts for use elsewhere
 
-Después de seleccionar las entradas que desee, puede hacer click con el botón derecho y copiar la cantidad total si desea usarla en otro lugar, por ejemplo, al crear un contrato LPoS con las monedas UTXO seleccionadas.
+After selecting your desired inputs you can right click and copy the total amount if you wish to use it elsewhere, for example in creating an LPoS contract with your selected UTXO coins.
 
-![M&#xE9;todo alternativo para copiar el monto de la moneda UTXO.](../.gitbook/assets/qt-coin-control-right-click-amt.png)
+![Alternative method of copying the UTXO coin amount](../.gitbook/assets/qt-coin-control-right-click-amt.png)
 
-## **Dirección de cambio personalizado**
+## Custom Change Address
 
-El segundo uso de la función de control de monedas es especificar una dirección de cambio personalizada. Esta característica no se usa comúnmente, sin embargo, puede haber ocasiones en las que le gustaría utilizar esta capacidad.
+The second use of the coin control feature is specifying a custom change address. This feature is not commonly used, however, there may be times where you'd like to utilize this ability.
 
-Digamos que su billetera tiene un UTXO que contiene 20 monedas y desea enviar 19.5 a alguien. Debido a que los UTXO deben gastarse por completo, la billetera seleccionará automáticamente este UTXO para completar su transacción de tarifa de 19.5 + que lo dejaría con poco menos de .5 NIX como cambio. Normalmente, este cambio se enviaría a una dirección recién creada en su billetera como parte de la transacción. Al especificar una dirección de cambio personalizada, su cambio se enviará a cualquier dirección que elija.
+Let's say your wallet has a UTXO which contains 20 coins and you wish to send 19.5 to somebody. Because UTXO's must be entirely spent, the wallet will automatically select this UTXO to complete your 19.5 + fee transaction which would leave you with just under .5 NIX as change. Normally this change would be sent to a newly created address in your wallet as part of the transaction. By specifying a custom change address, your change will be sent to any address you choose. 
 
 {% hint style="success" %}
-**SUGERENCIA:** las direcciones de cambio creadas automáticamente no se mostrarán en el "Historial de pagos solicitados" de la ventana Recibir. La única forma de ver todas sus direcciones de cambio es mediante el uso de entradas de control de monedas.
+**TIP:** Automatically created change addresses **will not** show up under your Receive window's "Requested payments history". The only way to view all of your change addresses is by using coin control inputs.
 {% endhint %}
 
-Para habilitar esta función, simplemente marque la casilla e ingrese una dirección. **Tenga en cuenta que si se selecciona esta función y la dirección está vacía o no es válida, se utilizará una dirección de cambio recién creada.**
+To enable this feature, simply check the box and enter an address. **Please note that if this feature is selected and the address is empty or invalid, a newly created change address will be used instead.**
 

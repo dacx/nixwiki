@@ -1,28 +1,28 @@
 ---
-description: 2-Way Ghosting permite privatizar las direcciones de envío y recepción.
+description: 2-Way Ghosting allows for both send and receive addresses to be privatized.
 ---
 
 # 2-Way Ghosting
 
-Esta tecnología nunca antes hecha permite la capacidad de lanzar poderosos contratos inteligentes privados en cadena al tiempo que permite una privacidad sin límites de transacciones a prueba de conocimiento.
+This never-done-before technology enables the ability to launch powerful private smart contracts on chain while allowing zero knowledge proof transaction edged privacy.
 
-Aunque el procedimiento técnico para lograr la privacidad del remitente y el receptor en una transacción es complejo en el backstage, se puede resumir como el envío de monedas de una Bóveda fantasma a otra. Se puede ver una breve descripción técnica en el [Documento técnico del Paquete de claves de compromiso](https://nixplatform.io/wp-content/uploads/2018/10/Commitment_Key_Packs_v1-0-1.pdf). Hay una tarifa de tarifa fija de .1 para estas transacciones de bóveda a bóveda, pagadas por la bóveda fantasma de los remitentes \(no se resta del monto de la transacción\).
+Although the technical procedure for achieving sender and receiver privacy in one transaction is complex in the backstage, it can be summarized as sending coins from one Ghost Vault to another. A brief technical overview can be seen in the [Commitment Key Pack Technical Paper](https://nixplatform.io/wp-content/uploads/2018/10/Commitment_Key_Packs_v1-0-1.pdf). There is a flat rate fee of .1 for these vault to vault transactions, paid from the senders Ghost Vault \(not subtracted from the transaction amount\).
 
-El efecto fantasma bidireccional actualmente solo está disponible en QT Wallet. El soporte en otras billeteras estará disponible.
+2-Way Ghosting is currently only available in the QT Wallet. Support in other wallets will be available.
 
-##  **QT Wallet**
+## QT Wallet
 
-Primero debes tener [NIX fantasma en tu Ghost Vault](https://wiki.nixplatform.io/home/wallet-functionality/ghost-vault/1-way-ghosting). \(Replace this link with the Spanish version\) Puede comenzar su transacción Ghost de 2 vías haciendo clic en el botón "Ghost Vault" seguido de la pestaña "Un-Ghost NIX from Vault".
+You must first have [ghosted NIX in your Ghost Vault](1-way-ghosting.md). You can begin your 2-Way Ghost transaction by clicking the "Ghost Vault" button followed by the "Un-Ghost NIX from Vault" tab.
 
-Anule la selección de la casilla de verificación "Un-Ghost to Myself", ingrese la clave fantasma de los destinatarios en el campo de entrada "Un-Ghost To:" e ingrese una cantidad de NIX fantasma para enviar.
+Deselect the "Un-Ghost to Myself" checkbox, enter the recipients Ghost Key in the "Un-Ghost To: " input field and enter an amount of ghosted NIX to send.
 
-![Crear una transacci&#xF3;n 2-Way Ghosting.](../../.gitbook/assets/qt-2-way-ghosting.png)
+![Creating a 2-Way Ghost Transaction](../../.gitbook/assets/qt-2-way-ghosting.png)
 
 {% hint style="info" %}
-**NOTA:** Las cantidades fraccionarias actualmente solo están disponibles en incrementos de .1.
+**NOTE:** Fractional amounts are currently only available in .1 increments.
 {% endhint %}
 
-Su transacción Ghost de 2 vías se agregará a la cadena de bloques con las direcciones de envío y recepción privatizadas.
+Your 2-Way Ghost transaction will then be added to the blockchain with both send and receive addresses privatized.
 
 ![Both send and receive addresses are privatized on the blockchain](../../.gitbook/assets/explorer-2-way-ghosting.png)
 

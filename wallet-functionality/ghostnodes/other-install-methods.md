@@ -1,4 +1,4 @@
-# Métodos de instalación manual
+# Manual Install Methods
 
-Para instalar manualmente su Ghostnode, [consulte la guía en Medium](https://medium.com/@joseit0/c%C3%B3mo-configurar-su-nix-ghostnode-con-ledger-trezor-63be6cfb5dfe?source=your_stories_page---------------------------). También es posible almacenar la garantía \(y todas las recompensas\) en su billetera de hardware. Obtenga más información sobre eso [aquí](https://medium.com/@joseit0/c%C3%B3mo-configurar-su-nix-ghostnode-con-ledger-trezor-63be6cfb5dfe?source=your_stories_page---------------------------).
+To manually install your Ghostnode, please refer to the [guide on Medium](https://medium.com/@nixplatform/ghostnode-setup-guide-d2b7616fbba3). It is also possible to store the collateral \(and all rewards\) on your hardware wallet. Learn more about that [here](https://medium.com/@nixplatform/how-to-set-up-your-nix-ghostnode-with-ledger-trezor-113f0cfb5871).
 

@@ -37,10 +37,10 @@
 * [Console Commands](advanced-wallet-functions/console-commands.md)
 * [Command-line Options](advanced-wallet-functions/command-line-options.md)
 
-## Support
+## SOPORTE <a id="support"></a>
 
-* [Staking Issues](support/staking-issues.md)
-* [Syncing Issues](support/syncing-issues.md)
+* [Problemas de Staking](support/staking-issues.md)
+* [Problemas de sincronización](support/syncing-issues.md)
 * [Mobile Wallet Issues](support/mobile-wallet-issues.md)
 * [Ghostnode Resync](support/ghostnode-resync.md)
 * [Frequently Asked Questions](support/frequently-asked-questions.md)

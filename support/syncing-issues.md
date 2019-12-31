@@ -1,62 +1,72 @@
-# Syncing Issues
+# Problemas de sincronización
 
 {% hint style="warning" %}
-If for whatever reason the following doesn't fix your issue, join the [Discord server](https://discordapp.com/invite/HGuvDTW) and ask in the **public channels only** for help. **Do not respond to any DMs** as scammers might try to trick you into giving them your funds!
+**Si por alguna razón lo siguiente no soluciona su problema, únase al** [**servidor de Discord**](https://discordapp.com/invite/HGuvDTW) **y solicite ayuda en los canales públicos solo. ¡No respondas a ningún DM ya que los estafadores podrían tratar de engañarte para que les des tus fondos!**
 {% endhint %}
 
-If you happen to be on the wrong chain \(typically due to not updating your wallet in time before a mandatory update\), your wallet may show an incorrect balance and any transactions you try to send will not be properly received.
+Si se encuentra en la cadena incorrecta \(generalmente debido a que no actualizó su billetera a tiempo antes de una actualización obligatoria\), su billetera puede mostrar un saldo incorrecto y las transacciones que intente enviar no se recibirán correctamente.
 
-## How to Resync
+## **Cómo resincronizar**
 
-First, verify that you are indeed on the wrong chain by comparing your block height to the [explorer](https://blockchain.nixplatform.io/). If they do not match, take the following steps:
+Primero, verifique que realmente está en la cadena incorrecta comparando la altura de su bloque con el [explorador](https://discordapp.com/invite/HGuvDTW). Si no coinciden, siga los siguientes pasos:
 
-1. Be sure you have the latest version of the wallet. If not, download it from [https://nixplatform.io/wallet](https://nixplatform.io/wallet) or [GitHub](https://github.com/NixPlatform/NixCore/releases).
-2. Make sure your wallet is not running and navigate to the NIX data directory \(see [Finding the NIX data directory](syncing-issues.md#finding-the-nix-data-directory) below\). 
-3. If you don't have a backup of your wallet.dat file, now would be a good time to make a copy just in case you accidentally delete it while doing the next step. Check the [Wallet Backup](../wallet-functionality/backup-and-security-1/wallet-backup.md) page for more details.
-4. Delete the following from the data directory: - blocks \(entire directory\) - chainstate \(entire directory\) - banlist.dat - peers.dat
-5. Start the wallet and let it sync. Using a broadband internet connection, it should take about 15 mins to complete.
+1. Asegúrese de tener la última versión de la billetera. De lo contrario, descárguelo de https://nixplatform.io/wallet o [GitHub](https://github.com/NixPlatform/NixCore/releases).
 
-### Optional Steps
+2. Asegúrese de que su billetera no se esté ejecutando y navegue hasta el directorio de datos NIX \([consulte Búsqueda del directorio de datos NIX](https://wiki.nixplatform.io/home/support/syncing-issues#finding-the-nix-data-directory) – Replace this link with the spanish version - a continuación\).
 
-#### Download and install a bootstrap after completing step 4
+3. Si no tiene una copia de seguridad de su archivo wallet.dat, ahora sería un buen momento para hacer una copia en caso de que la elimine accidentalmente mientras realiza el siguiente paso. Consulte la página de [Wallet Backup](https://wiki.nixplatform.io/home/wallet-functionality/backup-and-security-1/wallet-backup) \(Replace this link with the spanish version\) para más detalles.
 
-1. Download the latest [NIX Blockchain Bootstrap](https://drive.google.com/open?id=1RRuEL_xDf7lbHQxAEdOOnF2nlNOVjWyN) file \(updated once a month\).
-2. Unzip contents to the NIX data directory.
+4. Elimine lo siguiente del directorio de datos:  
+- bloques \(directorio completo\)  
+- chainstate \(directorio completo\)  
+- banlist.dat  
+- peers.dat
 
-#### Manually adding peers
+5. Inicie la billetera y deje que se sincronice. Usando una conexión a Internet de banda ancha, debería tomar unos 15 minutos para completar.
 
-Once you've restarted your wallet to sync, you can use the debug console to quickly add an official peer that is geographically closest to you by typing:
+### **Pasos opcionales**
+
+**Descargue e instale un bootstrap después de completar el paso 4**
+
+1. Descargue el último archivo Bootstrap de [Blockchain de NIX](https://drive.google.com/open?id=1RRuEL_xDf7lbHQxAEdOOnF2nlNOVjWyN) \(actualizado una vez al mes\).  
+2. Descomprima el contenido en el directorio de datos NIX.
+
+### **Agregar pares manualmente**
+
+Una vez que haya reiniciado su billetera para sincronizar, puede usar la consola de depuración para agregar rápidamente un par oficial que esté geográficamente más cerca de usted escribiendo:
 
 ```text
 addnode ny.nixplatform.io add
 ```
 
-![Successfully adding the ny.nixplatform.io node](../.gitbook/assets/console-addnode.png)
+![Agregar con &#xE9;xito el nodo ny.nixplatform.io](../.gitbook/assets/console-addnode.png)
 
-**List of official nodes:**
+\*\*\*\*
 
-* ny.nixplatform.io \(United States\)
-* sf.nixplatform.io \(United States\)
-* ldn.nixplatform.io \(England\)
-* fra.nixplatform.io \(Germany\)
-* tor.nixplatform.io \(Canada\)
-* sgp.nixplatform.io \(Singapore\)
-* blr.nixplatform.io \(India\)
+**Lista de nodos oficiales:**
 
-## Finding the NIX data directory
+*  ny.nixplatform.io \(Estados Unidos\)
+*  sf.nixplatform.io \(Estados Unidos\)
+*  ldn.nixplatform.io \(Inglaterra\)
+*  fra.nixplatform.io \(Alemania\)
+*  tor.nixplatform.io \(Canadá\)
+*  sgp.nixplatform.io \(Singapur\)
+*  blr.nixplatform.io \(India\)
+
+## **Encontrar el directorio de datos NIX**
 
 #### Windows
 
-1. Hit Windows Key + R.
-2. Type `%appdata%` and hit Enter.
-3. Click on the `nix` directory.
+1. Presiona la tecla de Windows + R.
+2. Escribe `%appdata%` y presiona Enter.
+3. Haga clic en el directorio `nix`
 
 #### Linux
 
-1. The data directory is located in `~./nix` .
+1. El directorio de datos se encuentra en `~./nix` .
 
 #### Mac OS
 
-1. In the Top Bar locate and click `Go -> Go to Folder` .
-2. Paste `~/Library/Application Support/nix/` and hit Enter.
+1. En la barra superior, busque y haga clic en Ir -&gt; Ir a la carpeta.
+2. Pegue ~ / Library / Application Support / nix / y presione Enter.
 
