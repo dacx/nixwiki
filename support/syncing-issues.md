@@ -12,9 +12,9 @@ Primero, verifique que realmente está en la cadena incorrecta comparando la alt
 
 1. Asegúrese de tener la última versión de la billetera. De lo contrario, descárguelo de https://nixplatform.io/wallet o [GitHub](https://github.com/NixPlatform/NixCore/releases).
 
-2. Asegúrese de que su billetera no se esté ejecutando y navegue hasta el directorio de datos NIX \([consulte Búsqueda del directorio de datos NIX](https://wiki.nixplatform.io/home/support/syncing-issues#finding-the-nix-data-directory) – Replace this link with the spanish version - a continuación\).
+2. Asegúrese de que su billetera no se esté ejecutando y navegue hasta el directorio de datos NIX \([consulte Búsqueda del directorio de datos NIX](https://wiki.nixplatform.io/home/v/espanol/support/syncing-issues#finding-the-nix-data-directory) a continuación\).
 
-3. Si no tiene una copia de seguridad de su archivo wallet.dat, ahora sería un buen momento para hacer una copia en caso de que la elimine accidentalmente mientras realiza el siguiente paso. Consulte la página de [Wallet Backup](https://wiki.nixplatform.io/home/wallet-functionality/backup-and-security-1/wallet-backup) \(Replace this link with the spanish version\) para más detalles.
+3. Si no tiene una copia de seguridad de su archivo wallet.dat, ahora sería un buen momento para hacer una copia en caso de que la elimine accidentalmente mientras realiza el siguiente paso. Consulte la página de [Wallet Backup](https://wiki.nixplatform.io/home/v/espanol/wallet-functionality/backup-and-security-1/wallet-backup) para más detalles.
 
 4. Elimine lo siguiente del directorio de datos:  
 - bloques \(directorio completo\)  
