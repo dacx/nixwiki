@@ -1,36 +1,38 @@
-# Votación de Gobernanza
+# Governance Voting
 
-NIX incorporó su sistema descentralizado de gobernanza fuera de la cadena el 25 de mayo de 2019. La creación de un modelo de gobernanza fuera de la cadena permite un método de gobernanza liviano al garantizar que los usuarios que protegen la red tengan voz en la dirección que toma NIX. Este sistema evita el almacenamiento innecesario de datos de blockchain y al mismo tiempo mantiene la transparencia.
+NIX incorporated its decentralized off-chain governance system on May 25th, 2019. Creating an off-chain governance model allows for a light-weight method of governance by ensuring that users who secure the network have a say in the direction NIX takes. This system prevents unnecessary blockchain data storage while at the same time maintaining transparency.
 
-Las discusiones sobre las propuestas de gobernanza a menudo se pueden encontrar en el canal \#governance de [Discord](https://discordapp.com/invite/HGuvDTW).
+Discussions concerning governance proposals can often be found in the \#governance [Discord server chat](https://discordapp.com/invite/HGuvDTW).
 
 {% hint style="danger" %}
-**PRECAUCIÓN:** recuerde que cualquiera que esté dispuesto a gastar 50 NIX puede crear una propuesta. Depende de usted decidir si la persona que creó la propuesta es confiable y cumplirá con sus intenciones declaradas. **¡Por favor vote sabiamente!**
+**Caution:** Please remember that anybody willing to spend 50 NIX can create a proposal. It is up to you to decide if the individual who created the proposal is trustworthy and will follow through with their stated intentions. **Please vote wisely!**
 {% endhint %}
 
-## **Tu Voto**
+## Casting Your Vote
 
-Para que una propuesta sea aprobada, se deben cumplir 2 requisitos de la comunidad de votante. Estos son:
+In order for a proposal to pass, 2 requirements from the voting community must be met within 15 days. These are:
 
-1.  Que al menos el 50% de los votos elegibles sean emitidos.
-2.  Que al menos el 75% de los votos emitidos estén a favor.
+1. At least 50% of eligible votes are cast.
+2. At least 75% of cast votes are in favor.
 
-Actualmente, la votación solo está disponible con la billetera QT. Para poder votar sobre una propuesta, debe hacer staking desde una dirección de bech32 que comience con "nix1" y/o ejecutar un Ghostnode antes de la fecha en que se envió la propuesta sobre la que desea votar. El apostar desde una dirección p2sh que comienza con "N" no califica para votar para evitar que aquellos apostadores que no desean participar en la votación afecten el requisito del 50% de votos emitidos.
+Voting is currently only available using the QT wallet. To be eligible for voting on a proposal you must be staking from a bech32 address which begins with "nix1" and/or running a Ghostnode prior to the date the proposal you'd like to vote on was submitted. Staking from a p2sh address beginning with "N" does not qualify for voting so as to keep those stakers who do not wish to participate in voting from affecting the 50% cast votes requirement.
 
-Su peso en el voto está determinado por su apuesta "nix1" recibida y / o recompensas de Ghostnode. Cuantas más recompensas ganes, mayor será el peso de tu voto. 
+### Vote Weight
 
-![Haga clic en el bot&#xF3;n de gobiemo](../.gitbook/assets/qt-governance.png)
+Your vote weight is determined by your  "nix1" \(Bech32 address\) staking/LPoS contract and/or Ghostnode rewards. The more rewards you earn, the higher your vote weight will be. In order to be eligible to vote, you must have received a reward within 30 days prior to the creation of a Governance Proposal. Your weight is then calculated by the total amount of rewards received by each qualified address for a total of 46 days prior \(30 days during eligibility period, plus 15 days for voting, and an additional 1 as a cushion\). 
 
-![Haga clic en el bot&#xF3;n &quot;Lista de restituci&#xF3;n&quot; para completar/actualizar la lista de propuestas.](../.gitbook/assets/qt-gov-refresh.png)
+![Click on the Governance Button](../.gitbook/assets/qt-governance.png)
 
-Después de navegar a la sección Gobierno y completar/actualizar la lista de propuestas, puede seleccionar una propuesta específica y revisarla haciendo clic en el botón "Expandir detalles". Una vez que haya decidido si respaldar o no la propuesta, asegúrese de que esté seleccionada y luego haga clic en el botón "Votar en contra" o "Votar por". Luego se le pedirá que ingrese la contraseña de su billetera, después de lo cual su peso de voto se agregará a su selección.
+![Click on the &quot;Refrest List&quot; button to populate/refresh the proposal list](../.gitbook/assets/qt-gov-refresh.png)
 
-## **Crear una propuesta**
+After navigating to the Governance section and populating/refreshing the proposal list, you may then select a specific proposal and review it by clicking on the "Expand Details" button. Once you've decided whether or not to support the proposal, make sure that proposal is selected then click either the "Vote Against" or "Vote For" button. You will then be prompted to enter your wallet password, after which your vote weight will be added to your selection.
 
-Visite la página de [propuestas de Gobernanza](https://wiki.nixplatform.io/home/v/espanol/github-and-feedback/governance-proposals).
+## Creating A Proposal
 
-## **Más información**
+Visit the [Governance Proposals page](../github-and-feedback/governance-proposals.md).
 
-Puede encontrar una lista de propuestas activas, aceptadas y rechazadas [aquí](https://governance.nixplatform.io/#/proposals).  
-Además, puede encontrar un pdf detallado de Governanza [aquí](https://nixplatform.io/wp-content/uploads/2019/02/NixGovernance.pdf).
+## More Information
+
+A list of active, accepted and rejected proposals can be [found here](https://governance.nixplatform.io/#/proposals).  
+Also, you can find a detailed [Governance pdf here](https://nixplatform.io/wp-content/uploads/2019/02/NixGovernance.pdf).
 

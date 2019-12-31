@@ -1,50 +1,50 @@
-# Mobile Wallet Issues
+# Problemas de billetera móvil
 
-## Funds Aren't Showing Up
+## **Los fondos no aparecen**
 
-If some/all of your funds aren't showing up \(typically after importing/recovering your seed phrase from an older/other device\), chances are good your wallet is not sync'd.
+Si algunos/todos sus fondos no se muestran \(generalmente después de importar/recuperar su frase semilla de un dispositivo antiguo/otro\), es probable que su billetera no esté sincronizada.
 
-**Easy things to try first:**
+**Cosas fáciles de probar primero:**
 
-1. Close and re-open the app.
-2. Reboot the device.
-3. If using WiFi, disable it and try using your cellular data connection.
+1. Cierra y vuelve a abrir la aplicación.  
+2. Reinicia el dispositivo.  
+3. Si usa WiFi, desactívelo e intente usar su conexión de datos móviles.
 
-**Force the wallet to re-sync:**
+**Fuerce la billetera para volver a sincronizar:**
 
-1. Menu
-2. Settings
-3. Sync Blockchain
-4. Start Sync
+1. Menú  
+2. Configuraciones  
+3. Sincronizar Blockchain  
+4. Iniciar sincronización
 
-**If you are still unable to properly re-sync, try:**
+**Si aún no puede volver a sincronizar correctamente, intente:**
 
-1. Menu
-2. Settings
-3. Advanced
-4. NIX Nodes
-5. Switch to Manual Mode
+1. Menú  
+2. Configuraciones  
+3. Avanzado  
+4. NIX Nodos  
+5. Cambiar al modo manual
 
-Here, it will ask you for an IP address. An easy way to get one is from a block explorer such as [https://chainz.cryptoid.info/nix/\#!network](https://chainz.cryptoid.info/nix/#!network). Find a latest version node and click on the "node list" button. You may need to attempt a re-sync once again.
+Aquí, le pedirá una dirección IP. Una forma fácil de obtener uno es desde un explorador de bloques como https://chainz.cryptoid.info/nix/\#!network. Encuentre un nodo de última versión y haga clic en el botón "lista de nodos". Es posible que deba intentar una nueva sincronización una vez más.
 
-Once sync'd and you've completed any sends you want to do, you will probably want to get back to the NIX Nodes section and switch back to Automatic Mode, as there is no guarantee the node you manually added will remain online forever.
+Una vez que se haya sincronizado y haya completado los envíos que desea hacer, es probable que desee volver a la sección Nodos de NIX y volver al modo automático, ya que no hay garantía de que el nodo que agregó manualmente permanecerá en línea para siempre.
 
-## How to Import Your Mobile Seed Phrase into Electrum-NIX
+## **Cómo importar su frase de semilla móvil en Electrum-NIX**
 
-If for whatever reason you are unable to get your mobile wallet to work properly, or perhaps your device is destroyed/lost/stolen and you want to use the funds but don't yet have another device to restore to, you can easily import your seed phrase into an electrum-nix desktop wallet.
+Si por alguna razón no puede hacer que su billetera móvil funcione correctamente, o si su dispositivo se destruye / pierde / se lo roban y quiere usar los fondos pero aún no tiene otro dispositivo para restaurar, puede importar fácilmente su frase inicial en una billetera de escritorio electrum-nix.
 
-Begin by downloading the electrum-nix wallet for your Operating System from the [NIX website](https://nixplatform.io/wallet) or directly from [GitHub](https://github.com/NixPlatform/electrum-nix/releases). After you've installed it, open it and:
+Comience descargando la billetera electrum-nix para su sistema operativo desde el [sitio web de NIX](https://nixplatform.io/wallet) o directamente desde [GitHub](https://github.com/NixPlatform/electrum-nix/releases). Después de instalarlo, ábralo y:
 
-1. Select File, New/Recover \(or skip to \#2 if you've just installed electrum-nix for the first time\)
-2. Give your wallet a name \(Mobile Wallet might be an obvious choice\)
-3. Select "Standard wallet"
-4. Select "I already have a seed"
-5. Enter your 12 words and then click on the Options button and select "BIP39 seed"
-6. Select "legacy \(p2pkh\)"
-7. Change the derivation path to: m/0'
-8. If you wish to keep this wallet installed, you should probably encrypt it when prompted to do so.
+1. Seleccione Archivo, Nuevo / Recuperar \(o pase al \# 2 si acaba de instalar electrum-nix por primera vez\)  
+2. Déle un nombre a su billetera \(la billetera móvil podría ser una opción obvia\)  
+3. Seleccione "Monedero estándar"  
+4. Seleccione "Ya tengo una semilla"  
+5. Ingrese sus 12 palabras y luego haga clic en el botón Opciones y seleccione "semilla BIP39"  
+6. Seleccione "legado \(p2pkh\)"  
+7. Cambie la ruta de derivación a: m / 0 '  
+8. Si desea mantener esta billetera instalada, probablemente debería encriptarla cuando se le solicite.
 
-You will now have access to your SPV wallet using electrum-nix. From here, you can send them anywhere you like.
+Ahora tendrá acceso a su billetera SPV usando electrum-nix. Desde aquí, puedes enviarlos a donde quieras.
 
-Once you've emptied your wallet/sent whatever funds you want to send, you can either keep the wallet for future use \(encryption recommended\), or delete it using File, Delete.
+Una vez que haya vaciado su billetera / enviado los fondos que desea enviar, puede conservar la billetera para uso futuro \(se recomienda el cifrado\) o eliminarla usando Archivo, Eliminar.
 

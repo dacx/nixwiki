@@ -41,7 +41,7 @@
 
 * [Problemas de Staking](support/staking-issues.md)
 * [Problemas de sincronización](support/syncing-issues.md)
-* [Mobile Wallet Issues](support/mobile-wallet-issues.md)
+* [Problemas de billetera móvil](support/mobile-wallet-issues.md)
 * [Ghostnode Resync](support/ghostnode-resync.md)
 * [Frequently Asked Questions](support/frequently-asked-questions.md)
 
