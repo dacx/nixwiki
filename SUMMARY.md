@@ -62,5 +62,4 @@
 
 * [Whitepaper](https://nixplatform.io/docs/NIX-Platform-Whitepaper.pdf)
 * [GitHub](https://github.com/nixplatform/nixcore/releases/)
-* [Terms](other/terms.md)
 

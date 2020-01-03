@@ -13,9 +13,9 @@
 
 | Coin |  |
 | :--- | :--- |
-| Current Supply | ~45,000,000 \(DEC2019\) |
+| Current Supply | ~45,330,000 \(JAN 2020\) |
 | Maximum Supply | 102,210,160 \(After 40 years\) |
-| Staking Reward | ~2.5 per block |
+| Staking Reward | ~2.6 per block |
 | Ghostnode Reward | ~8.4 per block |
 | Ghostnode Ghost Vault Fee \* \(1-way Ghosting\) | .25% |
 | Ghostnode Vault to Vault TX Fee \* \(2-way Ghosting\) | .1 Ghosted NIX |
