@@ -1,57 +1,59 @@
-# Governance Proposals
+# Propuestas de gobierno
 
-NIX incorporated its decentralized off-chain governance system on May 25th, 2019. Creating an off-chain governance model allows for a light-weight method of governance by ensuring that users who secure the network have a say in the direction NIX takes. This system prevents unnecessary blockchain data storage while at the same time maintaining transparency.
+NIX incorporó su sistema descentralizado de gobernanza fuera de la cadena el 25 de mayo de 2019. La creación de un modelo de gobernanza fuera de la cadena permite un método de gobernanza liviano al garantizar que los usuarios que protegen la red tengan voz en la dirección que toma NIX. Este sistema evita el almacenamiento innecesario de datos de blockchain y al mismo tiempo mantiene la transparencia.
 
-Whether you are an individual community member suggesting a change in operations or a company looking to exchange services for compensation \(or any combination thereof\), this is the place to do it.
+Si usted es un miembro individual de la comunidad que sugiere un cambio en las operaciones o una empresa que busca intercambiar servicios por compensación \(o cualquier combinación de los mismos\), este es el lugar para hacerlo.
 
-**Once properly submitted, there are 2 requirements that must be met in order for a proposal to pass:**
+**Una vez enviado correctamente, hay dos requisitos que deben cumplirse para que una propuesta sea aprobada:**
 
-Within 15 days:
+Dentro de 15 días:
 
-1. At least 50% of all eligible votes are cast.
-2. At least 75% of cast votes are in favor.
+1. Al menos el 50% de todos los votos elegibles son emitidos.  
+2. Al menos el 75% de los votos emitidos están a favor.
 
-## Creating A Proposal
+## **Crear una propuesta**
 
-The current fee for creating a proposal is 50 NIX, which is to be sent to the NIX development fund address nix1qr7y5gtwrpuadsluk7v2wdn9pwx3s4asf25hcq2
+La tarifa actual para crear una propuesta es 50 NIX, que se enviará a la dirección del fondo de desarrollo NIX nix1qr7y5gtwrpuadsluk7v2wdn9pwx3s4asf25hcq2
 
 {% hint style="warning" %}
-**NOTICE:** Be sure that exactly 50 NIX is sent to the development fund address by **not** subtracting the network fee from the transaction amount!
+**AVISO:** ¡Asegúrese de enviar exactamente 50 NIX a la dirección del fondo de desarrollo al no restar la tarifa de red del monto de la transacción!
 {% endhint %}
 
-After sending the fee, point your web browser to the [proposal submission page](https://governance.nixplatform.io/#/submit) and fill in the submission form. This includes:
+Después de enviar la tarifa, dirija su navegador web a la [página de envío de propuestas](https://governance.nixplatform.io/#/submit) y complete el formulario de envío. Esto incluye:
 
-* Your name or a title for your proposal
-* Proposal details  - 200 character minimum - 10,000 character maximum - No special HTML characters such as bullet points
-* Your NIX address for receiving payment
-* Requested amount of NIX
-* The transaction ID for the 50 NIX proposal fee payment
+* Su nombre o un título para su propuesta.
+* Detalles de la propuesta. - 200 caracteres mínimo - 10,000 caracteres como máximo - No hay caracteres HTML especiales como viñetas
+* Su dirección NIX para recibir el pago.
+* Cantidad solicitada de NIX
+* El ID de la transacción para el pago de la tarifa de la propuesta 50 NIX
 
-Proposals should be submitted after at least 3 confirmations of your fee payment. Proposal submission fees are irreversible and there will be no refunding for spam proposals of any kind.
+Las propuestas deben enviarse después de al menos 3 confirmaciones del pago de su tarifa. Las tarifas de envío de propuestas son irreversibles y no habrá reembolso por propuestas de spam de ningún tipo.
 
 {% hint style="warning" %}
-**NOTICE:** Please remember that approved proposals can only be paid out in NIX. BTC, ETH, ect is not a valid form of payment.
+**AVISO:** recuerde que las propuestas aprobadas solo se pueden pagar en NIX. BTC, ETH, ect no es una forma de pago válida.
 {% endhint %}
 
 {% hint style="success" %}
-**TIP:** You can request your payment to be paid as a fixed amount of NIX or fiat equivalency at the time your requested payment is sent. If, for example, you’d rather be compensated with a USD value in NIX, please make sure that requirement is explicitly stated in your proposal. 
+**SUGERENCIA:** puede solicitar que su pago se pague como una cantidad fija de NIX o equivalencia fiduciaria en el momento en que se envía su pago solicitado. Si, por ejemplo, prefiere ser compensado con un valor en USD en NIX, asegúrese de que el requisito se establezca explícitamente en su propuesta. 
 {% endhint %}
 
-### Tips to get your proposal to pass
+### 
 
-By making a submission you are presenting a proposal of improvement to the project stakeholders and/or tendering for development funds. As such, successful proposals are likely to have been well thought out and presented in a clear manner. 
+### **Consejos para que su propuesta sea aprobada**
 
-* **Creating anonymous proposals is not recommended.** Voters like to know who is organizing the proposition. 
-* If your proposition is too long for the form, don't cut back on details. Instead, add a link to a [Reddit](https://www.reddit.com/r/NixPlatform/) post. Even if your proposition isn't too long for the submission form, a Reddit discussion can be a great help by hosting community questions and answers concerning your idea without getting buried in non-relevant chat. 
-* Consider joining the \#governance [Discord server chat](https://discordapp.com/invite/HGuvDTW) and discussing your idea with the community first. This can help give you an initial reaction and level of interest, along with helping to formulate and refine your idea so that it has the best possible chance to succeed. 
-* Support your proposal by getting the word out via social media channels and make yourself available to answer questions in the \#governance chat.
+Al realizar una presentación, presenta una propuesta de mejora a los interesados ​​del proyecto y / o licita fondos de desarrollo. Como tal, es probable que las propuestas exitosas hayan sido bien pensadas y presentadas de manera clara.
 
-## Casting Your Vote
+* No se recomienda crear propuestas anónimas. A los votantes les gusta saber quién está organizando la propuesta.
+* Si su propuesta es demasiado larga para el formulario, no reduzca los detalles. En su lugar, agregue un enlace a una publicación de [Reddit](https://www.reddit.com/r/NixPlatform/). Incluso si su propuesta no es demasiado larga para el formulario de envío, una discusión de Reddit puede ser de gran ayuda al albergar preguntas y respuestas de la comunidad sobre su idea sin verse inmerso en un chat no relevante.
+* Considere unirse al chat del servidor \#governance [Discord](https://discordapp.com/invite/HGuvDTW) y discutir su idea con la comunidad primero. Esto puede ayudar a darle una reacción inicial y un nivel de interés, junto con ayudar a formular y refinar su idea para que tenga la mejor oportunidad posible de tener éxito.
+* Apoye su propuesta haciendo correr la voz a través de los canales de redes sociales y esté disponible para responder preguntas en el chat \#governance.
 
-Visit the [Governance Voting](../wallet-functionality/governance-voting.md) section for details.
+## **Tu Voto**
 
-## More Information
+Visite la sección de [Votación de Gobierno](https://wiki.nixplatform.io/home/wallet-functionality/governance-voting) para más detalles.
 
-A list of active, accepted and rejected proposals can be [found here](https://governance.nixplatform.io/#/proposals).  
-Also, you can find a detailed [Governance pdf here](https://nixplatform.io/wp-content/uploads/2019/02/NixGovernance.pdf).
+## **Más información**
+
+Puede encontrar una lista de propuestas activas, aceptadas y [rechazadas aquí](https://governance.nixplatform.io/#/proposals).  
+Además, puede encontrar un [pdf detallado de Governance aquí](https://nixplatform.io/wp-content/uploads/2019/02/NixGovernance.pdf).
 

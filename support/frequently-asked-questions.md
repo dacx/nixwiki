@@ -93,7 +93,7 @@ Inicie sesión en vps a través de putty \(windows\) o terminal \(unix\) y ejecu
 
 `nix-cli getblockchaininfo` verifique la altura del bloque vps cerca de la parte superior \(debe coincidir con https://blockchain.nixplatform.io/\) Si no coincide, entonces debe seguir el bootstrap de dacx fijado en \# billeteras en discordia. Primero detenga el servicio NIX pegando en el vps: systemctl stop NIX Para obtener los archivos de arranque en su VPS, puede usar algo como FileZilla desde su máquina local. Instale pero desmarque el bloatware en la instalación, no los necesita. Inicie sesión en su vps a través de FileZilla usando las mismas credenciales que putty / terminal en la sección de conexión rápida y use el Puerto 22. Navegue a la carpeta nix y elimine los elementos en la guía de arranque de dacx. Descomprima los archivos que descargó en el enlace de la guía y arrástrelos a la carpeta Nix en la sesión de Filezilla. Ahora regrese a putty / terminal e inicie el servicio nuevamente con systemctl start NIX. Verifique la altura en masilla / terminal nuevamente contra la altura del explorador de bloques con nix-cli getblockchaininfo Si eso se verifica y coincide, está listo para comenzar. Cierre y vuelva a abrir su billetera local, vaya a ghostnodes&gt; iniciar todo. Deben pasar a PREHABILITADO y pasar a HABILITADO en 20 minutos más o menos.
 
-PD: mientras está conectado a VPS a través de masilla / terminal, lo mejor es actualizar los paquetes del servidor. pegue este comando para actualizar / actualizar: apt-get update && apt-get upgrade.
+PD: mientras está conectado a VPS a través de masilla / terminal, lo mejor es actualizar los paquetes del servidor. pegue este comando para actualizar / actualizar: apt-get update && apt-get upgrade
 
 
 
