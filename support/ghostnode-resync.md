@@ -1,6 +1,6 @@
-# Ghostnode Resync
+# Resincronización de Ghostnode
 
-**Script Installs, e.g. CryptoSharks method:**
+**Instalaciones de script, p. Método CryptoSharks:**
 
 ```text
 systemctl stop NIX
@@ -8,7 +8,7 @@ rm -r ~/.nix/{blocks,chainstate,peers.dat,banlist.dat}
 systemctl start NIX
 ```
 
- **Manual Installs:**
+**Instalaciones manuales:**
 
 ```text
 nix-cli stop
@@ -16,11 +16,11 @@ rm -r ~/.nix/{blocks,chainstate,peers.dat,banlist.dat}
 nixd &
 ```
 
-#### Downloading a bootstrap \(optional\)
+**Descargar un bootstrap \(opcional\):**
 
-The following instructions assume a VPS running Ubuntu 18.04. Perform this action after stopping the wallet and deleting the files \(steps 1 and 2 above\). After unzipping the bootstrap file, continue on to step 3.
+Las siguientes instrucciones suponen un VPS con Ubuntu 18.04. Realice esta acción después de detener la billetera y eliminar los archivos \(pasos 1 y 2 anteriores\). Después de descomprimir el archivo de arranque, continúe con el paso 3.
 
-First, you'll need to install python-pip, gdown, and unzip if they are not already.
+ Primero, necesitará instalar python-pip, gdown y descomprimir si aún no lo están.
 
 ```text
 sudo apt update
@@ -29,14 +29,14 @@ sudo -H pip install gdown
 sudo apt install unzip
 ```
 
-Download and unzip the bootstrap file:
+Descargue y descomprima el archivo bootstrap:
 
 ```text
-gdown https://drive.google.com/uc?id=17mLOyXLSPxVtiTdT2veILJDoT6g7IJdE
-unzip NIXBlockchain-3NOV2019.zip -d ~/.nix
+gdown https://drive.google.com/open?id=1HNQ1oAQaulo5c6b0pw1y5iNWbns8Yifu
+unzip NIXBlockchain-353521.zip -d ~/.nix
 ```
 
 {% hint style="warning" %}
-If for whatever reason these steps don't fix your issue, join the [Discord server](https://discordapp.com/invite/HGuvDTW) and ask in the **public channels only** for help. **Do not respond to any DMs** as scammers might try to trick you into giving them your funds!
+**Si por alguna razón estos pasos no solucionan su problema, únase al** [**servidor de Discord**](https://discordapp.com/invite/HGuvDTW) **y solicite ayuda en los canales públicos únicamente. ¡No respondas a ningún DM ya que los estafadores podrían tratar de engañarte para que les des tus fondos!**
 {% endhint %}
 
