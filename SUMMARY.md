@@ -48,7 +48,7 @@
 ## COMUNIDAD Y COMENTARIOS <a id="github-and-feedback"></a>
 
 * [Propuestas de gobierno](github-and-feedback/governance-proposals.md)
-* [Collaborate on NIX](github-and-feedback/collaborate-with-nix.md)
+* [Colabora en NIX](github-and-feedback/collaborate-with-nix.md)
 * [Report a Wallet Issue](github-and-feedback/how-to-log-an-issue.md)
 * [Feature Requests](github-and-feedback/feature-requests.md)
 
