@@ -34,8 +34,8 @@
 ## FUNCIONES AVANZADAS DE BILLETERA <a id="advanced-wallet-functions"></a>
 
 * [Control de monedas](advanced-wallet-functions/coin-control.md)
-* [Console Commands](advanced-wallet-functions/console-commands.md)
-* [Command-line Options](advanced-wallet-functions/command-line-options.md)
+* [Comandos de Consola](advanced-wallet-functions/console-commands.md)
+* [Opciones de línea de comando](advanced-wallet-functions/command-line-options.md)
 
 ## SOPORTE <a id="support"></a>
 
