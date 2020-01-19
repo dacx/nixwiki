@@ -49,16 +49,16 @@
 
 * [Propuestas de gobierno](github-and-feedback/governance-proposals.md)
 * [Colabora en NIX](github-and-feedback/collaborate-with-nix.md)
-* [Report a Wallet Issue](github-and-feedback/how-to-log-an-issue.md)
-* [Feature Requests](github-and-feedback/feature-requests.md)
+* [Informar un problema de billetera](github-and-feedback/how-to-log-an-issue.md)
+* [Peticiones de características](github-and-feedback/feature-requests.md)
 
-## Software Development Kit
+## KIT DE DESARROLLO DE SOFTWARE <a id="software-development-kit"></a>
 
-* [Overview](software-development-kit/overview.md)
-* [Initial Setup](software-development-kit/initial-setup.md)
-* [Usage Guide](software-development-kit/usage-guide.md)
+* [Visión General](software-development-kit/overview.md)
+* [Configuración Inicial](software-development-kit/initial-setup.md)
+* [Guía de Uso](software-development-kit/usage-guide.md)
 
-## Other Resources <a id="other"></a>
+## OTROS RECURSOS <a id="other"></a>
 
 * [Whitepaper](https://nixplatform.io/docs/NIX-Platform-Whitepaper.pdf)
 * [GitHub](https://github.com/nixplatform/nixcore/releases/)

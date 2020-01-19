@@ -1,10 +1,10 @@
-# Usage Guide
+# Guía de Uso
 
-A list of all possible commands can be found by executing `nix-cli help` or viewing them on the Console Commands page.
+Puede encontrar una lista de todos los comandos posibles ejecutando `nix-cli help` o viéndolos en la página Comandos de la consola.
 
 {% page-ref page="../advanced-wallet-functions/console-commands.md" %}
 
-The `command` method takes a list of parameters and returns the response. For example, this would be a valid way to ghost \(and un-ghost\) 0.1 NIX and log the response to the console:
+El método de `comand` toma una lista de parámetros y devuelve la respuesta. Por ejemplo, esta sería una forma válida de fantasma \(y no fantasma\) 0.1 NIX y registrar la respuesta a la consola:
 
 ```text
 //ghost 0.1 NIX and log response
@@ -14,20 +14,20 @@ client.command('ghostamountv2', '0.1').then(value => console.log(value));
 client.command('unghostamountv2', '0.1').then(value => console.log(value)); 
 ```
 
-Here is a list of the most popular commands. Legend: `<required_value>`, `[optional_value]`
+Aquí hay una lista de los comandos más populares. Leyenda: `<valor_required>`, `[valor_optional]`
 
-| Command | Effect |
+| Comando | Efecto |
 | :--- | :--- |
-| ghostamountv2 &lt;amount&gt; \[address\] | Ghost &lt;amount&gt; NIX \[to external CKP\].  |
-| unghostamountv2 &lt;amount&gt; \[address\] | Un-ghost &lt;amount&gt; NIX \[to external address or CKP\]. |
-| getpubcoinpackv2 | Get a commitment key pack \(CKP\) for 2-Way-Ghosting. |
-| getblockchaininfo | Get the current blockchain statistics. |
-| getstakinginfo | Get the current staking statistics. |
-| sendfrom &lt;from&gt; &lt;to&gt; &lt;amount&gt; | Sends &lt;amount&gt; NIX &lt;from account&gt; &lt;to address&gt;. |
-| sendtoaddress &lt;address&gt; &lt;amount&gt; | Sends &lt;amount&gt; NIX to &lt;address&gt;. |
-| getbalance \[account\] | Get balance for entire wallet or only one \[account\]. |
+| ghostamountv2 &lt;amount&gt; \[address\] | Ghost &lt;monto&gt; NIX \[al CKP externo\].  |
+| unghostamountv2 &lt;amount&gt; \[address\] | Un-ghost &lt;monto&gt; NIX \[dirección externa o CKP\]. |
+| getpubcoinpackv2 | Obtiene un paquete de claves de compromiso \(CKP\) para 2-Way Ghosting. |
+| getblockchaininfo | Obtiene las estadísticas actuales de blockchain. |
+| getstakinginfo | Obtiene las estadísticas de stake actuales. |
+| sendfrom &lt;from&gt; &lt;to&gt; &lt;amount&gt; | Envía &lt;monto&gt; NIX &lt;desde la cuenta&gt; &lt;a la dirección&gt;. |
+| sendtoaddress &lt;address&gt; &lt;amount&gt; | Envía &lt;monto&gt; NIX a &lt;dirección&gt;. |
+| getbalance \[account\] | Obtiene el saldo de toda la billetera o solo una \[cuenta\]. |
 
-Please note that you can always execute `help <command_name>` for a more detailed explanation of the commands:
+Tenga en cuenta que siempre puede ejecutar la `help <command_name>` para obtener una explicación más detallada de los comandos:
 
 ![help getaddressbalance](../.gitbook/assets/help-getaddressbalance.png)
 

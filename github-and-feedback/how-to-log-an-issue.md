@@ -1,16 +1,16 @@
-# Report a Wallet Issue
+# Informar un problema de billetera
 
-Before reporting any potential issues first make sure you are using the current version of the specific software in which you are experiencing the issue. You may also want to join the [NIX Discord chat](https://discordapp.com/invite/HGuvDTW) and describe your specific issue in the appropriate support channel in order to help identify if the problem is user/configuration/other error or an actual bug. Doing so may also alert you to any known workarounds you might be able to use in the meantime.
+Antes de informar cualquier problema potencial, primero asegúrese de estar utilizando la versión actual del software específico en el que está experimentando el problema. También puede unirse al chat de NIX Discord y describir su problema específico en el canal de soporte apropiado para ayudar a identificar si el problema es usuario / configuración / otro error o un error real. Hacerlo también puede alertarlo sobre cualquier solución alternativa que pueda usar mientras tanto.
 
-If you are sure that your issue is indeed a bug, your next step should be the corresponding [NIXPlatform GitHub repository](https://github.com/NixPlatform), ie: [NixCore](https://github.com/NixPlatform/NixCore), [Nix-GUI](https://github.com/NixPlatform/Nix-GUI), [nixwallet-spv-android](https://github.com/NixPlatform/nixwallet-spv-android), etc. Once there, click on the issues tab near the top of the page and check to see if there is an open issue already describing your problem.
+Si está seguro de que su problema es realmente un error, su próximo paso debe ser el repositorio NIXPlatform GitHub correspondiente, es decir: NixCore, Nix-GUI, nixwallet-spv-android, etc. Una vez allí, haga clic en la pestaña de problemas cerca de la parte superior de la página y verifique si hay un problema abierto que ya describa su problema.
 
 ![](../.gitbook/assets/githubissuetab.png)
 
-If none exists you will need a GitHub account in order to create a new issue. This will ensure that the development team is made aware of your bug report. Accounts are free and easy to setup.
+Si no existe ninguno, necesitará una cuenta de GitHub para crear un nuevo problema. Esto asegurará que el equipo de desarrollo esté al tanto de su informe de error. Las cuentas son gratuitas y fáciles de configurar.
 
-When opening a new issue, try your best to be descriptive and provide any relevant log file excerpts that can help detail your problem. The most likely source for this information will be found in the debug.log file in your NIX data directory. 
+Al abrir un nuevo problema, haga todo lo posible para ser descriptivo y proporcionar cualquier extracto relevante del archivo de registro que pueda ayudar a detallar su problema. La fuente más probable para esta información se encontrará en el archivo debug.log en su directorio de datos NIX.
 
-Developers may ask followup questions, so be sure to reply or your issue may be closed due to the lack of additional requested information.
+Los desarrolladores pueden hacer preguntas de seguimiento, así que asegúrese de responder o su problema puede cerrarse debido a la falta de información adicional solicitada.
 
 
 
