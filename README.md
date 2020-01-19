@@ -1,7 +1,3 @@
----
-description: (Work in Progress..)
----
-
 # Bienvenido al NIX Wiki!
 
  NIX se anunció [por primera vez](https://medium.com/@joseit0/nix-blocknet-una-asociaci%C3%B3n-para-la-era-de-la-cross-chain-a8f9842346d6) el 29 de abril de 2018 junto con una asociación con [Blocknet](https://blocknet.co).
