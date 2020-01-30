@@ -15,6 +15,7 @@ Las recompensas y los obsequios también pueden estar disponibles en varios mome
 NIX figura actualmente en los siguientes intercambios:
 
 * [KuCoin](https://www.kucoin.com/trade/NIX-BTC)
+* [Instaswap](https://instaswap.io/)
 * [BlockDX](https://blocknet.co/block-dx/)
 * [Mercatox](https://mercatox.com/exchange/NIX/BTC)
 * [Tradesatoshi](https://tradesatoshi.com/)
