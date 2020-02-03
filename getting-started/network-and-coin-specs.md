@@ -12,9 +12,9 @@
 
 | Moneda |  |
 | :--- | :--- |
-| Suministro Actual | ~45,000,000 \(Diciembre del 2019\) |
+| Suministro Actual | ~45,600,000 \(FEB 2020\) |
 | Suministro Máximo | 102,210,160 \(después de 40 años\) |
-| Recompensa de replanteo | ~2.5 por bloque |
+| Recompensa de replanteo | ~2.6 por bloque |
 | Recompensa Ghostnode | ~8.4 por bloque |
 | Ghostnode Ghost Vault Fee \* \(1-way Ghosting\) | .25% |
 | Ghostnode Vault to Vault TX Fee \* \(2-way Ghosting\) | .1 Ghosted NIX |
