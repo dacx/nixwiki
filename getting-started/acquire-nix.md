@@ -19,6 +19,8 @@ NIX figura actualmente en los siguientes intercambios:
 * [BlockDX](https://blocknet.co/block-dx/)
 * [Mercatox](https://mercatox.com/exchange/NIX/BTC)
 * [Tradesatoshi](https://tradesatoshi.com/)
+* [StealthEX](https://stealthex.io/)
+* [SimpleSwap](https://simpleswap.io/)
 * Beaxy \(confirmado y pendiente\)
 
 ## **Recompensa del nodo fantasma**

@@ -39,13 +39,13 @@ su - NEW_USERNAME_HERE
 Descargue la última versión del software NIX Platform Core con wget:
 
 ```bash
-wget https://github.com/NixPlatform/NixCore/releases/download/v3.0.5/nix-3.0.5-x86_64-linux-gnu.tar.gz
+wget https://github.com/NixPlatform/NixCore/releases/download/v3.0.8/nix-3.0.8-x86_64-linux-gnu.tar.gz
 ```
 
 Descomprima el archivo:
 
 ```bash
-tar -zxvf nix-3.0.5-x86_64-linux-gnu.tar.gz
+tar -zxvf nix-3.0.8-x86_64-linux-gnu.tar.gz
 ```
 
 Ahora deberá ser el usuario root para instalar los archivos binarios. Use el comando de usuario sustituto:
@@ -57,7 +57,7 @@ su
 Después de ingresar su contraseña de root, instale los archivos binarios NIX.
 
 ```bash
-cp nix-3.0.5/bin/* /usr/bin/
+cp nix-3.0.8/bin/* /usr/bin/
 ```
 
 Ya no necesita permisos de root, así que vuelva a su usuario normal con:
