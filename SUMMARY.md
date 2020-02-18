@@ -60,6 +60,7 @@
 
 ## Other Resources <a id="other"></a>
 
+* [NIX Press/Media Kit](https://drive.google.com/drive/folders/1h6VafdGOlAoJuxWX-Teznnto2an4bRO6)
 * [Whitepaper](https://nixplatform.io/docs/NIX-Platform-Whitepaper.pdf)
 * [GitHub](https://github.com/nixplatform/nixcore/releases/)
 
