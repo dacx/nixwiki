@@ -18,6 +18,7 @@ NIX is currently listed on the following exchanges:
 * [Instaswap](https://instaswap.io/)
 * [BlockDX](https://blocknet.co/block-dx/)
 * [Mercatox](https://mercatox.com/exchange/NIX/BTC)
+* [Tradesatoshi](https://tradesatoshi.com/)
 * [StealthEX](https://stealthex.io/)
 * [SimpleSwap](https://simpleswap.io/)
 * Beaxy \(confirmed and pending\)
