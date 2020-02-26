@@ -9,6 +9,7 @@ There are several services that offer to host your Ghostnode for you. Please not
 * [https://pecuniaplatform.io/](https://pecuniaplatform.io/)
 * [https://mano.host/](https://mano.host/)
 * [https://www.apollon.network/](https://www.apollon.network/)
+* [https://ihostmn.com/](https://ihostmn.com/)
 
 
 
