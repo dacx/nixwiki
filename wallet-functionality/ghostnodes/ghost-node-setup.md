@@ -1,19 +1,17 @@
-# One-Click Installer
+# Instalador de un Click
 
-There are two viable options for automated Ghostnode setup:
+Hay dos opciones viables para la configuración automatizada de Ghostnode:
 
-* One-Click Installer from the NIX GUI Wallet
-* Bash script 
+*  Instalador con un clic desde la billetera NIX GUI.
+*  Guión Bash.
 
-## One-Click Installer from the NIX UI Wallet
+## **Instalador con un clic desde la billetera NIX UI**
 
-If you have your beautiful NIX GUI Wallet running, head over to the **Ghostnode** Tab and click on **Set-Up New Node**. You will be greeted by the following screen:
+Si tiene su hermosa billetera NIX GUI ejecutándose, diríjase a la etiqueta Ghostnode y haga clic en Configurar nuevo nodo. Será recibido por la siguiente pantalla:
 
-![Ghostnode Setup Screen](../../.gitbook/assets/nix_wallet_2019-03-27_09-23-41.png)
+![Pantalla de configuraci&#xF3;n de Ghostnode.](../../.gitbook/assets/nix_wallet_2019-03-27_09-23-41.png)
 
-Enter all the required details and click **OK** to finalize the installation.
+## **Bash Script de CryptoSharks**
 
-## Bash Script from CryptoSharks
-
-This installation is also automated but needs a bit more technical understanding of ssh connections. You can find all required information on his [GitHub Repository](https://github.com/cryptosharks131/Ghostnode).
+Esta instalación también está automatizada, pero necesita un poco más de comprensión técnica de las conexiones ssh. Puede encontrar toda la información requerida en su [repositorio de GitHub](https://github.com/cryptosharks131/Ghostnode).
 

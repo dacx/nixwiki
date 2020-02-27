@@ -1,9 +1,9 @@
-# Hosting Services
+# Servicios de Hospedaje
 
-There are several services that offer to host your Ghostnode for you. Please note that this list may not include every available provider, nor are any of them endorsed by the NIX team.
+Hay varios servicios que ofrecen alojar su Ghostnode por usted. Tenga en cuenta que esta lista puede no incluir todos los proveedores disponibles, ni ninguno de ellos cuenta con el respaldo del equipo de NIX.
 
-* [https://nodehub.io/](https://nodehub.io/) \(pay with NIX\)
-* [https://www.allnodes.com/](https://www.allnodes.com/) \(pay with NIX\)
+* [https://nodehub.io/](https://nodehub.io/) \(pagar con NIX\)
+* [https://www.allnodes.com/](https://www.allnodes.com/) \(pagar con NIX\)
 * [https://altnode.io/](https://altnode.io/)
 * [https://www.nodestop.com/](https://www.nodestop.com/)
 * [https://pecuniaplatform.io/](https://pecuniaplatform.io/)

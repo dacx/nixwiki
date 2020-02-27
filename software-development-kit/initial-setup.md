@@ -1,28 +1,28 @@
-# Initial Setup
+# Configuración Inicial
 
-## Required Files
+## **Archivos Requeridos**
 
 #### nixd
 
-You'll need a running instance of nixd which can be downloaded from [https://github.com/NixPlatform/NixCore/releases](https://github.com/NixPlatform/NixCore/releases). After you've downloaded the nixd binary, create a config file in `~/.nix` named `nix.conf` and configure the daemon to your liking. A working and valid example is shown below. Once configured, simply execute nixd or setup a systemd service to manage it.
+Necesitará una instancia en ejecución de nixd que se puede descargar desde [https://github.com/NixPlatform/NixCore/releases](https://github.com/NixPlatform/NixCore/releases). Después de descargar el binario nixd, cree un archivo de configuración en `~/.nix` llamado `nix.conf` y configure el demonio a su gusto. Un ejemplo de trabajo y válido se muestra a continuación. Una vez configurado, simplemente ejecute nixd o configure un servicio systemd para administrarlo.
 
 #### SDK
 
-You can use yarn or npm to install the SDK.
+Puede usar hilo o npm para instalar el SDK.
 
 ```text
 yarn add nix-core
 ```
 
-or
+o
 
 ```text
 npm install nix-core --save
 ```
 
-## Node Configuration
+## **Configuración de Nodo**
 
-To establish a connection between the nixd instance and the SDK, an appropriate nix.conf configuration file is required.
+Para establecer una conexión entre la instancia de nixd y el SDK, se requiere un archivo de configuración nix.conf apropiado.
 
 {% code title="nixd.conf" %}
 ```text
@@ -42,9 +42,9 @@ enableaccounts=1
 ```
 {% endcode %}
 
-### Connecting to the daemon in JavaScript
+### **Conectándose al daemon en JavaScript**
 
-After nixd has been started with the above configuration, an instance can be created in the controlling JavaScript file:
+Después de que nixd se haya iniciado con la configuración anterior, se puede crear una instancia en el archivo JavaScript de control:
 
 ```text
     const Client = require('nix-core');
@@ -55,11 +55,11 @@ After nixd has been started with the above configuration, an instance can be cre
         network: 'mainnet' });
 ```
 
-More options can be found in the nix-core package documentation. With the `client` object, any command can now be executed. A list of selected commands can be found [here](usage-guide.md).
+Se pueden encontrar más opciones en la documentación del paquete nix-core. Con el objeto de cliente, cualquier comando ahora se puede ejecutar. Puede encontrar una lista de los comandos seleccionados [aquí](https://wiki.nixplatform.io/home/v/espanol/software-development-kit/usage-guide).
 
-## Official NIX SDK Node
+## **Nodo oficial del SDK de NIX**
 
-Alternatively, you can connect to ny.nixplatform.io using the following parameters:
+ Alternativamente, puede conectarse a ny.nixplatform.io utilizando los siguientes parámetros:
 
 ```text
 var RPC_USER = 'yourusername'

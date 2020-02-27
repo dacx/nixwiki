@@ -1,10 +1,10 @@
-# Feature Requests
+# Peticiones de características
 
-Feature requests are best submitted in exactly the same manner as [Wallet Issues](how-to-log-an-issue.md) within the appropriate [NIXPlatform GitHub repository](https://github.com/NixPlatform). This will ensure that your idea is seen by the development team.
+Las solicitudes de funciones se envían mejor exactamente de la misma manera que los [problemas de Wallet](https://wiki.nixplatform.io/home/v/espanol/github-and-feedback/how-to-log-an-issue) dentro del repositorio apropiado de [NIXPlatform GitHub](https://github.com/NixPlatform/NixCore/blob/master/doc/developer-notes.md). Esto asegurará que su idea sea vista por el equipo de desarrollo.
 
-Simply open a new issue and describe the feature you'd like to see added. A developer may then add the "enhancement" label to your post to differentiate it from other issues/bugs.
+Simplemente abra un nuevo problema y describa la función que le gustaría ver agregada. Luego, un desarrollador puede agregar la etiqueta de "mejora" a su publicación para diferenciarla de otros problemas / errores.
 
-Alternatively for improvements or ideas on the wider NIX project, please utilize the Off-Chain Governance system and make a proposal using the link below. Funding can be requested and all proposals submitted get put out to tender, voted on by the community. 
+Alternativamente, para mejoras o ideas sobre el proyecto NIX más amplio, utilice el sistema de gobernanza fuera de la cadena y haga una propuesta utilizando el siguiente enlace. Se puede solicitar financiación y todas las propuestas presentadas se ponen a licitación, votadas por la comunidad.
 
 {% embed url="https://governance.nixplatform.io/\#/submit" %}
 

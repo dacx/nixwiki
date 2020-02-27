@@ -1,8 +1,8 @@
-# Overview
+# Visión General
 
-The NIX SDK allows developers to interact and build on top of the NIX Platform by using the cross-platform JavaScript language. Based on the bitcoin-core SDK, using nix-core is no different with the exception of NIX-specific commands and capabilities.
+El SDK de NIX permite a los desarrolladores interactuar y construir sobre la plataforma NIX utilizando el lenguaje JavaScript multiplataforma. Basado en el SDK de bitcoin-core, el uso de nix-core no es diferente con la excepción de los comandos y capacidades específicos de NIX.
 
-Requirements include a running instance of the NIX daemon which serves as your gateway to the network and the SDK package itself. [Initial setup instructions](initial-setup.md) are available along with a basic daemon configuration example.
+Los requisitos incluyen una instancia en ejecución del demonio NIX que sirve como puerta de enlace a la red y al paquete SDK mismo. [Las instrucciones de configuración inicial](https://wiki.nixplatform.io/home/v/espanol/software-development-kit/initial-setup) \(Replace this link with the spanish version\) están disponibles junto con un ejemplo básico de configuración de daemon.
 
-Once an active connection is established, all available NIX RPC commands may be executed. An example and list of commonly used commands are provided in the brief [Usage Guide](usage-guide.md). More examples can be found in the SDK documentation.
+Una vez que se establece una conexión activa, se pueden ejecutar todos los comandos NIX RPC disponibles. En la breve [Guía de uso](https://wiki.nixplatform.io/home/v/espanol/software-development-kit/usage-guide) \(Replace this link with the spanish version\) se proporciona un ejemplo y una lista de los comandos más utilizados. Se pueden encontrar más ejemplos en la documentación del SDK.
 

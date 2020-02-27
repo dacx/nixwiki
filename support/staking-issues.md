@@ -1,44 +1,34 @@
-# Staking Issues
+# Problemas de Staking
 
 {% hint style="success" %}
-If the Discord info-bot gave you a time between stakes, please remember that this is only an estimate based on info available at that exact moment and can fluctuate wildly depending on changing network difficulty and a certain degree of luck, both good and bad.
+**Si el bot informativo de Discord le dio un tiempo entre apuestas, recuerde que esto es solo una estimación basada en la información disponible en ese momento exacto y puede fluctuar enormemente dependiendo de la dificultad cambiante de la red y un cierto grado de suerte, tanto buena como mala.**
 {% endhint %}
 
-## Common reasons your wallet is not staking are..
+## **Las razones comunes por las que su billetera no está en juego son...**
 
+**Versión de billetera desactualizada**
 
+Consulte el [sitio web de NIX](https://nixplatform.io/wallet) o el [repositorio de github](https://github.com/nixplatform/) para asegurarse de que está ejecutando la última versión de la billetera.
 
-#### Outdated wallet version
+**La billetera no se sincronizó correctamente**
 
-Check the [NIX website](https://nixplatform.io/wallet) or [github repository](https://github.com/nixplatform/) to make sure you are running the latest version of the wallet.
+Compare la altura del bloque de su billetera con un [explorador de blockchain](https://chainz.cryptoid.info/nix/). Si su billetera muestra algo diferente, vuelva a [sincronizar su billetera](https://wiki.nixplatform.io/home/support/syncing-issues) \(Replace this link with the spanish version\).
 
+**La billetera está bloqueada**
 
+Debe [desbloquear su billetera para el staking](https://wiki.nixplatform.io/home/wallet-functionality/staking/desktop-wallet-staking) y proporcionar su contraseña de cifrado para habilitar el staking.
 
-#### Wallet is not properly sync'd
+**La billetera no se está ejecutando**
 
-Compare your wallets block height with a [blockchain explorer](https://chainz.cryptoid.info/nix/). If your wallet shows something different, [re-sync your wallet](syncing-issues.md).
+Su billetera debe permanecer abierta y funcionando para encontrar nuevos bloques. Si prefiere no mantenerlo abierto, considere usar un [servicio LPoS](https://nixplatform.io/marketplace).
 
-#### 
+**Intentar hacer staking desde una dirección que comienza con G**
 
-#### Wallet is locked
-
-You must [unlock your wallet for staking](../wallet-functionality/staking/desktop-wallet-staking.md) and provide your encryption password to enable staking.
-
-#### 
-
-#### Wallet is not running
-
-Your wallet must remain open and running to find new blocks. If you'd rather not keep it open, consider using an [LPoS service](https://nixplatform.io/marketplace).
-
-#### 
-
-#### Attempting to stake from an address that begins with G
-
-Only addresses beginning with N or nix1 are eligible for staking. Further, only nix1 addresses are eligible for Governance Voting.
+Solo las direcciones que comienzan con N o nix1 son elegibles para el staking. Además, solo las direcciones nix1 son elegibles para la votación de gobierno.
 
 
 
 {% hint style="warning" %}
-If for whatever reason these don't fix your issue, join the [Discord server](https://discordapp.com/invite/HGuvDTW) and ask in the **public channels only** for help. **Do not respond to any DMs** as scammers might try to trick you into giving them your funds!
+**Si por alguna razón estos no solucionan su problema, únase al** [**servidor de Discord**](https://discordapp.com/invite/HGuvDTW) **y solicite ayuda en los canales públicos solo. ¡No respondas a ningún DM ya que los estafadores podrían tratar de engañarte para que les des tus fondos!**
 {% endhint %}
 
