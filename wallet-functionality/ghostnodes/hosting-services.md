@@ -9,6 +9,7 @@ Hay varios servicios que ofrecen alojar su Ghostnode por usted. Tenga en cuenta 
 * [https://pecuniaplatform.io/](https://pecuniaplatform.io/)
 * [https://mano.host/](https://mano.host/)
 * [https://www.apollon.network/](https://www.apollon.network/)
+* [https://masternodes.online/](https://masternodes.online/)
 
 
 
