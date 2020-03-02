@@ -22,7 +22,7 @@ First, verify that you are indeed on the wrong chain by comparing your block hei
 
 #### Download and install a bootstrap after completing step 4
 
-1. Download the latest [NIX Blockchain Bootstrap](https://drive.google.com/open?id=1TVljEeM6vAzEkMMESMTms9TeGa1SVCop) file \(Block Height: 393976\).
+1. Download the [NIX Blockchain Bootstrap](https://drive.google.com/open?id=1TVljEeM6vAzEkMMESMTms9TeGa1SVCop) file.
 2. Unzip contents to the NIX data directory.
 
 ### Manually adding peers
