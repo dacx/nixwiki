@@ -1,7 +1,3 @@
----
-description: How to create a governance proposal
----
-
 # Governance Proposals
 
 NIX incorporated its decentralized off-chain governance system on May 25th, 2019. Creating an off-chain governance model allows for a light-weight method of governance by ensuring that users who secure the network have a say in the direction NIX takes. This system prevents unnecessary blockchain data storage while at the same time maintaining transparency.
@@ -52,7 +48,7 @@ By making a submission you are presenting a proposal of improvement to the proje
 
 ## Casting Your Vote
 
-Visit the [Governance Voting]() section for details.
+Visit the [Governance Voting](../wallet-functionality/governance-voting.md) section for details.
 
 ## More Information
 

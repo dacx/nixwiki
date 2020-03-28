@@ -1,12 +1,8 @@
----
-description: Using the NIX SDK
----
-
 # Usage Guide
 
 A list of all possible commands can be found by executing `nix-cli help` or viewing them on the Console Commands page.
 
-{% page-ref page="../wallet-functionality/cli/console-commands.md" %}
+{% page-ref page="../advanced-wallet-functions/console-commands.md" %}
 
 The `command` method takes a list of parameters and returns the response. For example, this would be a valid way to ghost \(and un-ghost\) 0.1 NIX and log the response to the console:
 

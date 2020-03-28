@@ -1,32 +1,17 @@
----
-description: Commonly asked about network and coin specifications
----
-
 # Network and Coin Specs
 
-## Current Versions
-
-[QT and CLI](https://github.com/NixPlatform/NixCore/releases) Wallets - 3.0.8  
-[GUI Wallet](https://github.com/NixPlatform/Nix-GUI/releases) - 1.0.3  
-[NIX Mobile](../wallet-functionality/mobile/installation.md) - 1.0.1  
-[Electrum-NIX](https://github.com/NixPlatform/electrum-nix/releases) - 3.2.3
-
-## Network
-
-|  |  |
+| Network |  |
 | :--- | :--- |
 | Codebase | BTC 0.17 |
 | Mainnet Port | 6214 |
 | Testnet Port | 16214 |
-| Consensus | [Proof of Stake/Custom LPoS](pos-consensus.md) |
+| Consensus | Proof of Stake/Custom LPoS |
 | Block Time Target | 2 minutes |
 | Difficulty Adjustment | Every block, 2 block moving average |
 | Max. Block Size | 1MB |
 | Est. TPS | 80 |
 
-## Coin
-
-|  |  |
+| Coin |  |
 | :--- | :--- |
 | Current Supply | ~45,820,000 \(MAR 2020\) |
 | Maximum Supply | 102,210,160 \(After 40 years\) |
@@ -37,7 +22,7 @@ description: Commonly asked about network and coin specifications
 
  \* Vault fees are pooled and split among all active Ghostnodes on a daily basis.
 
-### Inflation Schedule
+## Inflation Schedule
 
 | Year | Staking Inflation | Ghostnode Inflation | Development Fund Inflation | Total Circulating Supply |
 | :--- | :--- | :--- | :--- | :--- |

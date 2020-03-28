@@ -1,7 +1,3 @@
----
-description: How to report wallet bugs
----
-
 # Report a Wallet Issue
 
 Before reporting any potential issues first make sure you are using the current version of the specific software in which you are experiencing the issue. You may also want to join the [NIX Discord chat](https://discordapp.com/invite/HGuvDTW) and describe your specific issue in the appropriate support channel in order to help identify if the problem is user/configuration/other error or an actual bug. Doing so may also alert you to any known workarounds you might be able to use in the meantime.

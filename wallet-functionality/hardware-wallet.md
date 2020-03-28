@@ -1,4 +1,0 @@
-# Hardware Wallet
-
-Coming soon!
-

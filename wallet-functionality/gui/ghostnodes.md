@@ -1,4 +1,0 @@
-# Ghostnodes
-
-Comming soon!
-

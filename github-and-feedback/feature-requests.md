@@ -1,7 +1,3 @@
----
-description: How to request wallet and network features
----
-
 # Feature Requests
 
 Feature requests are best submitted in exactly the same manner as [Wallet Issues](how-to-log-an-issue.md) within the appropriate [NIXPlatform GitHub repository](https://github.com/NixPlatform). This will ensure that your idea is seen by the development team.

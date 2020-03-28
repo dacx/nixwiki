@@ -1,8 +1,4 @@
----
-description: The NIX privacy suite
----
-
-# The Ghost Protocol
+# Ghost Protocol
 
 The NIX Ghost Protocol is a set of carefully selected privacy elements brought together to give both users and developers the options they need to ensure not only fungible coin transactions but also network and broadcast privacy.
 
