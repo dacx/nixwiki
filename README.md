@@ -1,5 +1,9 @@
 # Welcome to the NIX Wiki!
 
+{% hint style="warning" %}
+**THIS VERSION OF THE WIKI IS NO LONGER MAINTAINED AND DOES NOT REFLECT THE MOST CURRENT INFORMATION.**
+{% endhint %}
+
 NIX was[ first announced](https://medium.com/@nixplatform/nix-blocknet-a-partnership-for-the-cross-chain-era-61e50adc2918) on April 29, 2018 alongside a partnership with[ Blocknet](https://blocknet.co/).
 
 > At NIX, we believe in more than just creating exciting technology. We believe in targeting what the cryptocurrency space needs, and with that, enabling other communities and projects which have that same vision. Working with Blocknet to help integrate and develop their DEX API into the NIX platform will push this vision. We are very excited to be creating NIX and look forward to collaborating with Blocknet in helping using their technology.
