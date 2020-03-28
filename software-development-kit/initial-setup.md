@@ -1,3 +1,7 @@
+---
+description: Preparing to use the NIX SDK
+---
+
 # Initial Setup
 
 ## Required Files

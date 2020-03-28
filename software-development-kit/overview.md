@@ -1,3 +1,7 @@
+---
+description: SDK information
+---
+
 # Overview
 
 The NIX SDK allows developers to interact and build on top of the NIX Platform by using the cross-platform JavaScript language. Based on the bitcoin-core SDK, using nix-core is no different with the exception of NIX-specific commands and capabilities.

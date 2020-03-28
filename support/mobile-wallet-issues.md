@@ -1,3 +1,7 @@
+---
+description: Common mobile wallet issues
+---
+
 # Mobile Wallet Issues
 
 ## Funds Aren't Showing Up
@@ -29,11 +33,11 @@ Here, it will ask you for an IP address. An easy way to get one is from a block 
 
 Once sync'd and you've completed any sends you want to do, you will probably want to get back to the NIX Nodes section and switch back to Automatic Mode, as there is no guarantee the node you manually added will remain online forever.
 
-## How to Import Your Mobile Seed Phrase into Electrum-NIX
+## How to Import Your NIX Mobile Seed Phrase into Electrum-NIX
 
 If for whatever reason you are unable to get your mobile wallet to work properly, or perhaps your device is destroyed/lost/stolen and you want to use the funds but don't yet have another device to restore to, you can easily import your seed phrase into an electrum-nix desktop wallet.
 
-Begin by downloading the electrum-nix wallet for your Operating System from the [NIX website](https://nixplatform.io/wallet) or directly from [GitHub](https://github.com/NixPlatform/electrum-nix/releases). After you've installed it, open it and:
+Begin by downloading the Electrum-NIX wallet for your Operating System from the [NIX website](https://nixplatform.io/wallet) or directly from [GitHub](https://github.com/NixPlatform/electrum-nix/releases). After you've installed it, open it and:
 
 1. Select File, New/Recover \(or skip to \#2 if you've just installed electrum-nix for the first time\)
 2. Give your wallet a name \(Mobile Wallet might be an obvious choice\)
@@ -44,7 +48,7 @@ Begin by downloading the electrum-nix wallet for your Operating System from the 
 7. Change the derivation path to: m/0'
 8. If you wish to keep this wallet installed, you should probably encrypt it when prompted to do so.
 
-You will now have access to your SPV wallet using electrum-nix. From here, you can send them anywhere you like.
+You will now have access to your NIX mobile wallet using Electrum-NIX. From here, you can send them anywhere you like.
 
 Once you've emptied your wallet/sent whatever funds you want to send, you can either keep the wallet for future use \(encryption recommended\), or delete it using File, Delete.
 
