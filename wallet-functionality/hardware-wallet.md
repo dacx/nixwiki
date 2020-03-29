@@ -1,4 +1,4 @@
 # Hardware Wallet
 
-Coming soon!
+Detailed setup instructions coming soon!
 
