@@ -8,5 +8,9 @@ When first running your GUI wallet, you will be prompted to choose an encryption
 
 ## Changing Your Password
 
-coming soon!
+Click on "Settings" in the left-hand menu, followed by the "Security" tab.
+
+![](../../../.gitbook/assets/ui-change-pw.png)
+
+![](../../../.gitbook/assets/ui-changepw.png)
 
