@@ -1,4 +1,4 @@
 # Ghostnodes
 
-Comming soon!
+Detailed setup instructions coming soon!
 
