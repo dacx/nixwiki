@@ -10,7 +10,7 @@ If for whatever reason the following doesn't fix your issue, join the [Discord s
 
 ## QT and GUI Wallets
 
-If you happen to be on the wrong chain \(typically due to not updating your wallet in time before a mandatory update\), your wallet may show an incorrect balance and any transactions you try to send will not be properly received.
+If you happen to be on the wrong chain \(typically due to not updating your wallet in time before a mandatory update\), your wallet may show an incorrect balance and transactions may fail to send properly.
 
 ### How to Resync
 
