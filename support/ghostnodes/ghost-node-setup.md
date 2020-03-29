@@ -9,7 +9,7 @@ There are two viable options for automated Ghostnode setup:
 * One-Click Installer from the NIX GUI Wallet
 * Bash script 
 
-## One-Click Installer from the NIX UI Wallet
+## One-Click Installer from the NIX GUI Wallet
 
 If you have your beautiful NIX GUI Wallet running, head over to the **Ghostnode** Tab and click on **Set-Up New Node**. You will be greeted by the following screen:
 

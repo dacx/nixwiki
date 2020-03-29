@@ -1,4 +1,6 @@
 # Ghostnodes
 
-Detailed setup instructions coming soon!
+## Ghostnode Setup
+
+{% page-ref page="../../support/ghostnodes/ghost-node-setup.md" %}
 
