@@ -43,16 +43,14 @@ Follow the instructions below to verify that you are speaking with the correct p
 @Beekers McCluer 461604027268988948  
 ****@Ghost 438136257084653588  
 @hillhoper2k 387310699015307284  
+@🅺🅾🆁🅸🅽🅶🅰 107155950418264064  
 @nbcomplete 173174056001077248
 
 **GHOST SQUAD TEAM**  
 @boo-tiful $NIX \(Wildhashghost\) 453930096219258880  
 @dmz 399627718255181824  
 @GhostFather 622937494316515341  
-@🅺🅾🆁🅸🅽🅶🅰 107155950418264064  
-@Mr G 🎅 412827347947880448  
-@RumpSauce 456125227974262785  
-@Yoon Se Ri ❤💕 500644120377819146
+@Rhen ❤💕 500644120377819146
 
 ## Telegram
 
