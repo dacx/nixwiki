@@ -1,6 +1,10 @@
+---
+description: Find an LPoS merchant to stake your coins for you
+---
+
 # LPoS Merchants
 
-There are several service providers that offer to stake your NIX for you. The major advantage of using a merchant is that they will maintain wallet updates and server uptime for you, all while never having to trust them with any of your NIX. Please note that this list may not include every available merchant, nor are any of them endorsed by the NIX team.
+There are several service providers that offer to stake your NIX for you. The major advantage of using a merchant is that they will maintain wallet updates and server uptime for you, all while never having to trust them with any of your coins. Please note that this list may not include every available merchant, nor are any of them endorsed by the NIX team.
 
 Each merchant will have step by step instructions on how to setup a contract. **Failure to properly use their provided information will result in a contract that will not stake.**
 
