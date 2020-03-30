@@ -6,7 +6,7 @@ description: Videos showcasing some of NIX Platform's greatest strengths
 
 ## Chico Crypto
 
-The first governance proposal to pass was for a sponsored review by popular YouTube influencer Chico Crypto.
+The first governance proposal to pass was for a sponsored review by popular YouTube influencer Chico Crypto and is a great overview of the project.
 
 {% embed url="https://www.youtube.com/watch?v=4a0IWzBLn4g" %}
 
