@@ -2,5 +2,5 @@
 
 ## Ghostnode Setup
 
-{% page-ref page="../../support/ghostnodes/ghost-node-setup.md" %}
+{% page-ref page="../../support/ghostnodes/client-side/ghost-node-setup.md" %}
 

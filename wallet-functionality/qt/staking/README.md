@@ -10,7 +10,11 @@ The NIX QT Wallet allows users to stake their holdings directly as well as givin
 
 {% page-ref page="lpos-contracts.md" %}
 
-{% page-ref page="../../../support/lpos-server-setup.md" %}
+{% page-ref page="../../../support/leased-proof-of-stake-lpos/lpos-merchants.md" %}
+
+For advanced users wishing to setup an LPoS service provider or a private cold staking server:
+
+{% page-ref page="../../../support/leased-proof-of-stake-lpos/lpos-server-installation.md" %}
 
 
 

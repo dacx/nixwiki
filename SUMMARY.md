@@ -4,8 +4,10 @@
 
 ## Getting Started
 
+* [Promotional Videos](getting-started/promotional-videos.md)
+* [A Brief History](getting-started/a-brief-history.md)
 * [Network and Coin Specs](getting-started/network-and-coin-specs.md)
-* [PoS Consensus](getting-started/pos-consensus.md)
+* [PoS/LPoS Consensus](getting-started/consensus.md)
 * [The Ghost Protocol](getting-started/ghost-protocol.md)
 * [The Ghost Vault](getting-started/the-ghost-vault.md)
 * [Ghostnodes](getting-started/ghostnodes.md)
@@ -74,12 +76,16 @@
 * [Wallet Backup](support/wallet-backup.md)
 * [Bootstrap Files](support/bootstrap-files.md)
 * [Default Data Directory](support/default-data-directory.md)
-* [LPoS Server Setup](support/lpos-server-setup.md)
+* [Leased Proof of Stake \(LPoS\)](support/leased-proof-of-stake-lpos/README.md)
+  * [LPoS Merchants](support/leased-proof-of-stake-lpos/lpos-merchants.md)
+  * [LPoS Server Installation](support/leased-proof-of-stake-lpos/lpos-server-installation.md)
 * [Ghostnode Setup](support/ghostnodes/README.md)
-  * [VPS Install](support/ghostnodes/other-install-methods.md)
-  * [Hosting Services](support/ghostnodes/hosting-services.md)
-  * [One-Click Installer](support/ghostnodes/ghost-node-setup.md)
-  * [Hardware Wallet](support/ghostnodes/hardware-wallet.md)
+  * [Client Side](support/ghostnodes/client-side/README.md)
+    * [One-Click Installer](support/ghostnodes/client-side/ghost-node-setup.md)
+    * [Hardware Wallet](support/ghostnodes/client-side/hardware-wallet.md)
+  * [Server Side](support/ghostnodes/server-side/README.md)
+    * [VPS Install](support/ghostnodes/server-side/other-install-methods.md)
+    * [Hosting Services](support/ghostnodes/server-side/hosting-services.md)
 
 ## Community & Feedback <a id="github-and-feedback"></a>
 

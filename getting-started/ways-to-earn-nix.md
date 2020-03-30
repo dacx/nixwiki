@@ -16,11 +16,11 @@ Join the [NIX Discord chat server](https://discordapp.com/invite/HGuvDTW) and ca
 
 ## Staking Rewards
 
-NIX is [Proof of Stake](pos-consensus.md) \(PoS\) coin and allows holders of any amount to stake their coins in order to receive rewards. You can either stake your coins directly from your own supported wallets or easily create a smart contract with an [LPoS provider](https://nixplatform.io/marketplace).
+NIX is [Proof of Stake](consensus.md) \(PoS\) coin and allows holders of any amount to stake their coins in order to receive rewards. You can either stake your coins directly from your own supported wallets or easily create a smart contract with an [LPoS provider](https://nixplatform.io/marketplace).
 
 ## Offering LPoS Services
 
-With NIX's Leased Proof of Stake \(LPoS\), you can [host and maintain a service](../support/lpos-server-setup.md) which will allow you to stake coins on the behalf of other people for which you can collect a percentage of the rewards as a fee.
+With NIX's Leased Proof of Stake \(LPoS\), you can [host and maintain a service](../support/leased-proof-of-stake-lpos/lpos-server-installation.md) which will allow you to stake coins on the behalf of other people for which you can collect a percentage of the rewards as a fee.
 
 ## Accept NIX for Merchant Services
 

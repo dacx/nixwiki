@@ -18,7 +18,7 @@ description: Commonly asked about network and coin specifications
 | Codebase | BTC 0.17 |
 | Mainnet Port | 6214 |
 | Testnet Port | 16214 |
-| Consensus | [Proof of Stake/Custom LPoS](pos-consensus.md) |
+| Consensus | [Proof of Stake/Custom LPoS](consensus.md) |
 | Block Time Target | 2 minutes |
 | Difficulty Adjustment | Every block, 2 block moving average |
 | Max. Block Size | 1MB |

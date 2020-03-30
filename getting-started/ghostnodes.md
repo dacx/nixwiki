@@ -14,3 +14,25 @@ Running a Ghostnode requires a collateral of 40,000 NIX and are rewarded in the 
 
 Privacy transaction fees are pooled and then split every 720 blocks \(~24 hours\) among all active Ghostnodes.
 
+## How to Setup Your Ghostnode
+
+There are 2 sides involved to successfully operate Ghostnodes:
+
+### **Server Side**
+
+This is where all of the work is done. You can either setup and maintain your own server using a VPS, or you can pay a hosting provider to keep your node updated and running smoothly for you. Coins are **not stored** on the server side.
+
+You can find instructions setting up the server side here:
+
+{% page-ref page="../support/ghostnodes/" %}
+
+
+
+### **Client Side**
+
+This is your supported NIX wallet where your collateral is stored and remains under your full and complete control.
+
+Instructions for each individual wallet can be found on the following pages:
+
+QT Wallet - 
+
