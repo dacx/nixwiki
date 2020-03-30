@@ -4,8 +4,8 @@
 
 ## Getting Started
 
-* [Promotional Videos](getting-started/promotional-videos.md)
 * [A Brief History](getting-started/a-brief-history.md)
+* [Promotional Videos](getting-started/promotional-videos.md)
 * [Network and Coin Specs](getting-started/network-and-coin-specs.md)
 * [PoS/LPoS Consensus](getting-started/consensus.md)
 * [The Ghost Protocol](getting-started/ghost-protocol.md)
