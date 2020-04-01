@@ -8,5 +8,6 @@ NIX is currently listed on the following exchanges:
 * [Mercatox](https://mercatox.com/exchange/NIX/BTC)
 * [StealthEX](https://stealthex.io/)
 * [SimpleSwap](https://simpleswap.io/)
+* [BitTorro](https://bittorro.io/)
 * Beaxy \(confirmed and pending\)
 
