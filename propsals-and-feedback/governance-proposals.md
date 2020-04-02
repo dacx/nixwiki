@@ -52,7 +52,7 @@ By making a submission you are presenting a proposal of improvement to the proje
 
 ## Casting Your Vote
 
-Visit the [Governance Voting]() section for details.
+Visit the [Governance Voting](../wallet-functionality/qt/governance-voting-1.md#casting-your-vote) section for details.
 
 ## More Information
 
