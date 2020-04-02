@@ -97,12 +97,12 @@
     * [VPS Install](support/ghostnodes/server-side/other-install-methods.md)
     * [Hosting Services](support/ghostnodes/server-side/hosting-services.md)
 
-## Community & Feedback <a id="github-and-feedback"></a>
+## Propsals & Feedback
 
-* [Governance Proposals](github-and-feedback/governance-proposals.md)
-* [Collaborate with NIX](github-and-feedback/collaborate-with-nix.md)
-* [Report a Wallet Issue](github-and-feedback/how-to-log-an-issue.md)
-* [Feature Requests](github-and-feedback/feature-requests.md)
+* [Governance Proposals](propsals-and-feedback/governance-proposals.md)
+* [Collaborate with NIX](propsals-and-feedback/collaborate-with-nix.md)
+* [Report a Wallet Issue](propsals-and-feedback/how-to-log-an-issue.md)
+* [Feature Requests](propsals-and-feedback/feature-requests.md)
 
 ## Software Development Kit
 

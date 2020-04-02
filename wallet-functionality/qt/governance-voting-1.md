@@ -33,7 +33,7 @@ After navigating to the Governance section and populating/refreshing the proposa
 
 ## Creating A Proposal
 
-Visit the [Governance Proposals page](../../github-and-feedback/governance-proposals.md).
+Visit the [Governance Proposals page](../../propsals-and-feedback/governance-proposals.md).
 
 ## More Information
 
