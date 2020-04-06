@@ -15,5 +15,4 @@ If you know of a merchant not on this list, please let a team member know about 
 * [Crypto Sharks](https://nix.cryptosharkspool.com/)
 * [Dacx' LPoS Service](https://2wayghost.me/)
 * [Kreker's HashHard](https://hashhard.eu/)
-* [NIXLease.com](https://www.nixlease.com/)
 
