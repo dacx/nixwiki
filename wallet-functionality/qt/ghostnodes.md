@@ -1,6 +1,6 @@
 # Ghostnodes
 
-You can control and monitor your Ghostnodes as well as view information about all nodes from within the QT Wallet.
+You can find out how to use your QT wallet to control your Ghostnodes using the following guide:
 
-More info comming soon!
+{% page-ref page="../../support/ghostnodes/client-side/qt-wallet.md" %}
 

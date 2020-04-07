@@ -1,8 +1,8 @@
 ---
-description: How to start your Ghostnode with the UI wallet
+description: How to start your Ghostnode with the GUI wallet
 ---
 
-# One-Click Installer
+# GUI Wallet
 
 There are two viable options for automated Ghostnode setup:
 
