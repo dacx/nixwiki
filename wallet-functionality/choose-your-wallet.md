@@ -1,5 +1,14 @@
 # Wallet Comparison
 
+## Current Wallet Versions
+
+[QT and CLI](https://github.com/NixPlatform/NixCore/releases) Wallets - 3.0.8  
+[GUI Wallet](https://github.com/NixPlatform/Nix-GUI/releases) - 1.0.4  
+[Flare Desktop Wallet](https://flarewallet.io/#download) - 1.0.22  
+[Flare Mobile Wallet](https://flarewallet.io/#download) - 1.2.15  
+[NIX Mobile](mobile/installation.md) - 1.0.1  
+[Electrum-NIX](https://github.com/NixPlatform/electrum-nix/releases) - 3.2.3
+
 ## Overview of Functionality 
 
 | **Security** | QT Wallet | GUI Wallet | Flare Desktop | Flare Mobile | Electrum | NIX Mobile | CLI |
@@ -41,13 +50,4 @@
 | ARM/aarch64 | ✔ | ✘ | ✘ | ✘ | ✘ | ✘ | ✔ |
 | iOS | ✘ | ✘ | ✘ | ✔ | ✘ | ✔ | ✘ |
 | Android | ✘ | ✘ | ✘ | ✔ | ✔ | ✔ | ✘ |
-
-## Official Wallet Downloads
-
-[QT Wallet](https://github.com/NixPlatform/NixCore/releases)  
-[GUI Wallet](https://github.com/NixPlatform/Nix-GUI/releases)  
-[Flare Desktop Wallet](https://flarewallet.io/#download)  
-[Flare Mobile Wallet](https://flarewallet.io/#download)  
-[Mobile Wallet](mobile/installation.md)  
-[Electrum-NIX Wallet](https://github.com/NixPlatform/electrum-nix/releases) \(includes hardware wallet support\)
 
