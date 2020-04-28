@@ -1,5 +1,5 @@
 ---
-description: How to stake your NIX with the UI wallet
+description: How to stake your NIX with the GUI wallet
 ---
 
 # Staking

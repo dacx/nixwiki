@@ -1,5 +1,5 @@
 ---
-description: How to backup and secure your UI wallet
+description: How to backup and secure your GUI wallet
 ---
 
 # Backup and Security
