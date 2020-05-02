@@ -4,6 +4,8 @@ description: VPS Ghostnode installation instructions
 
 # VPS Install
 
+## Manual Installation
+
 This guide will assume you are using Ubuntu 18.04 LTS as your VPS Operating System.
 
 Connect to your VPS using an SSH connection. [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) is a popular choice for Windows users to do this with. Your VPS host will provide you with a username and ip address to make this connection.
@@ -68,7 +70,7 @@ nix-cli getblockchaininfo | grep blocks
 
 Compare the result with a block explorer to verify your wallet is fully sync'd. Once finished, your Ghostnode VPS is ready to use.
 
-## Security
+### Security
 
 It is recommended that you install some basic firewall security. While the options are plentiful and configurations endless, this is by no means the only way to do it.
 
@@ -82,4 +84,8 @@ sudo ufw allow 6214/tcp
 sudo ufw logging on
 sudo ufw enable
 ```
+
+## Bash Script from CryptoSharks
+
+This installation is also automated but needs a bit more technical understanding of ssh connections. You can find all required information on his [GitHub Repository](https://github.com/cryptosharks131/Ghostnode).
 
