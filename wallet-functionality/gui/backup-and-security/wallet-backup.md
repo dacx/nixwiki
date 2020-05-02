@@ -26,15 +26,15 @@ You can manually copy your wallet.dat file to a new location by navigating to th
 **TIP:** Windows hides the AppData folder by default when using the graphical file explorer. In order to get inside the AppData folder, you can either type "%AppData%" into the search bar or check the box for "Hidden items" under the View menu to show hidden files in the file explorer window and navigate your way there.
 {% endhint %}
 
-{% hint style="info" %}
-**NOTE:** If a "wallets" directory exists, the software will use it as the default wallet directory. If it does not exist, then the root directory will be used.
-{% endhint %}
-
 C:\Users\\(your username\)\AppData\roaming\nix\wallets\wallet.dat
 
 or
 
 C:\Users\\(your username\)\AppData\roaming\nix\wallet.dat
+
+{% hint style="info" %}
+**NOTE:** If a "wallets" directory exists, the software will use it as the default wallet directory. If it does not exist, then the root directory will be used.
+{% endhint %}
 
 ### MacOS
 
@@ -44,25 +44,25 @@ C:\Users\\(your username\)\AppData\roaming\nix\wallet.dat
 2. Type or copy-paste: ~/Library/Application Support/nix/
 {% endhint %}
 
-{% hint style="info" %}
-**NOTE:** If a "wallets" directory exists, the software will use it as the default wallet directory. If it does not exist, then the root directory will be used.
-{% endhint %}
-
 ~/Library/Application Support/nix/wallets/wallet.dat
 
 or
 
 ~/Library/Application Support/nix/wallet.dat
 
-### Linux
-
 {% hint style="info" %}
 **NOTE:** If a "wallets" directory exists, the software will use it as the default wallet directory. If it does not exist, then the root directory will be used.
 {% endhint %}
+
+### Linux
 
 ~/.nix/wallets/wallet.dat
 
 or
 
 ~/.nix/wallet.dat
+
+{% hint style="info" %}
+**NOTE:** If a "wallets" directory exists, the software will use it as the default wallet directory. If it does not exist, then the root directory will be used.
+{% endhint %}
 

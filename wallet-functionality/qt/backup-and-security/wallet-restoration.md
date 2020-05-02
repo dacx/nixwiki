@@ -16,15 +16,15 @@ By default, the NIX data directory will be created as C:\Users\\(your username\)
 
 To restore a backed up wallet.dat file, simply copy it into the following location:
 
-{% hint style="info" %}
-**NOTE:** If a "wallets" directory exists, the software will use it as the default wallet directory. If it does not exist, then the root directory will be used.
-{% endhint %}
-
 C:\Users\\(your username\)\AppData\roaming\nix\wallets\wallet.dat
 
 or
 
 C:\Users\\(your username\)\AppData\roaming\nix\wallet.dat
+
+{% hint style="info" %}
+**NOTE:** If a "wallets" directory exists, the software will use it as the default wallet directory. If it does not exist, then the root directory will be used.
+{% endhint %}
 
 ## MacOS
 
@@ -38,15 +38,15 @@ Be default, the NIX data directory will be created as ~/Library/Application Supp
 
 To restore a backed up wallet.dat file, simply copy it into the following location:
 
-{% hint style="info" %}
-**NOTE:** If a "wallets" directory exists, the software will use it as the default wallet directory. If it does not exist, then the root directory will be used.
-{% endhint %}
-
 ~/Library/Application Support/nix/wallets/wallet.dat
 
 or
 
 ~/Library/Application Support/nix/wallet.dat
+
+{% hint style="info" %}
+**NOTE:** If a "wallets" directory exists, the software will use it as the default wallet directory. If it does not exist, then the root directory will be used.
+{% endhint %}
 
 ## Linux
 
@@ -54,13 +54,13 @@ By default, the NIX data directory will be created as ~/.nix/
 
 To restore a backed up wallet.dat file, simply copy it into the following location:
 
-{% hint style="info" %}
-**NOTE:** If a "wallets" directory exists, the software will use it as the default wallet directory. If it does not exist, then the root directory will be used.
-{% endhint %}
-
 ~/.nix/wallets/wallet.dat
 
 or
 
 ~/.nix/wallet.dat
+
+{% hint style="info" %}
+**NOTE:** If a "wallets" directory exists, the software will use it as the default wallet directory. If it does not exist, then the root directory will be used.
+{% endhint %}
 
