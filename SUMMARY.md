@@ -59,6 +59,7 @@
   * [Installation](wallet-functionality/flare-mobile/installation.md)
   * [Backup and Security](wallet-functionality/flare-mobile/backup-and-security.md)
   * [Swaps](wallet-functionality/flare-mobile/swaps.md)
+  * [Staking](wallet-functionality/flare-mobile/staking.md)
   * [Ghostnodes](wallet-functionality/flare-mobile/ghostnodes.md)
 * [Mobile Wallet](wallet-functionality/mobile/README.md)
   * [Installation](wallet-functionality/mobile/installation.md)
