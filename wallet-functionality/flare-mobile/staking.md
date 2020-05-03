@@ -22,7 +22,7 @@ You can find a list of LPoS merchants here.
 
 {% page-ref page="../../support/leased-proof-of-stake-lpos/lpos-merchants.md" %}
 
-## Cancelling an LPoS Contract
+## Canceling an LPoS Contract
 
 To cancel a contract, open Flare and tap on the NIX wallet, followed by the $ icon.
 
