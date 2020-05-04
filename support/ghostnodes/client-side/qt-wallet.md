@@ -36,3 +36,7 @@ Finally, restart your QT wallet so it is aware of the changes you made to ghostn
 
 The status will change to PRE\_ENABLED and after a few minutes, ENABLED. Once that happens your Ghostnode is officially online and can begin collecting rewards.
 
+## How to unlock Ghostnode funds
+
+Should you ever decide to stop running your ghostnode, first make sure your wallet is closed. Then, simply delete or rename your ghostnode.conf and restart your wallet. You will now be able to move your Ghostnode collateral.
+
