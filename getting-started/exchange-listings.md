@@ -9,5 +9,6 @@ NIX is currently listed on the following exchanges:
 * [StealthEX](https://stealthex.io/)
 * [SimpleSwap](https://simpleswap.io/)
 * [BitTorro](https://bittorro.io/)
+* [SwapSpace](https://swapspace.co/)
 * Beaxy \(confirmed and pending\)
 
