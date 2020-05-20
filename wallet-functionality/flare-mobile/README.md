@@ -18,3 +18,5 @@ A mobile BIP32/39 compliant multi-currency wallet which sources the best price f
 
 {% page-ref page="ghostnodes.md" %}
 
+{% page-ref page="staking.md" %}
+
