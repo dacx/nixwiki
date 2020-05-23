@@ -34,5 +34,5 @@ This is your supported NIX wallet where your collateral is stored and remains un
 
 Instructions for each individual wallet can be found on the following pages:
 
-QT Wallet - 
+{% page-ref page="../support/ghostnodes/client-side/" %}
 
