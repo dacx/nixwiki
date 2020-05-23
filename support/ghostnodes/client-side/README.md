@@ -1,3 +1,7 @@
+---
+description: Ghostnode client side setup instructions
+---
+
 # Client Side
 
 Client side setup instructions for..
