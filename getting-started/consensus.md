@@ -20,11 +20,29 @@ Learn how to stake directly from your QT or GUI wallet.
 [QT Wallet Staking](../wallet-functionality/qt/staking/in-wallet-staking.md)  
 [GUI Wallet Staking](../wallet-functionality/gui/staking/in-wallet-staking.md)
 
-## LPoS Contracts
+## LPoS
 
-Forget the hassle of keeping a wallet online 24/7 and stake your NIX with a merchant or on your own private cold staking server.  
-[LPoS Merchants](../support/leased-proof-of-stake-lpos/lpos-merchants.md)  
-[LPoS Server Installation](../support/leased-proof-of-stake-lpos/lpos-server-installation.md)
+Leased Proof of Stake requires a client and server side.
 
+### Server Side
 
+The server side of LPoS does the actual staking by means of a smart contract, allowing you to maintain complete control over your funds while never exposing them to a hot \(online and running\) wallet while they stake. Instructions on how to set one up can be found at:
+
+{% page-ref page="../support/leased-proof-of-stake-lpos/lpos-server-installation.md" %}
+
+### Client Side
+
+Once you have an LPoS server set up, you can then use your qt, gui, or flare wallet containing the funds you wish to stake to create the contract. 
+
+You can find specific instructions for creating an LPoS contract on the following pages..
+
+[QT Wallet](https://wiki.nixplatform.io/home/wallet-functionality/qt/staking/lpos-contracts)  
+[GUI Wallet](https://wiki.nixplatform.io/home/wallet-functionality/gui/staking/lpos-contracts)  
+[Flare Mobile Wallet](https://wiki.nixplatform.io/home/wallet-functionality/flare-mobile/staking)
+
+Alternatively, you can create a contract with an LPoS merchant for a fee, and they will maintain the server side aspect for you, managing uptime and all required updates to ensure your contracts continue to stake. Be sure you follow their specific instructions, or your contract may not properly stake.
+
+A list of merchants can be found here:
+
+{% page-ref page="../support/leased-proof-of-stake-lpos/lpos-merchants.md" %}
 
