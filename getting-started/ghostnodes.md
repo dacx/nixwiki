@@ -32,7 +32,7 @@ You can find instructions setting up the server side here:
 
 This is your supported NIX wallet where your collateral is stored and remains under your full and complete control.
 
-Instructions for each individual wallet can be found on the following pages:
+Instructions for each individual wallet can be found on the following page:
 
 {% page-ref page="../support/ghostnodes/client-side/" %}
 
