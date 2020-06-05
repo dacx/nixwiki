@@ -21,7 +21,7 @@ description: Commonly asked about network and coin specifications
 
 |  |  |
 | :--- | :--- |
-| Current Supply | ~46,317,000 \(MAR 2020\) |
+| Current Supply | ~46,609,000 \(JUN 2020\) |
 | Maximum Supply | 102,210,160 \(After 40 years\) |
 | Staking Reward | ~2.6 per block |
 | Ghostnode Reward | ~8.4 per block |

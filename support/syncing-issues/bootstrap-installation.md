@@ -10,7 +10,7 @@ If for whatever reason the following doesn't fix your issue, join the [Discord s
 
 ## QT/GUI Wallets
 
-1. Download the [NIX Blockchain Bootstrap](https://drive.google.com/open?id=1TVljEeM6vAzEkMMESMTms9TeGa1SVCop) file.
+1. Download the [NIX Blockchain Bootstrap](https://drive.google.com/drive/folders/1RRuEL_xDf7lbHQxAEdOOnF2nlNOVjWyN) file.
 2. Close/shutdown your wallet.
 3. Navigate to the NIX data directory.
 4. Delete blocks and chainstate directories.
@@ -42,8 +42,8 @@ sudo apt install unzip
 Download and unzip the bootstrap file:
 
 ```text
-gdown https://drive.google.com/open?id=https://drive.google.com/open?id=1vdKyPuR4C5sbY6tNxs5IA12o_RItxA_a
-unzip NIXBlockchain-453330.zip -d ~/.nix
+gdown https://drive.google.com/file/d/19ilcUKu3fgdv9gmQ0-yMu9c-gByLbygR
+unzip NIXBlockchain-476768.zip -d ~/.nix
 ```
 
 Restart your wallet.

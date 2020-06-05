@@ -81,7 +81,6 @@
   * [Bootstrap Installation](support/syncing-issues/bootstrap-installation.md)
   * [Manually Adding Peers](support/syncing-issues/manually-adding-peers.md)
 * [Staking Issues](support/staking-issues.md)
-* [Sending Issues](support/sending-issues.md)
 * [Mobile Wallet Issues](support/mobile-wallet-issues.md)
 * [Wallet Backup](support/wallet-backup.md)
 * [Bootstrap Files](support/bootstrap-files.md)
