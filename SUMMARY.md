@@ -55,7 +55,6 @@
   * [Installation and Updating](wallet-functionality/flare-desktop/installation-and-updating.md)
   * [Backup and Security](wallet-functionality/flare-desktop/backup-and-security.md)
   * [Swaps](wallet-functionality/flare-desktop/swaps.md)
-  * [Governance Voting](wallet-functionality/flare-desktop/governance-voting.md)
 * [Flare Mobile](wallet-functionality/flare-mobile/README.md)
   * [Installation](wallet-functionality/flare-mobile/installation.md)
   * [Backup and Security](wallet-functionality/flare-mobile/backup-and-security.md)
@@ -103,6 +102,7 @@
 ## Propsals & Feedback
 
 * [Governance Proposals](propsals-and-feedback/governance-proposals.md)
+* [Governance Voting](propsals-and-feedback/governance-voting.md)
 * [Collaborate with NIX](propsals-and-feedback/collaborate-with-nix.md)
 * [Report a Wallet Issue](propsals-and-feedback/how-to-log-an-issue.md)
 * [Feature Requests](propsals-and-feedback/feature-requests.md)
