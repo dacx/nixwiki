@@ -6,6 +6,7 @@
 
 * [A Brief History](getting-started/a-brief-history.md)
 * [Promotional Videos](getting-started/promotional-videos.md)
+* [Wallet Comparison](getting-started/choose-your-wallet.md)
 * [Network and Coin Specs](getting-started/network-and-coin-specs.md)
 * [PoS/LPoS Consensus](getting-started/consensus.md)
 * [The Ghost Protocol](getting-started/ghost-protocol.md)
@@ -22,7 +23,6 @@
 
 ## Wallet Functionality
 
-* [Wallet Comparison](wallet-functionality/choose-your-wallet.md)
 * [QT Wallet](wallet-functionality/qt/README.md)
   * [Installation and Updating](wallet-functionality/qt/updating.md)
   * [Backup and Security](wallet-functionality/qt/backup-and-security/README.md)
@@ -61,7 +61,12 @@
   * [Swaps](wallet-functionality/flare-mobile/swaps.md)
   * [Staking](wallet-functionality/flare-mobile/staking.md)
   * [Ghostnodes](wallet-functionality/flare-mobile/ghostnodes.md)
-  * [Governance Voting](wallet-functionality/flare-mobile/governance-voting.md)
+* [Web Wallet](wallet-functionality/web-wallet/README.md)
+  * [Governance Voting](wallet-functionality/web-wallet/governance-voting.md)
+  * [Create Wallet](wallet-functionality/web-wallet/create-wallet.md)
+  * [Restore Wallet](wallet-functionality/web-wallet/restore-wallet.md)
+  * [Remove Wallet](wallet-functionality/web-wallet/remove-wallet.md)
+  * [Sending and Receiving](wallet-functionality/web-wallet/sending-and-receiving.md)
 * [Mobile Wallet](wallet-functionality/mobile/README.md)
   * [Installation](wallet-functionality/mobile/installation.md)
   * [Backup and Security](wallet-functionality/mobile/backup-and-security.md)
