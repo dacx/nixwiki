@@ -12,7 +12,7 @@
 
 | Moneda |  |
 | :--- | :--- |
-| Suministro Actual | ~46,609,000 \(JUN 2020\) |
+| Suministro Actual | ~46,844,000 \(JUL 2020\) |
 | Suministro Máximo | 102,210,160 \(después de 40 años\) |
 | Recompensa de replanteo | ~2.6 por bloque |
 | Recompensa Ghostnode | ~8.4 por bloque |
