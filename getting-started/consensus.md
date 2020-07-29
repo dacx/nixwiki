@@ -4,7 +4,7 @@ description: Earn NIX by helping to secure the network
 
 # PoS/LPoS Consensus
 
-The NIX network originally began as a lyra2rev2 Proof of Work blockchain. At block 53,000 the consensus method changed to Proof of Stake. To enable this consensus change, a hard fork was necessary. This change to the protocol does not create a new coin, but upgrades the network. As the network matures, staking rewards will increase according to the [Inflation Schedule](network-and-coin-specs.md#inflation-schedule).
+The NIX network originally began as a lyra2rev2 Proof of Work blockchain. At block 53,000 the consensus method changed to Proof of Stake. To enable this consensus change, a hard fork was necessary. This change to the protocol does not create a new coin, but upgrades the network.
 
 Staking allows users to earn passive income based on their holdings by adding new blocks to the chain without the need of expensive, specialized hardware such as ASIC miners or GPUs which themselves often require access to low electricity costs in order to be profitable. Instead, the chances of creating a new block are correlated to the amount of coins they own and are actively staking.
 
