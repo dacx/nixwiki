@@ -12,7 +12,11 @@ These 12 words can recover your NIX wallet if used in any BIP32/39 compliant wal
 
 To view your seed phrase at any time, tap "Settings" in the bottom menu bar, followed by "View Mnemonic".
 
+{% hint style="info" %}
+**NOTE:** When restoring a seed phrase that includes multiple Flare accounts, your additional accounts will not show up until you re-create them.
+{% endhint %}
+
 ## Security
 
-Security on mobile devices include both device level security along with in-app security. Installing the app to a locked phone is highly recommended. Additionally, the app itself is further secured with a password. You can reset your Flare Mobile password by tapping on "Settings" in the bottom menu bar, followed by "Reset Password"
+Security on mobile devices include both device level security along with in-app security. All data \(including metadata\) is locally encrypted. Installing the app to a locked phone is highly recommended. Additionally, the app itself is further secured with a password. You can reset your Flare Mobile password by tapping on "Settings" in the bottom menu bar, followed by "Reset Password"
 

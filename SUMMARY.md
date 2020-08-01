@@ -61,6 +61,7 @@
   * [Swaps](wallet-functionality/flare-mobile/swaps.md)
   * [Staking](wallet-functionality/flare-mobile/staking.md)
   * [Ghostnodes](wallet-functionality/flare-mobile/ghostnodes.md)
+  * [Multiple Accounts](wallet-functionality/flare-mobile/multiple-accounts.md)
 * [Web Wallet](wallet-functionality/web-wallet/README.md)
   * [Governance Voting](wallet-functionality/web-wallet/governance-voting.md)
   * [Create Wallet](wallet-functionality/web-wallet/create-wallet.md)
