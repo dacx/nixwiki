@@ -28,7 +28,7 @@ Primero, verifique que realmente está en la cadena incorrecta comparando la alt
 
 **Descargue e instale un bootstrap después de completar el paso 4**
 
-1. Descargue el último archivo Bootstrap de [Blockchain de NIX](https://drive.google.com/open?id=1TVljEeM6vAzEkMMESMTms9TeGa1SVCop) \(actualizado una vez al mes\).  
+1. Descargue el último archivo Bootstrap de [Blockchain de NIX](https://drive.google.com/file/d/1USyvOw0n3_6ri6E0qIo1uoGvLuwZG_wD) \(actualizado una vez al mes\).  
 2. Descomprima el contenido en el directorio de datos NIX.
 
 ### **Agregar pares manualmente**
