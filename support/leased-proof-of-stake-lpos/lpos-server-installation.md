@@ -29,7 +29,7 @@ passwd NEW_USERNAME_HERE
 Next, "substitute user" into your new user and its home directory using:
 
 ```bash
-su - NEW_USERNAME_HERE
+su - USERNAME
 ```
 
 {% hint style="success" %}
