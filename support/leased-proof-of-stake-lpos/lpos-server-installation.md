@@ -97,7 +97,7 @@ Using the above configuration, this wallet will only stake contracts with a fee 
 Exit and save the file by using 'Ctrl + x', pressing 'y' and hitting &lt;Enter&gt;
 
 {% hint style="success" %}
-**TIP:** If you'd like to use this to privately cold stake your own coins, simply omit the 'minimumleasepercentage=' and 'leaserewardaddresses=' lines and create your [LPoS client]() contract with no fee.
+**TIP:** If you'd like to use this to privately cold stake your own coins, simply omit the 'minimumleasepercentage=' and 'leaserewardaddresses=' lines and create your LPoS contract with no fee.
 {% endhint %}
 
 Next, encrypt your wallet and choose a passphrase.
