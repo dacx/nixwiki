@@ -29,6 +29,9 @@ Your wallet must remain open and running to find new blocks. If you'd rather not
 **Attempting to stake from an address that begins with G**  
 Only addresses beginning with N or nix1 are eligible for staking. Further, only nix1 addresses are eligible for Governance Voting.
 
+**Attempting to stake from a wallet that also hosts a Ghostnode**  
+Staking is disabled on wallets that are actively being used as a Ghostnode.
+
 ## Verify Staking is Enabled
 
 You can verify whether or not the wallet is actually staking by navigating to the console and running the command "getstakinginfo" \(or `nix-cli getstakinginfo` for CLI wallets\). If the output shows the following two lines as shown, your wallet is staking.
