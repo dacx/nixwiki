@@ -21,14 +21,24 @@ description: Commonly asked about network and coin specifications
 
 |  |  |
 | :--- | :--- |
-| Current Supply | ~47,100,000 \(AUG 2020\) |
+| Current Supply | ~47,400,000 \(SEP 2020\) |
 | Maximum Supply | 102,210,160 \(After 40 years\) |
 | Staking Reward | ~2.6 per block |
-| Ghostnode Reward | ~8.4 per block |
-| Ghostnode Ghost Vault Fee \* \(1-way Ghosting\) | .25% |
-| Ghostnode Vault to Vault TX Fee \* \(2-way Ghosting\) | .1 Ghosted NIX |
+| Development Fund | 1.28 per block |
+| Ghostnode Reward \* | 8.448 per block |
+| Ghostnode Ghost Vault Fee \*\* \(1-way Ghosting\) | .25% |
+| Ghostnode Vault to Vault TX Fee \*\* \(2-way Ghosting\) | .1 Ghosted NIX |
 
- \* Vault fees are pooled and split among all active Ghostnodes on a daily basis.
+\*- Node rewards are paid to 1 Ghostnode at a time, repeatedly cycling through the list of active nodes. Currently, this means a Ghostnode owner can expect 2 rewards per day \(16.896 NIX\).  
+\*\*- Vault fees are pooled and split among all active Ghostnodes on a daily basis.
+
+## Inflation/Halving Schedule
+
+Staking rewards are not subject to scheduled reductions, but instead, slowly increase over time until the maximum supply is reached.
+
+Ghostnode and Development rewards are halved every 4 years, with the first one expected to happen in June/July 2022.
+
+Overall inflation is approximately 3 million NIX per year.
 
 ## Live Network Stats
 
