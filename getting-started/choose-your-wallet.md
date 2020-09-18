@@ -79,7 +79,7 @@
       <td style="text-align:left">Touch Login</td>
       <td style="text-align:center">&#x2718;</td>
       <td style="text-align:center">&#x2718;</td>
-      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center">&#x2718;</td>
       <td style="text-align:center">&#x2714;</td>
       <td style="text-align:center">&#x2718;</td>
       <td style="text-align:center">&#x2714;</td>
@@ -135,7 +135,7 @@
       <td style="text-align:center">&#x2714;</td>
       <td style="text-align:center">&#x2714;</td>
       <td style="text-align:center">&#x2718;</td>
-      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center">&#x2718;</td>
       <td style="text-align:center">&#x2718;</td>
       <td style="text-align:center">&#x2718;</td>
       <td style="text-align:center">&#x2714;</td>
@@ -146,18 +146,18 @@
       <td style="text-align:center">&#x2714;</td>
       <td style="text-align:center">&#x2714;</td>
       <td style="text-align:center">&#x2718;</td>
-      <td style="text-align:center">&#x2714;</td>
+      <td style="text-align:center">&#x2718;</td>
       <td style="text-align:center">&#x2718;</td>
       <td style="text-align:center">&#x2718;</td>
       <td style="text-align:center">&#x2714;</td>
       <td style="text-align:center">&#x2718;</td>
     </tr>
     <tr>
-      <td style="text-align:left">Ghostnode Tool</td>
+      <td style="text-align:left">Ghostnode Tool/Manager</td>
       <td style="text-align:center">&#x2718;</td>
       <td style="text-align:center">&#x2718;</td>
       <td style="text-align:center">&#x2718;</td>
-      <td style="text-align:center">&#x2718;</td>
+      <td style="text-align:center">&#x2714;</td>
       <td style="text-align:center">&#x2714;</td>
       <td style="text-align:center">&#x2718;</td>
       <td style="text-align:center">&#x2718;</td>
@@ -201,7 +201,7 @@
       <td style="text-align:center">&#x2714;</td>
       <td style="text-align:center">&#x2714;</td>
       <td style="text-align:center">&#x2718;</td>
-      <td style="text-align:center">&#x2718;</td>
+      <td style="text-align:center">&#x2714;</td>
       <td style="text-align:center">&#x2718;</td>
       <td style="text-align:center">&#x2718;</td>
       <td style="text-align:center">&#x2714;</td>
