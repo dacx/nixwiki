@@ -89,6 +89,7 @@
   * [Manually Adding Peers](support/syncing-issues/manually-adding-peers.md)
 * [Staking Issues](support/staking-issues.md)
 * [Mobile Wallet Issues](support/mobile-wallet-issues.md)
+* [Importing Seed Phrases Into Electrum-NIX](support/importing-seed-phrases-into-electrum-nix.md)
 * [Wallet Backup](support/wallet-backup.md)
 * [Bootstrap Files](support/bootstrap-files.md)
 * [Default Data Directory](support/default-data-directory.md)
