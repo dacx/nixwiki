@@ -6,7 +6,7 @@ description: How to setup your Ghostnode
 
 Ghostnodes require a constantly running instance of the core wallet. Because of this, it's best to run this on a dedicated VPS or use a hosting provider. This instance of the wallet contains no funds.
 
-The client side is a wallet which starts the Ghostnode and contains the collateral as well as all rewards you'll accrue while running it. You can use Flare Mobile, GUI, and QT, and Hardware \(with Electrum-NIX\) wallets for this purpose.
+The client side is a wallet which starts the Ghostnode and contains the collateral \(40,000 NIX\) as well as all rewards you'll accrue while running it. You can use Flare Mobile, GUI, and QT, and Hardware \(with Electrum-NIX\) wallets for this purpose.
 
 You can deploy your Ghostnode using the following guides:
 
