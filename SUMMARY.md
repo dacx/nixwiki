@@ -97,14 +97,14 @@
   * [LPoS Merchants](support/leased-proof-of-stake-lpos/lpos-merchants.md)
   * [LPoS Server Installation](support/leased-proof-of-stake-lpos/lpos-server-installation.md)
 * [Ghostnode Setup](support/ghostnodes/README.md)
+  * [Server Side](support/ghostnodes/server-side/README.md)
+    * [VPS Install](support/ghostnodes/server-side/other-install-methods.md)
+    * [Hosting Services](support/ghostnodes/server-side/hosting-services.md)
   * [Client Side](support/ghostnodes/client-side/README.md)
     * [QT Wallet](support/ghostnodes/client-side/qt-wallet.md)
     * [Flare Mobile](support/ghostnodes/client-side/flare-mobile-ghostnode.md)
     * [Hardware Wallet](support/ghostnodes/client-side/hardware-ghostnode.md)
     * [GUI Wallet](support/ghostnodes/client-side/gui-ghostnode.md)
-  * [Server Side](support/ghostnodes/server-side/README.md)
-    * [VPS Install](support/ghostnodes/server-side/other-install-methods.md)
-    * [Hosting Services](support/ghostnodes/server-side/hosting-services.md)
 
 ## Propsals & Feedback
 
