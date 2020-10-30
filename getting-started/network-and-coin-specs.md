@@ -4,7 +4,9 @@ description: Commonly asked about network and coin specifications
 
 # Network and Coin Specs
 
-## Network
+## NIX \(Native UTXO\)
+
+### Network
 
 |  |  |
 | :--- | :--- |
@@ -17,7 +19,7 @@ description: Commonly asked about network and coin specifications
 | Max. Block Size | 1MB |
 | Est. TPS | 80 |
 
-## Coin
+### Coin
 
 |  |  |
 | :--- | :--- |
@@ -32,7 +34,7 @@ description: Commonly asked about network and coin specifications
 \*- Node rewards are paid to 1 Ghostnode at a time, repeatedly cycling through the list of active nodes. Currently, this means a Ghostnode owner can expect 2 rewards per day \(16.896 NIX\).  
 \*\*- Vault fees are pooled and split among all active Ghostnodes on a daily basis.
 
-## Inflation/Halving Schedule
+### Inflation/Halving Schedule
 
 Staking rewards are not subject to scheduled reductions, but instead, slowly increase over time until the maximum supply is reached.
 
@@ -40,7 +42,16 @@ Ghostnode and Development rewards are halved every 4 years, with the first one e
 
 Overall inflation is approximately 3 million NIX per year.
 
-## Live Network Stats
+### Live Network Stats
 
 Live data and network stats can be [found here](https://data.nixplatform.io/) on the NIX website.
+
+## NBT \(ERC20 Governance Token\)
+
+Ethereum Token Contract: 0x2e2364966267b5d7d2ce6cd9a9b5bd19d9c7c6a9  
+Circulating Supply: 32,613  
+Total Supply: 44,613  
+Burnt Tokens: 15,387  
+Maximum Supply: 60,000  
+Inflation Rate: None
 
