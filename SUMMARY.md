@@ -15,6 +15,12 @@
 * [Exchange Listings](getting-started/exchange-listings.md)
 * [Ways to Earn NIX](getting-started/ways-to-earn-nix.md)
 
+## NIX Bridge
+
+* [Overview](nix-bridge/overview.md)
+* [NIX Bridge Token \(NBT\)](nix-bridge/nix-bridge-token-nbt.md)
+* [NIX Ghost Token \(NGT\)](nix-bridge/nix-ghost-token.md)
+
 ## Community and Social Media
 
 * [Official Website](https://nixplatform.io)
