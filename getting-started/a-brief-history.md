@@ -29,4 +29,7 @@ Since then, the NIX team has established a trend of rapid and successful develop
 * June 10th, 2019 - [Flare Wallet \(DEX Manager\) Beta Launch](https://medium.com/@flarewallet.io/flare-desktop-wallets-now-available-1f9612ce6ead)
 * July 25th, 2019 - [Privacy Swap Proof of Concept](https://medium.com/@nixplatform/nix-platform-privacy-swap-proof-of-concept-210089edeea1)
 * October 2nd, 2019 - [NIX Software Development Kit \(SDK\) is now available.](https://medium.com/@nixplatform/nix-software-development-kit-sdk-is-now-avaible-a52fe8051948)
+* May 19th, 2020 - [NIX Web Wallet](https://nixplatform.medium.com/nix-web-wallet-announcement-6efdfdae458b)
+* October 22nd, 2020 - [NBT Token Launch](https://nixplatform.medium.com/we-are-back-with-the-new-nbt-token-sale-23e239d58f7c)
+* October 25th, 2020 - [NBT Dock for Liquidity Farming](https://nixplatform.medium.com/launch-of-nix-bridge-token-introduction-of-nbt-dock-56eb21a11d18)
 
