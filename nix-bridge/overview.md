@@ -1,3 +1,7 @@
+---
+description: NIX Bridge Outline
+---
+
 # Overview
 
 In August, 2020, The NIX Platform announced intentions to build a bridge between Ethereum and NIX in cooperation with The Blockchain Foundry in order to bring zero knowledge proof interoperability within and across entire blockchains and assets.
