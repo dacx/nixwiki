@@ -17,7 +17,8 @@ Initial Supply: 60,000
 Burnt Tokens: 15,387  
 Total Supply: 44,613  
 Circulating Supply: 32,613  
-Inflation Rate: None
+Inflation Rate: None  
+Transaction Tax: 1% \(used to fund liquidity and governance incentives\)
 
 12,000 NBT forever locked in Uniswap for liquidity  
 9,000 NBT reserved for treasury  
