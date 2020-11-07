@@ -10,3 +10,6 @@ Though Ethereum will be the first to be bridged, development is being done in a 
 
 A simple comparison for this would be to think of NIX being ETH \(used for gas\) and NBT as UNI.
 
+Further info:  
+[NIX Bridge Outline v1](https://nixplatform.io/wp-content/uploads/2020/08/NIX_Bridge_Outline_v1-0-1.pdf)
+

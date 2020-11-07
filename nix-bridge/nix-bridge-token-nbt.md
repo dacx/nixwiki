@@ -13,10 +13,10 @@ On October 20th, 2020, a new presale went live directly from the NIX website for
 Name: NIX Bridge Token  
 Ticker: NBT  
 Decimals: 18  
-Circulating Supply: 32,613  
-Total Supply: 44,613  
+Initial Supply: 60,000  
 Burnt Tokens: 15,387  
-Maximum Supply: 60,000  
+Total Supply: 44,613  
+Circulating Supply: 32,613  
 Inflation Rate: None
 
 12,000 NBT forever locked in Uniswap for liquidity  
