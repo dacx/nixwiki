@@ -14,7 +14,7 @@
 | :--- | :--- |
 | Suministro Actual | ~47,850,000 \(NOV 2020\) |
 | Suministro Máximo | 102,210,160 \(después de 40 años\) |
-| Recompensa de replanteo | ~2.6 por bloque |
+| Recompensa de replanteo | ~2.7 por bloque |
 | Recompensa Ghostnode | 8.448 por bloque |
 | Ghostnode Ghost Vault Fee \* \(1-way Ghosting\) | .25% |
 | Ghostnode Vault to Vault TX Fee \* \(2-way Ghosting\) | .1 Ghosted NIX |
