@@ -48,6 +48,17 @@ ghostnodeprivkey=your_ghostnode_key_here
 ```
 {% endcode %}
 
+{% hint style="success" %}
+Don't forget to add the connection port \(6217\) to your IP address.  
+Example: 192.168.0.1:6214
+{% endhint %}
+
+{% hint style="info" %}
+You can get a ghostnodeprivkey from either the client or server side by running:  
+ghostnode genkey  
+in a QT/GUI debug console, nix-cli, or provided by Flare Mobile.
+{% endhint %}
+
 Use Ctrl+X to exit nano, and Y followed by &lt;Enter&gt; to save changes.
 
 You can now start the nix wallet with:
