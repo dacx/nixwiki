@@ -38,5 +38,8 @@ The status will change to PRE\_ENABLED and after a few minutes, ENABLED. Once th
 
 ## How to unlock Ghostnode funds
 
-Should you ever decide to stop running your ghostnode, first make sure your wallet is closed. Then, simply delete or rename your ghostnode.conf and restart your wallet. You will now be able to move your Ghostnode collateral.
+There are two ways you can unlock your Ghostnode funds:
+
+1. Enable coin control, find your active Ghostnode address \(it will have a gray padlock in front of it\), right click and select Unlock.
+2. Close the wallet and edit ghostnode.conf, removing the entire line that points to the active Ghostnode you wish to unlock.
 
