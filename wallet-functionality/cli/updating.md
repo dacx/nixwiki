@@ -11,19 +11,19 @@ It's important to keep on top of wallet updates when operating nixd on a VPS. Wa
 Log into your VPS and use wget to download the latest version:
 
 ```bash
-wget https://github.com/NixPlatform/NixCore/releases/download/v3.0.8/nix-3.0.8-x86_64-linux-gnu.tar.gz
+wget https://github.com/NixPlatform/NixCore/releases/download/v3.0.9/nix-3.0.9-x86_64-linux-gnu.tar.gz
 ```
 
 Unpack the file with:
 
 ```bash
-tar -zxvf nix-3.0.8-x86_64-linux-gnu.tar.gz
+tar -zxvf nix-3.0.9-x86_64-linux-gnu.tar.gz
 ```
 
 As the root user, install the binaries with:
 
 ```bash
-cp nix-3.0.8/bin/* /usr/bin/
+cp nix-3.0.9/bin/* /usr/bin/
 ```
 
 ### Cryptosharks Easy-Updater
