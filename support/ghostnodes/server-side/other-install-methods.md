@@ -13,19 +13,19 @@ Connect to your VPS using an SSH connection. [Putty](https://www.chiark.greenend
 Once you have logged in, you'll need to download NIX wallet.
 
 ```bash
-wget https://github.com/NixPlatform/NixCore/releases/download/v3.0.8/nix-3.0.8-x86_64-linux-gnu.tar.gz 
+wget https://github.com/NixPlatform/NixCore/releases/download/v3.0.9/nix-3.0.9-x86_64-linux-gnu.tar.gz 
 ```
 
 Next, unpack the download.
 
 ```bash
-tar zxvf nix-3.0.8-x86_64-linux-gnu.tar.gz 
+tar zxvf nix-3.0.9-x86_64-linux-gnu.tar.gz 
 ```
 
 Copy the binary files to /usr/bin/
 
 ```bash
-sudo cp nix-3.0.8/bin/* /usr/bin/
+sudo cp nix-3.0.9/bin/* /usr/bin/
 ```
 
 Before we start the wallet, lets go ahead and create the configuration file.
