@@ -40,7 +40,7 @@ All users must unghost any privatized funds before the chainswap takes place in 
 
 ### Inflation/Halving Schedule
 
-Staking rewards are not subject to scheduled reductions, but instead, slowly increase over time until the maximum supply is reached.
+Staking rewards are not subject to scheduled reductions, but instead, slowly increase over time until the maximum supply is reached at a rate of 1.5% per year.
 
 Ghostnode and Development rewards are halved every 4 years, with the first one expected to happen in June/July 2022.
 
