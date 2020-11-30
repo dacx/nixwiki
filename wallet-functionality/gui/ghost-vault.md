@@ -4,6 +4,10 @@ description: Using the NIX GUI ghost vault
 
 # Ghost Vault
 
+{% hint style="danger" %}
+All users must unghost any privatized funds before the chainswap takes place in the near future. Failure to do so will result in the complete loss of privatized funds! Privacy functions will be reintroduced in the update following the chainswap.
+{% endhint %}
+
 ## 1-Way Ghosting
 
 {% hint style="info" %}

@@ -4,6 +4,10 @@ description: The NIX privacy suite
 
 # The Ghost Protocol
 
+{% hint style="danger" %}
+All users must unghost any privatized funds before the chainswap takes place in the near future. Failure to do so will result in the complete loss of privatized funds! Privacy functions will be reintroduced in the update following the chainswap.
+{% endhint %}
+
 The NIX Ghost Protocol is a set of carefully selected privacy elements brought together to give both users and developers the options they need to ensure not only fungible coin transactions but also network and broadcast privacy.
 
 ## Sigma Protocol
