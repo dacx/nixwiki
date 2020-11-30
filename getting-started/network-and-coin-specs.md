@@ -53,6 +53,7 @@ Live data and network stats can be [found here](https://data.nixplatform.io/) on
 ## NBT \(ERC20 Governance Token\)
 
 Ethereum Token Contract: 0x2e2364966267b5d7d2ce6cd9a9b5bd19d9c7c6a9  
+UNI-v2 LP address: 0x06e4c11eaac88ae9253f9e86b60c8b4e7d4b281c  
 Circulating Supply: 32,613  
 Total Supply: 44,613  
 Burnt Tokens: 15,387  
