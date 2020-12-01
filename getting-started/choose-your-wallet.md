@@ -281,7 +281,7 @@ All users must unghost any privatized funds before the chainswap takes place in 
       <td style="text-align:center">&#x2714;</td>
       <td style="text-align:center">&#x2718;</td>
       <td style="text-align:center">&#x2718;</td>
-      <td style="text-align:center">&#x2718;</td>
+      <td style="text-align:center">&#x2714;*</td>
       <td style="text-align:center">&#x2718;</td>
       <td style="text-align:center">&#x2718;</td>
       <td style="text-align:center">&#x2714;</td>
@@ -289,6 +289,8 @@ All users must unghost any privatized funds before the chainswap takes place in 
     </tr>
   </tbody>
 </table>
+
+\*- Using [voting utility](https://github.com/NixPlatform/flarewallet-nix-gov-binaries)
 
 | **Operating System** | QT Wallet | GUI Wallet | Flare Desktop | Flare Mobile | Electrum | NIX Mobile | CLI |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
