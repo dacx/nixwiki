@@ -20,16 +20,19 @@ Circulating Supply: 32,613
 Inflation Rate: None  
 Transaction Tax: 1% \(used to fund liquidity and governance incentives\)
 
-12,000 NBT forever locked in Uniswap for liquidity  
-9,000 NBT reserved for treasury  
-3,000 NBT set aside for liquidity farming  
-750 NBT for marketing campaign
+## NBT Staking Dock
+
+[How to earn NBT by providing liquidity on UniSwap V2](https://nixplatform.medium.com/launch-of-nix-bridge-token-introduction-of-nbt-dock-56eb21a11d18)
 
 ## Related Ethereum Contracts
 
 ### NGT
 
 0x2e2364966267b5d7d2ce6cd9a9b5bd19d9c7c6a9
+
+### UNI-V2 LP
+
+0x06e4c11eaac88ae9253f9e86b60c8b4e7d4b281c
 
 ### TokenGeyser \(Farming\)
 
