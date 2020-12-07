@@ -32,8 +32,8 @@ sudo apt install unzip
 Descargue y descomprima el archivo bootstrap:
 
 ```text
-gdown https://drive.google.com/file/d/1mZ-0n9N2pyJZnjfAT9X7MLob1nWasb-o
-unzip NIXBlockchain-576781.zip -d ~/.nix
+gdown https://drive.google.com/file/d/1s8tb5AOentOsy4A8jMoqfFsPVhiyMyWH
+unzip NIXBlockchain-600475.zip -d ~/.nix
 ```
 
 {% hint style="warning" %}
