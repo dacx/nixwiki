@@ -27,7 +27,7 @@ All users must unghost any privatized funds before the chainswap takes place in 
 
 |  |  |
 | :--- | :--- |
-| Current Supply | ~47,850,000 \(NOV 2020\) |
+| Current Supply | ~48,205,000 \(DEC 2020\) |
 | Maximum Supply | 102,210,160 \(After 40 years\) |
 | Staking Reward | ~2.7 per block |
 | Development Fund | 1.28 per block |

@@ -46,8 +46,8 @@ sudo apt install unzip
 Download and unzip the bootstrap file:
 
 ```text
-gdown https://drive.google.com/file/d/1kiclasC2s3-gpl4rEety5SaARWv3LkOJ
-unzip NIXBlockchain-592260.zip -d ~/.nix
+gdown https://drive.google.com/file/d/1s8tb5AOentOsy4A8jMoqfFsPVhiyMyWH
+unzip NIXBlockchain-600475.zip -d ~/.nix
 ```
 
 Restart your wallet.
