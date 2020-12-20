@@ -34,9 +34,29 @@ rm -r ~/.nix/{blocks,chainstate,peers.dat,banlist.dat}
 **NOTE:** If you used Crypto Sharks' script to install, use "systemctl stop NIX" instead of "nix-cli stop"
 {% endhint %}
 
-You can use gdown or wget to download the file..
+You can use wget or gdown to download the file..
+
+### wget
+
+```bash
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1s8tb5AOentOsy4A8jMoqfFsPVhiyMyWH' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1s8tb5AOentOsy4A8jMoqfFsPVhiyMyWH" -O NIXBlockchain-600475.zip && rm -rf /tmp/cookies.txt
+unzip NIXBlockchain-600475.zip -d ~/.nix
+```
+
+If your system does not have wget and unzip already installed \(commands assume Ubuntu Linux\):
+
+```bash
+sudo apt update
+sudo apt install wget
+sudo apt install unzip
+```
 
 ### gdown
+
+```text
+gdown https://drive.google.com/file/d/1s8tb5AOentOsy4A8jMoqfFsPVhiyMyWH
+unzip NIXBlockchain-600475.zip -d ~/.nix
+```
 
 If your system does not have python-pip, gdown, and unzip already installed \(commands assume Ubuntu Linux\):
 
@@ -47,29 +67,7 @@ sudo -H pip install gdown
 sudo apt install unzip
 ```
 
-Download and unzip the bootstrap file:
 
-```text
-gdown https://drive.google.com/file/d/1s8tb5AOentOsy4A8jMoqfFsPVhiyMyWH
-unzip NIXBlockchain-600475.zip -d ~/.nix
-```
-
-### wget
-
-If your system does not have wget and unzip already installed \(commands assume Ubuntu Linux\):
-
-```bash
-sudo apt update
-sudo apt install wget
-sudo apt install unzip
-```
-
-Download and unzip the bootstrap file:
-
-```bash
-wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1s8tb5AOentOsy4A8jMoqfFsPVhiyMyWH' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1s8tb5AOentOsy4A8jMoqfFsPVhiyMyWH" -O NIXBlockchain-600475.zip && rm -rf /tmp/cookies.txt
-unzip NIXBlockchain-600475.zip -d ~/.nix
-```
 
 Restart your wallet.
 
