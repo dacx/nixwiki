@@ -4,10 +4,6 @@ description: Enabling blockchain privacy
 
 # The Ghost Vault
 
-{% hint style="danger" %}
-All users must unghost any privatized funds before the chainswap takes place in the near future. Failure to do so will result in the complete loss of privatized funds! Privacy functions will be reintroduced in the update following the chainswap.
-{% endhint %}
-
 The NIX Ghost Vault became available for use at block \#53,000, originally using the Zerocoin Protocol. As of block \#232,000, the Zerocoin Protocol was actively replaced with Sigma which significantly reduces on-chain proof sizes from 25kb to 1.5kb, reduces Commitment Key Pack lengths by 73%, and significantly increases anonymity sets by introducing 256-bit elliptic curves which would be roughly equivalent to 3072-bit RSA as opposed to 2048-bit RSA previously used in the Zerocoin Protocol. Massive credit goes to the [ZCoin](https://zcoin.io) development team for creating the [first Sigma cryptographic codebase implementation](https://twitter.com/zcoinofficial/status/1118819578472206337) and their developments on these grounds.
 
 The NIX Ghost Vault provides privacy for the sender and/or the receiver by essentially burning coins and allowing users to re-issue them later with no attached transaction history. The Ghost Vault can be utilized in 4 ways:
