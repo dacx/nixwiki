@@ -7,7 +7,7 @@
 [Flare Desktop](https://flarewallet.io/#download) - 1.0.22  
 [Flare Mobile](https://flarewallet.io/#download) - 1.3.7  
 [NIX Mobile](../wallet-functionality/mobile/installation.md) - 1.0.1  
-[Electrum-NIX](https://github.com/NixPlatform/electrum-nix/releases) - 4.0.9  
+[Electrum-NIX](https://github.com/NixPlatform/electrum/releases/tag/4.0.9) - 4.0.9  
 [webwallet.nixplatform.io](https://webwallet.nixplatform.io/)
 
 ## Overview of Functionality 
