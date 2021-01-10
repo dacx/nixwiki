@@ -6,7 +6,7 @@ description: Electrum-NIX wallet installation
 
 ## Installation
 
-You can download the Electrum-NIX wallet from [NIX website](https://nixplatform.io/wallet) or the [official GitHub repository](https://github.com/NixPlatform/electrum-nix/releases). Simply run the .exe or .dmg and follow the on screen instructions to install. Linux users may need to install python-pip before being able to start the wallet. Android device users can also install the .apk file.
+You can download the Electrum-NIX wallet from [NIX website](https://nixplatform.io/wallet) or the [official GitHub repository](https://github.com/NixPlatform/electrum/releases/tag/4.0.9). Simply run the .exe or .dmg and follow the on screen instructions to install. Linux users may need to install python-pip before being able to start the wallet. Android device users can also install the .apk file.
 
 ## Initial Setup
 
