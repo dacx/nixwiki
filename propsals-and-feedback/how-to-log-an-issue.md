@@ -16,5 +16,3 @@ When opening a new issue, try your best to be descriptive and provide any releva
 
 Developers may ask followup questions, so be sure to reply or your issue may be closed due to the lack of additional requested information.
 
-
-

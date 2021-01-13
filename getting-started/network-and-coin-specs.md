@@ -23,7 +23,7 @@ description: Commonly asked about network and coin specifications
 
 |  |  |
 | :--- | :--- |
-| Current Supply | ~48,205,000 \(DEC 2020\) |
+| Current Supply | ~48,500,000 \(JAN 2021\) |
 | Maximum Supply | 102,210,160 \(After 40 years\) |
 | Staking Reward | ~2.7 per block |
 | Development Fund | 1.28 per block |
