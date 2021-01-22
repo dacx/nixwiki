@@ -23,7 +23,7 @@ First, verify that you are indeed on the wrong chain by comparing your block hei
 5. Start the wallet and let it sync. Using a broadband internet connection, it should take about 15 mins to complete.
 
 {% hint style="info" %}
-Default data directory locations:  
+**Default data directory locations:**  
 Windows: C:\Users\\(your username\)\AppData\roaming\nix  
 Linux: ~/.nix  
 MacOS:  ~/Library/Application Support/nix
