@@ -22,6 +22,13 @@ First, verify that you are indeed on the wrong chain by comparing your block hei
 4. Delete the following from the data directory: - blocks \(entire directory\) - chainstate \(entire directory\) - banlist.dat - peers.dat
 5. Start the wallet and let it sync. Using a broadband internet connection, it should take about 15 mins to complete.
 
+{% hint style="info" %}
+Default data directory locations:  
+Windows: C:\Users\\(your username\)\AppData\roaming\nix  
+Linux: ~/.nix  
+MacOS:  ~/Library/Application Support/nix
+{% endhint %}
+
 ### Optional Steps
 
 {% page-ref page="bootstrap-installation.md" %}
