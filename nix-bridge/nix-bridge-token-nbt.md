@@ -26,7 +26,7 @@ Transaction Tax: 1% \(used to fund liquidity and governance incentives\)
 
 ## Related Ethereum Contracts
 
-### NGT
+### NBT
 
 0x2e2364966267b5d7d2ce6cd9a9b5bd19d9c7c6a9
 
