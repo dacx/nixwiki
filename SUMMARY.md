@@ -91,6 +91,7 @@
 
 ## Support
 
+* [Buy/Sell NBT Issues](support/buy-sell-nbt-issues.md)
 * [Syncing Issues](support/syncing-issues/README.md)
   * [Bootstrap Installation](support/syncing-issues/bootstrap-installation.md)
   * [Manually Adding Peers](support/syncing-issues/manually-adding-peers.md)

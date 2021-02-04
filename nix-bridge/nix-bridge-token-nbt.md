@@ -47,3 +47,9 @@ Transaction Tax: 1% \(used to fund liquidity and governance incentives\)
 [NBT on CoinGecko](https://www.coingecko.com/en/coins/nix-bridge-token)  
 [NBT on Dextools](https://www.dextools.io/app/uniswap/pair-explorer/0x06e4c11eaac88ae9253f9e86b60c8b4e7d4b281c)
 
+## Troubleshooting Uniswap Buy/Sell
+
+{% page-ref page="../support/buy-sell-nbt-issues.md" %}
+
+
+
