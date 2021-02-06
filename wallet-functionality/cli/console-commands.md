@@ -1769,8 +1769,6 @@ As json rpc
 `abortrescan` Stops current wallet rescan triggered by an RPC call, e.g. by an importprivkey call.  
   
 **Examples:**  
-Import a private key  
-&gt; nix-cli importprivkey "mykey"  
 Abort the running wallet rescan  
 &gt; nix-cli abortrescan  
 As a JSON-RPC call  
