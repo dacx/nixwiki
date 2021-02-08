@@ -4,7 +4,7 @@ description: How to import any seed phrase for recovery using Electrum-NIX
 
 # Importing Seed Phrases Into Electrum-NIX
 
-Begin by downloading the Electrum-NIX wallet for your Operating System from the [NIX website](https://nixplatform.io/wallet) or directly from [GitHub](https://github.com/NixPlatform/electrum-nix/releases).
+Begin by downloading the Electrum-NIX wallet for your Operating System from the [NIX website](https://nixplatform.io/wallet) or directly from [GitHub](https://github.com/NixPlatform/electrum/releases/).
 
 Once you've emptied your wallet/sent whatever funds you want to send, you can either keep the wallet for future use \(encryption recommended\), or delete it using File, Delete.
 
