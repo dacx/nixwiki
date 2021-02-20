@@ -2,7 +2,7 @@
 
 ## Current Wallet Versions
 
-[QT and CLI](https://github.com/NixPlatform/NixCore/releases) - 3.0.9  
+[QT and CLI](https://github.com/NixPlatform/NixCore/releases) - 3.0.12  
 [GUI](https://github.com/NixPlatform/Nix-GUI/releases) - 1.0.4  
 [Flare Desktop](https://flarewallet.io/#download) - 1.0.22  
 [Flare Mobile](https://flarewallet.io/#download) - 1.3.7  
