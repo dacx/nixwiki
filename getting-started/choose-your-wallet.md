@@ -5,7 +5,7 @@
 [QT and CLI](https://github.com/NixPlatform/NixCore/releases) - 3.0.12  
 [GUI](https://github.com/NixPlatform/Nix-GUI/releases) - 1.0.4  
 [Flare Desktop](https://flarewallet.io/#download) - 1.0.22  
-[Flare Mobile](https://flarewallet.io/#download) - 1.3.7  
+[Flare Mobile](https://flarewallet.io/#download) - 1.3.8  
 [NIX Mobile](../wallet-functionality/mobile/installation.md) - 1.0.1  
 [Electrum-NIX](https://github.com/NixPlatform/electrum/releases/tag/4.0.9) - 4.0.9  
 [webwallet.nixplatform.io](https://webwallet.nixplatform.io/)
