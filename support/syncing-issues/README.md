@@ -24,9 +24,11 @@ First, verify that you are indeed on the wrong chain by comparing your block hei
 
 {% hint style="info" %}
 **Default data directory locations**  
-Windows: C:\Users\\(your username\)\AppData\roaming\nix \(you may have to enter %appdata% in your search bar to find this directory unless you have Windows set to show hidden directories\)  
-Linux: ~/.nix  
-MacOS:  ~/Library/Application Support/nix
+**Windows:** C:\Users\\(your username\)\AppData\roaming\nix \(you may have to enter %appdata% in your search bar to find this directory unless you have Windows set to show hidden directories\)  
+  
+**Linux:** ~/.nix  
+  
+**MacOS:**  ~/Library/Application Support/nix
 {% endhint %}
 
 ### Optional Steps

@@ -17,6 +17,15 @@ If for whatever reason the following doesn't fix your issue, join the [Discord s
 5. Unzip contents of the bootstrap .zip file to the [NIX data directory](../default-data-directory.md).
 6. Restart your wallet.
 
+{% hint style="info" %}
+**Default data directory locations**  
+**Windows:** C:\Users\\(your username\)\AppData\roaming\nix \(you may have to enter %appdata% in your search bar to find this directory unless you have Windows set to show hidden directories\)
+
+**Linux:** ~/.nix
+
+**MacOS:**  ~/Library/Application Support/nix
+{% endhint %}
+
 ## CLI Wallet
 
 First, stop the wallet and delete the blocks and chainstate directories. Though not necessarily required, you might also want to delete the peers and banlist files.
