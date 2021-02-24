@@ -35,8 +35,8 @@ You can use wget or gdown to download the file..
 ### wget
 
 ```bash
-wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1iDVeHO5hSeSENVwj8GAHI-YbNMYjMPqD' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1iDVeHO5hSeSENVwj8GAHI-YbNMYjMPqD" -O NIXBlockchain-621214.zip && rm -rf /tmp/cookies.txt
-unzip NIXBlockchain-621214.zip -d ~/.nix
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://drive.google.com/file/d/1uIPn03Jr9b35JM1GvVh8Jo58q6HncDXt' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1iDVeHO5hSeSENVwj8GAHI-YbNMYjMPqD" -O NIXBlockchain-621214.zip && rm -rf /tmp/cookies.txt
+unzip NIXBlockchain-638444.zip -d ~/.nix
 ```
 
 If your system does not have wget and unzip already installed \(commands assume Ubuntu Linux\):
@@ -50,8 +50,8 @@ sudo apt install unzip
 ### gdown
 
 ```text
-gdown https://drive.google.com/file/d/1iDVeHO5hSeSENVwj8GAHI-YbNMYjMPqD
-unzip NIXBlockchain-621214.zip -d ~/.nix
+gdown https://drive.google.com/file/d/1uIPn03Jr9b35JM1GvVh8Jo58q6HncDXt
+unzip NIXBlockchain-638444.zip -d ~/.nix
 ```
 
 If your system does not have python-pip, gdown, and unzip already installed \(commands assume Ubuntu Linux\):
