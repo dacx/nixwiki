@@ -19,7 +19,6 @@
 
 * [Overview](nix-bridge/overview.md)
 * [NIX Bridge Token \(NBT\)](nix-bridge/nix-bridge-token-nbt.md)
-* [NIX Ghost Token \(NGT\)](nix-bridge/nix-ghost-token.md)
 * [Bridge Website](https://bridge.nixplatform.io/)
 
 ## Community and Social Media
